@@ -15,6 +15,66 @@ score   ->  a severity number the caller can threshold
 
 ---
 
+## Glossary
+
+The words below mean one thing each, everywhere in this project.
+
+### How the pieces fit
+
+```
+  data/seed.json          A SEED: the authored list. Plain JSON, reviewable.
+        |                 Holds TERMS and an ALLOWLIST.
+        |  tool/gen_packs.py
+        v
+  data/packs/seed-en.vpk  A PACK: the same list, compact and masked.
+        |                 This is what ships. It holds no readable word.
+        |  embedded in the assembly, or base64 in Dart source
+        v
+  PackReader              Decodes the pack once, when you build the filter.
+        |
+        v
+  VulgarityFilter         Holds a TRIE of folded terms.
+        ^
+        |  every input is FOLDED first, by the FOLD TABLE
+        |
+  "what the d.a.m.n"  ->  fold  ->  "whatthedamn"  ->  match
+```
+
+A **PRESET** sits above all of it: a policy document naming which packs to load
+and how strict to be.
+
+### The terms
+
+| Term | What it means |
+| --- | --- |
+| **Term** | One entry in a list. Always stored already folded, so `damn`, never `D4MN`. Carries a category, a severity and a boundary flag. |
+| **Seed**, seed document | The authored list, as JSON: `data/seed.json` and `data/seed.<lang>.json`. Human-readable and reviewable. It is the source, not the thing that ships. |
+| **Pack**, `.vpk` | A seed compiled into a compact binary and masked, so no readable word survives. This is what ships inside the compiled app. `data/packs/seed-<code>.vpk`. |
+| **Magic** | The four bytes `VPK1` that open every pack. Never masked, so a reader can recognise the format without the key. |
+| **Mask**, keystream | The XOR pass that makes a pack unreadable. It is **obfuscation, not encryption** — the key ships in the client. |
+| **Fold**, folding | Reducing text to a plain, comparable form before matching: lowercase, strip accents, resolve leetspeak, drop separators. `d.á.M.N` and `DAMN` both fold to `damn`. |
+| **Fold table** | The data that defines exactly how folding works. `data/fold-v1.json`, compiled into both ports. |
+| **Fold profile** | The version of that contract, currently `fold-v1`. **A pack built for one profile cannot be loaded by a client implementing another.** Both ports refuse it rather than match wrongly. |
+| **Stream A / Stream B** | The two passes of a scan. A is the folded text. B is A with repeated letters collapsed, which catches `daaaamn`. A always wins when both hit. |
+| **Word boundary** | A term marked `"w": true` matches only when it stands alone. This is what keeps `shell` clean while `a hell` flags. |
+| **Allowlist** | Innocent words the filter must never flag, such as `Scunthorpe` and `shiitake`. The last resort, for what the boundary rule cannot handle. |
+| **Category** | What kind of term it is: `profanity`, `sexual`, `hate`, `violence`, `drug`, `other`. An unknown name becomes `other`. |
+| **Severity** | How bad, from 1 to 5. Clinical anatomy sits at 1. `minSeverity` filters on it, `score` sums or maxes it. |
+| **Language pack** | One of the 14 optional non-English lists. All are community-sourced and **unvetted**. Only English is reviewed. |
+| **Preset** | A policy as data: which languages to load, the options, terms to add, an allowlist, and terms to drop. A server can change one with no app release. |
+| **Schema** | The container version of a seed, pack or preset. Currently `1` for all three. A mismatch is refused, not adapted. |
+| **Trie**, Aho-Corasick | The automaton that finds every term in one pass over the text, whatever the list size. |
+
+### Two that are easy to confuse
+
+- **Pack** is a *file format*. **Language pack** is one of the 14 optional
+  lists. A language pack ships as a pack, and so does English.
+- **Fold** is the act of normalising text. The **fold table** is the data that
+  says how. The **fold profile** is the version of that data, and it is the one
+  thing that makes a pack and a client incompatible.
+
+---
+
 ## What it defeats
 
 | Evasion | Example | How |
@@ -366,7 +426,7 @@ is 6.6 times smaller.
 
 | | before | after |
 | --- | ---: | ---: |
-| Bundled bytes, all 15 lists | 1,281,491 | **194,212** |
+| Bundled bytes, all 15 lists | 1,281,491 | **194,198** |
 | Dart source under `lib/` | 1,290,239 | **258,952** |
 | English terms readable in the built assembly | **418** | **0** |
 

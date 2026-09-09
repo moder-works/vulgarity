@@ -8,7 +8,7 @@ carries the same data in a form that holds no readable text.
 The format has two jobs, and each layer does one of them:
 
   1. The compact record layout removes the JSON framing. It cuts the 15 bundled
-     lists from 1,281,491 bytes to 194,212.
+     lists from 1,281,491 bytes to 194,198.
   2. The RC4 mask removes readable text. The record layout alone does not do
      this, because the term bytes still sit next to each other.
 
