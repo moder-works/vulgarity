@@ -117,7 +117,7 @@ class VulgarityFilterBuilder {
   /// unusable term leaves the builder untouched.
   void _absorb(List<VulgarityTerm> terms, List<String> allow) {
     for (final VulgarityTerm term in _foldAll(terms)) {
-      _merge(term);
+      _merge(term, canWiden: true);
     }
     for (final String word in allow) {
       addAllow(word);
@@ -137,6 +137,10 @@ class VulgarityFilterBuilder {
   /// folded, before the builder is touched at all. A preset that names two
   /// languages and cannot serve the second leaves the first unloaded, and a
   /// [languageResolver] that throws leaves the builder exactly as it was.
+  ///
+  /// A preset entry can make a term already loaded stricter or more severe,
+  /// never wider. The language lists a preset names carry no such limit,
+  /// because those are lists you chose to load.
   ///
   /// This package compiles in English only, so a preset that names any other
   /// language needs [languageResolver]. Pass `languageSeed` from
@@ -166,12 +170,15 @@ class VulgarityFilterBuilder {
     // Stage the whole policy first. Resolving a list, reading it and folding
     // its terms can all fail, and a policy that fails halfway would otherwise
     // leave the builder holding part of it.
-    final List<VulgarityTerm> staged = <VulgarityTerm>[];
+    //
+    // The lists stay apart from the entries, because the two commit under
+    // different merge rules. See [_merge].
+    final List<VulgarityTerm> stagedLists = <VulgarityTerm>[];
     final List<String> stagedAllow = <String>[];
 
     for (final String code in parsed.languages) {
       if (code == 'en' && languageResolver == null) {
-        _readDocument(kSeedEn, staged, stagedAllow);
+        _readDocument(kSeedEn, stagedLists, stagedAllow);
         continue;
       }
       if (languageResolver == null) {
@@ -184,18 +191,23 @@ class VulgarityFilterBuilder {
               'resolve it yourself.',
         );
       }
-      _readDocument(languageResolver(code), staged, stagedAllow);
+      _readDocument(languageResolver(code), stagedLists, stagedAllow);
     }
 
-    staged.addAll(parsed.entries);
     stagedAllow.addAll(parsed.allow);
 
-    // The last step that can fail. Past here nothing throws.
-    final List<VulgarityTerm> folded = _foldAll(staged);
+    // The last steps that can fail. Past here nothing throws.
+    final List<VulgarityTerm> lists = _foldAll(stagedLists);
+    final List<VulgarityTerm> entries = _foldAll(parsed.entries);
 
-    // Order matters. Load the lists, add on top, then take away.
-    for (final VulgarityTerm term in folded) {
-      _merge(term);
+    // Order matters. Load the lists, add on top, then take away. A list is a
+    // source the app author chose, so it may widen a term. An entry came with
+    // the policy, so it may not.
+    for (final VulgarityTerm term in lists) {
+      _merge(term, canWiden: true);
+    }
+    for (final VulgarityTerm term in entries) {
+      _merge(term, canWiden: false);
     }
     for (final String word in stagedAllow) {
       addAllow(word);
@@ -327,14 +339,30 @@ class VulgarityFilterBuilder {
       throw ArgumentError.value(
           term.text, 'term', 'This term folds to nothing.');
     }
-    _merge(folded);
+    _merge(folded, canWiden: true);
   }
 
   /// Stores an already-folded term, keeping the worse of any pair.
   ///
   /// This never throws, which is what lets [addPreset] and [_absorb] commit a
   /// staged list knowing that nothing can fail halfway.
-  void _merge(VulgarityTerm incoming) {
+  ///
+  /// Two sources gave the same term. The rating always takes the worse of the
+  /// two, and the category follows the higher severity. What differs is the
+  /// boundary rule, and it differs by who is asking:
+  ///
+  ///  * [canWiden] is true for a term list and for [addTerm] — every source the
+  ///    app author chose. There the wider rule wins (`existing && incoming`).
+  ///    Several bundled lists carry a term the English list also carries, and
+  ///    carry it WITH a boundary where English has none. Loading a second
+  ///    language must not narrow the first, or a compound the English list used
+  ///    to catch would go quiet the moment a language was added.
+  ///  * [canWiden] is false for the `entries` of a preset — the one source that
+  ///    can arrive from the network. There the boundary is sticky
+  ///    (`existing || incoming`) and the severity may only rise, so a remote
+  ///    policy can make a bundled term stricter but never looser. That is what
+  ///    stops an entry `{"t":"ass","sev":1}` from making "class" match.
+  void _merge(VulgarityTerm incoming, {required bool canWiden}) {
     final String folded = incoming.text;
     final VulgarityTerm? existing = _terms[folded];
     if (existing == null) {
@@ -343,13 +371,9 @@ class VulgarityFilterBuilder {
       return;
     }
 
-    // Two sources gave the same term. Keep the worse rating, and keep the
-    // boundary rule when EITHER source asked for it. The boundary is sticky
-    // on purpose: it is what stops "ass" from matching inside "class", and a
-    // remote preset that repeats a bundled term without it must not be able to
-    // widen the bundled rule. A source that wants a wider rule has to say so
-    // under its own term.
-    final bool boundary = existing.requireBoundary || incoming.requireBoundary;
+    final bool boundary = canWiden
+        ? existing.requireBoundary && incoming.requireBoundary
+        : existing.requireBoundary || incoming.requireBoundary;
 
     if (incoming.severity > existing.severity) {
       // The category follows the higher severity.

@@ -242,9 +242,54 @@ void main() {
   });
 
   // --------------------------------------------------------------------
-  // A duplicate term may raise the rating. It may never widen the match.
+  // Who is allowed to widen a term, and who is not.
   // --------------------------------------------------------------------
-  group('a boundary rule is sticky on merge', () {
+  group('a term list may widen a term', () {
+    // A list is a source the app author chose, so the wider rule wins. The
+    // Spanish list carries "shit" with a boundary and the English list carries
+    // it without one; loading Spanish must not narrow English behind the
+    // author's back.
+    test('a language pack does not narrow the bundled list', () {
+      final VulgarityFilterBuilder builder = VulgarityFilterBuilder()
+        ..useDefaultSeed()
+        ..addSeed(seedEs);
+
+      expect(builder.hasTerm('shit'), isTrue);
+
+      final VulgarityFilter filter = builder.build();
+      final List<VulgarityMatch> found = filter.scan('shitty');
+      expect(found, isNotEmpty, reason: '"shitty" stopped matching');
+      expect(found.single.text, 'shit');
+    });
+
+    test('the same holds for a pack named by a preset', () {
+      final VulgarityFilter filter = VulgarityFilter.fromPreset(
+          '{"languages":["en","es"]}',
+          languageResolver: languageSeed);
+
+      expect(filter.scan('shitty'), isNotEmpty);
+    });
+
+    test('the French pack does not narrow it either', () {
+      final VulgarityFilterBuilder builder = VulgarityFilterBuilder()
+        ..useDefaultSeed()
+        ..addSeed(seedFr);
+
+      expect(builder.build().scan('biatches'), isNotEmpty);
+    });
+
+    test('addTerm may widen, because that is the app author speaking', () {
+      final VulgarityFilterBuilder builder = VulgarityFilterBuilder()
+        ..useDefaultSeed();
+      expect(builder.build().detect('the class'), isFalse);
+
+      builder.addTerm('ass', 'profanity', 1, false);
+      expect(builder.build().detect('the class'), isTrue,
+          reason: 'a term named in code must be able to widen a bundled one');
+    });
+  });
+
+  group('a preset entry may not widen a term', () {
     test('a preset cannot drop the boundary off a bundled term', () {
       final VulgarityFilterBuilder builder = VulgarityFilterBuilder()
         ..addTerm('ass', 'profanity', 3, true);
