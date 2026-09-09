@@ -573,6 +573,190 @@
           "sev": 5
         }
       ]
+    },
+    {
+      "name": "separator inside a word is not a match",
+      "text": "wash it down",
+      "detect": false,
+      "score": 0,
+      "filtered": "wash it down",
+      "matches": []
+    },
+    {
+      "name": "separator inside a word is not a match, again",
+      "text": "push it harder",
+      "detect": false,
+      "score": 0,
+      "filtered": "push it harder",
+      "matches": []
+    },
+    {
+      "name": "separator inside a word is not a match, mid word",
+      "text": "polish items",
+      "detect": false,
+      "score": 0,
+      "filtered": "polish items",
+      "matches": []
+    },
+    {
+      "name": "separator inside a word is not a match, across a noun",
+      "text": "shop ornament",
+      "detect": false,
+      "score": 0,
+      "filtered": "shop ornament",
+      "matches": []
+    },
+    {
+      "name": "leetspeak across a separator still matches",
+      "text": "a55 hole",
+      "detect": true,
+      "score": 4,
+      "filtered": "********",
+      "matches": [
+        {
+          "start": 0,
+          "end": 8,
+          "term": "asshole",
+          "cat": "profanity",
+          "sev": 4
+        }
+      ]
+    },
+    {
+      "name": "a spaced out term still matches",
+      "text": "f u c k",
+      "detect": true,
+      "score": 4,
+      "filtered": "*******",
+      "matches": [
+        {
+          "start": 0,
+          "end": 7,
+          "term": "fuck",
+          "cat": "profanity",
+          "sev": 4
+        }
+      ]
+    },
+    {
+      "name": "a hyphenated term still matches",
+      "text": "ape-shit",
+      "detect": true,
+      "score": 2,
+      "filtered": "********",
+      "matches": [
+        {
+          "start": 0,
+          "end": 8,
+          "term": "apeshit",
+          "cat": "profanity",
+          "sev": 2
+        }
+      ]
+    },
+    {
+      "name": "a doubled letter stretched out",
+      "text": "asss",
+      "detect": true,
+      "score": 2,
+      "filtered": "****",
+      "matches": [
+        {
+          "start": 0,
+          "end": 4,
+          "term": "ass",
+          "cat": "profanity",
+          "sev": 2
+        }
+      ]
+    },
+    {
+      "name": "a doubled letter stretched out inside a longer term",
+      "text": "assshole",
+      "detect": true,
+      "score": 4,
+      "filtered": "********",
+      "matches": [
+        {
+          "start": 0,
+          "end": 8,
+          "term": "asshole",
+          "cat": "profanity",
+          "sev": 4
+        }
+      ]
+    },
+    {
+      "name": "a doubled letter stretched out, boundary term",
+      "text": "pusssy",
+      "detect": true,
+      "score": 3,
+      "filtered": "******",
+      "matches": [
+        {
+          "start": 0,
+          "end": 6,
+          "term": "pussy",
+          "cat": "profanity",
+          "sev": 3
+        }
+      ]
+    },
+    {
+      "name": "a short word the squeeze pass must not reach",
+      "text": "was",
+      "detect": false,
+      "score": 0,
+      "filtered": "was",
+      "matches": []
+    },
+    {
+      "name": "a doubled letter that belongs to an ordinary word",
+      "text": "class",
+      "detect": false,
+      "score": 0,
+      "filtered": "class",
+      "matches": []
+    },
+    {
+      "name": "a doubled letter mid phrase",
+      "text": "bass line",
+      "detect": false,
+      "score": 0,
+      "filtered": "bass line",
+      "matches": []
+    },
+    {
+      "name": "the squeeze pass adds nothing to a plain match",
+      "text": "bullshitter",
+      "detect": true,
+      "score": 3,
+      "filtered": "********ter",
+      "matches": [
+        {
+          "start": 0,
+          "end": 8,
+          "term": "bullshit",
+          "cat": "profanity",
+          "sev": 3
+        }
+      ]
+    },
+    {
+      "name": "a soft hyphen inside a word is not a boundary",
+      "text": "cl\u00ADass",
+      "detect": false,
+      "score": 0,
+      "filtered": "cl\u00ADass",
+      "matches": []
+    },
+    {
+      "name": "a zero width space inside a word is not a boundary",
+      "text": "gr\u200Bass",
+      "detect": false,
+      "score": 0,
+      "filtered": "gr\u200Bass",
+      "matches": []
     }
   ]
 }

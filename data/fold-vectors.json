@@ -168,10 +168,37 @@
       "text": "f\u200Buck",
       "chars": "fuck",
       "hard": "1111",
-      "gap": "1100",
+      "gap": "1000",
       "srcStart": "0,2,3,4",
       "srcEnd": "1,3,4,5",
       "squeezed": null
+    },
+    {
+      "text": "cl\u00ADass",
+      "chars": "class",
+      "hard": "11111",
+      "gap": "10000",
+      "srcStart": "0,1,3,4,5",
+      "srcEnd": "1,2,4,5,6",
+      "squeezed": "clas"
+    },
+    {
+      "text": "cl\u200Bass",
+      "chars": "class",
+      "hard": "11111",
+      "gap": "10000",
+      "srcStart": "0,1,3,4,5",
+      "srcEnd": "1,2,4,5,6",
+      "squeezed": "clas"
+    },
+    {
+      "text": "gr\u2060ass",
+      "chars": "grass",
+      "hard": "11111",
+      "gap": "10000",
+      "srcStart": "0,1,3,4,5",
+      "srcEnd": "1,2,4,5,6",
+      "squeezed": "gras"
     },
     {
       "text": "a\u0301",
@@ -193,8 +220,8 @@
     },
     {
       "text": "\uFF21\uFF22\uFF11",
-      "chars": "ab1",
-      "hard": "111",
+      "chars": "abi",
+      "hard": "110",
       "gap": "100",
       "srcStart": "0,1,2",
       "srcEnd": "1,2,3",

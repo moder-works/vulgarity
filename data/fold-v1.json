@@ -1,6 +1,6 @@
 {
   "profile": "fold-v1",
-  "note": "Character folding contract for the vulgarity matcher. Order of operations per code point: foldSoft, foldHard, ranges, ASCII a-z 0-9 passthrough, A-Z lowercase, dropBreak, dropSilent, then emit unchanged. A fold entry always wins over a drop range.",
+  "note": "Character folding contract for the vulgarity matcher. Order of operations per code point: foldSoft, foldHard, ranges, ASCII a-z 0-9 passthrough, A-Z lowercase, dropBreak, dropSilent, then emit unchanged. A fold entry always wins over a drop range. dropBreak and dropSilent are disjoint, so the order in which a port tests them cannot change the answer. Folding is idempotent: folding a folded character leaves it alone.",
   "foldSoft": {
     "!": "i",
     "$": "s",
@@ -12,7 +12,13 @@
     "5": "s",
     "7": "t",
     "@": "a",
-    "|": "i"
+    "|": "i",
+    "０": "o",
+    "１": "i",
+    "３": "e",
+    "４": "a",
+    "５": "s",
+    "７": "t"
   },
   "foldHard": {
     "À": "a",
@@ -843,6 +849,10 @@
     ],
     [
       123,
+      172
+    ],
+    [
+      174,
       191
     ],
     [
@@ -899,7 +909,19 @@
     ],
     [
       8192,
-      8303
+      8202
+    ],
+    [
+      8208,
+      8233
+    ],
+    [
+      8239,
+      8287
+    ],
+    [
+      8293,
+      8297
     ],
     [
       8304,
