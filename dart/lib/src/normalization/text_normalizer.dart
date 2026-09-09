@@ -166,12 +166,14 @@ abstract final class TextNormalizer {
     final List<int> srcEnd = <int>[];
     final List<bool> hard = <bool>[];
     final List<bool> gap = <bool>[];
+    final List<int> runLength = <int>[];
 
     for (int i = 0; i < length; i++) {
       final int last = chars.length - 1;
       if (last >= 0 && chars[last] == source.chars[i]) {
         // Extend the run. The kept character now spans the whole run.
         srcEnd[last] = source.srcEnd[i];
+        runLength[last]++;
         continue;
       }
 
@@ -180,9 +182,11 @@ abstract final class TextNormalizer {
       srcEnd.add(source.srcEnd[i]);
       hard.add(source.hard[i]);
       gap.add(source.gap[i]);
+      runLength.add(1);
     }
 
-    return NormalizedText(chars, srcStart, srcEnd, hard, gap);
+    return NormalizedText(chars, srcStart, srcEnd, hard, gap,
+        runLength: runLength);
   }
 
   /// Folds a term down to the plain character sequence the trie stores.
@@ -190,6 +194,40 @@ abstract final class TextNormalizer {
   /// Callers use this on a term they add at run time, so caller input and seed
   /// data reach the trie in the same form.
   static List<int> foldTerm(String term) => normalize(term).chars;
+
+  /// Folds a term and collapses every run down to a single character.
+  ///
+  /// This is the form a term takes in the squeezed trie, so that a squeezed
+  /// stream is scanned with squeezed patterns. Without it no term holding a
+  /// doubled letter could ever match in the repeat-tolerant pass.
+  static List<int> squeezeTerm(String term) {
+    final List<int> folded = foldTerm(term);
+    final List<int> out = <int>[];
+    for (final int c in folded) {
+      if (out.isEmpty || out[out.length - 1] != c) {
+        out.add(c);
+      }
+    }
+    return out;
+  }
+
+  /// The length of each run in a folded term, aligned with [squeezeTerm].
+  ///
+  /// The squeezed pass compares these against the runs the squeeze collapsed.
+  /// Text may repeat a letter more often than the term does, never less, so
+  /// one squeezed spelling cannot stand in for a different real word.
+  static List<int> termRuns(String term) {
+    final List<int> folded = foldTerm(term);
+    final List<int> runs = <int>[];
+    for (int i = 0; i < folded.length; i++) {
+      if (i > 0 && folded[i] == folded[i - 1]) {
+        runs[runs.length - 1]++;
+      } else {
+        runs.add(1);
+      }
+    }
+    return runs;
+  }
 
   /// Folds a term and returns it as a string.
   static String foldToString(String term) =>

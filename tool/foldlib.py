@@ -18,10 +18,16 @@ KIND_HARD = 3
 
 
 class Folder:
-    def __init__(self, path=None):
-        path = path or os.path.join(ROOT, "data", "fold-v1.json")
-        with open(path, encoding="utf-8") as fh:
-            doc = json.load(fh)
+    def __init__(self, path=None, doc=None):
+        """Read the contract from disk, or take a document already in memory.
+
+        The generator passes the document it is about to write, so it can check
+        the table before any port ever compiles it.
+        """
+        if doc is None:
+            path = path or os.path.join(ROOT, "data", "fold-v1.json")
+            with open(path, encoding="utf-8") as fh:
+                doc = json.load(fh)
         self.profile = doc["profile"]
         self.soft = {ord(k): v for k, v in doc["foldSoft"].items()}
         self.hard = {ord(k): v for k, v in doc["foldHard"].items()}
@@ -46,6 +52,8 @@ class Folder:
             for lo, hi, base in self.ranges:
                 if lo <= cp <= hi:
                     return KIND_HARD, chr(base + (cp - lo))
+        # The two drop sets are disjoint by construction, so testing break
+        # before silent cannot change the answer. gen_fold_table.py enforces it.
         for lo, hi in self.drop_break:
             if lo <= cp <= hi:
                 return KIND_DROP_BREAK, None

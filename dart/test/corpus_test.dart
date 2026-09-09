@@ -6,6 +6,16 @@ import 'test_data.dart';
 /// The count detected when this fixture was recorded.
 const int detectionBaseline = 2894;
 
+/// Evasions the cross-word boundary rule gives up on, and why.
+///
+/// A term with no boundary rule may span a dropped separator only when it
+/// starts its own word. Without that, the tail of one innocent word plus the
+/// head of the next spells a term, and "wash it down" reports one. These
+/// entries pay for that: the term sits in the middle of a longer word AND
+/// straddles a separator, which is exactly the shape the rule rejects. Every
+/// other one of the thousand-odd evasions still matches.
+const Set<String> knownBoundaryLosses = <String>{'m.otherf.ucker'};
+
 void main() {
   final VulgarityFilter filter = VulgarityFilter.createDefault();
 
@@ -18,8 +28,9 @@ void main() {
         readFixture('evasions-en.json')['terms'] as List<dynamic>;
     final List<String> missed = <String>[];
 
-    for (final dynamic term in terms) {
-      if (!filter.detect(term as String)) {
+    for (final dynamic entry in terms) {
+      final String term = entry as String;
+      if (!filter.detect(term) && !knownBoundaryLosses.contains(term)) {
         missed.add(term);
       }
     }

@@ -212,13 +212,41 @@ class VulgarityFilterBuilder {
 
     termTrie.build();
 
+    // A second trie over the squeezed spelling of every term. The repeat pass
+    // scans a stream whose runs are collapsed, so it has to carry patterns whose
+    // runs are collapsed too, or no term holding a doubled letter could match.
+    // Several terms can share one squeezed spelling, so the map is one to many.
+    final AhoCorasick squeezedTrie = AhoCorasick();
+    final List<List<int>> squeezedTerms = <List<int>>[];
+    final List<List<int>> termRuns = <List<int>>[];
+
+    for (int i = 0; i < terms.length; i++) {
+      final int id =
+          squeezedTrie.add(TextNormalizer.squeezeTerm(terms[i].text));
+      while (squeezedTerms.length <= id) {
+        squeezedTerms.add(<int>[]);
+      }
+      squeezedTerms[id].add(i);
+      termRuns.add(TextNormalizer.termRuns(terms[i].text));
+    }
+
+    squeezedTrie.build();
+
     final AhoCorasick allowTrie = AhoCorasick();
     for (final String word in _allow) {
       allowTrie.add(TextNormalizer.foldTerm(word));
     }
     allowTrie.build();
 
-    return VulgarityFilter.internal(terms, termTrie, allowTrie, effective);
+    return VulgarityFilter.internal(
+      terms,
+      termTrie,
+      allowTrie,
+      effective,
+      squeezedTrie,
+      squeezedTerms,
+      termRuns,
+    );
   }
 
   /// Stores a term under its folded form, keeping the worse of any pair.

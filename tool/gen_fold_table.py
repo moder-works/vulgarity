@@ -15,6 +15,10 @@ import os
 import sys
 import unicodedata
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+from foldlib import Folder
+
 PROFILE = "fold-v1"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -35,6 +39,16 @@ FOLD_SOFT = {
     "5": "s",
     "7": "t",
     "+": "t",
+    # The fullwidth digits that stand in for a letter fold straight to that
+    # letter. Routing them through the fullwidth 0-9 range instead would land
+    # on an ASCII digit that folds a second time, so folding would not be
+    # idempotent. The four digits with no leetspeak meaning stay in the range.
+    "０": "o",  # fullwidth 0
+    "１": "i",  # fullwidth 1
+    "３": "e",  # fullwidth 3
+    "４": "a",  # fullwidth 4
+    "５": "s",  # fullwidth 5
+    "７": "t",  # fullwidth 7
 }
 
 # --------------------------------------------------------------------------
@@ -169,8 +183,14 @@ def build_ranges():
 # --------------------------------------------------------------------------
 # Drop ranges. dropBreak ends a word; dropSilent does not.
 # A fold-table entry always wins over a drop range.
+#
+# The two sets MUST come out disjoint, or a port that tests them in a different
+# order reaches a different answer. An invisible character inside a word once
+# landed in a dropBreak range, which forged a word boundary and let "cl<SHY>ass"
+# report "ass". So the broad dropBreak blocks are written here as they read,
+# and every dropSilent code point is then subtracted from them below.
 # --------------------------------------------------------------------------
-DROP_BREAK = [
+DROP_BREAK_RAW = [
     [0x0000, 0x002F],  # controls, space, ASCII punctuation up to /
     [0x003A, 0x0040],  # : ; < = > ? @
     [0x005B, 0x0060],  # [ \ ] ^ _ `
@@ -239,6 +259,72 @@ DROP_SILENT = [
 ]
 
 
+def subtract_ranges(ranges, holes):
+    """Remove every code point covered by holes from ranges.
+
+    Keeps the order of the surviving pieces, so the emitted table still reads
+    from low code point to high.
+    """
+    out = []
+    for lo, hi in ranges:
+        pieces = [(lo, hi)]
+        for hole_lo, hole_hi in holes:
+            split = []
+            for a, b in pieces:
+                if hole_hi < a or hole_lo > b:
+                    split.append((a, b))
+                    continue
+                if a < hole_lo:
+                    split.append((a, hole_lo - 1))
+                if b > hole_hi:
+                    split.append((hole_hi + 1, b))
+            pieces = split
+        out.extend(pieces)
+    return [[a, b] for a, b in out]
+
+
+# dropBreak with every dropSilent code point carved out of it.
+DROP_BREAK = subtract_ranges(DROP_BREAK_RAW, DROP_SILENT)
+
+
+def assert_ranges_disjoint(drop_break, drop_silent):
+    """Fail generation when a code point sits in both drop sets.
+
+    classify() tests the two sets in a fixed order, and the ports are free to
+    pick their own order. Disjoint ranges are what makes that safe.
+    """
+    for lo, hi in drop_break:
+        if lo > hi:
+            raise SystemExit("dropBreak range runs backwards: %04X..%04X" % (lo, hi))
+        for slo, shi in drop_silent:
+            if lo <= shi and slo <= hi:
+                raise SystemExit(
+                    "dropBreak %04X..%04X overlaps dropSilent %04X..%04X. "
+                    "Add the silent range to DROP_SILENT and let subtract_ranges "
+                    "carve it out of DROP_BREAK_RAW." % (lo, hi, slo, shi)
+                )
+
+
+def assert_idempotent(doc):
+    """Fail generation when folding a folded character folds again.
+
+    Both ports fold terms at build time and text at scan time. A character that
+    keeps changing would make a folded term unreachable, so the whole table has
+    to reach a fixed point in one pass.
+    """
+    folder = Folder(doc=doc)
+    for cp in range(0x20000):
+        if 0xD800 <= cp <= 0xDFFF:
+            continue  # a lone surrogate is not a character
+        once = folder.fold(chr(cp))
+        twice = folder.fold(once)
+        if once != twice:
+            raise SystemExit(
+                "fold is not idempotent at U+%04X: %r folds again to %r"
+                % (cp, once, twice)
+            )
+
+
 def build_document():
     hard = {}
     hard.update(build_accents())
@@ -251,13 +337,18 @@ def build_document():
     if overlap:
         raise SystemExit("character in both fold maps: %r" % sorted(overlap))
 
-    return {
+    assert_ranges_disjoint(DROP_BREAK, DROP_SILENT)
+
+    doc = {
         "profile": PROFILE,
         "note": (
             "Character folding contract for the vulgarity matcher. "
             "Order of operations per code point: foldSoft, foldHard, ranges, "
             "ASCII a-z 0-9 passthrough, A-Z lowercase, dropBreak, dropSilent, "
-            "then emit unchanged. A fold entry always wins over a drop range."
+            "then emit unchanged. A fold entry always wins over a drop range. "
+            "dropBreak and dropSilent are disjoint, so the order in which a "
+            "port tests them cannot change the answer. Folding is idempotent: "
+            "folding a folded character leaves it alone."
         ),
         "foldSoft": dict(sorted(FOLD_SOFT.items())),
         "foldHard": dict(sorted(hard.items())),
@@ -265,6 +356,9 @@ def build_document():
         "dropBreak": DROP_BREAK,
         "dropSilent": DROP_SILENT,
     }
+
+    assert_idempotent(doc)
+    return doc
 
 
 # --------------------------------------------------------------------------
