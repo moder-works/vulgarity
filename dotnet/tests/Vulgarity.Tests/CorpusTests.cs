@@ -18,6 +18,18 @@ namespace Vulgarity.Tests
         /// <summary>The count detected when this fixture was recorded.</summary>
         private const int DetectionBaseline = 2894;
 
+        /// <summary>Evasions the cross-word boundary rule gives up on, and why.</summary>
+        /// <remarks>
+        /// A term with no boundary rule may span a dropped separator only when it
+        /// starts its own word. Without that, the tail of one innocent word plus
+        /// the head of the next spells a term, and "wash it down" reports one.
+        /// These entries pay for that: the term sits in the middle of a longer word
+        /// AND straddles a separator, which is exactly the shape the rule rejects.
+        /// Every other one of the thousand-odd evasions still matches.
+        /// </remarks>
+        private static readonly HashSet<string> KnownBoundaryLosses =
+            new HashSet<string> { "m.otherf.ucker" };
+
         [Fact]
         public void EveryKnownEvasionIsDetected()
         {
@@ -31,7 +43,7 @@ namespace Vulgarity.Tests
             {
                 total++;
                 string text = term.GetString();
-                if (!filter.Detect(text))
+                if (!filter.Detect(text) && !KnownBoundaryLosses.Contains(text))
                 {
                     missed.Add(text);
                 }

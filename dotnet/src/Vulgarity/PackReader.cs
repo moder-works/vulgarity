@@ -92,11 +92,15 @@ namespace Vulgarity
                     "'. The pack states '" + profile + "'.");
             }
 
+            // The count is read from the pack, so it is not to be trusted with an
+            // allocation. Grow the list while reading instead: a crafted count runs
+            // the data out and fails as a malformed pack, not as an
+            // OutOfMemoryException.
             int categoryCount = ReadVarint(data, ref pos);
-            string[] categories = new string[categoryCount];
+            List<string> categories = new List<string>();
             for (int i = 0; i < categoryCount; i++)
             {
-                categories[i] = ReadText(data, ref pos);
+                categories.Add(ReadText(data, ref pos));
             }
 
             int entryCount = ReadVarint(data, ref pos);
@@ -126,7 +130,7 @@ namespace Vulgarity
                 pos++;
 
                 int index = packed >> 4;
-                if (index >= categoryCount)
+                if (index >= categories.Count)
                 {
                     throw new FormatException("A pack entry names a category the table does not hold.");
                 }
@@ -197,6 +201,22 @@ namespace Vulgarity
             return out_;
         }
 
+        /// <summary>Reads an unsigned LEB128 number, capped at 31 bits.</summary>
+        /// <remarks>
+        /// <para>
+        /// The cap is what keeps every runtime reading the same pack. Dart compiles
+        /// its shift to JavaScript's on the web, which truncates to 32 bits, so a
+        /// value of 2^32+5 would read as 5 there and as 2^32+5 on the VM. Rather
+        /// than let a crafted pack load on one and fail on the other, a number wider
+        /// than 31 bits is refused everywhere. It also keeps the result inside an
+        /// int here, where a wider one used to overflow.
+        /// </para>
+        /// <para>
+        /// In practice that means a fifth byte carries three bits at most, and there
+        /// is never a sixth. tool/packlib.py refuses to write what this refuses to
+        /// read.
+        /// </para>
+        /// </remarks>
         private static int ReadVarint(byte[] data, ref int pos)
         {
             int value = 0;
@@ -210,6 +230,14 @@ namespace Vulgarity
 
                 int b = data[pos];
                 pos++;
+
+                // At the fifth byte only the low three bits are left, and a
+                // continuation bit would ask for a sixth. Either is over the cap.
+                if (shift == 28 && b > 0x07)
+                {
+                    throw new FormatException("A pack number runs too long.");
+                }
+
                 value |= (b & 0x7F) << shift;
                 if (b < 0x80)
                 {
@@ -226,8 +254,11 @@ namespace Vulgarity
 
         private static string ReadText(byte[] data, ref int pos)
         {
+            // The length is capped at 31 bits, so it is never negative. The
+            // subtraction, rather than pos + length, keeps the check itself from
+            // overflowing on a length near int.MaxValue.
             int length = ReadVarint(data, ref pos);
-            if (pos + length > data.Length)
+            if (length < 0 || length > data.Length - pos)
             {
                 throw new FormatException("The pack ends inside a string.");
             }

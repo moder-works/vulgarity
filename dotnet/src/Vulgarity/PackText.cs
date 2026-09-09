@@ -45,7 +45,20 @@ namespace Vulgarity
             return PackReader.Looks(bytes) ? bytes : null;
         }
 
-        /// <summary>Drops blank characters and folds the URL-safe alphabet to the standard one.</summary>
+        /// <summary>Puts base64 pack text into the one shape both decoders accept.</summary>
+        /// <remarks>
+        /// <para>
+        /// It drops blank characters, drops a leading byte-order mark, folds the
+        /// URL-safe alphabet to the standard one, and puts back any '=' padding the
+        /// sender left off. base64url is normally served unpadded and both decoders
+        /// demand a multiple of four, so without the last step a URL-safe pack loads
+        /// only when its length happens to divide.
+        /// </para>
+        /// <para>
+        /// A byte-order mark anywhere but the front is left alone: that is
+        /// corruption, not an encoding choice, and the decode must fail on it.
+        /// </para>
+        /// </remarks>
         public static string Normalize(string text)
         {
             StringBuilder built = new StringBuilder(text.Length);
@@ -53,6 +66,11 @@ namespace Vulgarity
             {
                 char c = text[i];
                 if (c == ' ' || c == '\t' || c == '\r' || c == '\n' || c == '\v' || c == '\f')
+                {
+                    continue;
+                }
+
+                if (c == '\uFEFF' && built.Length == 0)
                 {
                     continue;
                 }
@@ -71,7 +89,19 @@ namespace Vulgarity
                 }
             }
 
-            return built.ToString();
+            string cleaned = built.ToString();
+            switch (cleaned.Length % 4)
+            {
+                case 2:
+                    return cleaned + "==";
+                case 3:
+                    return cleaned + "=";
+                default:
+                    // A remainder of 1 is no base64 at all. Hand it on and let the
+                    // decoder say so, rather than padding it into something that
+                    // looks valid.
+                    return cleaned;
+            }
         }
     }
 }

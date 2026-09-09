@@ -5,9 +5,23 @@ using System.Text.Json;
 namespace Vulgarity
 {
     /// <summary>Reads a seed document into terms and allowlist words.</summary>
+    /// <remarks>
+    /// Throws <see cref="FormatException"/> on any malformed field. Nothing is
+    /// coerced: a <c>sev</c> that is not a whole number, a <c>cat</c> that is not a
+    /// string and a <c>w</c> that is not a boolean are all errors, not defaults.
+    /// </remarks>
     internal static class SeedLoader
     {
         public const int SupportedSchema = 1;
+
+        /// <summary>The severity a seed entry takes when it states none.</summary>
+        /// <remarks>
+        /// A seed list is bulk-authored and mostly mild, so an entry that says
+        /// nothing is treated as mild. A preset entry defaults to 3 instead,
+        /// because a preset is written one term at a time and its terms are the
+        /// ones somebody cared enough to add. Both ports use these two numbers.
+        /// </remarks>
+        public const int DefaultSeverity = 1;
 
         public static void Load(
             string json,
@@ -20,7 +34,17 @@ namespace Vulgarity
                 throw new ArgumentNullException("json");
             }
 
-            using (JsonDocument document = JsonDocument.Parse(json))
+            JsonDocument document;
+            try
+            {
+                document = JsonDocument.Parse(json);
+            }
+            catch (JsonException error)
+            {
+                throw new FormatException("The seed document is not valid JSON. " + error.Message, error);
+            }
+
+            using (document)
             {
                 JsonElement root = document.RootElement;
                 if (root.ValueKind != JsonValueKind.Object)
@@ -28,32 +52,25 @@ namespace Vulgarity
                     throw new FormatException("A seed document must be a JSON object.");
                 }
 
-                JsonElement value;
-
-                if (root.TryGetProperty("schema", out value))
+                int? schema = JsonRead.ReadOptionalInt(root, "schema");
+                if (schema != null && schema.Value != SupportedSchema)
                 {
-                    int schema = value.GetInt32();
-                    if (schema != SupportedSchema)
-                    {
-                        throw new FormatException(
-                            "This build reads seed schema " + SupportedSchema +
-                            ". The file states schema " + schema + ".");
-                    }
+                    throw new FormatException(
+                        "This build reads seed schema " + SupportedSchema +
+                        ". The file states schema " + schema.Value + ".");
                 }
 
                 // The profile pins the fold table the seed was built with. A stale
                 // file then fails here instead of matching silently wrong.
-                if (root.TryGetProperty("profile", out value))
+                string profile = JsonRead.ReadOptionalString(root, "profile");
+                if (profile != null && profile != expectedProfile)
                 {
-                    string profile = value.GetString();
-                    if (profile != expectedProfile)
-                    {
-                        throw new FormatException(
-                            "This build implements fold profile '" + expectedProfile +
-                            "'. The seed file states '" + profile + "'.");
-                    }
+                    throw new FormatException(
+                        "This build implements fold profile '" + expectedProfile +
+                        "'. The seed file states '" + profile + "'.");
                 }
 
+                JsonElement value;
                 if (!root.TryGetProperty("entries", out value) || value.ValueKind != JsonValueKind.Array)
                 {
                     throw new FormatException("A seed document must hold an 'entries' array.");
@@ -64,17 +81,7 @@ namespace Vulgarity
                     terms.Add(ReadEntry(entry));
                 }
 
-                if (root.TryGetProperty("allow", out value) && value.ValueKind == JsonValueKind.Array)
-                {
-                    foreach (JsonElement word in value.EnumerateArray())
-                    {
-                        string text = word.GetString();
-                        if (!string.IsNullOrEmpty(text))
-                        {
-                            allow.Add(text);
-                        }
-                    }
-                }
+                allow.AddRange(JsonRead.ReadStrings(root, "allow"));
             }
         }
 
@@ -86,28 +93,27 @@ namespace Vulgarity
             }
 
             JsonElement value;
-
-            if (!entry.TryGetProperty("t", out value))
+            if (!entry.TryGetProperty("t", out value) || value.ValueKind != JsonValueKind.String)
             {
-                throw new FormatException("Every seed entry must hold a 't' term.");
+                throw new FormatException("Every seed entry must hold a non-empty 't' term.");
             }
 
             string term = value.GetString();
             if (string.IsNullOrEmpty(term))
             {
-                throw new FormatException("A seed term must not be empty.");
+                throw new FormatException("Every seed entry must hold a non-empty 't' term.");
             }
 
-            string category = entry.TryGetProperty("cat", out value) ? value.GetString() : "other";
-            int severity = entry.TryGetProperty("sev", out value) ? value.GetInt32() : 1;
-            bool requireBoundary = entry.TryGetProperty("w", out value) && value.ValueKind == JsonValueKind.True;
+            string category = JsonRead.ReadOptionalString(entry, "cat") ?? "other";
 
+            int severity = JsonRead.ReadOptionalInt(entry, "sev") ?? DefaultSeverity;
             if (severity < 1 || severity > 5)
             {
-                throw new FormatException("Severity must be 1 to 5. Term '" + term + "' states " + severity + ".");
+                throw new FormatException(
+                    "Severity must be 1 to 5. Term '" + term + "' states " + severity + ".");
             }
 
-            return new VulgarityTerm(term, category ?? "other", severity, requireBoundary);
+            return new VulgarityTerm(term, category, severity, JsonRead.ReadOptionalBool(entry, "w") ?? false);
         }
     }
 }

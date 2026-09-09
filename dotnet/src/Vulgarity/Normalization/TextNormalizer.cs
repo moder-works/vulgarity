@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Text;
 
 namespace Vulgarity.Normalization
 {
@@ -237,6 +238,7 @@ namespace Vulgarity.Normalization
             List<int> srcEnd = new List<int>(length);
             List<bool> hard = new List<bool>(length);
             List<bool> gap = new List<bool>(length);
+            List<int> runLength = new List<int>(length);
 
             for (int i = 0; i < length; i++)
             {
@@ -245,6 +247,7 @@ namespace Vulgarity.Normalization
                 {
                     // Extend the run. The kept character now spans the whole run.
                     srcEnd[last] = source.SrcEnd[i];
+                    runLength[last]++;
                     continue;
                 }
 
@@ -253,6 +256,7 @@ namespace Vulgarity.Normalization
                 srcEnd.Add(source.SrcEnd[i]);
                 hard.Add(source.Hard[i]);
                 gap.Add(source.Gap[i]);
+                runLength.Add(1);
             }
 
             return new NormalizedText(
@@ -260,7 +264,8 @@ namespace Vulgarity.Normalization
                 srcStart.ToArray(),
                 srcEnd.ToArray(),
                 hard.ToArray(),
-                gap.ToArray());
+                gap.ToArray(),
+                runLength.ToArray());
         }
 
         /// <summary>Folds a term down to the plain character sequence the trie stores.</summary>
@@ -272,6 +277,76 @@ namespace Vulgarity.Normalization
         {
             NormalizedText normalized = Normalize(term);
             return normalized.Chars;
+        }
+
+        /// <summary>Folds a term and collapses every run down to a single character.</summary>
+        /// <remarks>
+        /// This is the form a term takes in the squeezed trie, so that a squeezed
+        /// stream is scanned with squeezed patterns. Without it no term holding a
+        /// doubled letter could ever match in the repeat-tolerant pass.
+        /// </remarks>
+        public static int[] SqueezeTerm(string term)
+        {
+            int[] folded = FoldTerm(term);
+            List<int> result = new List<int>(folded.Length);
+            for (int i = 0; i < folded.Length; i++)
+            {
+                if (result.Count == 0 || result[result.Count - 1] != folded[i])
+                {
+                    result.Add(folded[i]);
+                }
+            }
+
+            return result.ToArray();
+        }
+
+        /// <summary>The length of each run in a folded term, aligned with <see cref="SqueezeTerm"/>.</summary>
+        /// <remarks>
+        /// The squeezed pass compares these against the runs the squeeze collapsed.
+        /// Text may repeat a letter more often than the term does, never less, so
+        /// one squeezed spelling cannot stand in for a different real word.
+        /// </remarks>
+        public static int[] TermRuns(string term)
+        {
+            int[] folded = FoldTerm(term);
+            List<int> runs = new List<int>(folded.Length);
+            for (int i = 0; i < folded.Length; i++)
+            {
+                if (i > 0 && folded[i] == folded[i - 1])
+                {
+                    runs[runs.Count - 1]++;
+                }
+                else
+                {
+                    runs.Add(1);
+                }
+            }
+
+            return runs.ToArray();
+        }
+
+        /// <summary>Folds a term and returns it as a string.</summary>
+        public static string FoldToString(string term)
+        {
+            int[] folded = FoldTerm(term);
+            StringBuilder builder = new StringBuilder(folded.Length);
+            for (int i = 0; i < folded.Length; i++)
+            {
+                int cp = folded[i];
+                if (cp > 0xFFFF)
+                {
+                    // An unmapped character outside the basic plane needs a surrogate pair.
+                    cp -= 0x10000;
+                    builder.Append((char)(0xD800 + (cp >> 10)));
+                    builder.Append((char)(0xDC00 + (cp & 0x3FF)));
+                }
+                else
+                {
+                    builder.Append((char)cp);
+                }
+            }
+
+            return builder.ToString();
         }
     }
 }
