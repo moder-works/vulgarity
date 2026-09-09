@@ -17,7 +17,7 @@
 /// ```
 library;
 
-/// 373 terms for Persian.
+/// 463 terms for Persian.
 const String seedFa = r'''
 {
   "schema": 1,
@@ -166,6 +166,17 @@ const String seedFa = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "jendeh",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jendekhiabooni",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "keer",
@@ -341,6 +352,11 @@ const String seedFa = r'''
       "sev": 3
     },
     {
+      "t": "madarjendeh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "madarsag",
       "cat": "profanity",
       "sev": 3
@@ -357,6 +373,11 @@ const String seedFa = r'''
     },
     {
       "t": "manchaghookairdamkiret",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "manobokon",
       "cat": "profanity",
       "sev": 3
     },
@@ -430,6 +451,11 @@ const String seedFa = r'''
       "sev": 3
     },
     {
+      "t": "taatahbokontoo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "tokhm",
       "cat": "profanity",
       "sev": 3,
@@ -463,6 +489,11 @@ const String seedFa = r'''
       "w": true
     },
     {
+      "t": "آلتتناسلی",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ابله",
       "cat": "profanity",
       "sev": 3,
@@ -473,6 +504,17 @@ const String seedFa = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "احمقها",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ارتباطجنسی",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "ارگاسم",
@@ -555,6 +597,11 @@ const String seedFa = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "الاغلعنتی",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "الاق",
@@ -670,6 +717,11 @@ const String seedFa = r'''
       "w": true
     },
     {
+      "t": "بچهکونی",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "بکارت",
       "cat": "profanity",
       "sev": 3,
@@ -706,6 +758,17 @@ const String seedFa = r'''
       "w": true
     },
     {
+      "t": "بیابخورش",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "بیخایه",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "بیشرف",
       "cat": "profanity",
       "sev": 3,
@@ -730,6 +793,17 @@ const String seedFa = r'''
       "w": true
     },
     {
+      "t": "بیغیرت",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "بیناموس",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "بیپدر",
       "cat": "profanity",
       "sev": 3,
@@ -740,6 +814,11 @@ const String seedFa = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "تجاوزبهعنف",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "تخمسگ",
@@ -790,10 +869,21 @@ const String seedFa = r'''
       "w": true
     },
     {
+      "t": "تولهسگ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "توپها",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "تکاندادن",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "جادوگر",
@@ -824,6 +914,11 @@ const String seedFa = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "جندهخانه",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "جنسی",
@@ -867,10 +962,25 @@ const String seedFa = r'''
       "w": true
     },
     {
+      "t": "حرومزاده",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "حروملقمه",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "حشری",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "حشریشدن",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "حیوانات",
@@ -890,10 +1000,26 @@ const String seedFa = r'''
       "w": true
     },
     {
+      "t": "خارکسده",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "خارکسه",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "خانم",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "خانمجنده",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "خایمال",
@@ -906,6 +1032,21 @@ const String seedFa = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "خایهخور",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "خایهمال",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "خرابکردن",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "خرفت",
@@ -943,6 +1084,11 @@ const String seedFa = r'''
       "w": true
     },
     {
+      "t": "خواهرجنده",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "خونآشام",
       "cat": "profanity",
       "sev": 3
@@ -970,6 +1116,16 @@ const String seedFa = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "دخترجنده",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "دخترقرتی",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "دختره",
@@ -1003,6 +1159,21 @@ const String seedFa = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "دهنتوببند",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "دهنسرویس",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "دهنگاییده",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "دوجنسه",
@@ -1045,6 +1216,11 @@ const String seedFa = r'''
       "w": true
     },
     {
+      "t": "دیوسخان",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "دیوص",
       "cat": "profanity",
       "sev": 3,
@@ -1052,6 +1228,12 @@ const String seedFa = r'''
     },
     {
       "t": "رشتی",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "رشتیf",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -1110,7 +1292,19 @@ const String seedFa = r'''
       "w": true
     },
     {
+      "t": "زنجنده",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "زنشو",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "زنیکه",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -1134,6 +1328,12 @@ const String seedFa = r'''
     },
     {
       "t": "ساکزدن",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ساکونی",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -1180,6 +1380,11 @@ const String seedFa = r'''
       "w": true
     },
     {
+      "t": "سوراخکون",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "سولاخ",
       "cat": "profanity",
       "sev": 3,
@@ -1198,10 +1403,37 @@ const String seedFa = r'''
       "w": true
     },
     {
+      "t": "سکسکردن",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "سکسی",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "سکسیباش",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "سکسیم",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "سکسیی",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "سگتوروحت",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "سگدهن",
@@ -1214,6 +1446,11 @@ const String seedFa = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "سگلعنتی",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "سگها",
@@ -1258,6 +1495,18 @@ const String seedFa = r'''
       "w": true
     },
     {
+      "t": "شاسگول",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "شقکردن",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "شلخته",
       "cat": "profanity",
       "sev": 3,
@@ -1282,6 +1531,12 @@ const String seedFa = r'''
       "w": true
     },
     {
+      "t": "شهوتی",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "شورتمماسکت",
       "cat": "profanity",
       "sev": 3
@@ -1300,6 +1555,12 @@ const String seedFa = r'''
     },
     {
       "t": "صیغه",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "صیغهای",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -1369,6 +1630,11 @@ const String seedFa = r'''
       "w": true
     },
     {
+      "t": "فاحشهخانم",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "فارس",
       "cat": "profanity",
       "sev": 3,
@@ -1397,6 +1663,11 @@ const String seedFa = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "فیلمسوپر",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "قرتی",
@@ -1445,6 +1716,11 @@ const String seedFa = r'''
       "w": true
     },
     {
+      "t": "لاشگوشت",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "لاشی",
       "cat": "profanity",
       "sev": 3,
@@ -1458,6 +1734,18 @@ const String seedFa = r'''
     },
     {
       "t": "لاپا",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "لاپایی",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "لاکونی",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -1481,6 +1769,17 @@ const String seedFa = r'''
       "w": true
     },
     {
+      "t": "لعنتخدا",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "لعنتی",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "لیسیدن",
       "cat": "profanity",
       "sev": 3,
@@ -1493,6 +1792,38 @@ const String seedFa = r'''
       "w": true
     },
     {
+      "t": "مادرتو",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "مادرجنده",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "مادرخراب",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "مادرسگ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "مادرقهوه",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "مادرکونی",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "مازوکیست",
       "cat": "profanity",
       "sev": 3
@@ -1503,16 +1834,31 @@ const String seedFa = r'''
       "sev": 3
     },
     {
+      "t": "ماچکردنی",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "مرتیکه",
       "cat": "profanity",
       "sev": 3,
       "w": true
     },
     {
+      "t": "مردهمادر",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "مردیکه",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "مرضداری",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "مروارید",
@@ -1584,7 +1930,18 @@ const String seedFa = r'''
       "w": true
     },
     {
+      "t": "ناموستو",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "نجار",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "نجارها",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -1661,10 +2018,20 @@ const String seedFa = r'''
       "w": true
     },
     {
+      "t": "پدرسوخته",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "پدرسگ",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "پدرصلواتی",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "پرده",
@@ -1691,6 +2058,11 @@ const String seedFa = r'''
       "w": true
     },
     {
+      "t": "پسریکخانم",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "پسون",
       "cat": "profanity",
       "sev": 3,
@@ -1704,6 +2076,12 @@ const String seedFa = r'''
     },
     {
       "t": "پفیو",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "پفیوز",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -1725,6 +2103,17 @@ const String seedFa = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "پورنو",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "پورنوگرافی",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "پوسیدن",
@@ -1846,6 +2235,12 @@ const String seedFa = r'''
       "w": true
     },
     {
+      "t": "کردنی",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "کسخل",
       "cat": "profanity",
       "sev": 3,
@@ -1864,6 +2259,12 @@ const String seedFa = r'''
       "w": true
     },
     {
+      "t": "کسدادن",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "کسشعر",
       "cat": "profanity",
       "sev": 3,
@@ -1876,6 +2277,11 @@ const String seedFa = r'''
       "w": true
     },
     {
+      "t": "کسلیسیدن",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "کسننت",
       "cat": "profanity",
       "sev": 3,
@@ -1883,6 +2289,12 @@ const String seedFa = r'''
     },
     {
       "t": "کسوکیر",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کسکردن",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -1942,6 +2354,11 @@ const String seedFa = r'''
       "w": true
     },
     {
+      "t": "کلهکیری",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "کلوچه",
       "cat": "profanity",
       "sev": 3,
@@ -1983,10 +2400,20 @@ const String seedFa = r'''
       "w": true
     },
     {
+      "t": "کوندادن",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "کونده",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "کونسوراخ",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "کونشو",
@@ -2001,10 +2428,25 @@ const String seedFa = r'''
       "w": true
     },
     {
+      "t": "کونپنیر",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "کونکردن",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "کونکش",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "کونگنده",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "کونی",
@@ -2025,6 +2467,11 @@ const String seedFa = r'''
       "w": true
     },
     {
+      "t": "کیردراز",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "کیردوس",
       "cat": "profanity",
       "sev": 3,
@@ -2043,7 +2490,23 @@ const String seedFa = r'''
       "w": true
     },
     {
+      "t": "کیرمصنوعی",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "کیرمکیدن",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "کیرنا",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کیرناز",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -2109,6 +2572,11 @@ const String seedFa = r'''
       "w": true
     },
     {
+      "t": "گردندراز",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "گریه",
       "cat": "profanity",
       "sev": 3,
@@ -2125,6 +2593,11 @@ const String seedFa = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "گندهگوز",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "گورومساخ",
@@ -2161,6 +2634,12 @@ const String seedFa = r'''
     },
     {
       "t": "گولزدن",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "گیخوار",
       "cat": "profanity",
       "sev": 3,
       "w": true

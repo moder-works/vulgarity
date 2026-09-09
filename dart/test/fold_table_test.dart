@@ -63,7 +63,8 @@ void main() {
     for (final int cp in <int>[...kFoldSoft.keys, ...kFoldHard.keys]) {
       final bool isLetter =
           (cp >= 0x61 && cp <= 0x7A) || (cp >= 0x41 && cp <= 0x5A);
-      expect(isLetter, isFalse, reason: 'a fold map holds ${String.fromCharCode(cp)}');
+      expect(isLetter, isFalse,
+          reason: 'a fold map holds ${String.fromCharCode(cp)}');
     }
   });
 
@@ -74,7 +75,8 @@ void main() {
     ]) {
       expect(value, isNotEmpty);
       for (final int c in value.codeUnits) {
-        expect(c >= 0x61 && c <= 0x7A, isTrue, reason: "fold produced '$value'");
+        expect(c >= 0x61 && c <= 0x7A, isTrue,
+            reason: "fold produced '$value'");
       }
     }
   });

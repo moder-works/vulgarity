@@ -40,15 +40,17 @@ void main() {
 
   test('score modes differ', () {
     const String text = 'fuck this shit';
+    expect(filter.withOptions(VulgarityOptions()).score(text), 7);
     expect(
-        filter.withOptions(VulgarityOptions()).score(text), 7);
-    expect(
-        filter.withOptions(VulgarityOptions(scoreMode: ScoreMode.max)).score(text), 4);
+        filter
+            .withOptions(VulgarityOptions(scoreMode: ScoreMode.max))
+            .score(text),
+        4);
   });
 
   test('category filter restricts the result', () {
-    final VulgarityFilter f = filter.withOptions(
-        VulgarityOptions(categories: <VulgarityCategory>{VulgarityCategory.hate}));
+    final VulgarityFilter f = filter.withOptions(VulgarityOptions(
+        categories: <VulgarityCategory>{VulgarityCategory.hate}));
     expect(f.detect('what the fuck'), isFalse);
     expect(f.detect('that faggot'), isTrue);
   });

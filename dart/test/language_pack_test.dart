@@ -15,8 +15,7 @@ void main() {
 
   group('each pack', () {
     kLanguageSeeds.forEach((String code, String json) {
-      final Map<String, dynamic> doc =
-          jsonDecode(json) as Map<String, dynamic>;
+      final Map<String, dynamic> doc = jsonDecode(json) as Map<String, dynamic>;
 
       test('$code targets this profile', () {
         expect(doc['profile'], VulgarityFilter.profile);
@@ -43,7 +42,8 @@ void main() {
         }
 
         expect(missed, isEmpty,
-            reason: "Pack '$code' holds ${missed.length} terms it cannot find.");
+            reason:
+                "Pack '$code' holds ${missed.length} terms it cannot find.");
       });
     });
   });

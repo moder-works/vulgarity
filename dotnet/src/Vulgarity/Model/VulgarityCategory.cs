@@ -34,6 +34,41 @@ namespace Vulgarity
 
     internal static class CategoryNames
     {
+        /// <summary>The name a seed or preset file uses for a category.</summary>
+        public static string ToName(VulgarityCategory category)
+        {
+            switch (category)
+            {
+                case VulgarityCategory.Profanity: return "profanity";
+                case VulgarityCategory.Sexual: return "sexual";
+                case VulgarityCategory.Hate: return "hate";
+                case VulgarityCategory.Violence: return "violence";
+                case VulgarityCategory.Drug: return "drug";
+                default: return "other";
+            }
+        }
+
+        /// <summary>Maps a category name, or returns null when the name is unknown.</summary>
+        public static VulgarityCategory? TryParse(string name)
+        {
+            switch (name)
+            {
+                case "profanity": return VulgarityCategory.Profanity;
+                case "sexual": return VulgarityCategory.Sexual;
+                case "hate": return VulgarityCategory.Hate;
+                case "violence": return VulgarityCategory.Violence;
+                case "drug": return VulgarityCategory.Drug;
+                case "other": return VulgarityCategory.Other;
+                default: return null;
+            }
+        }
+
+        /// <summary>Every category name a preset can name.</summary>
+        public static readonly string[] All =
+        {
+            "profanity", "sexual", "hate", "violence", "drug", "other",
+        };
+
         public static VulgarityCategory Parse(string name)
         {
             switch (name)

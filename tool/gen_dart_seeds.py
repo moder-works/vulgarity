@@ -103,6 +103,7 @@ def build():
         "library;",
         "",
     ]
+    lines.append("import 'src/seed_data.g.dart';")
     lines += ["import 'lang/" + code + ".dart';" for code in LANGUAGES]
     lines.append("")
     lines += ["export 'lang/" + code + ".dart';" for code in LANGUAGES]
@@ -116,24 +117,39 @@ def build():
     lines += [
         "];",
         "",
-        "/// Every optional pack, keyed by language code. English is not here,",
-        "/// because [VulgarityFilterBuilder.useDefaultSeed] already loads it.",
+        "/// Every OPTIONAL pack, keyed by language code.",
+        "///",
+        "/// English is not in this map, because it is compiled into the library",
+        "/// itself. Use [languageSeed], which resolves every code including 'en'.",
         "const Map<String, String> kLanguageSeeds = <String, String>{",
     ]
     lines += ["  '" + code + "': " + name + "," for code, name, _, _ in names]
     lines += [
         "};",
         "",
-        "/// Returns the seed document for [code].",
+        "/// Returns the seed document for [code], English included.",
+        "///",
+        "/// Pass this straight to a builder or a preset:",
+        "///",
+        "/// ```dart",
+        "/// final filter = VulgarityFilter.fromPreset(",
+        "///   json,",
+        "///   languageResolver: languageSeed,",
+        "/// );",
+        "/// ```",
         "///",
         "/// Throws [ArgumentError] when this package carries no pack for the code.",
         "String languageSeed(String code) {",
+        "  if (code == 'en') {",
+        "    return kSeedEn;",
+        "  }",
         "  final String? seed = kLanguageSeeds[code];",
         "  if (seed == null) {",
         "    throw ArgumentError.value(",
         "      code,",
         "      'code',",
-        "      'No pack for this language. Available: ${kLanguageSeeds.keys.join(', ')}',",
+        "      'No pack for this language. Available: '",
+        "          \"${kAvailableLanguages.join(', ')}\",",
         "    );",
         "  }",
         "  return seed;",

@@ -17,7 +17,7 @@
 /// ```
 library;
 
-/// 481 terms for Hindi.
+/// 652 terms for Hindi.
 const String seedHi = r'''
 {
   "schema": 1,
@@ -34,6 +34,22 @@ const String seedHi = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "aandmatkaha",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "aandu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ahalamalvesi",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "akepurinawa",
@@ -103,7 +119,28 @@ const String seedHi = r'''
       "w": true
     },
     {
+      "t": "baduava",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "baduawa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "baduwa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "badzaat",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bakrichod",
       "cat": "profanity",
       "sev": 3
     },
@@ -114,6 +151,21 @@ const String seedHi = r'''
     },
     {
       "t": "balatkar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "basilund",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "behankalund",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "behenchod",
       "cat": "profanity",
       "sev": 3
     },
@@ -139,6 +191,11 @@ const String seedHi = r'''
       "w": true
     },
     {
+      "t": "bellige",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "besige",
       "cat": "profanity",
       "sev": 3,
@@ -156,10 +213,25 @@ const String seedHi = r'''
       "sev": 3
     },
     {
+      "t": "betichod",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bhaandmejaao",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "bhadva",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "bhadvachodika",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "bhadve",
@@ -173,7 +245,17 @@ const String seedHi = r'''
       "sev": 3
     },
     {
+      "t": "bhaichhodbhayeechod",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "bhandve",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bhenchhodbhaynchod",
       "cat": "profanity",
       "sev": 3
     },
@@ -194,6 +276,16 @@ const String seedHi = r'''
       "w": true
     },
     {
+      "t": "bhosadchod",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bhosadike",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "bhosdeekay",
       "cat": "profanity",
       "sev": 3
@@ -203,6 +295,11 @@ const String seedHi = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "bhosdik",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "bhundi",
@@ -244,6 +341,11 @@ const String seedHi = r'''
       "w": true
     },
     {
+      "t": "chachachod",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "chakke",
       "cat": "profanity",
       "sev": 3,
@@ -261,6 +363,11 @@ const String seedHi = r'''
       "w": true
     },
     {
+      "t": "chipkaikichootkepaseene",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "chipkalikejhatkabaal",
       "cat": "profanity",
       "sev": 3
@@ -270,6 +377,27 @@ const String seedHi = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "chodbhangra",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chodkebalkakida",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chodu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chodubhagat",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "chooche",
@@ -292,6 +420,56 @@ const String seedHi = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "chootia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chootiya",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chootkapaani",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chootkapissu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chootkbhoot",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chootkebaal",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chootkijhilli",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chootkpakode",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chopreherandi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chorichod",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "chuche",
@@ -340,6 +518,11 @@ const String seedHi = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "chutadd",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "chutan",
@@ -409,7 +592,27 @@ const String seedHi = r'''
       "sev": 3
     },
     {
+      "t": "daarapayya",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "darabaduwa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dheelichoot",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "diwadanawa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ehelamalwesi",
       "cat": "profanity",
       "sev": 3
     },
@@ -420,6 +623,78 @@ const String seedHi = r'''
     },
     {
       "t": "etadeka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gaand",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "gaandchaatmera",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gaandchaatu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gaandfat",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gaandgaand",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gaandkakhadda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gaandkedhakan",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gaandmaarbhenchod",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gaandmaasti",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gaandmasti",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gaandmedandamaarle",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gaandmeinkida",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gaandu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "gaandufad",
       "cat": "profanity",
       "sev": 3
     },
@@ -504,6 +779,11 @@ const String seedHi = r'''
       "sev": 3
     },
     {
+      "t": "gonkariya",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "gucchi",
       "cat": "profanity",
       "sev": 3,
@@ -520,6 +800,11 @@ const String seedHi = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "hambakariya",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "haminenava",
@@ -554,6 +839,11 @@ const String seedHi = r'''
       "w": true
     },
     {
+      "t": "hawaskepujari",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "hijda",
       "cat": "profanity",
       "sev": 3,
@@ -570,6 +860,21 @@ const String seedHi = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "hukanawa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hukanna",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hukapan",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "humkanawa",
@@ -647,7 +952,38 @@ const String seedHi = r'''
       "w": true
     },
     {
+      "t": "jhaatkebaal",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "jhant",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jhantchaatu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jhantkakeeda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jhantkebaal",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jhantkepissu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jhantu",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -670,6 +1006,11 @@ const String seedHi = r'''
       "w": true
     },
     {
+      "t": "kaalalund",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "kaalikutti",
       "cat": "profanity",
       "sev": 3
@@ -686,6 +1027,11 @@ const String seedHi = r'''
       "w": true
     },
     {
+      "t": "kaminey",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "kanjar",
       "cat": "profanity",
       "sev": 3,
@@ -698,6 +1044,16 @@ const String seedHi = r'''
     },
     {
       "t": "karihambayo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "karilodaya",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "karimayil",
       "cat": "profanity",
       "sev": 3
     },
@@ -742,6 +1098,11 @@ const String seedHi = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "kerilondaya",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "kespuri",
@@ -800,6 +1161,16 @@ const String seedHi = r'''
       "sev": 3
     },
     {
+      "t": "kotupaiya",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kukarchod",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "kukku",
       "cat": "profanity",
       "sev": 3,
@@ -828,10 +1199,40 @@ const String seedHi = r'''
       "w": true
     },
     {
+      "t": "kuttakamina",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kuttanchooty",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kuttanchuti",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "kutte",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "kuttekiaulad",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kuttekijat",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kuttekiolad",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "kuttiya",
@@ -855,6 +1256,12 @@ const String seedHi = r'''
     },
     {
       "t": "loda",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "lodapa",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -894,6 +1301,42 @@ const String seedHi = r'''
       "w": true
     },
     {
+      "t": "lundaapa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lundchoos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lundkabakkal",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lundkhajoor",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lundoo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "lundtopi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lundure",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "luvjuce",
       "cat": "profanity",
       "sev": 3
@@ -926,6 +1369,16 @@ const String seedHi = r'''
       "w": true
     },
     {
+      "t": "madarchod",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "madhavchod",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "maeate",
       "cat": "profanity",
       "sev": 3,
@@ -949,6 +1402,12 @@ const String seedHi = r'''
       "w": true
     },
     {
+      "t": "mayila",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "moohmeinle",
       "cat": "profanity",
       "sev": 3
@@ -960,12 +1419,22 @@ const String seedHi = r'''
       "w": true
     },
     {
+      "t": "mutthal",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "najayaz",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "nilmanelhuththi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "paichooty",
       "cat": "profanity",
       "sev": 3
     },
@@ -985,6 +1454,29 @@ const String seedHi = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "pakaa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pakata",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pakaya",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pakayaa",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "pake",
@@ -1014,7 +1506,22 @@ const String seedHi = r'''
       "sev": 3
     },
     {
+      "t": "parabelli",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "patakha",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pattavesi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pattawesi",
       "cat": "profanity",
       "sev": 3
     },
@@ -1037,6 +1544,11 @@ const String seedHi = r'''
     },
     {
       "t": "pettiya",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pichooti",
       "cat": "profanity",
       "sev": 3
     },
@@ -1065,6 +1577,21 @@ const String seedHi = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "ponnapakaya",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ponnawesamanamali",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ponnaya",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "poropara",
@@ -1107,6 +1634,12 @@ const String seedHi = r'''
       "sev": 3
     },
     {
+      "t": "raand",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "randaap",
       "cat": "profanity",
       "sev": 3
@@ -1116,6 +1649,11 @@ const String seedHi = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "randirona",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "reddaussagena",
@@ -1134,7 +1672,17 @@ const String seedHi = r'''
       "w": true
     },
     {
+      "t": "saalakutta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "saalikutti",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "saalirandi",
       "cat": "profanity",
       "sev": 3
     },
@@ -1154,6 +1702,16 @@ const String seedHi = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "suarkelund",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "suarkiaulad",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "tahike",
@@ -1184,6 +1742,26 @@ const String seedHi = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "taukanawa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "taukanda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "taukanna",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "terimaakabhosada",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "terimaakabobachusu",
@@ -1283,7 +1861,19 @@ const String seedHi = r'''
       "w": true
     },
     {
+      "t": "vesawa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "vesi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "vesige",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -1298,6 +1888,16 @@ const String seedHi = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "wallapatta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wambatupaiya",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "wataella",
@@ -1327,7 +1927,24 @@ const String seedHi = r'''
       "w": true
     },
     {
+      "t": "wesauththa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wesawa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "wesi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "wesige",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -1337,6 +1954,11 @@ const String seedHi = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "अंडकोशकीथैली",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "अंडकोष",
@@ -1363,6 +1985,11 @@ const String seedHi = r'''
       "w": true
     },
     {
+      "t": "अश्लीलसाहित्य",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "अहंभाव",
       "cat": "profanity",
       "sev": 3,
@@ -1386,6 +2013,16 @@ const String seedHi = r'''
     },
     {
       "t": "एक्सरेटेड",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "एम्बोसेक्सुअल",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ऐब्रिसेक्सुअलिटी",
       "cat": "profanity",
       "sev": 3
     },
@@ -1562,6 +2199,11 @@ const String seedHi = r'''
       "w": true
     },
     {
+      "t": "झटकाबंद",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ठगनापैकर",
       "cat": "profanity",
       "sev": 3
@@ -1661,6 +2303,11 @@ const String seedHi = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "पैनसेक्सुअल",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "पॉर्न",
@@ -1786,10 +2433,25 @@ const String seedHi = r'''
       "w": true
     },
     {
+      "t": "मुर्गाके",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "मुर्गाचूसनेवाला",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "मूत्र",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "मूत्रमार्ग",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "मूर्ख",
@@ -1844,6 +2506,11 @@ const String seedHi = r'''
       "w": true
     },
     {
+      "t": "लिंचिंग",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "लुटेरा",
       "cat": "profanity",
       "sev": 3,
@@ -1857,6 +2524,12 @@ const String seedHi = r'''
     },
     {
       "t": "वहशी",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "वहशीता",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -1973,6 +2646,11 @@ const String seedHi = r'''
       "w": true
     },
     {
+      "t": "हिटलरकीजयहो",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "हेबेफाइल्स",
       "cat": "profanity",
       "sev": 3
@@ -1988,6 +2666,11 @@ const String seedHi = r'''
       "sev": 3
     },
     {
+      "t": "होमोसेक्सुअल",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "අකේපුරිනවා",
       "cat": "profanity",
       "sev": 3
@@ -1998,12 +2681,22 @@ const String seedHi = r'''
       "sev": 3
     },
     {
+      "t": "අප්පටහුකනවා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "අම්බකිස්ස",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "අම්මගෙරෙද්ද",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "අම්මටහුකනවා",
       "cat": "profanity",
       "sev": 3
     },
@@ -2049,6 +2742,16 @@ const String seedHi = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "උත්තික්කොල්ලා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "උත්තියේ",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "උඹෙඅම්මගෙ",
@@ -2103,6 +2806,58 @@ const String seedHi = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "කැරිතම්බියො",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "කැරිබඩුව",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "කැරිමයිල්",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "කැරිය",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "කැරියා",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "කැරිලොඳයා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "කැරිවේසි",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "කැරිසැප",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "කැරිසීන්",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "කැරිහම්බයො",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "කැස්පුරි",
@@ -2162,6 +2917,11 @@ const String seedHi = r'''
       "sev": 3
     },
     {
+      "t": "කෝටුපයිය",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ගැටමිරිකනවා",
       "cat": "profanity",
       "sev": 3
@@ -2173,6 +2933,11 @@ const String seedHi = r'''
     },
     {
       "t": "ගෑණුහොරා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ගොංකැරිය",
       "cat": "profanity",
       "sev": 3
     },
@@ -2214,6 +2979,11 @@ const String seedHi = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "ටහුකන්න",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "ටොපා",
@@ -2262,12 +3032,22 @@ const String seedHi = r'''
       "sev": 3
     },
     {
+      "t": "දාරපයිය",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "දාරබඩුව",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "දිවදානව",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "නිල්මානෙල්හුත්ති",
       "cat": "profanity",
       "sev": 3
     },
@@ -2289,6 +3069,12 @@ const String seedHi = r'''
       "w": true
     },
     {
+      "t": "පම්කයා",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "පයිකොටා",
       "cat": "profanity",
       "sev": 3
@@ -2303,6 +3089,17 @@ const String seedHi = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "පයියා",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "පරබැල්ලි",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "පරවේසි",
@@ -2362,6 +3159,16 @@ const String seedHi = r'''
       "sev": 3
     },
     {
+      "t": "පොන්නකැරියා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "පොන්නපකයා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "පොන්නපකා",
       "cat": "profanity",
       "sev": 3
@@ -2414,7 +3221,18 @@ const String seedHi = r'''
       "w": true
     },
     {
+      "t": "බඩුආවා",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "බඩුකාරයා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "බඩුලොල්ලා",
       "cat": "profanity",
       "sev": 3
     },
@@ -2433,6 +3251,11 @@ const String seedHi = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "බැල්ලිගෙපුතා",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "බේසික්ගෙ",
@@ -2518,6 +3341,11 @@ const String seedHi = r'''
       "sev": 3
     },
     {
+      "t": "වම්බටුපයියා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "වලත්තයා",
       "cat": "profanity",
       "sev": 3
@@ -2529,12 +3357,22 @@ const String seedHi = r'''
       "w": true
     },
     {
+      "t": "වල්ලපට්ට",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "වැලබලනවා",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "වේසබල්ලා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "වේසබැල්ලි",
       "cat": "profanity",
       "sev": 3
     },
@@ -2565,6 +3403,11 @@ const String seedHi = r'''
       "sev": 3
     },
     {
+      "t": "හම්බකැරියා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "හැමිනෙනව",
       "cat": "profanity",
       "sev": 3
@@ -2591,10 +3434,20 @@ const String seedHi = r'''
       "w": true
     },
     {
+      "t": "හුකනවාදාලා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "හුකන්න",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "හුකන්නා",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "හුකපං",
@@ -2619,6 +3472,32 @@ const String seedHi = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "හුත්තා",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "හුත්තික්කොල්ලා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "හුත්තිගෙකොල්ලා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "හුත්තිගෙපුතා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "හුත්තිගේපුතා",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "හුප්තා",

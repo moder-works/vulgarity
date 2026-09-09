@@ -1,0 +1,7 @@
+{
+  "schema": 1,
+  "profile": "fold-v1",
+  "name": "default",
+  "description": "The bundled English list with default options. The same result as VulgarityFilter.CreateDefault().",
+  "languages": ["en"]
+}

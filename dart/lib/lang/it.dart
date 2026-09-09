@@ -17,7 +17,7 @@
 /// ```
 library;
 
-/// 866 terms for Italian.
+/// 1277 terms for Italian.
 const String seedIt = r'''
 {
   "schema": 1,
@@ -39,6 +39,11 @@ const String seedIt = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "abortista",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "aborto",
@@ -98,6 +103,11 @@ const String seedIt = r'''
     },
     {
       "t": "ambosessuale",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "amicodelcazzo",
       "cat": "profanity",
       "sev": 3
     },
@@ -171,6 +181,46 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "arrapamenti",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "arrapamento",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "arrapando",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "arrapano",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "arrapare",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "arrapate",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "arrapati",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "arrapato",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "arrusa",
       "cat": "profanity",
       "sev": 3,
@@ -214,6 +264,16 @@ const String seedIt = r'''
       "sev": 3
     },
     {
+      "t": "averelafacciacomeilculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "avereunculocosigrande",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "avvitamento",
       "cat": "profanity",
       "sev": 3
@@ -223,6 +283,11 @@ const String seedIt = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "bachamaculo",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "bafanguchooch",
@@ -446,7 +511,29 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "boiadio",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "boiata",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "boiate",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "bonazza",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bonazzo",
       "cat": "profanity",
       "sev": 3
     },
@@ -473,6 +560,21 @@ const String seedIt = r'''
     },
     {
       "t": "bucaiolo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "buciadiculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "buciodiculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bucodiculo",
       "cat": "profanity",
       "sev": 3
     },
@@ -515,6 +617,11 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "bustadipiscio",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "cacando",
       "cat": "profanity",
       "sev": 3
@@ -530,6 +637,16 @@ const String seedIt = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "cacarella",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cacarelle",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "cacarsi",
@@ -560,6 +677,16 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "caccata",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "caccatiinmanoeprenditiaschiaffi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "cacchio",
       "cat": "profanity",
       "sev": 3
@@ -581,7 +708,18 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "cacone",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "cadavere",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cagacazzo",
       "cat": "profanity",
       "sev": 3
     },
@@ -625,6 +763,11 @@ const String seedIt = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "cagnamadonna",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "cagne",
@@ -828,6 +971,77 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "cazziata",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cazziate",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cazziatona",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cazziatone",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cazzimma",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cazzissimo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cazzo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cazzodicane",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cazzoinculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cazzomadredidio",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cazzona",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cazzone",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cazzoni",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cazzosi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "cazzuta",
       "cat": "profanity",
       "sev": 3
@@ -887,6 +1101,16 @@ const String seedIt = r'''
       "sev": 3
     },
     {
+      "t": "checavolo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "checazzo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "checca",
       "cat": "profanity",
       "sev": 3,
@@ -894,6 +1118,31 @@ const String seedIt = r'''
     },
     {
       "t": "checche",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "checulo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cheduepalle",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chepalle",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chetepozzinoammazza",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chetimorisselamadre",
       "cat": "profanity",
       "sev": 3
     },
@@ -973,6 +1222,11 @@ const String seedIt = r'''
       "sev": 3
     },
     {
+      "t": "chicazzoseitu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "chissenefrega",
       "cat": "profanity",
       "sev": 3
@@ -988,6 +1242,21 @@ const String seedIt = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "cicciona",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ciccione",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ciccioni",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "ciolla",
@@ -1013,7 +1282,32 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "ciseicascatocomeunapirla",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ciucciacazzi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ciucciacazzo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ciucciamelo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ciucciamiilcazzo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ciucciapalle",
       "cat": "profanity",
       "sev": 3
     },
@@ -1022,6 +1316,41 @@ const String seedIt = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "ciulando",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ciulano",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ciulare",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ciulata",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ciulate",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ciulati",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ciulato",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "ciuli",
@@ -1080,6 +1409,11 @@ const String seedIt = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "colcavolo",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "coprofago",
@@ -1251,6 +1585,51 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "culatella",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "culatone",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "culatoni",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "culattella",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "culattina",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "culattine",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "culattone",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "culattoni",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "culattun",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "culi",
       "cat": "profanity",
       "sev": 3,
@@ -1258,6 +1637,18 @@ const String seedIt = r'''
     },
     {
       "t": "culo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "culona",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "culone",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -1315,7 +1706,17 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "dimerda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "diobestia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dioboia",
       "cat": "profanity",
       "sev": 3
     },
@@ -1324,6 +1725,21 @@ const String seedIt = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "diocane",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "diocangurello",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "diocannaiolo",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "diocapra",
@@ -1355,6 +1771,16 @@ const String seedIt = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "diofarabutto",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "diofascista",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "dioflagellato",
@@ -1412,6 +1838,11 @@ const String seedIt = r'''
       "sev": 3
     },
     {
+      "t": "diomerda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "diomona",
       "cat": "profanity",
       "sev": 3
@@ -1428,12 +1859,22 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "dioporco",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "diopoveraccio",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "diopovero",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "diopporco",
       "cat": "profanity",
       "sev": 3
     },
@@ -1473,6 +1914,16 @@ const String seedIt = r'''
       "sev": 3
     },
     {
+      "t": "diostramerda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "diosuino",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "diosventrato",
       "cat": "profanity",
       "sev": 3
@@ -1504,6 +1955,11 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "dovecazzovai",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "durelli",
       "cat": "profanity",
       "sev": 3
@@ -1524,6 +1980,21 @@ const String seedIt = r'''
       "sev": 3
     },
     {
+      "t": "eiacula",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "eiaculi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "eiaculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "erezione",
       "cat": "profanity",
       "sev": 3
@@ -1539,7 +2010,37 @@ const String seedIt = r'''
       "sev": 3
     },
     {
+      "t": "essereunculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "extracomunitari",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "facagare",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "faccedaculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "facciaaculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "facciadaculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "facciadiculo",
       "cat": "profanity",
       "sev": 3
     },
@@ -1556,12 +2057,22 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "fanculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "faschifo",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "fascina",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fattiicazzituoi",
       "cat": "profanity",
       "sev": 3
     },
@@ -1639,6 +2150,23 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "ficastretta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ficata",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ficate",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "fichetta",
       "cat": "profanity",
       "sev": 3
@@ -1683,13 +2211,55 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "figata",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "figate",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "fighe",
       "cat": "profanity",
       "sev": 3,
       "w": true
     },
     {
+      "t": "fighetta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fighette",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fighetti",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fighetto",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "figliadicane",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "figliaditroia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "figliaditroie",
       "cat": "profanity",
       "sev": 3
     },
@@ -1699,7 +2269,27 @@ const String seedIt = r'''
       "sev": 3
     },
     {
+      "t": "figliditroia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "figliditroie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "figliedicani",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "figlieditroia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "figlieditroie",
       "cat": "profanity",
       "sev": 3
     },
@@ -1714,12 +2304,40 @@ const String seedIt = r'''
       "sev": 3
     },
     {
+      "t": "figlioditroia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "figlioditroie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "figliouncane",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "figo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "figona",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "figone",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "figoni",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -1749,6 +2367,26 @@ const String seedIt = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "fottendo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fottere",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fottersene",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fottersi",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "fottiti",
@@ -1781,10 +2419,25 @@ const String seedIt = r'''
       "sev": 3
     },
     {
+      "t": "fregauncazzo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "fregna",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "fregnacce",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fregnaccia",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "fregne",
@@ -1809,10 +2462,61 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "frociaggine",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "frociara",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "frociaro",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "frociata",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "frociate",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "frocio",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "frocione",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "frocioni",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "frocissimo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "frosci",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "froscio",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "fucker",
@@ -1831,10 +2535,60 @@ const String seedIt = r'''
       "sev": 3
     },
     {
+      "t": "fuoridallepalle",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "gesu",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "gesucristaccio",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gesuesorcizzato",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gesuhandicappato",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gesuimpasticcato",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gesumalandato",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gesuradioattivo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gesusieropositivo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gesustordito",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gesuzozzo",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "gnocca",
@@ -1945,6 +2699,11 @@ const String seedIt = r'''
       "sev": 3
     },
     {
+      "t": "immerdato",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "impiccati",
       "cat": "profanity",
       "sev": 3
@@ -1980,6 +2739,16 @@ const String seedIt = r'''
       "sev": 3
     },
     {
+      "t": "incazziamo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "incazzo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "incesto",
       "cat": "profanity",
       "sev": 3
@@ -1990,7 +2759,79 @@ const String seedIt = r'''
       "sev": 3
     },
     {
+      "t": "incula",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "inculando",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "inculano",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "inculare",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "inculata",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "inculate",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "inculati",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "inculato",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "inculi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "inculiamo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "inculoallabalena",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "inculone",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "inculoni",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "infamedio",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "infrociato",
       "cat": "profanity",
       "sev": 3
     },
@@ -2001,12 +2842,69 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "ingoia",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ingoiando",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ingoiano",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ingoiare",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ingoiata",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ingoiate",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ingoiati",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ingoiato",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ingoio",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ingroppa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ingroppi",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "ingroppo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "introculodimammata",
       "cat": "profanity",
       "sev": 3
     },
@@ -2033,7 +2931,52 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "leccacazzi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "leccaciuffi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "leccaculi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "leccaculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "leccafica",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "leccafiga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "leccafighe",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "leccamiilculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "leccamilafiga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "leccapalle",
       "cat": "profanity",
       "sev": 3
     },
@@ -2079,10 +3022,21 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "lofare",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "loffa",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "loffare",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "loffe",
@@ -2142,6 +3096,11 @@ const String seedIt = r'''
       "sev": 3
     },
     {
+      "t": "madonnacagna",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "madonnacane",
       "cat": "profanity",
       "sev": 3
@@ -2168,6 +3127,16 @@ const String seedIt = r'''
     },
     {
       "t": "madonnalurida",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "madonnamaiala",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "madonnanegra",
       "cat": "profanity",
       "sev": 3
     },
@@ -2212,6 +3181,16 @@ const String seedIt = r'''
       "sev": 3
     },
     {
+      "t": "madonnatroia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "madonnavacca",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "madonnaviolentata",
       "cat": "profanity",
       "sev": 3
@@ -2226,6 +3205,16 @@ const String seedIt = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "maialata",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "maialate",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "maialedio",
@@ -2255,6 +3244,16 @@ const String seedIt = r'''
     },
     {
       "t": "managalafestadimamtiasiete",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mangiamerda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mangiamerdeemorte",
       "cat": "profanity",
       "sev": 3
     },
@@ -2360,6 +3359,12 @@ const String seedIt = r'''
       "sev": 3
     },
     {
+      "t": "menano",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "menare",
       "cat": "profanity",
       "sev": 3,
@@ -2394,6 +3399,52 @@ const String seedIt = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "merdacce",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "merdaccia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "merdadio",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "merdai",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "merdaia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "merdaio",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "merdamalcagata",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "merdata",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "merdate",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "merde",
@@ -2458,6 +3509,16 @@ const String seedIt = r'''
     },
     {
       "t": "meretrice",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mezzasega",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mezzeseghe",
       "cat": "profanity",
       "sev": 3
     },
@@ -2529,6 +3590,11 @@ const String seedIt = r'''
       "sev": 3
     },
     {
+      "t": "mipiaceciucciartilafiga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "mocciosa",
       "cat": "profanity",
       "sev": 3
@@ -2570,6 +3636,36 @@ const String seedIt = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "montano",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "montare",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "montata",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "montate",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "montati",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "montato",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "mori",
@@ -2640,10 +3736,40 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "negraccia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "negraccio",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "negre",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "negretta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "negrette",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "negretti",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "negretto",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "negri",
@@ -2658,6 +3784,11 @@ const String seedIt = r'''
     },
     {
       "t": "negrone",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nelculo",
       "cat": "profanity",
       "sev": 3
     },
@@ -2684,6 +3815,11 @@ const String seedIt = r'''
     },
     {
       "t": "ninfomania",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nonhaicapitounasega",
       "cat": "profanity",
       "sev": 3
     },
@@ -2789,6 +3925,16 @@ const String seedIt = r'''
       "sev": 3
     },
     {
+      "t": "paraculi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "paraculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "passera",
       "cat": "profanity",
       "sev": 3
@@ -2855,6 +4001,16 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "penetrare",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "penetrazione",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "peni",
       "cat": "profanity",
       "sev": 3,
@@ -2897,6 +4053,16 @@ const String seedIt = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "pigliacazzi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pigliainculo",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "pincare",
@@ -2945,10 +4111,60 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "pippaiola",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pippaiole",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pippaioli",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pippaiolo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pipparola",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pipparole",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pipparoli",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pipparolo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "pippe",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "pippetta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pippette",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "pippona",
@@ -2972,6 +4188,16 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "pirlata",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pirlate",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "pirlona",
       "cat": "profanity",
       "sev": 3
@@ -2993,10 +4219,80 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "pisciando",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pisciare",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pisciasotto",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pisciata",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pisciate",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pisciati",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pisciato",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "piscio",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "pisciona",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "piscione",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "piscioni",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pisciosa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pisciose",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pisciosi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "piscioso",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "pisella",
@@ -3025,6 +4321,16 @@ const String seedIt = r'''
     },
     {
       "t": "pistolotto",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pomiciare",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pomiciata",
       "cat": "profanity",
       "sev": 3
     },
@@ -3071,6 +4377,36 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "porcaeva",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "porcamadonna",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "porcamiseria",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "porcapaletta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "porcatroia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "porcavacca",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "porche",
       "cat": "profanity",
       "sev": 3,
@@ -3089,7 +4425,97 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "porcocane",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "porcocazzo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "porcocristo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "porcoddio",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "porcodidio",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "porcodio",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "porcodue",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "porcogesu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "porcogiuda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "porcoiddio",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "porcoilclero",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "porcoilsignore",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "porcola",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "porconedio",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "porcoqua",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "porcozio",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "porcozzio",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "pornografia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "possoleccareiltuafiga",
       "cat": "profanity",
       "sev": 3
     },
@@ -3098,6 +4524,11 @@ const String seedIt = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "prendereperilculo",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "prete",
@@ -3131,6 +4562,11 @@ const String seedIt = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "proednos",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "promia",
@@ -3200,6 +4636,31 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "puppalo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "puppamela",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "puppamelo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "puppami",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "puppare",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "puppe",
       "cat": "profanity",
       "sev": 3,
@@ -3237,6 +4698,11 @@ const String seedIt = r'''
     },
     {
       "t": "quaglie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "quandocazzotorni",
       "cat": "profanity",
       "sev": 3
     },
@@ -3323,7 +4789,42 @@ const String seedIt = r'''
       "sev": 3
     },
     {
+      "t": "rizzacazzi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "rizzarsi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rompereilculoaqualcuno",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rompiballe",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rompicazzi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rompicazzo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rompimaroni",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rompipalle",
       "cat": "profanity",
       "sev": 3
     },
@@ -3332,6 +4833,16 @@ const String seedIt = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "rottainculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rottinculo",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "sadico",
@@ -3350,12 +4861,27 @@ const String seedIt = r'''
       "sev": 3
     },
     {
+      "t": "santocazzomadredicristo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "sardegnola",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "sardegnolo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sballare",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sballato",
       "cat": "profanity",
       "sev": 3
     },
@@ -3372,10 +4898,30 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "sbattendo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sbattersi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sbattete",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "sbatti",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "sbattiamo",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "sbatto",
@@ -3428,16 +4974,56 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "sborona",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sborone",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "sborra",
       "cat": "profanity",
       "sev": 3,
       "w": true
     },
     {
+      "t": "sborrare",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sborrasburro",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sborrata",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sborrate",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sborrato",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "sborro",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "sborrone",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "sbrodolata",
@@ -3456,6 +5042,31 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "sburrare",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sburrata",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sburrate",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sburrati",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sburrato",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "sburro",
       "cat": "profanity",
       "sev": 3,
@@ -3463,6 +5074,16 @@ const String seedIt = r'''
     },
     {
       "t": "scacazza",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "scacazzi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "scacazzo",
       "cat": "profanity",
       "sev": 3
     },
@@ -3477,7 +5098,69 @@ const String seedIt = r'''
       "sev": 3
     },
     {
+      "t": "scagazzo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "scassacazzi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "scassacazzo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "scassapalle",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "scazza",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "scazzando",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "scazzano",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "scazzare",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "scazzati",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "scazzato",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "scazzi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "scazziamo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "scazzo",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -3487,6 +5170,16 @@ const String seedIt = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "scemata",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "scemate",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "sceme",
@@ -3591,6 +5284,26 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "sculata",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sculate",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sculati",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sculato",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "scungio",
       "cat": "profanity",
       "sev": 3
@@ -3623,10 +5336,52 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "sederini",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sederino",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "sega",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "segaiole",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "segaioli",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "segaiolo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "segare",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "segars",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "segarsi",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "seghe",
@@ -3645,6 +5400,16 @@ const String seedIt = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "seidiventatopazza",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "seidiventatopazzo",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "seidurocomeilmuro",
@@ -3672,6 +5437,26 @@ const String seedIt = r'''
       "sev": 3
     },
     {
+      "t": "seipazzo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "seiscemo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "seiunidiota",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sembriunpeni",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "seni",
       "cat": "profanity",
       "sev": 3,
@@ -3679,6 +5464,48 @@ const String seedIt = r'''
     },
     {
       "t": "sesso",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sfacimemerde",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sfiga",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sfigare",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sfigata",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sfigate",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sfigati",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sfigato",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sfighe",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -3764,6 +5591,16 @@ const String seedIt = r'''
       "sev": 3
     },
     {
+      "t": "slabbrata",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "slabbrato",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "slinguano",
       "cat": "profanity",
       "sev": 3
@@ -3815,6 +5652,27 @@ const String seedIt = r'''
     },
     {
       "t": "smandrappato",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "smerda",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "smerdando",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "smerdare",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "smerdato",
       "cat": "profanity",
       "sev": 3
     },
@@ -3901,6 +5759,11 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "spaccamaroni",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "spagnola",
       "cat": "profanity",
       "sev": 3
@@ -3971,7 +5834,17 @@ const String seedIt = r'''
       "sev": 3
     },
     {
+      "t": "sticazzi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "sticchio",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "stocazzo",
       "cat": "profanity",
       "sev": 3
     },
@@ -4058,10 +5931,60 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "sucando",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sucano",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sucanti",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sucare",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sucata",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sucate",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sucato",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "succhi",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "succhia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "succhio",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "suini",
@@ -4074,6 +5997,11 @@ const String seedIt = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "suinodio",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "superdotata",
@@ -4145,6 +6073,11 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "tenerequalcunoperlepalle",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "terga",
       "cat": "profanity",
       "sev": 3,
@@ -4173,6 +6106,16 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "testadicazzo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "testedicazzo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "testicolare",
       "cat": "profanity",
       "sev": 3
@@ -4192,6 +6135,16 @@ const String seedIt = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "tettata",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tettate",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "tette",
@@ -4230,6 +6183,16 @@ const String seedIt = r'''
       "sev": 3
     },
     {
+      "t": "tiammazzo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ticorroinculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "tirare",
       "cat": "profanity",
       "sev": 3,
@@ -4264,6 +6227,11 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "tottiifrocio",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "transessuali",
       "cat": "profanity",
       "sev": 3
@@ -4275,16 +6243,81 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "troiacce",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "troiaccia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "troiaio",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "troiamadonna",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "troiata",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "troiate",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "troie",
       "cat": "profanity",
       "sev": 3,
       "w": true
     },
     {
+      "t": "troietta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "troiette",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "troio",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "troiona",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "troioncella",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "troioncelle",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "troione",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "troioni",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "trombamica",
@@ -4343,6 +6376,11 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "tumapisciainpiedi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "uccella",
       "cat": "profanity",
       "sev": 3
@@ -4380,10 +6418,20 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "vaacacare",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "vacca",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "vaccamadonna",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "vacche",
@@ -4403,6 +6451,11 @@ const String seedIt = r'''
       "w": true
     },
     {
+      "t": "vaffonculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "vaginale",
       "cat": "profanity",
       "sev": 3
@@ -4412,6 +6465,21 @@ const String seedIt = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "vaiacacare",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vaiacagare",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vaiafareinculo",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "vaialinferno",
@@ -4425,6 +6493,11 @@ const String seedIt = r'''
     },
     {
       "t": "vaiaquelpaese",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vaiavendereilculo",
       "cat": "profanity",
       "sev": 3
     },
@@ -4450,6 +6523,11 @@ const String seedIt = r'''
     },
     {
       "t": "vangato",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vattelaapigliareinculo",
       "cat": "profanity",
       "sev": 3
     },
@@ -4514,6 +6592,16 @@ const String seedIt = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "vulvetta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vulvette",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "zebedei",

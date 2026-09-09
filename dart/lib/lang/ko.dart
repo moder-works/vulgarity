@@ -17,7 +17,7 @@
 /// ```
 library;
 
-/// 719 terms for Korean.
+/// 748 terms for Korean.
 const String seedKo = r'''
 {
   "schema": 1,
@@ -351,6 +351,16 @@ const String seedKo = r'''
       "w": true
     },
     {
+      "t": "jhutkkokji",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jhutpparuh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "jiralhanae",
       "cat": "profanity",
       "sev": 3
@@ -420,6 +430,11 @@ const String seedKo = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "michinnyun",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "namchang",
@@ -515,6 +530,22 @@ const String seedKo = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "shibaikepuseckyi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "shibal",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "shibalnyun",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "shipi",
@@ -790,6 +821,12 @@ const String seedKo = r'''
       "w": true
     },
     {
+      "t": "개쓰레기잡놈",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "개씁자지",
       "cat": "profanity",
       "sev": 3,
@@ -868,6 +905,12 @@ const String seedKo = r'''
       "w": true
     },
     {
+      "t": "개좆같은넘",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "개지랄넘",
       "cat": "profanity",
       "sev": 3,
@@ -881,6 +924,12 @@ const String seedKo = r'''
     },
     {
       "t": "개호로년",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "개호로새끼",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -1024,6 +1073,12 @@ const String seedKo = r'''
       "w": true
     },
     {
+      "t": "게호로새끼",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "고공섹스",
       "cat": "profanity",
       "sev": 3,
@@ -1091,6 +1146,12 @@ const String seedKo = r'''
     },
     {
       "t": "근친상간",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "근친상간의",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -1359,6 +1420,12 @@ const String seedKo = r'''
       "w": true
     },
     {
+      "t": "니보지구멍",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "니뽕좃이다",
       "cat": "profanity",
       "sev": 3,
@@ -1505,6 +1572,11 @@ const String seedKo = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "도쿄섹스nipon",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "돌은새끼",
@@ -1844,6 +1916,12 @@ const String seedKo = r'''
       "w": true
     },
     {
+      "t": "몸안에사정",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "못쓰게만들다",
       "cat": "profanity",
       "sev": 3,
@@ -1868,10 +1946,60 @@ const String seedKo = r'''
       "w": true
     },
     {
+      "t": "무료성인동영상",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "무료성인만화",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "무료성인방송",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "무료성인싸이트",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "무료성인엽기",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "무료성인영화",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "무료성인정보",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "무료섹스",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "무료섹스동영상",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "무료섹스사이트",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "무료야설",
@@ -1884,6 +2012,11 @@ const String seedKo = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "무료포르노동영상",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "무삭제원판",
@@ -2089,7 +2222,19 @@ const String seedKo = r'''
       "w": true
     },
     {
+      "t": "미친씹쌔끼",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "미친씹쎄끼",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "미친좃대가리",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -2149,6 +2294,12 @@ const String seedKo = r'''
       "w": true
     },
     {
+      "t": "배위에싸죠",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "뱅신시키",
       "cat": "profanity",
       "sev": 3,
@@ -2162,6 +2313,12 @@ const String seedKo = r'''
     },
     {
       "t": "버어어지",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "버어어지이",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -3228,6 +3385,12 @@ const String seedKo = r'''
     },
     {
       "t": "앵신새끼",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "야기분좋다",
       "cat": "profanity",
       "sev": 3,
       "w": true

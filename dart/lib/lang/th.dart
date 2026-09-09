@@ -17,7 +17,7 @@
 /// ```
 library;
 
-/// 837 terms for Thai.
+/// 1440 terms for Thai.
 const String seedTh = r'''
 {
   "schema": 1,
@@ -40,12 +40,23 @@ const String seedTh = r'''
       "sev": 3
     },
     {
+      "t": "aishia",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "aisonteen",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "ayeheeah",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ayykwai",
       "cat": "profanity",
       "sev": 3
     },
@@ -115,6 +126,11 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "eroikuay",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "esaht",
       "cat": "profanity",
       "sev": 3,
@@ -142,6 +158,11 @@ const String seedTh = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "heeroykuay",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "heia",
@@ -374,6 +395,12 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "กระจู๋",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "กระดอ",
       "cat": "profanity",
       "sev": 3,
@@ -419,7 +446,17 @@ const String seedTh = r'''
       "sev": 3
     },
     {
+      "t": "กระเจี๊ยว",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "กระเจี๋ยว",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "กระเด้า",
       "cat": "profanity",
       "sev": 3
     },
@@ -460,10 +497,25 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "กะเจี๊ยว",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "กะโปก",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "กัดครวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "กัดจิ๋ม",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "กัดจู๋",
@@ -482,6 +534,11 @@ const String seedTh = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "กัดหมอย",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "กัดหี",
@@ -507,12 +564,27 @@ const String seedTh = r'''
       "sev": 3
     },
     {
+      "t": "การทําแท้ง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "การพุ่งออกมา",
       "cat": "profanity",
       "sev": 3
     },
     {
+      "t": "การหลั่งน้ำกาม",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "การแข็งตัวของอวัยวะเพศ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "การแท้ง",
       "cat": "profanity",
       "sev": 3
     },
@@ -526,6 +598,18 @@ const String seedTh = r'''
       "t": "กาเจี้ยว",
       "cat": "profanity",
       "sev": 3
+    },
+    {
+      "t": "ขนครวย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ขนจิ๋ม",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
     },
     {
       "t": "ขนจู๋",
@@ -546,10 +630,26 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "ขนหมอย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "ขนแตด",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "ขย่มครวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ขย่มจิ๋ม",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "ขย่มจู๋",
@@ -640,6 +740,290 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "ครวยกรุ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยกรู",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยกะเทย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยกุ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ครวยกู",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ครวยควาย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยจังไร",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยจัญไร",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยจันไร",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยจิ๋ว",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยตั้ง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยตุ๊ด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยน้ำแตก",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยบวม",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยบ้าน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยป้อมึง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยป้อเมิง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยป๊ะ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยพอง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยพัง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยพ่อ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยฟราย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยฟาย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยยั่ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยยืด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยระยำ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยล่ำ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยสรัด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยสัด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยสัต",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยสัส",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยสาด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยหด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ครวยหนัก",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยหย่าย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยหี",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ครวยห่า",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยเกย์",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยเกรียน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยเงี่ยน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยเชรี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยเชี่ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยเชี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยเท่า",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยเปรด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยเปรต",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยเยก",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยเล็ก",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยเล้ก",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยเหี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยเอี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยแมร่ง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยแม่",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยแสรด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยแหก",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ครวยใหญ่",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "คววย",
       "cat": "profanity",
       "sev": 3,
@@ -714,6 +1098,37 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "ควายจริงๆ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ควายจิงๆ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ควายย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ควายเหลือง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ควายเอ้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ควายแดง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "คอมมิวนิสต์",
       "cat": "profanity",
       "sev": 3
@@ -725,7 +1140,25 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "คาครวย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "คาจิ๋ม",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "คาจู๋",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "คาหมอย",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -754,10 +1187,25 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "ฆ่าพ่อง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ฆ่าแม่",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "ฆ่าแม่ง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ฆ่าแม่ม",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "จรรไร",
@@ -796,6 +1244,379 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "จิ๋มกรุ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มกรู",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มกะหรี่",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มกะเทย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มกุ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จิ๋มกู",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จิ๋มขึ้นรา",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มครวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มควาย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มคุวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มจังไร",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มจัญไร",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มจันไร",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มชะนี",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มช้าง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มตุ๊ด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มบวม",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มบาง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มบาน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มบ้าน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มประถม",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มปลวก",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มป้อมึง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มป้อเมิง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มป๊ะ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มพอง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มพัง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มพ่อ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มมด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จิ๋มมหาลัย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มมึง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มระยำ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มร่าน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มร้าง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มลอก",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มสถุน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มสถุล",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มสรัด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มสัด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มสัต",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มสาด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มสุก",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มส้นตีน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มหนา",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มหยั่ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มหย่าย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มห่า",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มอนุบาล",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มเชรี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มเชร้ด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มเชี่ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มเชี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มเช้ด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มเน่า",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มเปรด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มเปรต",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มเมิง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มเยก",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มเย็ด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มเย้ด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มเล็ก",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มเล้ก",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มเหม็น",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มเหี่ยว",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มเหี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มเห็ดสด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มเอี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มแดก",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มแม่",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มแรด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มแสรด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มแหก",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มแห้ง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จิ๋มใหญ่",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "จีเอ็ม",
       "cat": "profanity",
       "sev": 3,
@@ -817,6 +1638,16 @@ const String seedTh = r'''
       "sev": 3
     },
     {
+      "t": "จูบครวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จูบจิ๋ม",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "จูบจู๋",
       "cat": "profanity",
       "sev": 3,
@@ -833,6 +1664,21 @@ const String seedTh = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "จูบฝ่าตีน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จูบหมอย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จูบหัวตีน",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "จูบหี",
@@ -888,6 +1734,36 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "จู๋ครวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จู๋ควาย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จู๋คุวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จู๋จังไร",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จู๋จัญไร",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จู๋จันไร",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "จู๋จิ๋ว",
       "cat": "profanity",
       "sev": 3
@@ -909,6 +1785,11 @@ const String seedTh = r'''
     },
     {
       "t": "จู๋ตุ๊ด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จู๋น้ำแตก",
       "cat": "profanity",
       "sev": 3
     },
@@ -953,6 +1834,11 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "จู๋พ่อง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "จู๋ฟราย",
       "cat": "profanity",
       "sev": 3
@@ -975,10 +1861,20 @@ const String seedTh = r'''
       "sev": 3
     },
     {
+      "t": "จู๋ระยำ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "จู๋ล่อ",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "จู๋สรัด",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "จู๋สัด",
@@ -1049,6 +1945,26 @@ const String seedTh = r'''
       "sev": 3
     },
     {
+      "t": "จู๋เงี่ยน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จู๋เชรี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จู๋เชี่ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จู๋เชี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "จู๋เท่า",
       "cat": "profanity",
       "sev": 3
@@ -1081,6 +1997,11 @@ const String seedTh = r'''
       "sev": 3
     },
     {
+      "t": "จู๋เหี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "จู๋เอี้ย",
       "cat": "profanity",
       "sev": 3
@@ -1092,10 +2013,30 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "จู๋แมร่ง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "จู๋แม่",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "จู๋แม่ง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จู๋แม่ม",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จู๋แสรด",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "จู๋แหก",
@@ -1113,6 +2054,11 @@ const String seedTh = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "ชักว่าว",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "ชั่วช้า",
@@ -1167,6 +2113,26 @@ const String seedTh = r'''
       "sev": 3
     },
     {
+      "t": "ดอกครวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ดอกคุวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ดอกชิบหาย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ดอกชิหาย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ดอกทอง",
       "cat": "profanity",
       "sev": 3,
@@ -1195,6 +2161,21 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "ดอกพ่อง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ดอกร่าน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ดอกสรัด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ดอกสัด",
       "cat": "profanity",
       "sev": 3,
@@ -1219,7 +2200,32 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "ดอกเชรี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ดอกเชี่ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ดอกเชี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ดอกเหี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ดอกเอี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ดอกแม่ง",
       "cat": "profanity",
       "sev": 3
     },
@@ -1233,6 +2239,16 @@ const String seedTh = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "ดูดครวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ดูดจิ๋ม",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "ดูดจู๋",
@@ -1259,7 +2275,27 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "ดูดฝ่าตีน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ดูดลิ้น",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ดูดหมอย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ดูดหัวตีน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ดูดหัวนม",
       "cat": "profanity",
       "sev": 3
     },
@@ -1288,6 +2324,11 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "ดูหัวนม",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ตอแหล",
       "cat": "profanity",
       "sev": 3,
@@ -1312,6 +2353,124 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "ตุ๋ยครวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ตุ๋ยจิ๋ม",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ตุ๋ยจู๋",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ตุ๋ยชะนี",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ตุ๋ยดอ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ตุ๋ยตีน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ตุ๋ยตุ๊ด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ตุ๋ยตูด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ตุ๋ยนม",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ตุ๋ยพ่อ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ตุ๋ยสัด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ตุ๋ยสัต",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ตุ๋ยสาด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ตุ๋ยส้นตีน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ตุ๋ยหน้า",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ตุ๋ยหมอย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ตุ๋ยหี",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ตุ๋ยเกย์",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ตุ๋ยเคย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ตุ๋ยเชี่ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ตุ๋ยเมิง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ตุ๋ยแตด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ตุ๋ยแม่",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ตูดกรุ",
       "cat": "profanity",
       "sev": 3,
@@ -1322,6 +2481,11 @@ const String seedTh = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "ตูดกะหรี่",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "ตูดกะเทย",
@@ -1339,6 +2503,16 @@ const String seedTh = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "ตูดครวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ตูดจิ๋ม",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "ตูดชะนี",
@@ -1393,6 +2567,11 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "ตูดพ่อง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ตูดล่อ",
       "cat": "profanity",
       "sev": 3,
@@ -1428,6 +2607,11 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "ตูดหมอย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ตูดหี",
       "cat": "profanity",
       "sev": 3,
@@ -1445,7 +2629,27 @@ const String seedTh = r'''
       "sev": 3
     },
     {
+      "t": "ตูดเชี่ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ตูดเปรด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ตูดเปรต",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ตูดเมิง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ตูดเย็ด",
       "cat": "profanity",
       "sev": 3
     },
@@ -1460,6 +2664,16 @@ const String seedTh = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "ตูดแม่ง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ตูดแม่ม",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "ตูดแหก",
@@ -1548,6 +2762,11 @@ const String seedTh = r'''
       "sev": 3
     },
     {
+      "t": "นักทําแท้ง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "นางไม้",
       "cat": "profanity",
       "sev": 3,
@@ -1558,6 +2777,11 @@ const String seedTh = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "นายชิบหาย",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "นายดอก",
@@ -1571,10 +2795,20 @@ const String seedTh = r'''
       "sev": 3
     },
     {
+      "t": "นายทุเรศ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "นายนรก",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "นายบัดซบ",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "นายปากหมา",
@@ -1583,6 +2817,11 @@ const String seedTh = r'''
     },
     {
       "t": "นายลูกหมา",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "นายสราด",
       "cat": "profanity",
       "sev": 3
     },
@@ -1598,10 +2837,35 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "นายสัดกะหมา",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "นายสัดหมา",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "นายสัต",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "นายสัตย์",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "นายสัตร์",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "นายสัตว",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "นายสันดาน",
@@ -1615,12 +2879,22 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "นายสารเลว",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "นายหน้าดอ",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "นายหน้าด้าน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "นายหน้าปิ๊",
       "cat": "profanity",
       "sev": 3
     },
@@ -1667,6 +2941,11 @@ const String seedTh = r'''
       "sev": 3
     },
     {
+      "t": "นายเปรต",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "นายเลว",
       "cat": "profanity",
       "sev": 3,
@@ -1701,6 +2980,11 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "นีโอนาซี",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "นเรศวร",
       "cat": "profanity",
       "sev": 3,
@@ -1722,6 +3006,11 @@ const String seedTh = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "น้ำว่าว",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "น้ำอสุจิ",
@@ -1752,6 +3041,11 @@ const String seedTh = r'''
     },
     {
       "t": "บิดเบือน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "บีบหัวนม",
       "cat": "profanity",
       "sev": 3
     },
@@ -1835,6 +3129,76 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "ฝ่าตีนกรุ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ฝ่าตีนกรู",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ฝ่าตีนกุ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ฝ่าตีนครวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ฝ่าตีนชิบ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ฝ่าตีนป้อ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ฝ่าตีนพ่อ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ฝ่าตีนสัด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ฝ่าตีนสัต",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ฝ่าตีนสาด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ฝ่าตีนห่า",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ฝ่าตีนเชี่ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ฝ่าตีนเมิง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ฝ่าตีนแม่",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "พระจอมเกล้า",
       "cat": "profanity",
       "sev": 3
@@ -1850,10 +3214,20 @@ const String seedTh = r'''
       "sev": 3
     },
     {
+      "t": "พระนเรศวร",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "พระบรม",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "พระบรมโกศ",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "พระพุทธเจ้า",
@@ -1890,6 +3264,11 @@ const String seedTh = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "พระเยซู",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "พุทธยอดฟ้า",
@@ -1937,6 +3316,16 @@ const String seedTh = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "พ่อมรึงตาย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "พ่อมรึงสิ",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "พ่อมึงตาย",
@@ -2025,6 +3414,16 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "ยอดครวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ยอดจิ๋ม",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ยอดจู๋",
       "cat": "profanity",
       "sev": 3,
@@ -2046,6 +3445,16 @@ const String seedTh = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "ยอดฝ่าตีน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ยอดหมอย",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "ยอดหี",
@@ -2114,6 +3523,18 @@ const String seedTh = r'''
       "sev": 3
     },
     {
+      "t": "รูครวย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "รูจิ๋ม",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "รูจู๋",
       "cat": "profanity",
       "sev": 3,
@@ -2126,13 +3547,30 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "รูตุ๋ย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "รูตูด",
       "cat": "profanity",
       "sev": 3,
       "w": true
     },
     {
+      "t": "รูฝ่าตีน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "รูพ่อ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "รูพ่อง",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -2150,10 +3588,26 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "รูส้นตีน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "รูหมอย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "รูหี",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "รูเชี่ย",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "รูแตด",
@@ -2163,6 +3617,18 @@ const String seedTh = r'''
     },
     {
       "t": "รูแม่",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "รูแม่ง",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "รูแม่ม",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -2256,6 +3722,26 @@ const String seedTh = r'''
       "sev": 3
     },
     {
+      "t": "ลูกอีดอกทอง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ลูกอีสาด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ล่อครวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ล่อจิ๋ม",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ล่อจู๋",
       "cat": "profanity",
       "sev": 3,
@@ -2284,6 +3770,16 @@ const String seedTh = r'''
       "sev": 3
     },
     {
+      "t": "ล่อส้นตีน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ล่อหมอย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ล่อหี",
       "cat": "profanity",
       "sev": 3,
@@ -2294,6 +3790,11 @@ const String seedTh = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "ล่อเชี่ย",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "ล่อแตด",
@@ -2402,6 +3903,11 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "สัดครวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "สัดดอก",
       "cat": "profanity",
       "sev": 3,
@@ -2447,6 +3953,26 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "สัดพ่อง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สัดสถุน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สัดสถุล",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สัดส้นตีน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "สัดหมา",
       "cat": "profanity",
       "sev": 3,
@@ -2465,12 +3991,57 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "สัดเงี่ยน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สัดเชรี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "สัดเชร้ด",
       "cat": "profanity",
       "sev": 3
     },
     {
+      "t": "สัดเชี่ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สัดเชี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "สัดเช้ด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สัดเปรด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สัดเปรต",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สัดเย็ด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สัดเย้ด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สัดเหี้ย",
       "cat": "profanity",
       "sev": 3
     },
@@ -2486,16 +4057,36 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "สัดแมร่ง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "สัดแม่",
       "cat": "profanity",
       "sev": 3,
       "w": true
     },
     {
+      "t": "สัดแม่ง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สัดแม่ม",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "สัตกาก",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "สัตครวย",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "สัตดอก",
@@ -2543,7 +4134,27 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "สัตพ่อง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "สัตว์ชนิดหนึ่ง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สัตสถุน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สัตสถุล",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สัตส้นตีน",
       "cat": "profanity",
       "sev": 3
     },
@@ -2566,12 +4177,52 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "สัตเงี่ยน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สัตเชรี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "สัตเชร้ด",
       "cat": "profanity",
       "sev": 3
     },
     {
+      "t": "สัตเชี่ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "สัตเช้ด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สัตเปรด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สัตเปรต",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สัตเย็ด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สัตเย้ด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สัตเหี้ย",
       "cat": "profanity",
       "sev": 3
     },
@@ -2587,10 +4238,25 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "สัตแมร่ง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "สัตแม่",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "สัตแม่ง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สัตแม่ม",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "สันดานหมา",
@@ -2631,6 +4297,11 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "สำเร็จความใคร่",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "สิทธิทัตถะ",
       "cat": "profanity",
       "sev": 3
@@ -2662,6 +4333,86 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "ส้นตีนกรุ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ส้นตีนกรู",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ส้นตีนกุ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ส้นตีนครวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ส้นตีนชิบ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ส้นตีนป้อ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ส้นตีนพ่อ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ส้นตีนสัด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ส้นตีนสัต",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ส้นตีนสาด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ส้นตีนห่า",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ส้นตีนเชี่ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ส้นตีนเมิง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ส้นตีนแม่",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ส้นตีนโคด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ส้นตีนโคตร",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "หงี่",
       "cat": "profanity",
       "sev": 3,
@@ -2682,6 +4433,16 @@ const String seedTh = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "หน้าครวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หน้าควายตัวเมีย",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "หน้าจู๋",
@@ -2720,7 +4481,17 @@ const String seedTh = r'''
       "sev": 3
     },
     {
+      "t": "หน้าส้นตีน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "หน้าหนัง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หน้าหมอย",
       "cat": "profanity",
       "sev": 3
     },
@@ -2757,12 +4528,27 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "หน้าเชรี่ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หน้าเชี่ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "หน้าเม็ด",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "หน้าเหรี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หน้าเหี้ย",
       "cat": "profanity",
       "sev": 3
     },
@@ -2786,6 +4572,237 @@ const String seedTh = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "หมอยกรุ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอยกรู",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอยกะหรี่",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอยกะเทย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอยกุ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หมอยกู",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หมอยครวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอยคุวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอยจิ๋ม",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอยจู๋",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอยชะนี",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอยดก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หมอยดำ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หมอยตุ๊ด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอยบาง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอยบ้าน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอยป้อ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอยพ่อ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอยมรึง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอยมึง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอยรก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หมอยล่อ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอยสรัด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอยสัด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอยสัต",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอยสาด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอยหนา",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอยหี",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หมอยห่า",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอยเกย์",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอยเชรี่ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอยเชร้ด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอยเชี่ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอยเชี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอยเช้ด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอยเมิง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอยเย็ด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอยเย้ด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอยเหี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอยเห็ดสด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอยแดก",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอยแตด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอยแมร่ง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอยแม่",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอยแสรด",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "หมาคาบไปแดก",
@@ -2824,6 +4841,21 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "หลั่งนอก",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หลั่งออกมา",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หลั่งใน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "หอกหัก",
       "cat": "profanity",
       "sev": 3,
@@ -2831,6 +4863,16 @@ const String seedTh = r'''
     },
     {
       "t": "หอยหลอด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หัวครวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หัวจิ๋ม",
       "cat": "profanity",
       "sev": 3
     },
@@ -2858,7 +4900,17 @@ const String seedTh = r'''
       "sev": 3
     },
     {
+      "t": "หัวส้นตีน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "หัวหน่าว",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หัวหมอย",
       "cat": "profanity",
       "sev": 3
     },
@@ -2875,10 +4927,35 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "หัวเชรี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หัวเชี่ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หัวเชี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หัวเหี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "หัวแตด",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "หัวแม่ง",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "หัวแม่ม",
@@ -2903,6 +4980,11 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "หีกะหรี่",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "หีกะเทย",
       "cat": "profanity",
       "sev": 3
@@ -2921,6 +5003,39 @@ const String seedTh = r'''
     },
     {
       "t": "หีขึ้นรา",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หีครวย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีควาย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีคุวย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีจังไร",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หีจัญไร",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หีจันไร",
       "cat": "profanity",
       "sev": 3
     },
@@ -3012,6 +5127,12 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "หีพ่อง",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "หีมด",
       "cat": "profanity",
       "sev": 3,
@@ -3024,6 +5145,18 @@ const String seedTh = r'''
     },
     {
       "t": "หีมึง",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีระยำ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีร่าน",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -3048,6 +5181,24 @@ const String seedTh = r'''
     },
     {
       "t": "หีล่อ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีสถุน",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีสถุล",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีสรัด",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -3083,6 +5234,11 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "หีส้นตีน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "หีหนา",
       "cat": "profanity",
       "sev": 3,
@@ -3110,7 +5266,22 @@ const String seedTh = r'''
       "sev": 3
     },
     {
+      "t": "หีเชรี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "หีเชร้ด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หีเชี่ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หีเชี้ย",
       "cat": "profanity",
       "sev": 3
     },
@@ -3127,7 +5298,31 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "หีเปรด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีเปรต",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "หีเยก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีเย็ด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีเย้ด",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -3155,6 +5350,16 @@ const String seedTh = r'''
       "sev": 3
     },
     {
+      "t": "หีเหี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หีเห็ดสด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "หีเอี้ย",
       "cat": "profanity",
       "sev": 3
@@ -3166,13 +5371,36 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "หีแมร่ง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "หีแม่",
       "cat": "profanity",
       "sev": 3,
       "w": true
     },
     {
+      "t": "หีแม่ง",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีแม่ม",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "หีแรด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีแสรด",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -3208,7 +5436,18 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "ห่าครวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ห่าดอ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ห่าดอก",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -3231,16 +5470,31 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "ห่าพ่อง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ห่าราก",
       "cat": "profanity",
       "sev": 3,
       "w": true
     },
     {
+      "t": "ห่าร่าน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ห่าลาก",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "ห่าสรัด",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "ห่าสัด",
@@ -3284,10 +5538,45 @@ const String seedTh = r'''
       "sev": 3
     },
     {
+      "t": "ห่าเงี่ยน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ห่าเชรี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ห่าเชี่ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ห่าเชี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ห่าเปรด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ห่าเปรต",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ห่าเหว",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "ห่าเหี้ย",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "ห่าเอี้ย",
@@ -3300,16 +5589,36 @@ const String seedTh = r'''
       "sev": 3
     },
     {
+      "t": "ห่าแมร่ง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ห่าแม่",
       "cat": "profanity",
       "sev": 3,
       "w": true
     },
     {
+      "t": "ห่าแม่ง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ห่าแม่ม",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ห่าแรด",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "ห่าแสรด",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "ห้วดอ",
@@ -3324,6 +5633,11 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "องคชาติ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "อดุลยเดช",
       "cat": "profanity",
       "sev": 3
@@ -3336,6 +5650,11 @@ const String seedTh = r'''
     },
     {
       "t": "อมนกเขา",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "อมหัวดอ",
       "cat": "profanity",
       "sev": 3
     },
@@ -3365,6 +5684,11 @@ const String seedTh = r'''
       "sev": 3
     },
     {
+      "t": "อะโครโตโมฟีเลีย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "อัดถั่วดำ",
       "cat": "profanity",
       "sev": 3
@@ -3390,6 +5714,11 @@ const String seedTh = r'''
       "sev": 3
     },
     {
+      "t": "อายเชี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "อิดอก",
       "cat": "profanity",
       "sev": 3,
@@ -3411,6 +5740,18 @@ const String seedTh = r'''
       "sev": 3
     },
     {
+      "t": "อีควาย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "อีจิ๋ม",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "อีชั่ว",
       "cat": "profanity",
       "sev": 3,
@@ -3428,6 +5769,11 @@ const String seedTh = r'''
     },
     {
       "t": "อีชาติชั้ว",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "อีช้างเย๊ด",
       "cat": "profanity",
       "sev": 3
     },
@@ -3479,6 +5825,12 @@ const String seedTh = r'''
       "sev": 3
     },
     {
+      "t": "อีร่าน",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "อีวอก",
       "cat": "profanity",
       "sev": 3,
@@ -3497,6 +5849,11 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "อีสัตว์",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "อีสาด",
       "cat": "profanity",
       "sev": 3,
@@ -3506,6 +5863,17 @@ const String seedTh = r'''
       "t": "อีสำส่อน",
       "cat": "profanity",
       "sev": 3
+    },
+    {
+      "t": "อีส้นตีน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "อีหมอย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
     },
     {
       "t": "อีหอก",
@@ -3520,6 +5888,11 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "อีหอยดอง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "อีหัวสำรอก",
       "cat": "profanity",
       "sev": 3
@@ -3531,7 +5904,17 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "อีห่าราก",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "อีอับปรี",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "อีเชี่ย",
       "cat": "profanity",
       "sev": 3
     },
@@ -3544,6 +5927,12 @@ const String seedTh = r'''
       "t": "อีเบี้ยว",
       "cat": "profanity",
       "sev": 3
+    },
+    {
+      "t": "อีเปรต",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
     },
     {
       "t": "อีเป็งสุดา",
@@ -3569,6 +5958,11 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "อีเห็ดสด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "อีแตรด",
       "cat": "profanity",
       "sev": 3,
@@ -3585,6 +5979,11 @@ const String seedTh = r'''
       "sev": 3
     },
     {
+      "t": "อีแมงดา",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "อีแรด",
       "cat": "profanity",
       "sev": 3,
@@ -3595,6 +5994,11 @@ const String seedTh = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "อีโสเภณี",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "อีไพร่",
@@ -3656,6 +6060,11 @@ const String seedTh = r'''
     },
     {
       "t": "ฮิตเลอร์",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ฮีเบฟีเลีย",
       "cat": "profanity",
       "sev": 3
     },
@@ -3768,6 +6177,171 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "เชี่ยกรุ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เชี่ยกรู",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เชี่ยกาก",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เชี่ยกุ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เชี่ยครวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เชี่ยควาย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เชี่ยคุวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เชี่ยชิบ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เชี่ยชิหาย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เชี่ยดอก",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เชี่ยตีน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เชี่ยบ้าน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เชี่ยป้อ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เชี่ยพ่อ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เชี่ยฟราย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เชี่ยฟาย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เชี่ยระยำ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เชี่ยสถุน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เชี่ยสถุล",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เชี่ยสรัด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เชี่ยสัด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เชี่ยสัต",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เชี่ยสัส",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เชี่ยสาด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เชี่ยส้นตีน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เชี่ยเย็ด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เชี่ยเย้ด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เชี่ยแดก",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เชี่ยแมร่ง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เชี่ยแม่",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เชี่ยแสรด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เชี่ยโคด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เชี่ยโคตร",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "เชี้ย",
       "cat": "profanity",
       "sev": 3,
@@ -3780,6 +6354,17 @@ const String seedTh = r'''
     },
     {
       "t": "เซ็ก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "เซ็กจัด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เซ็กซ์",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -3855,6 +6440,17 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "เย็ดสด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "เย็ดแม่",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "เย็ต",
       "cat": "profanity",
       "sev": 3,
@@ -3897,6 +6493,73 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "เลียครวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เลียจิ๋ม",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เลียจู๋",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เลียดอ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "เลียตีน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เลียตูด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เลียฝ่าตีน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เลียหมอย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เลียหัวตีน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เลียหัวนม",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เลียหี",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "เลียแคม",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เลียแตด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "เวรตะไล",
       "cat": "profanity",
       "sev": 3
@@ -3907,7 +6570,22 @@ const String seedTh = r'''
       "sev": 3
     },
     {
+      "t": "เสียบครวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เสียบจิ๋ม",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "เสียบจู๋",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เสียบหมอย",
       "cat": "profanity",
       "sev": 3
     },
@@ -3987,6 +6665,11 @@ const String seedTh = r'''
       "sev": 3
     },
     {
+      "t": "เอาหัวนม",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "เฮี่ย",
       "cat": "profanity",
       "sev": 3,
@@ -4010,6 +6693,11 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "แคมจิ๋ม",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "แคมช่องคลอด",
       "cat": "profanity",
       "sev": 3
@@ -4019,6 +6707,11 @@ const String seedTh = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "แคมหมอย",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "แคมหี",
@@ -4045,10 +6738,25 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "แดกกะหรี่",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "แดกกุ",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "แดกครวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "แดกจิ๋ม",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "แดกจู๋",
@@ -4085,10 +6793,25 @@ const String seedTh = r'''
       "sev": 3
     },
     {
+      "t": "แดกฝ่าตีน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "แดกพ่อ",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "แดกพ่อง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "แดกสรัด",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "แดกสัด",
@@ -4109,7 +6832,27 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "แดกสาดด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "แดกส้นตีน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "แดกหมอย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "แดกหัวตรีน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "แดกหัวตีน",
       "cat": "profanity",
       "sev": 3
     },
@@ -4126,7 +6869,32 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "แดกเชรี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "แดกเชี่ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "แดกเชี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "แดกเมิง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "แดกเหี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "แดกเห็ดสด",
       "cat": "profanity",
       "sev": 3
     },
@@ -4149,10 +6917,30 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "แดกแม่ง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "แดกแม่ม",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "แดกแสรด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "แดกโคด",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "แดกโคตร",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "แตกนอก",
@@ -4167,6 +6955,16 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "แทงครวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "แทงจิ๋ม",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "แทงจู๋",
       "cat": "profanity",
       "sev": 3,
@@ -4177,6 +6975,11 @@ const String seedTh = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "แทงหมอย",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "แทงหี",
@@ -4227,6 +7030,21 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "แม่ตายหรอไงว่ะ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "แม่ตายเหรอ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "แม่มรึงตาย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "แม่มึงตาย",
       "cat": "profanity",
       "sev": 3
@@ -4248,6 +7066,16 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "แหกครวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "แหกจิ๋ม",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "แหกจู๋",
       "cat": "profanity",
       "sev": 3,
@@ -4266,10 +7094,25 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "แหกฝ่าตีน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "แหกรู",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "แหกส้นตีน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "แหกหมอย",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "แหกหี",
@@ -4290,6 +7133,16 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "แหวกครวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "แหวกจิ๋ม",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "แหวกจู๋",
       "cat": "profanity",
       "sev": 3
@@ -4301,6 +7154,21 @@ const String seedTh = r'''
     },
     {
       "t": "แหวกตูด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "แหวกฝ่าตีน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "แหวกส้นตีน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "แหวกหมอย",
       "cat": "profanity",
       "sev": 3
     },
@@ -4327,7 +7195,27 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "โคดครวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "โคดคุรวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "โคดจังไร",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "โคดจัญไร",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "โคดจันไร",
       "cat": "profanity",
       "sev": 3
     },
@@ -4360,6 +7248,11 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "โคดพ่อง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "โคดสัด",
       "cat": "profanity",
       "sev": 3,
@@ -4378,7 +7271,17 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "โคดเชี่ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "โคดเอี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "โคดแมร่ง",
       "cat": "profanity",
       "sev": 3
     },
@@ -4389,10 +7292,105 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "โคดแม่ง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "โคดแม่ม",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "โคตร",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "โคตรครวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "โคตรคุรวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "โคตรจังไร",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "โคตรจัญไร",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "โคตรจันไร",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "โคตรดอก",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "โคตรตีน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "โคตรป้อมึง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "โคตรป้อเมิง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "โคตรพ่อ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "โคตรสัด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "โคตรสัต",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "โคตรสาด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "โคตรเชี่ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "โคตรเหี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "โคตรเอี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "โคตรแม่",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "โครตพ่อ",
@@ -4422,6 +7420,21 @@ const String seedTh = r'''
       "sev": 3
     },
     {
+      "t": "โมกครวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "โมกคุวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "โมกจิ๋ม",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "โมกจู๋",
       "cat": "profanity",
       "sev": 3,
@@ -4438,6 +7451,11 @@ const String seedTh = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "โมกหมอย",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "โมกหี",
@@ -4458,6 +7476,21 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "โมคครวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "โมคคุวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "โมคจิ๋ม",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "โมคจู๋",
       "cat": "profanity",
       "sev": 3,
@@ -4474,6 +7507,11 @@ const String seedTh = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "โมคหมอย",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "โมคหี",
@@ -4516,6 +7554,16 @@ const String seedTh = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "โยกครวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "โยกจิ๋ม",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "โยกจู๋",
@@ -4619,6 +7667,18 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "ไอครวย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ไอควาย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "ไอชาดชั่ว",
       "cat": "profanity",
       "sev": 3
@@ -4677,6 +7737,11 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "ไอเชี่ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ไอเวน",
       "cat": "profanity",
       "sev": 3,
@@ -4689,7 +7754,17 @@ const String seedTh = r'''
       "w": true
     },
     {
+      "t": "ไอ้ควาย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ไอ้หัวถอก",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ไอ้เฮี้ย",
       "cat": "profanity",
       "sev": 3
     }

@@ -66,8 +66,7 @@ VulgarityTerm _readEntry(Object? entry) {
   final int sev = severity is int ? severity : 1;
 
   if (sev < 1 || sev > 5) {
-    throw FormatException(
-        "Severity must be 1 to 5. Term '$term' states $sev.");
+    throw FormatException("Severity must be 1 to 5. Term '$term' states $sev.");
   }
 
   return VulgarityTerm(

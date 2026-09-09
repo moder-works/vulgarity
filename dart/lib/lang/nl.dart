@@ -17,7 +17,7 @@
 /// ```
 library;
 
-/// 910 terms for Dutch.
+/// 1098 terms for Dutch.
 const String seedNl = r'''
 {
   "schema": 1,
@@ -71,6 +71,11 @@ const String seedNl = r'''
     },
     {
       "t": "aarsridder",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "aasgier",
       "cat": "profanity",
       "sev": 3
     },
@@ -150,6 +155,11 @@ const String seedNl = r'''
       "sev": 3
     },
     {
+      "t": "afrukken",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "aftrekken",
       "cat": "profanity",
       "sev": 3
@@ -161,6 +171,21 @@ const String seedNl = r'''
     },
     {
       "t": "afwerkplaats",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "afzeiken",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "afzetter",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "afzuigen",
       "cat": "profanity",
       "sev": 3
     },
@@ -194,6 +219,16 @@ const String seedNl = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "anaalridder",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "anaalvandaal",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "anderhalvemaneneenpaardekop",
@@ -232,7 +267,17 @@ const String seedNl = r'''
       "w": true
     },
     {
+      "t": "assneuker",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "azijnpisser",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "azijnzeiker",
       "cat": "profanity",
       "sev": 3
     },
@@ -284,12 +329,22 @@ const String seedNl = r'''
       "sev": 3
     },
     {
+      "t": "bangerd",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "bangerik",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "barbaar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "barsnol",
       "cat": "profanity",
       "sev": 3
     },
@@ -357,6 +412,11 @@ const String seedNl = r'''
       "sev": 3
     },
     {
+      "t": "bemoeial",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "bengel",
       "cat": "profanity",
       "sev": 3,
@@ -368,7 +428,22 @@ const String seedNl = r'''
       "sev": 3
     },
     {
+      "t": "bermslet",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "beroerling",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "besodemieterdzijn",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "besodemieteren",
       "cat": "profanity",
       "sev": 3
     },
@@ -410,6 +485,11 @@ const String seedNl = r'''
     },
     {
       "t": "bigotterie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bijbelneuker",
       "cat": "profanity",
       "sev": 3
     },
@@ -471,6 +551,11 @@ const String seedNl = r'''
       "sev": 3
     },
     {
+      "t": "bloedhond",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "bloedig",
       "cat": "profanity",
       "sev": 3
@@ -521,12 +606,22 @@ const String seedNl = r'''
       "sev": 3
     },
     {
+      "t": "boerenhufter",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "boerenkaffer",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "boerenkarhengst",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "boerenkinkel",
       "cat": "profanity",
       "sev": 3
     },
@@ -577,12 +672,22 @@ const String seedNl = r'''
       "sev": 3
     },
     {
+      "t": "bospoeper",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "botergeil",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "botterik",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "breezerslet",
       "cat": "profanity",
       "sev": 3
     },
@@ -643,6 +748,16 @@ const String seedNl = r'''
       "w": true
     },
     {
+      "t": "buffelen",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "buitendepotpiesen",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "bultenaar",
       "cat": "profanity",
       "sev": 3
@@ -663,7 +778,22 @@ const String seedNl = r'''
       "sev": 3
     },
     {
+      "t": "burgertrut",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "centenbijter",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "centenneuker",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "champetter",
       "cat": "profanity",
       "sev": 3
     },
@@ -683,12 +813,27 @@ const String seedNl = r'''
       "sev": 3
     },
     {
+      "t": "chocoladesnol",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "choleralijer",
       "cat": "profanity",
       "sev": 3
     },
     {
+      "t": "christenhond",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "cijferkonijn",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cijferneuker",
       "cat": "profanity",
       "sev": 3
     },
@@ -699,6 +844,21 @@ const String seedNl = r'''
     },
     {
       "t": "darmcowboy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "darmkanaaladmiraal",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dasklotenvandebok",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "deballen",
       "cat": "profanity",
       "sev": 3
     },
@@ -720,6 +880,11 @@ const String seedNl = r'''
     },
     {
       "t": "dehoerspelen",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dehonduitlaten",
       "cat": "profanity",
       "sev": 3
     },
@@ -804,6 +969,11 @@ const String seedNl = r'''
       "w": true
     },
     {
+      "t": "discosnol",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "doeniet",
       "cat": "profanity",
       "sev": 3
@@ -819,6 +989,11 @@ const String seedNl = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "dogneuker",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "dombo",
@@ -869,6 +1044,11 @@ const String seedNl = r'''
       "sev": 3
     },
     {
+      "t": "draaikont",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "drankorgel",
       "cat": "profanity",
       "sev": 3
@@ -890,12 +1070,28 @@ const String seedNl = r'''
       "w": true
     },
     {
+      "t": "drolg",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "dronken",
       "cat": "profanity",
       "sev": 3
     },
     {
+      "t": "drooggeiler",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "droogkloot",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "droogneuker",
       "cat": "profanity",
       "sev": 3
     },
@@ -912,6 +1108,11 @@ const String seedNl = r'''
     },
     {
       "t": "druiloor",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "duitendief",
       "cat": "profanity",
       "sev": 3
     },
@@ -940,6 +1141,16 @@ const String seedNl = r'''
     },
     {
       "t": "dwoazen",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "eenbeurtgeven",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "eendenkuiken",
       "cat": "profanity",
       "sev": 3
     },
@@ -1035,6 +1246,12 @@ const String seedNl = r'''
       "sev": 3
     },
     {
+      "t": "engerd",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "erectie",
       "cat": "profanity",
       "sev": 3
@@ -1046,10 +1263,41 @@ const String seedNl = r'''
       "w": true
     },
     {
+      "t": "etterbak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "etterbuil",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "etterpuist",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ezel",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "ezelachtig",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ezels",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ezelsveulen",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "fallus",
@@ -1087,6 +1335,11 @@ const String seedNl = r'''
     },
     {
       "t": "flamoes",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "flapdrol",
       "cat": "profanity",
       "sev": 3
     },
@@ -1144,6 +1397,11 @@ const String seedNl = r'''
       "w": true
     },
     {
+      "t": "frikandel",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "gadverdamme",
       "cat": "profanity",
       "sev": 3
@@ -1183,6 +1441,17 @@ const String seedNl = r'''
       "w": true
     },
     {
+      "t": "gansje",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "gauwdief",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "gedoogzone",
       "cat": "profanity",
       "sev": 3
@@ -1205,6 +1474,11 @@ const String seedNl = r'''
     },
     {
       "t": "geitenbreier",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "geitenneuker",
       "cat": "profanity",
       "sev": 3
     },
@@ -1250,6 +1524,11 @@ const String seedNl = r'''
       "sev": 3
     },
     {
+      "t": "gesodemieter",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "gespuis",
       "cat": "profanity",
       "sev": 3
@@ -1269,6 +1548,17 @@ const String seedNl = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "gierig",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "gierigaard",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "gladakker",
@@ -1436,6 +1726,11 @@ const String seedNl = r'''
       "sev": 3
     },
     {
+      "t": "hasjhond",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "hautain",
       "cat": "profanity",
       "sev": 3
@@ -1492,6 +1787,11 @@ const String seedNl = r'''
     },
     {
       "t": "hockeylul",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hockeytrut",
       "cat": "profanity",
       "sev": 3
     },
@@ -1558,6 +1858,21 @@ const String seedNl = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "hondelul",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hondeneuker",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hondenlul",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "hooghartig",
@@ -1648,7 +1963,22 @@ const String seedNl = r'''
       "w": true
     },
     {
+      "t": "ijdelheid",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ijdeltuit",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ijskoningin",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ikneukuhond",
       "cat": "profanity",
       "sev": 3
     },
@@ -1684,6 +2014,11 @@ const String seedNl = r'''
     },
     {
       "t": "inktjurk",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "inktkoelie",
       "cat": "profanity",
       "sev": 3
     },
@@ -1734,6 +2069,11 @@ const String seedNl = r'''
     },
     {
       "t": "jedikkekankermoeder",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jekankerlelijkhoeremoeder",
       "cat": "profanity",
       "sev": 3
     },
@@ -1822,16 +2162,31 @@ const String seedNl = r'''
       "sev": 3
     },
     {
+      "t": "kakstront",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "kalf",
       "cat": "profanity",
       "sev": 3,
       "w": true
     },
     {
+      "t": "kalfskop",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "kalle",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "kamelenneuker",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "kanen",
@@ -1885,7 +2240,22 @@ const String seedNl = r'''
       "sev": 3
     },
     {
+      "t": "kankernerd",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kankernicht",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "kankerturk",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kankerwijf",
       "cat": "profanity",
       "sev": 3
     },
@@ -1924,6 +2294,12 @@ const String seedNl = r'''
       "t": "kelerelijer",
       "cat": "profanity",
       "sev": 3
+    },
+    {
+      "t": "ketter",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
     },
     {
       "t": "kettingzeug",
@@ -2000,6 +2376,11 @@ const String seedNl = r'''
     },
     {
       "t": "kleihengst",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kleikont",
       "cat": "profanity",
       "sev": 3
     },
@@ -2186,6 +2567,11 @@ const String seedNl = r'''
       "sev": 3
     },
     {
+      "t": "koekwous",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "koelie",
       "cat": "profanity",
       "sev": 3,
@@ -2197,10 +2583,46 @@ const String seedNl = r'''
       "sev": 3
     },
     {
+      "t": "kommaneuker",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "kont",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "kontg",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kontkrijger",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kontneuken",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kontridder",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "krentekakker",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "krentenkakker",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "krentenpikker",
@@ -2269,6 +2691,11 @@ const String seedNl = r'''
       "w": true
     },
     {
+      "t": "kustnamnkloten",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "kutding",
       "cat": "profanity",
       "sev": 3
@@ -2280,6 +2707,12 @@ const String seedNl = r'''
     },
     {
       "t": "kutje",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kutjes",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -2312,6 +2745,11 @@ const String seedNl = r'''
     },
     {
       "t": "kutturk",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kutwijf",
       "cat": "profanity",
       "sev": 3
     },
@@ -2365,6 +2803,12 @@ const String seedNl = r'''
       "t": "kwebbel",
       "cat": "profanity",
       "sev": 3
+    },
+    {
+      "t": "kwezel",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
     },
     {
       "t": "kwibus",
@@ -2498,10 +2942,20 @@ const String seedNl = r'''
       "sev": 3
     },
     {
+      "t": "leipezeverzak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "lelijk",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "lelijkerd",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "lellebel",
@@ -2533,6 +2987,11 @@ const String seedNl = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "lillekenatnek",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "lilliputter",
@@ -2603,6 +3062,11 @@ const String seedNl = r'''
       "sev": 3
     },
     {
+      "t": "lulhannes",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "lulletje",
       "cat": "profanity",
       "sev": 3
@@ -2659,6 +3123,16 @@ const String seedNl = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "mankepoot",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "manwijf",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "mariku",
@@ -2726,6 +3200,12 @@ const String seedNl = r'''
       "w": true
     },
     {
+      "t": "mietje",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "mikpunt",
       "cat": "profanity",
       "sev": 3
@@ -2777,6 +3257,11 @@ const String seedNl = r'''
       "sev": 3
     },
     {
+      "t": "moffenslet",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "moffo",
       "cat": "profanity",
       "sev": 3,
@@ -2810,6 +3295,12 @@ const String seedNl = r'''
     },
     {
       "t": "muts",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "mutsg",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -2852,6 +3343,11 @@ const String seedNl = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "nazivarken",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "negerin",
@@ -2917,6 +3413,11 @@ const String seedNl = r'''
       "w": true
     },
     {
+      "t": "niknokker",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "nimf",
       "cat": "profanity",
       "sev": 3,
@@ -2961,6 +3462,11 @@ const String seedNl = r'''
       "w": true
     },
     {
+      "t": "oerepoeper",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "oetlul",
       "cat": "profanity",
       "sev": 3,
@@ -2973,6 +3479,11 @@ const String seedNl = r'''
     },
     {
       "t": "oligofrenie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "olijfneuker",
       "cat": "profanity",
       "sev": 3
     },
@@ -3023,7 +3534,17 @@ const String seedNl = r'''
       "sev": 3
     },
     {
+      "t": "opgeilen",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "opkankeren",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "opkloten",
       "cat": "profanity",
       "sev": 3
     },
@@ -3039,6 +3560,26 @@ const String seedNl = r'''
     },
     {
       "t": "oprotten",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "opsodemieteren",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "opsodemietertje",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "opznhondjes",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "opznsodemietergeven",
       "cat": "profanity",
       "sev": 3
     },
@@ -3059,7 +3600,17 @@ const String seedNl = r'''
       "w": true
     },
     {
+      "t": "orgieen",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ouwehoer",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ouwerukker",
       "cat": "profanity",
       "sev": 3
     },
@@ -3106,6 +3657,11 @@ const String seedNl = r'''
       "sev": 3
     },
     {
+      "t": "papierneuker",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "paria",
       "cat": "profanity",
       "sev": 3,
@@ -3143,6 +3699,11 @@ const String seedNl = r'''
       "w": true
     },
     {
+      "t": "penozeg",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "perversie",
       "cat": "profanity",
       "sev": 3
@@ -3164,6 +3725,11 @@ const String seedNl = r'''
       "sev": 3
     },
     {
+      "t": "pijpbeurt",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "pijpen",
       "cat": "profanity",
       "sev": 3,
@@ -3179,6 +3745,11 @@ const String seedNl = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "pissend",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "pittig",
@@ -3231,6 +3802,17 @@ const String seedNl = r'''
       "w": true
     },
     {
+      "t": "poepchinees",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "poepen",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "pokkenlijder",
       "cat": "profanity",
       "sev": 3
@@ -3257,6 +3839,16 @@ const String seedNl = r'''
       "sev": 3
     },
     {
+      "t": "portiekslet",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "portieksnol",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "pothoer",
       "cat": "profanity",
       "sev": 3
@@ -3268,6 +3860,11 @@ const String seedNl = r'''
     },
     {
       "t": "potverdorie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "praatgeenpoep",
       "cat": "profanity",
       "sev": 3
     },
@@ -3324,12 +3921,27 @@ const String seedNl = r'''
       "sev": 3
     },
     {
+      "t": "raaskallen",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "raddraaier",
       "cat": "profanity",
       "sev": 3
     },
     {
+      "t": "randdebiel",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "rapalje",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rasploert",
       "cat": "profanity",
       "sev": 3
     },
@@ -3371,6 +3983,11 @@ const String seedNl = r'''
     },
     {
       "t": "regelneef",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "regelneuker",
       "cat": "profanity",
       "sev": 3
     },
@@ -3455,6 +4072,11 @@ const String seedNl = r'''
       "w": true
     },
     {
+      "t": "rukhond",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "rukken",
       "cat": "profanity",
       "sev": 3,
@@ -3499,7 +4121,17 @@ const String seedNl = r'''
       "w": true
     },
     {
+      "t": "schaapskop",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "schamel",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "schapenneuker",
       "cat": "profanity",
       "sev": 3
     },
@@ -3536,6 +4168,41 @@ const String seedNl = r'''
       "w": true
     },
     {
+      "t": "schijtebroek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "schijten",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "schijter",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "schijthuis",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "schijtlaars",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "schijtlijster",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "schijtluis",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "schobbejak",
       "cat": "profanity",
       "sev": 3
@@ -3552,6 +4219,11 @@ const String seedNl = r'''
       "w": true
     },
     {
+      "t": "schoolfrik",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "schorem",
       "cat": "profanity",
       "sev": 3
@@ -3563,6 +4235,11 @@ const String seedNl = r'''
     },
     {
       "t": "schraper",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "schreeuwlelijk",
       "cat": "profanity",
       "sev": 3
     },
@@ -3649,6 +4326,32 @@ const String seedNl = r'''
       "w": true
     },
     {
+      "t": "sletg",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "slettebak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sletten",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sletterig",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "slijtmuts",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "slikken",
       "cat": "profanity",
       "sev": 3
@@ -3673,6 +4376,11 @@ const String seedNl = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "sloerie",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "slons",
@@ -3716,6 +4424,11 @@ const String seedNl = r'''
       "sev": 3
     },
     {
+      "t": "smerigzwijn",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "smiecht",
       "cat": "profanity",
       "sev": 3
@@ -3731,6 +4444,11 @@ const String seedNl = r'''
       "sev": 3
     },
     {
+      "t": "snikker",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "snoever",
       "cat": "profanity",
       "sev": 3
@@ -3740,6 +4458,17 @@ const String seedNl = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "snolg",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "snollekop",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "snoodaard",
@@ -3773,6 +4502,11 @@ const String seedNl = r'''
     },
     {
       "t": "soepjurk",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sonofateef",
       "cat": "profanity",
       "sev": 3
     },
@@ -3823,12 +4557,22 @@ const String seedNl = r'''
       "sev": 3
     },
     {
+      "t": "steenezel",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "steuntrekker",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "stoephoer",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "stoepslet",
       "cat": "profanity",
       "sev": 3
     },
@@ -3842,6 +4586,41 @@ const String seedNl = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "stomkop",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "stommelen",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "stommeling",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "stommerd",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "stommerik",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "stommevloai",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "stompzinnig",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "stootje",
@@ -3873,6 +4652,21 @@ const String seedNl = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "strontg",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "stronthoer",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "stronthommel",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "strooplikker",
@@ -3916,6 +4710,11 @@ const String seedNl = r'''
     },
     {
       "t": "sufferig",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sufkont",
       "cat": "profanity",
       "sev": 3
     },
@@ -3964,6 +4763,11 @@ const String seedNl = r'''
       "sev": 3
     },
     {
+      "t": "takkewijf",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "tapijtmuncher",
       "cat": "profanity",
       "sev": 3
@@ -3979,6 +4783,11 @@ const String seedNl = r'''
       "sev": 3
     },
     {
+      "t": "tapjemoffo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "tata",
       "cat": "profanity",
       "sev": 3,
@@ -3986,6 +4795,12 @@ const String seedNl = r'''
     },
     {
       "t": "teef",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "teefg",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -4003,6 +4818,12 @@ const String seedNl = r'''
     },
     {
       "t": "tepel",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tepels",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -4080,10 +4901,20 @@ const String seedNl = r'''
       "w": true
     },
     {
+      "t": "trottoirteef",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "trut",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "truttemie",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "tuig",
@@ -4107,12 +4938,32 @@ const String seedNl = r'''
       "sev": 3
     },
     {
+      "t": "tyfushond",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "tyfuslijer",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "tyfuslul",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tyfusslet",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tyfuswijf",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "uilskuiken",
       "cat": "profanity",
       "sev": 3
     },
@@ -4152,10 +5003,25 @@ const String seedNl = r'''
       "sev": 3
     },
     {
+      "t": "vakidioot",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "vals",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "valsaard",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "valserik",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "varietehoer",
@@ -4230,6 +5096,11 @@ const String seedNl = r'''
       "sev": 3
     },
     {
+      "t": "verkloten",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "verkracht",
       "cat": "profanity",
       "sev": 3
@@ -4246,6 +5117,11 @@ const String seedNl = r'''
     },
     {
       "t": "vermaledijde",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "verneuken",
       "cat": "profanity",
       "sev": 3
     },
@@ -4322,6 +5198,11 @@ const String seedNl = r'''
       "sev": 3
     },
     {
+      "t": "viezehoereneukerdessebis",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "viezehomo",
       "cat": "profanity",
       "sev": 3
@@ -4333,6 +5214,11 @@ const String seedNl = r'''
     },
     {
       "t": "vingeren",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "viswijf",
       "cat": "profanity",
       "sev": 3
     },
@@ -4415,6 +5301,11 @@ const String seedNl = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "vrekkig",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "vuilak",
@@ -4539,6 +5430,11 @@ const String seedNl = r'''
       "sev": 3
     },
     {
+      "t": "woordenkakker",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "wous",
       "cat": "profanity",
       "sev": 3,
@@ -4613,6 +5509,16 @@ const String seedNl = r'''
       "w": true
     },
     {
+      "t": "zaniker",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zanikpot",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "zatladder",
       "cat": "profanity",
       "sev": 3
@@ -4645,6 +5551,16 @@ const String seedNl = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "zeikerd",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zeiksnol",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "zeiksnor",
@@ -4683,16 +5599,47 @@ const String seedNl = r'''
       "w": true
     },
     {
+      "t": "zemelaar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zemelap",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "zeur",
       "cat": "profanity",
       "sev": 3,
       "w": true
     },
     {
+      "t": "zeuren",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zeurkous",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zeurpiet",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "zever",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "zeveraar",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "zielenknijper",
@@ -4771,6 +5718,11 @@ const String seedNl = r'''
       "sev": 3
     },
     {
+      "t": "zweefteef",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "zwendelaar",
       "cat": "profanity",
       "sev": 3
@@ -4785,6 +5737,11 @@ const String seedNl = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "zwijnjak",
+      "cat": "profanity",
+      "sev": 3
     }
   ],
   "allow": []

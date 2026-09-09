@@ -17,7 +17,7 @@
 /// ```
 library;
 
-/// 1110 terms for Spanish.
+/// 1343 terms for Spanish.
 const String seedEs = r'''
 {
   "schema": 1,
@@ -46,7 +46,18 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "aborto",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "abrazaderasdetrebol",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "abrazafarolas",
       "cat": "profanity",
       "sev": 3
     },
@@ -134,6 +145,11 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "agueonado",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "aguevado",
       "cat": "profanity",
       "sev": 3
@@ -197,12 +213,37 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "andaacagar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "andaahacertecoger",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "andaahacerteverelculo",
       "cat": "profanity",
       "sev": 3
     },
     {
+      "t": "andaalachucha",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "andaquetecojaunburro",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "andatealachucha",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "andatealasrechucha",
       "cat": "profanity",
       "sev": 3
     },
@@ -259,6 +300,11 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "arrastracueros",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "arrebatar",
       "cat": "profanity",
       "sev": 3
@@ -293,6 +339,11 @@ const String seedEs = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "asnoduende",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "aspirar",
@@ -396,6 +447,11 @@ const String seedEs = r'''
     },
     {
       "t": "basurero",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "batidordepollas",
       "cat": "profanity",
       "sev": 3
     },
@@ -514,6 +570,11 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "bocallanta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "bofetada",
       "cat": "profanity",
       "sev": 3
@@ -541,12 +602,27 @@ const String seedEs = r'''
       "w": true
     },
     {
+      "t": "bolsadebasura",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "bolsadeculo",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "bolsadepelota",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bolsadepene",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bolsillodecoaos",
       "cat": "profanity",
       "sev": 3
     },
@@ -726,6 +802,21 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "cabezadegallo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cabezadepija",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cabezadepinga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "cabezadepipe",
       "cat": "profanity",
       "sev": 3
@@ -752,10 +843,25 @@ const String seedEs = r'''
       "w": true
     },
     {
+      "t": "cabracx",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "cabron",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "cabrona",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cabrones",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "cacalan",
@@ -769,12 +875,28 @@ const String seedEs = r'''
       "w": true
     },
     {
+      "t": "cachapera",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cachar",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "cacheteo",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "cachilo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cachimba",
       "cat": "profanity",
       "sev": 3
     },
@@ -847,7 +969,22 @@ const String seedEs = r'''
       "w": true
     },
     {
+      "t": "cagarla",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cagarruta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "cagasteysaltasteenlacaca",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cagoentuleche",
       "cat": "profanity",
       "sev": 3
     },
@@ -915,6 +1052,11 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "canavialderolaemteucu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "cansalmas",
       "cat": "profanity",
       "sev": 3
@@ -965,6 +1107,11 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "caradecona",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "caradecucuy",
       "cat": "profanity",
       "sev": 3
@@ -975,12 +1122,32 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "caradegallo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "carademonda",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "carademuerto",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "caradepene",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "caradeperro",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "caradepija",
       "cat": "profanity",
       "sev": 3
     },
@@ -1021,12 +1188,27 @@ const String seedEs = r'''
       "w": true
     },
     {
+      "t": "carajote",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "caralho",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "carapapa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "carapijo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "carechimba",
       "cat": "profanity",
       "sev": 3
     },
@@ -1077,6 +1259,11 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "cebodepene",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "cebollino",
       "cat": "profanity",
       "sev": 3
@@ -1089,6 +1276,11 @@ const String seedEs = r'''
     },
     {
       "t": "cenutrio",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cepasacecono",
       "cat": "profanity",
       "sev": 3
     },
@@ -1107,6 +1299,11 @@ const String seedEs = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "cerraduradepajaro",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "chacon",
@@ -1198,6 +1395,11 @@ const String seedEs = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "chimbar",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "chingaamadre",
@@ -1320,6 +1522,11 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "chupaelpicomariconculiao",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "chupaguasca",
       "cat": "profanity",
       "sev": 3
@@ -1365,6 +1572,11 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "chupameunhuevo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "chupameupau",
       "cat": "profanity",
       "sev": 3
@@ -1395,6 +1607,11 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "chupandobolas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "chupapau",
       "cat": "profanity",
       "sev": 3
@@ -1405,13 +1622,43 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "chupapija",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chupapinga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "chupar",
       "cat": "profanity",
       "sev": 3,
       "w": true
     },
     {
+      "t": "chuparla",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chuparmisbolas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "chupasangre",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chupasmipeneputa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chupasmishuevos",
       "cat": "profanity",
       "sev": 3
     },
@@ -1432,6 +1679,11 @@ const String seedEs = r'''
     },
     {
       "t": "chupemelaverga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chupeminhasbolas",
       "cat": "profanity",
       "sev": 3
     },
@@ -1476,6 +1728,11 @@ const String seedEs = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "circuloidiota",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "cita",
@@ -1667,6 +1924,16 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "comemeelccabron",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "comemeelcipote",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "comemeelputoculo",
       "cat": "profanity",
       "sev": 3
@@ -1692,6 +1959,11 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "comepinga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "comerbistec",
       "cat": "profanity",
       "sev": 3
@@ -1703,6 +1975,11 @@ const String seedEs = r'''
     },
     {
       "t": "comerunpunta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "comestacas",
       "cat": "profanity",
       "sev": 3
     },
@@ -1754,13 +2031,34 @@ const String seedEs = r'''
       "w": true
     },
     {
+      "t": "conejos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "cono",
       "cat": "profanity",
       "sev": 3,
       "w": true
     },
     {
+      "t": "conos",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "conosumadre",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "consolador",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "conyocarajo",
       "cat": "profanity",
       "sev": 3
     },
@@ -1827,6 +2125,11 @@ const String seedEs = r'''
       "w": true
     },
     {
+      "t": "corotas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "correrse",
       "cat": "profanity",
       "sev": 3
@@ -1886,6 +2189,16 @@ const String seedEs = r'''
       "w": true
     },
     {
+      "t": "cuafeaballaalmeardabitchgotoshit",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cuantoporlasnalgas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "cuaresmeno",
       "cat": "profanity",
       "sev": 3
@@ -1919,6 +2232,12 @@ const String seedEs = r'''
       "w": true
     },
     {
+      "t": "cucona",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "cueco",
       "cat": "profanity",
       "sev": 3,
@@ -1929,6 +2248,11 @@ const String seedEs = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "cueromalo",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "cuerpoescombro",
@@ -1971,6 +2295,18 @@ const String seedEs = r'''
     },
     {
       "t": "culia",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "culiao",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "culiar",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -2027,6 +2363,11 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "cupamibicho",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "curtir",
       "cat": "profanity",
       "sev": 3,
@@ -2059,12 +2400,22 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "dametetas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "deculocontraelviento",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "dedodecamello",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dedofollado",
       "cat": "profanity",
       "sev": 3
     },
@@ -2105,6 +2456,11 @@ const String seedEs = r'''
     },
     {
       "t": "devoradordesemen",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dickleche",
       "cat": "profanity",
       "sev": 3
     },
@@ -2168,6 +2524,11 @@ const String seedEs = r'''
       "w": true
     },
     {
+      "t": "duchasmarrones",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "echacantos",
       "cat": "profanity",
       "sev": 3
@@ -2184,6 +2545,11 @@ const String seedEs = r'''
     },
     {
       "t": "elburrosabemasquetu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "elcabron",
       "cat": "profanity",
       "sev": 3
     },
@@ -2320,7 +2686,17 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "escornacabras",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "escroto",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "esperma",
       "cat": "profanity",
       "sev": 3
     },
@@ -2342,6 +2718,11 @@ const String seedEs = r'''
     },
     {
       "t": "estiloperrito",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "estiloperro",
       "cat": "profanity",
       "sev": 3
     },
@@ -2382,6 +2763,12 @@ const String seedEs = r'''
     },
     {
       "t": "facha",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "fachar",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -2483,6 +2870,41 @@ const String seedEs = r'''
       "w": true
     },
     {
+      "t": "follaconlosdedos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "follaconlospunos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "follada",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "follador",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "follame",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "follando",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "follarconlospunos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "forrar",
       "cat": "profanity",
       "sev": 3,
@@ -2515,12 +2937,28 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "fumadordepollas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "fundillo",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "gallo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "gallonegro",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gallos",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -2620,6 +3058,11 @@ const String seedEs = r'''
       "w": true
     },
     {
+      "t": "gordoenorme",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "goregasmo",
       "cat": "profanity",
       "sev": 3
@@ -2636,6 +3079,16 @@ const String seedEs = r'''
     },
     {
       "t": "grandeculodepanda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "grandesaldabas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "grandestetas",
       "cat": "profanity",
       "sev": 3
     },
@@ -2705,6 +3158,21 @@ const String seedEs = r'''
     },
     {
       "t": "habahela",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hacerseunapaja",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hacerunapaja",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hacetecojer",
       "cat": "profanity",
       "sev": 3
     },
@@ -2779,6 +3247,71 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "hijodegranputa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hijodelachingada",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hijodelagrandisimaputa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hijodelagranpunta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hijodelagranputa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hijodelasgranmilputas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hijodelaverga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hijodemilcojeros",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hijodemilputas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hijodeperra",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hijoderemilputa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hijodesupinchemadre",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hijodeuncamionllenodeputas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "hijoeputa",
       "cat": "profanity",
       "sev": 3
@@ -2806,6 +3339,11 @@ const String seedEs = r'''
       "w": true
     },
     {
+      "t": "huelebicho",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "huelegateras",
       "cat": "profanity",
       "sev": 3
@@ -2817,6 +3355,12 @@ const String seedEs = r'''
     },
     {
       "t": "huevo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "huevon",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -2874,12 +3418,34 @@ const String seedEs = r'''
       "w": true
     },
     {
+      "t": "jilipollas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "jiromba",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "jode",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jodeputa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "joder",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jodete",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -2951,6 +3517,16 @@ const String seedEs = r'''
       "w": true
     },
     {
+      "t": "labiosdecastor",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "labiosvaginales",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "lacage",
       "cat": "profanity",
       "sev": 3,
@@ -2987,6 +3563,11 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "lagranpija",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "lahostia",
       "cat": "profanity",
       "sev": 3
@@ -3002,12 +3583,22 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "lambebolas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "lambebolsa",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "lambeculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lambehuevos",
       "cat": "profanity",
       "sev": 3
     },
@@ -3027,7 +3618,22 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "lameconos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "lameculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lamehuevos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lamemistetas",
       "cat": "profanity",
       "sev": 3
     },
@@ -3037,7 +3643,17 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "lamerelcono",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "lamerelculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lamiendoconos",
       "cat": "profanity",
       "sev": 3
     },
@@ -3078,6 +3694,12 @@ const String seedEs = r'''
     },
     {
       "t": "leche",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "leches",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -3149,6 +3771,11 @@ const String seedEs = r'''
       "w": true
     },
     {
+      "t": "longanizas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "loscojones",
       "cat": "profanity",
       "sev": 3
@@ -3196,6 +3823,11 @@ const String seedEs = r'''
     },
     {
       "t": "maestrobate",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "maestrodegallos",
       "cat": "profanity",
       "sev": 3
     },
@@ -3271,6 +3903,11 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "mamabicho",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "mamaculo",
       "cat": "profanity",
       "sev": 3
@@ -3280,6 +3917,11 @@ const String seedEs = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "mamadas",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "mamaguaebo",
@@ -3292,7 +3934,22 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "mamaguebo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "mamaguevo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mamahuevo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mamalapinga",
       "cat": "profanity",
       "sev": 3
     },
@@ -3317,10 +3974,25 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "mamando",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mamapinga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "mamar",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "mamarla",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "mamasihaya",
@@ -3343,6 +4015,11 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "mameamibicho",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "mamey",
       "cat": "profanity",
       "sev": 3,
@@ -3350,6 +4027,12 @@ const String seedEs = r'''
     },
     {
       "t": "mamon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "mamona",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -3366,6 +4049,11 @@ const String seedEs = r'''
     },
     {
       "t": "manchas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mandahuevos",
       "cat": "profanity",
       "sev": 3
     },
@@ -3416,6 +4104,16 @@ const String seedEs = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "maricas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "maricona",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "maricondeplaya",
@@ -3470,6 +4168,11 @@ const String seedEs = r'''
     },
     {
       "t": "mascadordealfombras",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mascadordeculos",
       "cat": "profanity",
       "sev": 3
     },
@@ -3586,7 +4289,18 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "mecaroinlelechemaycahhoinlelaychey",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "meco",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "mecos",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -3629,6 +4343,11 @@ const String seedEs = r'''
     },
     {
       "t": "melones",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "melopasoporlacabezadelapinga",
       "cat": "profanity",
       "sev": 3
     },
@@ -3689,6 +4408,11 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "meterelpedazo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "meteteloenelculo",
       "cat": "profanity",
       "sev": 3
@@ -3740,6 +4464,11 @@ const String seedEs = r'''
       "w": true
     },
     {
+      "t": "mojarelchingolo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "molesto",
       "cat": "profanity",
       "sev": 3
@@ -3749,6 +4478,16 @@ const String seedEs = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "monoculero",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "monogallo",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "montar",
@@ -3764,6 +4503,11 @@ const String seedEs = r'''
     },
     {
       "t": "mordazadebola",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mordeduradegallo",
       "cat": "profanity",
       "sev": 3
     },
@@ -3843,6 +4587,11 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "narizdegallo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ninaenlacima",
       "cat": "profanity",
       "sev": 3
@@ -3872,13 +4621,38 @@ const String seedEs = r'''
       "w": true
     },
     {
+      "t": "ninfomania",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "noesaojete",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "nojoda",
       "cat": "profanity",
       "sev": 3,
       "w": true
     },
     {
+      "t": "nojodas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "nomames",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nomecagesloshuevos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nomejodas",
       "cat": "profanity",
       "sev": 3
     },
@@ -3887,6 +4661,16 @@ const String seedEs = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "noseasgilipollas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "noseasmamon",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "nucleoduro",
@@ -3944,6 +4728,11 @@ const String seedEs = r'''
       "w": true
     },
     {
+      "t": "orinando",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "orto",
       "cat": "profanity",
       "sev": 3,
@@ -3965,6 +4754,28 @@ const String seedEs = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "pajadepies",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pajara",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pajaro",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pajarocarpintero",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "pajeado",
@@ -3999,6 +4810,12 @@ const String seedEs = r'''
     },
     {
       "t": "palo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "palomo",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -4075,6 +4892,11 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "partirelorto",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "pasmado",
       "cat": "profanity",
       "sev": 3
@@ -4099,6 +4921,11 @@ const String seedEs = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "patearlapelota",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "paunocu",
@@ -4169,7 +4996,17 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "peinabombillas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "peinaovejas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pelagallos",
       "cat": "profanity",
       "sev": 3
     },
@@ -4200,10 +5037,25 @@ const String seedEs = r'''
       "w": true
     },
     {
+      "t": "pellejodepija",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pellejodeverga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "pelma",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "pelosdeloshuevos",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "pelotalamiendo",
@@ -4243,6 +5095,16 @@ const String seedEs = r'''
       "w": true
     },
     {
+      "t": "penetracion",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "penetrar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "pequenopito",
       "cat": "profanity",
       "sev": 3
@@ -4269,10 +5131,25 @@ const String seedEs = r'''
       "w": true
     },
     {
+      "t": "peroquecoao",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "perro",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "perrocostra",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "perroflauta",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "persiguiendo",
@@ -4364,6 +5241,26 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "pinchebaboso",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pinchecadademecos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pinchecarademecos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pincheculero",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "pincheiriotaculobastardochingatu",
       "cat": "profanity",
       "sev": 3
@@ -4395,6 +5292,11 @@ const String seedEs = r'''
     },
     {
       "t": "pincheputomamow",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pinchmamon",
       "cat": "profanity",
       "sev": 3
     },
@@ -4435,6 +5337,11 @@ const String seedEs = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "piroboa",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "piruja",
@@ -4497,6 +5404,16 @@ const String seedEs = r'''
       "w": true
     },
     {
+      "t": "pollasenvinagre",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pollasuka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "pollopera",
       "cat": "profanity",
       "sev": 3
@@ -4532,6 +5449,11 @@ const String seedEs = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "porlachucha",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "porlamierda",
@@ -4602,6 +5524,11 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "punofollado",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "puntapincha",
       "cat": "profanity",
       "sev": 3
@@ -4656,6 +5583,11 @@ const String seedEs = r'''
       "w": true
     },
     {
+      "t": "putasucia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "putica",
       "cat": "profanity",
       "sev": 3,
@@ -4663,6 +5595,12 @@ const String seedEs = r'''
     },
     {
       "t": "puton",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "putona",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -4686,6 +5624,21 @@ const String seedEs = r'''
     },
     {
       "t": "quebrachon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "quecabron",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "quechucha",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "queconotepasa",
       "cat": "profanity",
       "sev": 3
     },
@@ -4756,6 +5709,11 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "quierocojer",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "quierocomertelapanocha",
       "cat": "profanity",
       "sev": 3
@@ -4790,6 +5748,11 @@ const String seedEs = r'''
     },
     {
       "t": "rapatumai",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "raspatepalcarajo",
       "cat": "profanity",
       "sev": 3
     },
@@ -4831,6 +5794,11 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "restricciondecuero",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "retardado",
       "cat": "profanity",
       "sev": 3
@@ -4852,6 +5820,11 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "rieleches",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "rizado",
       "cat": "profanity",
       "sev": 3,
@@ -4867,6 +5840,11 @@ const String seedEs = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "rompeculos",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "roseta",
@@ -4906,6 +5884,11 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "sacodebolas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "sacodepelota",
       "cat": "profanity",
       "sev": 3
@@ -4932,6 +5915,11 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "salsadebolas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "sangriento",
       "cat": "profanity",
       "sev": 3
@@ -4943,6 +5931,11 @@ const String seedEs = r'''
     },
     {
       "t": "sapatao",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sapoculiao",
       "cat": "profanity",
       "sev": 3
     },
@@ -5149,6 +6142,11 @@ const String seedEs = r'''
       "w": true
     },
     {
+      "t": "suamaeeumacadela",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "suciosanchez",
       "cat": "profanity",
       "sev": 3
@@ -5239,7 +6237,17 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "tequeirocojer",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "tequierocomereltoto",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tequierrojoder",
       "cat": "profanity",
       "sev": 3
     },
@@ -5261,6 +6269,17 @@ const String seedEs = r'''
       "w": true
     },
     {
+      "t": "tetas",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tetasgrandes",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "tetillaslaser",
       "cat": "profanity",
       "sev": 3
@@ -5270,6 +6289,11 @@ const String seedEs = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "tevoyapisarenasaltodetigre",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "tevoyaromper",
@@ -5297,6 +6321,11 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "tiradounpedo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "tiralevitas",
       "cat": "profanity",
       "sev": 3
@@ -5311,6 +6340,16 @@ const String seedEs = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "tirarse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tirasteunpedo",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "tirateaunposo",
@@ -5394,6 +6433,11 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "tontopollas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "tontucio",
       "cat": "profanity",
       "sev": 3
@@ -5427,10 +6471,45 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "traficantedegallos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "traficantedepollas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "traga",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "tragaldabas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tragaleche",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tragamierda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tragapanti",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tragasables",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "transar",
@@ -5453,6 +6532,12 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "trola",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "trolo",
       "cat": "profanity",
       "sev": 3,
@@ -5460,6 +6545,11 @@ const String seedEs = r'''
     },
     {
       "t": "trompada",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tuconohueleamierda",
       "cat": "profanity",
       "sev": 3
     },
@@ -5495,7 +6585,17 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "tumamagringoculero",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "tunante",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "unamamada",
       "cat": "profanity",
       "sev": 3
     },
@@ -5511,7 +6611,17 @@ const String seedEs = r'''
       "w": true
     },
     {
+      "t": "unpedoviejo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "unpolvito",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "unputero",
       "cat": "profanity",
       "sev": 3
     },
@@ -5523,6 +6633,11 @@ const String seedEs = r'''
     },
     {
       "t": "urinario",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ustedesunjoto",
       "cat": "profanity",
       "sev": 3
     },
@@ -5635,6 +6750,11 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "vergallo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "verija",
       "cat": "profanity",
       "sev": 3,
@@ -5645,6 +6765,51 @@ const String seedEs = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "vetealachingada",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vetealamierda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vetealaputaverga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vetealaverga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vetealdemonio",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "veteatomarporelculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vetepacasadelapinga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vetepacasaelapinga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "veteparalaverga",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "viado",
@@ -5704,6 +6869,16 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "voyachupartupolloahora",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "voyafollartustetasperra",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "voyamatarte",
       "cat": "profanity",
       "sev": 3
@@ -5742,6 +6917,11 @@ const String seedEs = r'''
       "sev": 3
     },
     {
+      "t": "yoquierosingar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "yoquierotupeto",
       "cat": "profanity",
       "sev": 3
@@ -5758,6 +6938,11 @@ const String seedEs = r'''
     },
     {
       "t": "zambombo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zampabollos",
       "cat": "profanity",
       "sev": 3
     },

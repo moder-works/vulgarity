@@ -6,9 +6,11 @@ files lib/data/<lang>.dart. That corpus is community-sourced and nobody has
 vetted it term by term. So every pack carries "vetted": false, and no pack
 loads unless the caller asks for it.
 
-The importer folds each term to profile fold-v1, drops the noise, and keeps
-only the minimal terms. A term that contains a shorter kept term is redundant,
-because the trie finds the shorter one inside it.
+The importer folds each term to profile fold-v1 and drops the noise. It then
+drops a term only when a kept term can still find it. A term of
+BOUNDARY_MAX_LENGTH characters or fewer requires a word boundary, so it can
+never match inside a longer word, and it never justifies dropping one. The
+importer proves this before it writes a pack.
 
 Run:
   python3 tool/gen_lang_packs.py --source /path/to/safe_text
@@ -87,13 +89,29 @@ def build_pack(lang, source_dir, folder, english):
     cleaned = {t for t in long_enough if t not in english}
     stats["not_english"] = len(cleaned)
 
-    # Keep only minimal terms. The trie finds a short term inside a long one.
+    # Drop a term only when a kept term already finds it.
+    #
+    # A kept term finds a longer term ONLY when it matches inside a word, and a
+    # term matches inside a word only when it carries no word-boundary flag.
+    # So a short term never justifies dropping a longer one: "jode" requires a
+    # boundary, so it can never match inside "joder", and dropping "joder"
+    # would lose it completely.
     minimal = []
     for term in sorted(cleaned, key=lambda x: (len(x), x)):
-        if not any(kept in term for kept in minimal):
+        if not any(kept in term for kept in minimal
+                   if len(kept) > BOUNDARY_MAX_LENGTH):
             minimal.append(term)
     minimal.sort()
     stats["minimal"] = len(minimal)
+
+    # Prove the prune was sound: every source term must still be found.
+    lost = [t for t in sorted(cleaned)
+            if t not in minimal
+            and not any(k in t for k in minimal if len(k) > BOUNDARY_MAX_LENGTH)]
+    if lost:
+        raise SystemExit(
+            "prune dropped %d terms nothing can find, for example %s"
+            % (len(lost), lost[:5]))
 
     entries = []
     for term in minimal:

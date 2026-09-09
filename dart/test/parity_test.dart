@@ -13,8 +13,8 @@ VulgarityOptions _readOptions(Map<String, dynamic> c) {
   final Object? names = raw['categories'];
   if (names is List) {
     categories = names
-        .map((dynamic n) => VulgarityCategory.values
-            .firstWhere((VulgarityCategory v) => v.name == (n as String).toLowerCase()))
+        .map((dynamic n) => VulgarityCategory.values.firstWhere(
+            (VulgarityCategory v) => v.name == (n as String).toLowerCase()))
         .toSet();
   }
 

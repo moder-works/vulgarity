@@ -34,3 +34,4 @@ export 'src/model/vulgarity_term.dart';
 export 'src/vulgarity_filter.dart';
 export 'src/vulgarity_filter_builder.dart';
 export 'src/vulgarity_options.dart';
+export 'src/vulgarity_preset.dart';

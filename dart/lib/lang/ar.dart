@@ -17,7 +17,7 @@
 /// ```
 library;
 
-/// 909 terms for Arabic.
+/// 1113 terms for Arabic.
 const String seedAr = r'''
 {
   "schema": 1,
@@ -141,6 +141,11 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "ahotrijlybtizak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "airabwjhak",
       "cat": "profanity",
       "sev": 3
@@ -155,6 +160,21 @@ const String seedAr = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "airibebzezatekhtak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "airibetizak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "airifeek",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "airybteezk",
@@ -173,6 +193,16 @@ const String seedAr = r'''
     },
     {
       "t": "airyqalbak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ajinahwik",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "akbarzamelalawajhalard",
       "cat": "profanity",
       "sev": 3
     },
@@ -214,6 +244,11 @@ const String seedAr = r'''
       "sev": 3
     },
     {
+      "t": "aliferebnostezak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "allahdialkkayrdeezebbi",
       "cat": "profanity",
       "sev": 3
@@ -249,6 +284,11 @@ const String seedAr = r'''
       "sev": 3
     },
     {
+      "t": "ananeekrasak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "anechakhtk",
       "cat": "profanity",
       "sev": 3
@@ -260,6 +300,11 @@ const String seedAr = r'''
     },
     {
       "t": "anechek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "aneekummak",
       "cat": "profanity",
       "sev": 3
     },
@@ -279,6 +324,11 @@ const String seedAr = r'''
       "sev": 3
     },
     {
+      "t": "antakalbee",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "arsa",
       "cat": "profanity",
       "sev": 3,
@@ -294,6 +344,11 @@ const String seedAr = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "asbaalasormek",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "aseletabok",
@@ -345,6 +400,21 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "ayrebellibazzarak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ayrebrabbak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ayrebtezik",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ayribellitaraak",
       "cat": "profanity",
       "sev": 3
@@ -377,10 +447,25 @@ const String seedAr = r'''
       "sev": 3
     },
     {
+      "t": "badeneekraebtak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "badianeekkosik",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "baghl",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "bahshirejleefeeteezak",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "bahshirejleefeeteezimak",
@@ -436,6 +521,11 @@ const String seedAr = r'''
     },
     {
       "t": "bandook",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "baneekak",
       "cat": "profanity",
       "sev": 3
     },
@@ -533,6 +623,11 @@ const String seedAr = r'''
       "sev": 3
     },
     {
+      "t": "bedaktentak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "bedan",
       "cat": "profanity",
       "sev": 3,
@@ -550,12 +645,22 @@ const String seedAr = r'''
       "sev": 3
     },
     {
+      "t": "bedihitkombrisabetizak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "bedimasmesbazbozek",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "bedinecktizzak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bedineekelikhalafak",
       "cat": "profanity",
       "sev": 3
     },
@@ -632,12 +737,27 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "bghitininahwik",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bidianeekneekikneekak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "bidizibbidiaerr",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "binalmukhanifa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bingahba",
       "cat": "profanity",
       "sev": 3
     },
@@ -834,6 +954,11 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "dhashobteezak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "dilla",
       "cat": "profanity",
       "sev": 3,
@@ -902,6 +1027,11 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "eakroot",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "earbagy",
       "cat": "profanity",
       "sev": 3
@@ -913,7 +1043,19 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "easba",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "eass",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "eattay",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -962,6 +1104,11 @@ const String seedAr = r'''
       "sev": 3
     },
     {
+      "t": "ekhtakbadeneeka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ekilzeg",
       "cat": "profanity",
       "sev": 3
@@ -988,6 +1135,16 @@ const String seedAr = r'''
     },
     {
       "t": "engataleknountek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "entakhawal",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "entakseflo",
       "cat": "profanity",
       "sev": 3
     },
@@ -1075,6 +1232,12 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "fashsa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "firshaeh",
       "cat": "profanity",
       "sev": 3
@@ -1101,6 +1264,11 @@ const String seedAr = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "gahbadyemak",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "gahbeh",
@@ -1132,6 +1300,11 @@ const String seedAr = r'''
     },
     {
       "t": "garager",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gathmalhmar",
       "cat": "profanity",
       "sev": 3
     },
@@ -1217,6 +1390,16 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "haneikak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hanekak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "haqeer",
       "cat": "profanity",
       "sev": 3,
@@ -1286,6 +1469,11 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "hmarkelbtfou",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "hoimouk",
       "cat": "profanity",
       "sev": 3
@@ -1315,6 +1503,11 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "hwayzwamel",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "hwiha",
       "cat": "profanity",
       "sev": 3,
@@ -1334,6 +1527,11 @@ const String seedAr = r'''
     },
     {
       "t": "hynityou",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ibenelmentakeh",
       "cat": "profanity",
       "sev": 3
     },
@@ -1378,12 +1576,22 @@ const String seedAr = r'''
       "sev": 3
     },
     {
+      "t": "ibnalkhara",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ibnelahba",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "ibnelcaleb",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ibnelkalb",
       "cat": "profanity",
       "sev": 3
     },
@@ -1398,7 +1606,22 @@ const String seedAr = r'''
       "sev": 3
     },
     {
+      "t": "ibngahba",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ibnharam",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ibnhimar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ibnilchalb",
       "cat": "profanity",
       "sev": 3
     },
@@ -1416,6 +1639,12 @@ const String seedAr = r'''
       "t": "ibynballaitelere",
       "cat": "profanity",
       "sev": 3
+    },
+    {
+      "t": "ihmar",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
     },
     {
       "t": "ilaanabutaarisohtak",
@@ -1438,7 +1667,22 @@ const String seedAr = r'''
       "sev": 3
     },
     {
+      "t": "imakibtintak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "imakwahdibtoklo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "imlowatt",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "intashaz",
       "cat": "profanity",
       "sev": 3
     },
@@ -1453,6 +1697,11 @@ const String seedAr = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "jamalickciljahash",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "jarrar",
@@ -1501,6 +1750,11 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "kalbibnalkalb",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "kalet",
       "cat": "profanity",
       "sev": 3,
@@ -1543,6 +1797,11 @@ const String seedAr = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "kawaddarak",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "kawed",
@@ -1594,6 +1853,11 @@ const String seedAr = r'''
     },
     {
       "t": "kesenneckeighty",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kesokhtikbiayre",
       "cat": "profanity",
       "sev": 3
     },
@@ -1677,6 +1941,26 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "kharaaleik",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kharabibleesek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kharayalek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kharayefeek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "khareg",
       "cat": "profanity",
       "sev": 3,
@@ -1687,6 +1971,16 @@ const String seedAr = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "khawalorshaz",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "khawwarkarrak",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "khchisebaakftremtek",
@@ -1706,6 +2000,11 @@ const String seedAr = r'''
     },
     {
       "t": "khoshfiteezi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "khoshfiteizi",
       "cat": "profanity",
       "sev": 3
     },
@@ -1760,12 +2059,27 @@ const String seedAr = r'''
       "sev": 3
     },
     {
+      "t": "kolairi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "kolaverididi",
       "cat": "profanity",
       "sev": 3
     },
     {
+      "t": "kolayre",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "koleyre",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kolkhara",
       "cat": "profanity",
       "sev": 3
     },
@@ -1780,6 +2094,11 @@ const String seedAr = r'''
       "sev": 3
     },
     {
+      "t": "koolkhara",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "koombee",
       "cat": "profanity",
       "sev": 3
@@ -1789,6 +2108,26 @@ const String seedAr = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "koosakhotkhahatsolaat",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "koosichjayef",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "koosichsimeen",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "koosimek",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "kosabo",
@@ -1806,6 +2145,11 @@ const String seedAr = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "kosemyelebazarakmentak",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "kosmayara",
@@ -1847,6 +2191,11 @@ const String seedAr = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "kssokhteleenafadakaars",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "kulsoum",
@@ -1933,6 +2282,16 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "lehbeela",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lehbila",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "lhassbaydeteh",
       "cat": "profanity",
       "sev": 3
@@ -1981,6 +2340,11 @@ const String seedAr = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "maaboldelhla",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "maalishlulu",
@@ -2057,6 +2421,11 @@ const String seedAr = r'''
       "sev": 3
     },
     {
+      "t": "manukekhara",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "manukey",
       "cat": "profanity",
       "sev": 3
@@ -2072,6 +2441,16 @@ const String seedAr = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "manyoka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "manyoke",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "manyook",
@@ -2128,6 +2507,11 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "maybona",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "mayboon",
       "cat": "profanity",
       "sev": 3
@@ -2163,6 +2547,16 @@ const String seedAr = r'''
       "sev": 3
     },
     {
+      "t": "metfarswaa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "metfarswae",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "metnaak",
       "cat": "profanity",
       "sev": 3
@@ -2172,6 +2566,11 @@ const String seedAr = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "metnaka",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "metrama",
@@ -2223,7 +2622,17 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "mok9atba",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "mokkahba",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mokkatba",
       "cat": "profanity",
       "sev": 3
     },
@@ -2273,6 +2682,11 @@ const String seedAr = r'''
       "sev": 3
     },
     {
+      "t": "mosszibi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "mostankaaalchaba",
       "cat": "profanity",
       "sev": 3
@@ -2285,6 +2699,11 @@ const String seedAr = r'''
     },
     {
       "t": "moszibby",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "moszibiwaentasakt",
       "cat": "profanity",
       "sev": 3
     },
@@ -2342,6 +2761,11 @@ const String seedAr = r'''
       "sev": 3
     },
     {
+      "t": "muszubiyaibnalkalb",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "mzroob",
       "cat": "profanity",
       "sev": 3,
@@ -2373,6 +2797,11 @@ const String seedAr = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "nahwikminlour",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "nahwiliktitizadialk",
@@ -2461,6 +2890,37 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "neekhallak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "neeknafsek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "neekni",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "neeknisahrawi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "neekniwlaatneekhargeti",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "neekrasi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "neik",
       "cat": "profanity",
       "sev": 3,
@@ -2468,6 +2928,17 @@ const String seedAr = r'''
     },
     {
       "t": "neka",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nekahsahraoe",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nekat",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -2561,6 +3032,11 @@ const String seedAr = r'''
       "sev": 3
     },
     {
+      "t": "nrsamliktabonefwajhek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ntak",
       "cat": "profanity",
       "sev": 3,
@@ -2593,6 +3069,11 @@ const String seedAr = r'''
       "sev": 3
     },
     {
+      "t": "okhooelgahbaa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "okhtaltkawid",
       "cat": "profanity",
       "sev": 3
@@ -2614,6 +3095,11 @@ const String seedAr = r'''
     },
     {
       "t": "ommekmalhetkbir",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ookalkhara",
       "cat": "profanity",
       "sev": 3
     },
@@ -2675,6 +3161,16 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "qooqukhtak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "qooqummak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "qusamak",
       "cat": "profanity",
       "sev": 3
@@ -2684,6 +3180,11 @@ const String seedAr = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "raaseleasba",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "raasilzub",
@@ -2716,12 +3217,37 @@ const String seedAr = r'''
       "sev": 3
     },
     {
+      "t": "rassollkalbkayrdeezbouba",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "rbaybrabbakzwiml",
       "cat": "profanity",
       "sev": 3
     },
     {
+      "t": "rkabayre",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rohintak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "roohentak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "roohetnak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rouhentak",
       "cat": "profanity",
       "sev": 3
     },
@@ -2918,6 +3444,11 @@ const String seedAr = r'''
       "sev": 3
     },
     {
+      "t": "shoofkalbatneekak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "shoowathi",
       "cat": "profanity",
       "sev": 3
@@ -2973,6 +3504,16 @@ const String seedAr = r'''
       "sev": 3
     },
     {
+      "t": "sirtkawed",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "skayrey",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "sobisa",
       "cat": "profanity",
       "sev": 3,
@@ -3007,10 +3548,26 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "sormaha",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sormak",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "sotak",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "sotakeyya",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "sowa",
@@ -3031,6 +3588,12 @@ const String seedAr = r'''
     },
     {
       "t": "surm",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "surmuk",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -3074,10 +3637,40 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "tabonak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tabondyalbok",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tabondyemak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tabonek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "taboon",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "taboonak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "taboonek",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "tabounemok",
@@ -3139,6 +3732,11 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "teezakmaftouh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "teezha",
       "cat": "profanity",
       "sev": 3,
@@ -3167,6 +3765,11 @@ const String seedAr = r'''
       "sev": 3
     },
     {
+      "t": "telhasairi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "telhasbekhshi",
       "cat": "profanity",
       "sev": 3
@@ -3183,6 +3786,11 @@ const String seedAr = r'''
     },
     {
       "t": "telhasmatinaa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "telhasrasairi",
       "cat": "profanity",
       "sev": 3
     },
@@ -3228,6 +3836,11 @@ const String seedAr = r'''
       "sev": 3
     },
     {
+      "t": "tintaki",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "tintrabbok",
       "cat": "profanity",
       "sev": 3
@@ -3237,6 +3850,11 @@ const String seedAr = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "tizakhamra",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "tkaffat",
@@ -3312,7 +3930,27 @@ const String seedAr = r'''
       "sev": 3
     },
     {
+      "t": "waldilqahbaa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "waldilqawad",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "waldilzinaa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "waldqahbatqureesh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "weldelgahba",
       "cat": "profanity",
       "sev": 3
     },
@@ -3328,6 +3966,11 @@ const String seedAr = r'''
       "sev": 3
     },
     {
+      "t": "wildelgahba",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "wouldalkahba",
       "cat": "profanity",
       "sev": 3
@@ -3339,6 +3982,17 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "wskha",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "wuledelkakhbah",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "wydad",
       "cat": "profanity",
       "sev": 3,
@@ -3348,6 +4002,12 @@ const String seedAr = r'''
       "t": "yaaandeenzakomek",
       "cat": "profanity",
       "sev": 3
+    },
+    {
+      "t": "yaaars",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
     },
     {
       "t": "yaabnalshrmota",
@@ -3366,7 +4026,29 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "yaakholmentakeh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "yaaraabi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yaars",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "yaarse",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "yaatiknamm",
       "cat": "profanity",
       "sev": 3
     },
@@ -3402,6 +4084,11 @@ const String seedAr = r'''
       "sev": 3
     },
     {
+      "t": "yaebnelwskha",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "yaebnjiranak",
       "cat": "profanity",
       "sev": 3
@@ -3412,7 +4099,27 @@ const String seedAr = r'''
       "sev": 3
     },
     {
+      "t": "yaebnllooti",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "yaebnlmesealeh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yaebnlmintakeh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yaehmar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yagawad",
       "cat": "profanity",
       "sev": 3
     },
@@ -3427,7 +4134,17 @@ const String seedAr = r'''
       "sev": 3
     },
     {
+      "t": "yaibnelfashkha",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "yaibneljahsh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yaibnellabwa",
       "cat": "profanity",
       "sev": 3
     },
@@ -3468,6 +4185,16 @@ const String seedAr = r'''
       "sev": 3
     },
     {
+      "t": "yalouteh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yamiboun",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "yamnashef",
       "cat": "profanity",
       "sev": 3
@@ -3489,7 +4216,17 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "yazebala",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "yazebbala",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ybnelmitneka",
       "cat": "profanity",
       "sev": 3
     },
@@ -3505,6 +4242,11 @@ const String seedAr = r'''
     },
     {
       "t": "yekhribbetak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yelaanabookarsa",
       "cat": "profanity",
       "sev": 3
     },
@@ -3559,6 +4301,11 @@ const String seedAr = r'''
       "sev": 3
     },
     {
+      "t": "yleantaboonmok",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "yourassisred",
       "cat": "profanity",
       "sev": 3
@@ -3606,6 +4353,11 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "zamelbok",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "zamlbok",
       "cat": "profanity",
       "sev": 3
@@ -3645,6 +4397,21 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "zebyealeek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zebyfboak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zebyftezak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "zega",
       "cat": "profanity",
       "sev": 3,
@@ -3652,6 +4419,12 @@ const String seedAr = r'''
     },
     {
       "t": "zegg",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zegga",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -3703,6 +4476,18 @@ const String seedAr = r'''
     },
     {
       "t": "zobr",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zobrak",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zobry",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -3783,7 +4568,42 @@ const String seedAr = r'''
       "sev": 3
     },
     {
+      "t": "ابنالحمار",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ابنالشرموطة",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ابنالعاهرة",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ابنالعرص",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ابنالفشخة",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ابنالقحبة",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ابناللبوة",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ابنالمتناكة",
       "cat": "profanity",
       "sev": 3
     },
@@ -3794,6 +4614,11 @@ const String seedAr = r'''
     },
     {
       "t": "ابنالمرة",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ابنالممحونة",
       "cat": "profanity",
       "sev": 3
     },
@@ -3811,6 +4636,17 @@ const String seedAr = r'''
       "t": "ابنحمار",
       "cat": "profanity",
       "sev": 3
+    },
+    {
+      "t": "ابنعاهر",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ابنكلب",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
     },
     {
       "t": "ابور",
@@ -3986,6 +4822,12 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "السافل",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "الساقط",
       "cat": "profanity",
       "sev": 3,
@@ -4015,7 +4857,19 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "القحبة",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "القرف",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "الكحبة",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -4045,13 +4899,34 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "اللعنةعل",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "الله",
       "cat": "profanity",
       "sev": 3,
       "w": true
     },
     {
+      "t": "اللهلا",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "اللهياخ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "امروجفىع",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "امكشرموطه",
       "cat": "profanity",
       "sev": 3
     },
@@ -4065,6 +4940,11 @@ const String seedAr = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "انتعبيط",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "انتغبي",
@@ -4102,7 +4982,19 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "انكحك",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "انيك",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "انيكك",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -4126,6 +5018,18 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "ايريب",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ايريف",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "بابوك",
       "cat": "profanity",
       "sev": 3,
@@ -4133,6 +5037,12 @@ const String seedAr = r'''
     },
     {
       "t": "باترون",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "باختك",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -4195,6 +5105,11 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "بشخعلىامك",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "بعبص",
       "cat": "profanity",
       "sev": 3,
@@ -4219,7 +5134,47 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "بنتالحمار",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "بنتالشرموطة",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "بنتالعاهرة",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "بنتالعرص",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "بنتالفشخة",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "بنتالقحبة",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "بنتاللبوة",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "بنتالمتناكة",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "بنتالممحونة",
       "cat": "profanity",
       "sev": 3
     },
@@ -4292,6 +5247,11 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "تتناكفىكسها",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "تجليخ",
       "cat": "profanity",
       "sev": 3,
@@ -4319,6 +5279,16 @@ const String seedAr = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "تنتاكفىط",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "تنتاكفىكسها",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "جماع",
@@ -4441,6 +5411,11 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "زاتاختك",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "زالامك",
       "cat": "profanity",
       "sev": 3,
@@ -4512,6 +5487,12 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "سحاقية",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "سربوط",
       "cat": "profanity",
       "sev": 3,
@@ -4542,6 +5523,12 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "سيكسي",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "شرمها",
       "cat": "profanity",
       "sev": 3,
@@ -4549,6 +5536,18 @@ const String seedAr = r'''
     },
     {
       "t": "شرموط",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "شرموطة",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "شرموطه",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -4608,6 +5607,12 @@ const String seedAr = r'''
     },
     {
       "t": "عاهر",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "عاهرة",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -4688,6 +5693,17 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "قضيبكبير",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "قضيبي",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "قلبك",
       "cat": "profanity",
       "sev": 3,
@@ -4706,6 +5722,11 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "كبزازامك",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "كحبة",
       "cat": "profanity",
       "sev": 3,
@@ -4713,6 +5734,12 @@ const String seedAr = r'''
     },
     {
       "t": "كذاب",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "كساختك",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -4736,6 +5763,12 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "كسمكم",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "كسها",
       "cat": "profanity",
       "sev": 3,
@@ -4746,6 +5779,11 @@ const String seedAr = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "كفىالكس",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "ككسك",
@@ -4807,6 +5845,12 @@ const String seedAr = r'''
       "w": true
     },
     {
+      "t": "لقحاب",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "لواط",
       "cat": "profanity",
       "sev": 3,
@@ -4844,6 +5888,12 @@ const String seedAr = r'''
     },
     {
       "t": "متناك",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "متناكة",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -4971,6 +6021,11 @@ const String seedAr = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "ولدالقحبة",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "ولدالقحبه",

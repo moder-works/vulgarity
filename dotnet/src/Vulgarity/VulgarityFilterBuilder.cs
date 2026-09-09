@@ -24,6 +24,7 @@ namespace Vulgarity
 
         private readonly List<string> _termOrder = new List<string>();
         private readonly Dictionary<string, bool> _allow = new Dictionary<string, bool>(StringComparer.Ordinal);
+        private VulgarityOptions _presetOptions;
 
         /// <summary>Adds the bundled English term list.</summary>
         public VulgarityFilterBuilder UseDefaultSeed()
@@ -56,6 +57,96 @@ namespace Vulgarity
             }
 
             return this;
+        }
+
+        /// <summary>Adds a whole policy: its language packs, terms, allowlist and options.</summary>
+        /// <remarks>
+        /// The preset's options apply when you call <see cref="Build()"/> with
+        /// no options of your own. Adding a second preset replaces the first
+        /// one's options; the terms of both stay.
+        /// </remarks>
+        public VulgarityFilterBuilder AddPreset(string json)
+        {
+            return AddPreset(VulgarityPreset.Parse(json), null);
+        }
+
+        /// <summary>Adds a whole policy: its language packs, terms, allowlist and options.</summary>
+        public VulgarityFilterBuilder AddPreset(VulgarityPreset preset)
+        {
+            return AddPreset(preset, null);
+        }
+
+        /// <summary>Adds a whole policy, resolving its language codes yourself.</summary>
+        /// <param name="preset">The policy to apply.</param>
+        /// <param name="languageResolver">
+        /// Turns a language code into a seed document. Pass null to read the
+        /// packs bundled with this build.
+        /// </param>
+        public VulgarityFilterBuilder AddPreset(VulgarityPreset preset, Func<string, string> languageResolver)
+        {
+            if (preset == null)
+            {
+                throw new ArgumentNullException("preset");
+            }
+
+            Func<string, string> resolve = languageResolver ?? VulgarityLanguages.ReadSeed;
+
+            // Order matters. Load the lists, add on top, then take away.
+            foreach (string code in preset.Languages)
+            {
+                AddSeed(resolve(code));
+            }
+
+            foreach (VulgarityTerm term in preset.Entries)
+            {
+                Register(term);
+            }
+
+            foreach (string word in preset.Allow)
+            {
+                AddAllow(word);
+            }
+
+            foreach (string term in preset.Remove)
+            {
+                RemoveTerm(term);
+            }
+
+            _presetOptions = preset.Options;
+            return this;
+        }
+
+        /// <summary>Drops one term, if it is present.</summary>
+        /// <remarks>
+        /// A term that is absent is not an error. That keeps a remote policy
+        /// working against an older term list.
+        /// </remarks>
+        public VulgarityFilterBuilder RemoveTerm(string term)
+        {
+            if (string.IsNullOrEmpty(term))
+            {
+                return this;
+            }
+
+            string folded = FoldToString(term);
+            if (_terms.Remove(folded))
+            {
+                _termOrder.Remove(folded);
+            }
+
+            return this;
+        }
+
+        /// <summary>Reports whether the builder currently holds a term.</summary>
+        public bool HasTerm(string term)
+        {
+            return !string.IsNullOrEmpty(term) && _terms.ContainsKey(FoldToString(term));
+        }
+
+        /// <summary>How many terms the builder currently holds.</summary>
+        public int TermCount
+        {
+            get { return _termOrder.Count; }
         }
 
         /// <summary>Adds one term.</summary>
@@ -100,7 +191,10 @@ namespace Vulgarity
         /// <summary>Compiles the trie and returns the filter.</summary>
         public VulgarityFilter Build(VulgarityOptions options)
         {
-            VulgarityOptions effective = options == null ? new VulgarityOptions() : options.Clone();
+            // Your own options win. Otherwise the last preset's options apply.
+            VulgarityOptions effective = options != null
+                ? options.Clone()
+                : (_presetOptions == null ? new VulgarityOptions() : _presetOptions.Clone());
             effective.Validate();
 
             if (_termOrder.Count == 0)

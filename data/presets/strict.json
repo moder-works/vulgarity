@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "profile": "fold-v1",
+  "name": "strict",
+  "description": "Flags everything the list knows, replaces each match with a fixed token, and scores by the worst single match.",
+  "languages": ["en"],
+  "options": {
+    "minSeverity": 1,
+    "maskToken": "[removed]",
+    "scoreMode": "max"
+  }
+}

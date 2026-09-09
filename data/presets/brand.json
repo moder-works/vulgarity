@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "profile": "fold-v1",
+  "name": "brand",
+  "description": "A worked example of every preset feature: two languages, an added term, an allowlist entry, and a term dropped from the base list.",
+  "languages": ["en", "es"],
+  "options": {
+    "minSeverity": 2,
+    "maskChar": "-"
+  },
+  "entries": [
+    { "t": "blorpco", "cat": "profanity", "sev": 4, "w": true }
+  ],
+  "allow": ["blorpcoshire"],
+  "remove": ["damn", "hell", "crap"]
+}

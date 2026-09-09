@@ -17,7 +17,7 @@
 /// ```
 library;
 
-/// 413 terms for Polish.
+/// 1173 terms for Polish.
 const String seedPl = r'''
 {
   "schema": 1,
@@ -98,6 +98,11 @@ const String seedPl = r'''
       "w": true
     },
     {
+      "t": "burdelmama",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "bzdury",
       "cat": "profanity",
       "sev": 3,
@@ -105,6 +110,16 @@ const String seedPl = r'''
     },
     {
       "t": "cewkamoczowa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chceciejebacanalnie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chcialbymwylizactwojaslodkacipke",
       "cat": "profanity",
       "sev": 3
     },
@@ -131,12 +146,98 @@ const String seedPl = r'''
       "sev": 3
     },
     {
+      "t": "chuja",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chujach",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chujami",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "chujcinaryj",
       "cat": "profanity",
       "sev": 3
     },
     {
+      "t": "chujek",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chujem",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "chujni",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chujnia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chujnie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chujnio",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chujom",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chujow",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chujowa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chujowe",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chujowi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chujowo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chujowy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chuju",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -159,6 +260,18 @@ const String seedPl = r'''
       "w": true
     },
     {
+      "t": "cipach",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cipami",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "cipce",
       "cat": "profanity",
       "sev": 3,
@@ -166,6 +279,12 @@ const String seedPl = r'''
     },
     {
       "t": "cipe",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cipek",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -181,6 +300,16 @@ const String seedPl = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "cipkach",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cipkami",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "cipke",
@@ -201,6 +330,12 @@ const String seedPl = r'''
       "w": true
     },
     {
+      "t": "cipkom",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "cipom",
       "cat": "profanity",
       "sev": 3,
@@ -208,6 +343,44 @@ const String seedPl = r'''
     },
     {
       "t": "cipsk",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cipska",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cipskach",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cipskami",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cipskiem",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cipsko",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cipskom",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cipsku",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -264,6 +437,56 @@ const String seedPl = r'''
       "w": true
     },
     {
+      "t": "dojebac",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dojebal",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dojeban",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dojebawszy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dojebcie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dojebia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dojebie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dojebmy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dojebze",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dokurwynedzy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "dopieprza",
       "cat": "profanity",
       "sev": 3
@@ -285,6 +508,126 @@ const String seedPl = r'''
       "w": true
     },
     {
+      "t": "dosrac",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dosracie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dosraj",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dosraja",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dosrajmy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dosrajze",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dosral",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dosrala",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dosralby",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dosralem",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dosrales",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dosrali",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dosralo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dosraly",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dosram",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dosramy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dosran",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dosrania",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dosranie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dosraniu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dosrano",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dosrasz",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dosrawszy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "dran",
       "cat": "profanity",
       "sev": 3,
@@ -297,10 +640,156 @@ const String seedPl = r'''
       "w": true
     },
     {
+      "t": "dupach",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dupami",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "dupc",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "dupci",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dupcia",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dupciach",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dupciami",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dupcie",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dupcio",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dupciom",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dupciu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dupcz",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dupcza",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dupczac",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dupczcie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dupcze",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dupczen",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dupczmy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dupczona",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dupczone",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dupczono",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dupczony",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dupczy",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dupczyc",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dupczyl",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dupczymy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dupczysz",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dupczze",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "dupeczce",
@@ -387,7 +876,96 @@ const String seedPl = r'''
       "w": true
     },
     {
+      "t": "dupochron",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dupodajce",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dupodajek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dupodajka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dupodajke",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dupodajki",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dupodajko",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dupogodzin",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dupom",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dupowlaz",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "dupsk",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dupska",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dupskach",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dupskami",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dupskiem",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dupsko",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dupskom",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dupsku",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -484,6 +1062,11 @@ const String seedPl = r'''
       "w": true
     },
     {
+      "t": "gownoprawda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "gswno",
       "cat": "profanity",
       "sev": 3,
@@ -522,12 +1105,36 @@ const String seedPl = r'''
       "w": true
     },
     {
+      "t": "hujach",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "hujami",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "hujciwdupe",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "huje",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "hujek",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "hujem",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -546,6 +1153,12 @@ const String seedPl = r'''
     },
     {
       "t": "hujow",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "hujowi",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -586,6 +1199,11 @@ const String seedPl = r'''
       "w": true
     },
     {
+      "t": "jajebie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "jajeczko",
       "cat": "profanity",
       "sev": 3
@@ -619,7 +1237,68 @@ const String seedPl = r'''
       "w": true
     },
     {
+      "t": "jebace",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "jebak",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jebaka",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jebakach",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebakami",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebake",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jebaki",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jebakiem",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebako",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jebakom",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebakow",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebaku",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -631,10 +1310,189 @@ const String seedPl = r'''
       "w": true
     },
     {
+      "t": "jebala",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jebalaby",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebalam",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebalas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebalby",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebalem",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebales",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebali",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jebaliby",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebaliscie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebalismy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebalo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jebaloby",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebaly",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jebalyby",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebalyscie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebalysmy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "jeban",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "jebana",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jebane",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jebanego",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebanej",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebanemu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebani",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jebania",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebanie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebaniom",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebaniu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebanka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebankiem",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebanko",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebano",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jebany",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jebanych",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebanym",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "jebcie",
@@ -643,16 +1501,57 @@ const String seedPl = r'''
       "w": true
     },
     {
+      "t": "jebciez",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "jebia",
       "cat": "profanity",
       "sev": 3,
       "w": true
     },
     {
+      "t": "jebiac",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jebiaca",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebiace",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebiacy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "jebie",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "jebiecie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebiemy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebiesz",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "jebliwa",
@@ -681,10 +1580,48 @@ const String seedPl = r'''
       "w": true
     },
     {
+      "t": "jebmyz",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "jebna",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "jebnac",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jebnal",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jebnalby",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebnalem",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebnales",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebnawszy",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "jebne",
@@ -693,16 +1630,86 @@ const String seedPl = r'''
       "w": true
     },
     {
+      "t": "jebnela",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebneli",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebnelo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebnely",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "jebnie",
       "cat": "profanity",
       "sev": 3,
       "w": true
     },
     {
+      "t": "jebniec",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebniemy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebniesz",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebnieta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebniete",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebnieto",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebniety",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "jebnij",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "jebnijcie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebnijmy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebnijze",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "jebut",
@@ -715,6 +1722,11 @@ const String seedPl = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "jestestotalnazdzira",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "kazirodczy",
@@ -743,6 +1755,11 @@ const String seedPl = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "kogutfrajer",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "kolnierz",
@@ -807,6 +1824,66 @@ const String seedPl = r'''
       "w": true
     },
     {
+      "t": "kurewce",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurewek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurewka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurewke",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurewki",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurewko",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurewscy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurewska",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurewski",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurewsko",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurewsku",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurewstw",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "kurki",
       "cat": "profanity",
       "sev": 3,
@@ -819,12 +1896,394 @@ const String seedPl = r'''
       "w": true
     },
     {
+      "t": "kurwa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kurwaa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kurwach",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwami",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwcie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwe",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kurwi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kurwia",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kurwiac",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwiarn",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwiarz",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwiatek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwiatka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwiatkiem",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwiatko",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwiatku",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwic",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kurwica",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwice",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwicie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwico",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwicy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwidolek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwidolka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwidolki",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwidolkom",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwidolkow",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwidolku",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwie",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kurwien",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwij",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kurwijcie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwijmy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwijze",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwik",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kurwika",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwiki",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwikom",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwikow",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwiku",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwil",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kurwila",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwilby",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwilem",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwiles",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwili",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwilo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwily",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwimetr",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwimy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwiono",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwiska",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwisz",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwmy",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kurwmyz",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurwo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kurwom",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kurwy",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kurwze",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "kutafon",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "kutas",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kutasa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kutasach",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kutasami",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kutasek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kutasem",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kutasie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kutaska",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kutaski",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kutaskom",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kutaskow",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kutasku",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kutasom",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kutasow",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kutasy",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -855,6 +2314,11 @@ const String seedPl = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "linczowac",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "lizacpale",
@@ -921,6 +2385,11 @@ const String seedPl = r'''
       "w": true
     },
     {
+      "t": "nachuja",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "najdupniejsi",
       "cat": "profanity",
       "sev": 3
@@ -945,6 +2414,51 @@ const String seedPl = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "najebac",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "najebal",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "najeban",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "najebawszy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "najebcie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "najebia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "najebie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "najebmy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "najebze",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "naodpieprz",
@@ -988,7 +2502,157 @@ const String seedPl = r'''
       "w": true
     },
     {
+      "t": "nasrac",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nasracie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nasraj",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nasraja",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nasrajmy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nasrajze",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nasral",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nasrala",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nasralby",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nasralem",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nasrales",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nasrali",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nasralo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nasraly",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nasram",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nasramy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nasran",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nasrana",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nasrane",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nasrani",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nasrano",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nasrany",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nasrasz",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nasrawszy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "nazistowski",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niedosran",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niejeban",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nienasran",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieobesran",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieobsran",
       "cat": "profanity",
       "sev": 3
     },
@@ -1029,6 +2693,16 @@ const String seedPl = r'''
     },
     {
       "t": "nieocipialy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieocipien",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieodjeban",
       "cat": "profanity",
       "sev": 3
     },
@@ -1098,6 +2772,11 @@ const String seedPl = r'''
       "sev": 3
     },
     {
+      "t": "nieojeban",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "nieopieprzajaca",
       "cat": "profanity",
       "sev": 3
@@ -1159,6 +2838,11 @@ const String seedPl = r'''
     },
     {
       "t": "nieopierdolone",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieosran",
       "cat": "profanity",
       "sev": 3
     },
@@ -1278,6 +2962,31 @@ const String seedPl = r'''
       "sev": 3
     },
     {
+      "t": "niepodesran",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niepodjeban",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niepodkurwiona",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niepodkurwione",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niepodkurwiony",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "niepodpieprzajaca",
       "cat": "profanity",
       "sev": 3
@@ -1293,6 +3002,41 @@ const String seedPl = r'''
       "sev": 3
     },
     {
+      "t": "nieposran",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieruchan",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niesran",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieujeban",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieusran",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niewjeban",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niewysran",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "nimfa",
       "cat": "profanity",
       "sev": 3,
@@ -1300,6 +3044,16 @@ const String seedPl = r'''
     },
     {
       "t": "nimfomania",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "obciagacchuja",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "obciagacfiuta",
       "cat": "profanity",
       "sev": 3
     },
@@ -1324,6 +3078,11 @@ const String seedPl = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "odbytnica",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "odwaga",
@@ -1361,6 +3120,11 @@ const String seedPl = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "orgazmy",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "orgie",
@@ -1573,6 +3337,88 @@ const String seedPl = r'''
       "w": true
     },
     {
+      "t": "pojeba",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pojebac",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pojebal",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pojebami",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pojeban",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pojebawszy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pojebcie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pojebem",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pojebia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pojebie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pojebmy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pojebom",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pojebow",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pojeby",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pojebze",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pokurwiony",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "poopieprza",
       "cat": "profanity",
       "sev": 3
@@ -1603,10 +3449,140 @@ const String seedPl = r'''
       "sev": 3
     },
     {
+      "t": "porucha",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "posra",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "posrac",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "posracie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "posraj",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "posraja",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "posrajmy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "posrajze",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "posral",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "posrala",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "posralby",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "posralem",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "posrales",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "posrali",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "posralo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "posraly",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "posram",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "posramy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "posran",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "posrana",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "posrane",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "posrani",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "posrano",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "posrany",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "posrasz",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "posrawszy",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "pozadanie",
@@ -1625,6 +3601,11 @@ const String seedPl = r'''
     },
     {
       "t": "przeklety",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "przekurwione",
       "cat": "profanity",
       "sev": 3
     },
@@ -1650,6 +3631,11 @@ const String seedPl = r'''
     },
     {
       "t": "przepierdol",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "przesra",
       "cat": "profanity",
       "sev": 3
     },
@@ -1695,6 +3681,47 @@ const String seedPl = r'''
       "w": true
     },
     {
+      "t": "rozjeb",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "rozjebac",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rozjebal",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rozjeban",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rozjebia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rozjebie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rozjebmy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rozjebze",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "rozpieprz",
       "cat": "profanity",
       "sev": 3
@@ -1724,6 +3751,156 @@ const String seedPl = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "ruchac",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ruchacie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ruchaj",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ruchaja",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ruchajcie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ruchajmy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ruchajze",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ruchal",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ruchala",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ruchalby",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ruchalem",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ruchales",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ruchali",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ruchalo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ruchaly",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rucham",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ruchamy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ruchan",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ruchana",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ruchane",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ruchani",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ruchanka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ruchankiem",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ruchanko",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ruchanku",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ruchano",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ruchany",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ruchasz",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ruchawic",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "rufa",
@@ -1802,6 +3979,127 @@ const String seedPl = r'''
       "w": true
     },
     {
+      "t": "skocza",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "skoczach",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "skoczami",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "skocze",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "skoczem",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "skoczom",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "skoczowi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "skoczu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "skoczy",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "skurw",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "skurwi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "skurwia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "skurwic",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "skurwie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "skurwij",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "skurwil",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "skurwiona",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "skurwione",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "skurwiony",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "skurwiwszy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "skurwmy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "skurwysyn",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "skurwze",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "smar",
       "cat": "profanity",
       "sev": 3,
@@ -1850,7 +4148,248 @@ const String seedPl = r'''
       "w": true
     },
     {
+      "t": "srace",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sracie",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sracz",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sracza",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sraczach",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sraczami",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sraczce",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sracze",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sraczek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sraczem",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sraczka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sraczke",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sraczki",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sraczko",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sraczom",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sraczowa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sraczowe",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sraczowi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sraczowy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sraczu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sraczy",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "sraj",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sraja",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "srajac",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "srajaca",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "srajace",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "srajacy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "srajcie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "srajd",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "srajda",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "srajdach",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "srajdami",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "srajde",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "srajdek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "srajdka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "srajdki",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "srajdkom",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "srajdkow",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "srajdku",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "srajdo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "srajdom",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "srajdy",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "srajdzie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "srajmy",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "srajmyz",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "srajze",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -1862,10 +4401,159 @@ const String seedPl = r'''
       "w": true
     },
     {
+      "t": "sraka",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "srakach",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "srakami",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "srake",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sraki",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "srako",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "srakom",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "sral",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "srala",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sralaby",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sralam",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sralas",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sralby",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sralbym",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sralbys",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sralem",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "srales",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "srali",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sraliby",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sraliscie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sralismy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sralo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sraloby",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sraluch",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sraly",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sralyby",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sralyscie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sralysmy",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "sram",
@@ -1874,7 +4562,57 @@ const String seedPl = r'''
       "w": true
     },
     {
+      "t": "sramy",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "sran",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "srania",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sraniach",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sraniami",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sranie",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sraniem",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sraniom",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sraniu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "srano",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -1892,6 +4630,21 @@ const String seedPl = r'''
       "w": true
     },
     {
+      "t": "ssijkutasa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ssijmifiuta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ssijmikutasa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ssijsuko",
       "cat": "profanity",
       "sev": 3
@@ -1907,6 +4660,11 @@ const String seedPl = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "sukinsyn",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "sutek",
@@ -1952,6 +4710,11 @@ const String seedPl = r'''
       "w": true
     },
     {
+      "t": "szmatanieumyta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "szop",
       "cat": "profanity",
       "sev": 3,
@@ -1979,6 +4742,16 @@ const String seedPl = r'''
       "sev": 3
     },
     {
+      "t": "tychuju",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tykurwo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "tylek",
       "cat": "profanity",
       "sev": 3,
@@ -1991,7 +4764,241 @@ const String seedPl = r'''
       "w": true
     },
     {
+      "t": "udupcie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "udupi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "udupia",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "udupic",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "udupicie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "udupie",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "udupien",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "udupil",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "udupila",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "udupilby",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "udupilem",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "udupiles",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "udupili",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "udupilo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "udupily",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "udupimy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "udupiona",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "udupione",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "udupiono",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "udupiony",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "udupisz",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "udupiwszy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "udupmy",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "udupmyz",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "udupze",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "ujeb",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ujebac",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ujebal",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ujebala",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ujebali",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ujebalo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ujebaly",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ujeban",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ujebana",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ujebane",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ujebani",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ujebano",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ujebany",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ujebawszy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ujebcie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ujebia",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ujebie",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ujebmy",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ujebmyz",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ujebze",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -2039,6 +5046,144 @@ const String seedPl = r'''
       "w": true
     },
     {
+      "t": "usrac",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "usracie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "usraj",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "usraja",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "usrajmy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "usrajze",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "usral",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "usrala",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "usralam",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "usralas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "usralby",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "usralem",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "usrales",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "usrali",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "usralo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "usraly",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "usram",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "usramy",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "usran",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "usrania",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "usranie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "usraniu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "usrano",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "usrasz",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "usrawszy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "wargisromowe",
       "cat": "profanity",
       "sev": 3
@@ -2061,7 +5206,176 @@ const String seedPl = r'''
       "w": true
     },
     {
+      "t": "wjebac",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "wjebal",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "wjebala",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wjebali",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wjebalo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wjebaly",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wjeban",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "wjebana",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wjebane",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wjebani",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wjebano",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wjebany",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wjebawszy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wjebcie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wjebia",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "wjebie",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "wjebmy",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "wjebmyz",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wjebze",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "wkrecanie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wkurw",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "wkurwi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "wkurwia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wkurwic",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wkurwie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wkurwij",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wkurwil",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wkurwiona",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wkurwione",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wkurwiony",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wkurwiwszy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wkurwmy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wkurwze",
       "cat": "profanity",
       "sev": 3
     },
@@ -2108,13 +5422,84 @@ const String seedPl = r'''
       "sev": 3
     },
     {
+      "t": "wydupcz",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "wyjeb",
       "cat": "profanity",
       "sev": 3,
       "w": true
     },
     {
+      "t": "wyjebac",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wyjebal",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wyjeban",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wyjebawszy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wyjebcie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wyjebia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wyjebie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wyjebmy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wyjebze",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "wykrzykiwac",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wykurw",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "wykurwi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wykurwmy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wykurwze",
       "cat": "profanity",
       "sev": 3
     },
@@ -2134,10 +5519,140 @@ const String seedPl = r'''
       "sev": 3
     },
     {
+      "t": "wyrucha",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "wysra",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "wysrac",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "wysracie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wysraj",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "wysraja",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wysrajmy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wysrajze",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wysral",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "wysrala",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wysralby",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wysralem",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wysrales",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wysrali",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wysralo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wysraly",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wysram",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "wysramy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wysran",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "wysrana",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wysrane",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wysrani",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wysrano",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wysrany",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wysrasz",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wysrawszy",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "wytrysk",
@@ -2156,6 +5671,26 @@ const String seedPl = r'''
       "w": true
     },
     {
+      "t": "zadupia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zadupie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zadupiom",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zadupiu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "zadza",
       "cat": "profanity",
       "sev": 3,
@@ -2166,6 +5701,71 @@ const String seedPl = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "zajebac",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zajebal",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zajeban",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zajebawszy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zajebcie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zajebia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zajebie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zajebisci",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zajebista",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zajebiste",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zajebisty",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zajebmy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zajebze",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "zakatek",
@@ -2205,6 +5805,166 @@ const String seedPl = r'''
       "w": true
     },
     {
+      "t": "zasrac",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zasracie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zasraj",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zasraja",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zasrajmy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zasrajze",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zasral",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zasrala",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zasralby",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zasralem",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zasrales",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zasrali",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zasralo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zasraly",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zasram",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zasramy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zasran",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zasrana",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zasranca",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zasrance",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zasrancom",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zasrancow",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zasrancu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zasrancy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zasrancze",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zasrane",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zasrani",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zasrano",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zasrany",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zasrasz",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zasrawszy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "zasrywa",
       "cat": "profanity",
       "sev": 3
@@ -2227,6 +5987,126 @@ const String seedPl = r'''
       "w": true
     },
     {
+      "t": "zesrac",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zesracie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zesraj",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zesraja",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zesrajmy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zesrajze",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zesral",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zesrala",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zesralby",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zesralem",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zesrales",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zesrali",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zesralo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zesraly",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zesram",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zesramy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zesran",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zesrania",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zesranie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zesraniu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zesrano",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zesrasz",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zesrawszy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "zesrywa",
       "cat": "profanity",
       "sev": 3
@@ -2243,10 +6123,123 @@ const String seedPl = r'''
       "w": true
     },
     {
+      "t": "zjebac",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zjebal",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zjebala",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zjebali",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zjebalo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zjebaly",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zjeban",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zjebana",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zjebane",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zjebani",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zjebano",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zjebany",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zjebawszy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zjebcie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zjebia",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zjebie",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zjebmy",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zjebmyz",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zjeby",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zjebze",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "zoofil",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "zoofilia",
+      "cat": "profanity",
+      "sev": 3
     }
   ],
   "allow": []

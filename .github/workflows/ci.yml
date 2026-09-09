@@ -1,0 +1,145 @@
+name: CI
+
+# The runner supplies the toolchain. This workflow installs nothing, so keep
+# .NET 8 or later, the Dart SDK 3.0 or later, and Python 3.9 or later on the
+# machine. The preflight step reports what it found and fails with a clear
+# message when something is missing.
+#
+# To pin a specific machine, replace `self-hosted` with a label list, for
+# example `[self-hosted, macos, vulgarity]`.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  dotnet:
+    name: .NET tests
+    runs-on: self-hosted
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Preflight
+        run: |
+          command -v dotnet >/dev/null || { echo "::error::dotnet is not on PATH."; exit 1; }
+          echo "dotnet $(dotnet --version)"
+
+      - name: Build both target frameworks
+        run: dotnet build dotnet/src/Vulgarity/Vulgarity.csproj -c Release --nologo
+
+      - name: Test
+        run: >
+          dotnet test dotnet/tests/Vulgarity.Tests/Vulgarity.Tests.csproj
+          -c Release --nologo
+          --logger "trx;LogFileName=dotnet-tests.trx"
+          --results-directory artifacts/dotnet
+
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dotnet-test-results
+          path: artifacts/dotnet
+          if-no-files-found: ignore
+
+  dart:
+    name: Dart tests
+    runs-on: self-hosted
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Preflight
+        run: |
+          command -v dart >/dev/null || { echo "::error::dart is not on PATH."; exit 1; }
+          dart --version
+
+      - name: Resolve dependencies
+        working-directory: dart
+        run: dart pub get
+
+      - name: Analyze
+        working-directory: dart
+        run: dart analyze --fatal-infos
+
+      - name: Check formatting
+        working-directory: dart
+        run: dart format --output=none --set-exit-if-changed lib test example
+
+      - name: Test
+        working-directory: dart
+        run: dart test --reporter expanded
+
+  contract:
+    name: Shared contract
+    runs-on: self-hosted
+    timeout-minutes: 20
+    needs: [dotnet, dart]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Preflight
+        run: |
+          command -v python3 >/dev/null || { echo "::error::python3 is not on PATH."; exit 1; }
+          python3 --version
+
+      # data/ is generated AND read at run time. A stale generated file means
+      # the committed contract no longer matches its source.
+      - name: Generated files are current
+        run: |
+          python3 tool/gen_fold_table.py --check
+          python3 tool/gen_dart_seeds.py --check
+
+      # The language packs are not rebuilt here. That needs a clone of the
+      # upstream corpus, which would make CI depend on an external repository.
+      # Rebuild them by hand with tool/gen_lang_packs.py when the source moves.
+      - name: The English seed regenerates identically
+        run: |
+          python3 tool/gen_seed.py
+          git diff --exit-code -- data/seed.json \
+            || { echo "::error::data/seed.json is stale. Run python3 tool/gen_seed.py"; exit 1; }
+
+      # The real parity proof. Both ports run the same inputs, and the output
+      # must match byte for byte.
+      - name: Both ports agree
+        run: |
+          samples=(
+            "Have a nice day."
+            "you are a f.u.c.k"
+            "what the fuuuuck"
+            "sh!t happens"
+            "I live in Scunthorpe"
+            "he is an assassin"
+            "the rapist was caught"
+            "my therapist is great"
+            'a$$hole'
+            "fuck this shit"
+            "café 🙂 f.u.c.k end"
+            "shiitake mushrooms"
+          )
+
+          dotnet build dotnet/example/Example.csproj -c Release --nologo
+          dotnet dotnet/example/bin/Release/net8.0/Example.dll "${samples[@]}" \
+            | tr 'TF' 'tf' > "$RUNNER_TEMP/dotnet.txt"
+
+          ( cd dart && dart pub get >/dev/null \
+            && dart run example/vulgarity_example.dart "${samples[@]}" ) \
+            > "$RUNNER_TEMP/dart.txt"
+
+          if diff -u "$RUNNER_TEMP/dotnet.txt" "$RUNNER_TEMP/dart.txt"; then
+            echo "Both ports produced identical output."
+          else
+            echo "::error::The two ports disagree. See the diff above."
+            exit 1
+          fi

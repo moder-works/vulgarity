@@ -17,7 +17,7 @@
 /// ```
 library;
 
-/// 441 terms for Chinese.
+/// 463 terms for Chinese.
 const String seedZh = r'''
 {
   "schema": 1,
@@ -195,6 +195,21 @@ const String seedZh = r'''
       "w": true
     },
     {
+      "t": "diulaylomo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "diulaylowmow",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "diulayseefut",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "diuleigohhai",
       "cat": "profanity",
       "sev": 3
@@ -324,6 +339,11 @@ const String seedZh = r'''
       "sev": 3
     },
     {
+      "t": "hamgatsanpukgai",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "hamkachan",
       "cat": "profanity",
       "sev": 3
@@ -380,6 +400,17 @@ const String seedZh = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "jibai",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jibaikanina",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "juepa",
@@ -565,6 +596,11 @@ const String seedZh = r'''
       "sev": 3
     },
     {
+      "t": "nimamageirendiao",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "nishishenjiingbing",
       "cat": "profanity",
       "sev": 3
@@ -641,10 +677,25 @@ const String seedZh = r'''
       "sev": 3
     },
     {
+      "t": "seiahneadorpukgai",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "seihamgachanseipukgai",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "seihoi",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "seiyeemjai",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "seiyuntao",
@@ -659,6 +710,12 @@ const String seedZh = r'''
     },
     {
       "t": "seksi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "seksii",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -766,6 +823,21 @@ const String seedZh = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "tsatgaulun",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tsattao",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tsattou",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "wocao",
@@ -1402,6 +1474,12 @@ const String seedZh = r'''
       "w": true
     },
     {
+      "t": "去你奶奶的",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "去你妈的",
       "cat": "profanity",
       "sev": 3,
@@ -1424,6 +1502,16 @@ const String seedZh = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "叫你生孩子沒屁股眼",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "叫你生孩子没屁股眼",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "叫你生孩子长痔疮",
@@ -1467,6 +1555,12 @@ const String seedZh = r'''
     },
     {
       "t": "噴精在臉上",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "塞你娘卡好",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -1680,6 +1774,11 @@ const String seedZh = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "我操你祖宗十八代",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "我的天啊",
@@ -2063,6 +2162,12 @@ const String seedZh = r'''
       "w": true
     },
     {
+      "t": "狂操你全家",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "狗娘养的",
       "cat": "profanity",
       "sev": 3,
@@ -2183,6 +2288,18 @@ const String seedZh = r'''
     },
     {
       "t": "老而不死",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "肏你妈的屄",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "肏你媽的屄",
       "cat": "profanity",
       "sev": 3,
       "w": true

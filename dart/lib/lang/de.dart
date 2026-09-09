@@ -17,7 +17,7 @@
 /// ```
 library;
 
-/// 335 terms for German.
+/// 446 terms for German.
 const String seedDe = r'''
 {
   "schema": 1,
@@ -70,7 +70,22 @@ const String seedDe = r'''
       "sev": 3
     },
     {
+      "t": "affenarsch",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "akrotomophilie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "altermuschi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "amarschvorbei",
       "cat": "profanity",
       "sev": 3
     },
@@ -119,6 +134,66 @@ const String seedDe = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "arschbacke",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "arschbolzen",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "arschficker",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "arschfotze",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "arschgeige",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "arschgesicht",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "arschkeks",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "arschkrampe",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "arschkriecher",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "arschlecker",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "arschloch",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "arschmade",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "atzend",
@@ -203,6 +278,16 @@ const String seedDe = r'''
       "sev": 3
     },
     {
+      "t": "blodarsch",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "blodefotze",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "blodegans",
       "cat": "profanity",
       "sev": 3
@@ -234,6 +319,11 @@ const String seedDe = r'''
     },
     {
       "t": "blutigesau",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "blvdefotze",
       "cat": "profanity",
       "sev": 3
     },
@@ -291,6 +381,11 @@ const String seedDe = r'''
       "sev": 3
     },
     {
+      "t": "dasistjakinderkacke",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "dasistmirfurzegal",
       "cat": "profanity",
       "sev": 3
@@ -311,6 +406,11 @@ const String seedDe = r'''
       "sev": 3
     },
     {
+      "t": "daspisstmichan",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "dasstinktmir",
       "cat": "profanity",
       "sev": 3
@@ -326,7 +426,27 @@ const String seedDe = r'''
       "sev": 3
     },
     {
+      "t": "deinemuttergehtinderstadthuren",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "deinemutterschwitztbeimkacken",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "deineomamasturbiertimstehen",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "deinhundsolldeinemutterficken",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "deinhundsolldeinenvaterficken",
       "cat": "profanity",
       "sev": 3
     },
@@ -419,6 +539,21 @@ const String seedDe = r'''
       "w": true
     },
     {
+      "t": "dummekuh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dummenuss",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dummeshuhn",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "dummkopf",
       "cat": "profanity",
       "sev": 3
@@ -471,6 +606,16 @@ const String seedDe = r'''
       "sev": 3
     },
     {
+      "t": "ekelfresse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "erarschen",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "erektion",
       "cat": "profanity",
       "sev": 3
@@ -512,6 +657,11 @@ const String seedDe = r'''
       "sev": 3
     },
     {
+      "t": "fettarsch",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "fettbacke",
       "cat": "profanity",
       "sev": 3
@@ -531,6 +681,84 @@ const String seedDe = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "fickdeinemutter",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fickdeinschwesterunddeinemutter",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fickdich",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ficke",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "fickedeinemutter",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fickedeineschwester",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fickekatzen",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ficken",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "fickenrossette",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ficker",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "fickfehler",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fickfresse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fickmichhart",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fickmichwieeinpornostar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fickschnitte",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "filzlaus",
@@ -569,6 +797,17 @@ const String seedDe = r'''
       "w": true
     },
     {
+      "t": "fotzen",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "fotzenlecker",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "fratze",
       "cat": "profanity",
       "sev": 3,
@@ -586,6 +825,11 @@ const String seedDe = r'''
       "w": true
     },
     {
+      "t": "furnarsch",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "furzgesicht",
       "cat": "profanity",
       "sev": 3
@@ -601,12 +845,32 @@ const String seedDe = r'''
       "sev": 3
     },
     {
+      "t": "gefickt",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gehkacken",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "gehnekuhmelken",
       "cat": "profanity",
       "sev": 3
     },
     {
+      "t": "gehstaubfressen",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "gehsteigpanzer",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gehzumteufel",
       "cat": "profanity",
       "sev": 3
     },
@@ -617,6 +881,11 @@ const String seedDe = r'''
     },
     {
       "t": "geilesau",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "geilesluder",
       "cat": "profanity",
       "sev": 3
     },
@@ -647,7 +916,32 @@ const String seedDe = r'''
       "sev": 3
     },
     {
+      "t": "hackfresse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "haltdefickklappe",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "haltdeinefresse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "haltdeinenmund",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "haltdiefotze",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "haltdiefresse",
       "cat": "profanity",
       "sev": 3
     },
@@ -672,12 +966,27 @@ const String seedDe = r'''
       "sev": 3
     },
     {
+      "t": "hassligerziegenficker",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hastdenarschoffen",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "hatwohlamblitzgeleckt",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "hebephil",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "himmelarschundzwirn",
       "cat": "profanity",
       "sev": 3
     },
@@ -698,6 +1007,11 @@ const String seedDe = r'''
       "w": true
     },
     {
+      "t": "hodensack",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "homofuerst",
       "cat": "profanity",
       "sev": 3
@@ -714,7 +1028,22 @@ const String seedDe = r'''
       "w": true
     },
     {
+      "t": "huansohn",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "huanson",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "huhrensohn",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hundeficker",
       "cat": "profanity",
       "sev": 3
     },
@@ -735,6 +1064,11 @@ const String seedDe = r'''
       "w": true
     },
     {
+      "t": "hurensohn",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ichbineinfachabgedreht",
       "cat": "profanity",
       "sev": 3
@@ -750,6 +1084,11 @@ const String seedDe = r'''
       "sev": 3
     },
     {
+      "t": "ichwerdedichleckenbisduschreist",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ichwilldassdumichhieranfasst",
       "cat": "profanity",
       "sev": 3
@@ -760,10 +1099,25 @@ const String seedDe = r'''
       "sev": 3
     },
     {
+      "t": "ichwilldichficken",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ichwillficken",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "inzest",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "inzestuos",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "ische",
@@ -778,13 +1132,39 @@ const String seedDe = r'''
       "w": true
     },
     {
+      "t": "kackarsch",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kackbratze",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "kacke",
       "cat": "profanity",
       "sev": 3,
       "w": true
     },
     {
+      "t": "kackeamdampfen",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kacken",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "kackwurst",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kampflesbe",
       "cat": "profanity",
       "sev": 3
     },
@@ -837,6 +1217,22 @@ const String seedDe = r'''
       "w": true
     },
     {
+      "t": "knopfe",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "korintenkacker",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "korinthenkacker",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "kotnascher",
       "cat": "profanity",
       "sev": 3
@@ -858,12 +1254,27 @@ const String seedDe = r'''
       "sev": 3
     },
     {
+      "t": "kussmeinenarsch",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "labertasche",
       "cat": "profanity",
       "sev": 3
     },
     {
+      "t": "lahmarsch",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "lahmeente",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lechmienarsch",
       "cat": "profanity",
       "sev": 3
     },
@@ -901,6 +1312,12 @@ const String seedDe = r'''
     },
     {
       "t": "lude",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "luder",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -1034,12 +1451,27 @@ const String seedDe = r'''
       "w": true
     },
     {
+      "t": "muschies",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "muschilecker",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "musstselbstmordbegehen",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "muterfiker",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mutterficker",
       "cat": "profanity",
       "sev": 3
     },
@@ -1088,6 +1520,11 @@ const String seedDe = r'''
       "w": true
     },
     {
+      "t": "nuttensohn",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "nymphe",
       "cat": "profanity",
       "sev": 3,
@@ -1120,6 +1557,12 @@ const String seedDe = r'''
       "w": true
     },
     {
+      "t": "orgien",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "padophiler",
       "cat": "profanity",
       "sev": 3
@@ -1145,16 +1588,31 @@ const String seedDe = r'''
       "sev": 3
     },
     {
+      "t": "pferdearsch",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "piefke",
       "cat": "profanity",
       "sev": 3,
       "w": true
     },
     {
+      "t": "piefkes",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "pimmel",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "pimmelberger",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "pimpern",
@@ -1168,6 +1626,18 @@ const String seedDe = r'''
     },
     {
       "t": "pisse",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pissen",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pisser",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -1215,6 +1685,11 @@ const String seedDe = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "pornografie",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "proletensau",
@@ -1372,6 +1847,11 @@ const String seedDe = r'''
       "sev": 3
     },
     {
+      "t": "schneepisser",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "schnoodlenoodle",
       "cat": "profanity",
       "sev": 3
@@ -1426,6 +1906,11 @@ const String seedDe = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "schwuler",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "shaisa",
@@ -1510,12 +1995,27 @@ const String seedDe = r'''
       "sev": 3
     },
     {
+      "t": "spritzdeinensaftubermeinetitten",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "spritzmichvoll",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "stassenstrich",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "steigaufdiesehoden",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "stinkfotze",
       "cat": "profanity",
       "sev": 3
     },
@@ -1546,6 +2046,11 @@ const String seedDe = r'''
       "w": true
     },
     {
+      "t": "teufelwirdlossein",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ticknichtab",
       "cat": "profanity",
       "sev": 3
@@ -1562,10 +2067,21 @@ const String seedDe = r'''
       "w": true
     },
     {
+      "t": "titten",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "transe",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "transen",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "transuse",
@@ -1594,6 +2110,12 @@ const String seedDe = r'''
       "w": true
     },
     {
+      "t": "tunten",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "tussi",
       "cat": "profanity",
       "sev": 3,
@@ -1605,7 +2127,17 @@ const String seedDe = r'''
       "sev": 3
     },
     {
+      "t": "unwaschenfickenjude",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "varpissdich",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "verarsche",
       "cat": "profanity",
       "sev": 3
     },
@@ -1645,6 +2177,11 @@ const String seedDe = r'''
       "sev": 3
     },
     {
+      "t": "verpissen",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "verrucktermann",
       "cat": "profanity",
       "sev": 3
@@ -1671,7 +2208,17 @@ const String seedDe = r'''
       "sev": 3
     },
     {
+      "t": "vollderdepp",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "vollidiot",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "volligimarsch",
       "cat": "profanity",
       "sev": 3
     },
@@ -1687,6 +2234,11 @@ const String seedDe = r'''
     },
     {
       "t": "waschlappen",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "waszumteufel",
       "cat": "profanity",
       "sev": 3
     },
@@ -1715,6 +2267,16 @@ const String seedDe = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "wichsen",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wichser",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "witzbold",
@@ -1761,6 +2323,11 @@ const String seedDe = r'''
     },
     {
       "t": "zimperliese",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zimtzicke",
       "cat": "profanity",
       "sev": 3
     },

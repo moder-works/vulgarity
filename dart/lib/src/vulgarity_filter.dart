@@ -49,6 +49,30 @@ class VulgarityFilter {
     return (VulgarityFilterBuilder()..addSeed(json)).build(options);
   }
 
+  /// Builds a filter from a preset document or a [VulgarityPreset].
+  ///
+  /// A preset carries the policy as well as the terms, so a server can change
+  /// how strict a client is without an app release. Treat a preset from the
+  /// network as untrusted: this throws [FormatException] on a malformed
+  /// document, and it never partly applies one.
+  ///
+  /// This package compiles in English only. A preset that names any other
+  /// language needs [languageResolver] — pass `languageSeed` from
+  /// `package:vulgarity/languages.dart`.
+  ///
+  /// ```dart
+  /// final response = await http.get(Uri.parse('https://example.com/policy.json'));
+  /// final filter = VulgarityFilter.fromPreset(response.body);
+  /// ```
+  factory VulgarityFilter.fromPreset(
+    Object preset, {
+    String Function(String code)? languageResolver,
+  }) {
+    return (VulgarityFilterBuilder()
+          ..addPreset(preset, languageResolver: languageResolver))
+        .build();
+  }
+
   /// Returns a filter with different options. It reuses the compiled trie.
   VulgarityFilter withOptions(VulgarityOptions options) {
     options.validate();
@@ -186,8 +210,7 @@ class VulgarityFilter {
     return matches;
   }
 
-  void _collectAllow(
-      NormalizedText stream, List<int> starts, List<int> ends) {
+  void _collectAllow(NormalizedText stream, List<int> starts, List<int> ends) {
     if (_allowTrie.patternCount == 0) {
       return;
     }
@@ -287,8 +310,7 @@ class VulgarityFilter {
     return false;
   }
 
-  static bool _isAllowed(
-      List<int> starts, List<int> ends, int start, int end) {
+  static bool _isAllowed(List<int> starts, List<int> ends, int start, int end) {
     for (int i = 0; i < starts.length; i++) {
       if (starts[i] <= start && end <= ends[i]) {
         return true;

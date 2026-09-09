@@ -5,6 +5,7 @@ import 'seed_data.g.dart';
 import 'seed_loader.dart';
 import 'trie/aho_corasick.dart';
 import 'vulgarity_filter.dart';
+import 'vulgarity_preset.dart';
 import 'vulgarity_options.dart';
 
 /// Collects terms from one or more sources, then compiles a filter.
@@ -24,6 +25,7 @@ class VulgarityFilterBuilder {
   final Map<String, VulgarityTerm> _terms = <String, VulgarityTerm>{};
   final List<String> _termOrder = <String>[];
   final Set<String> _allow = <String>{};
+  VulgarityOptions? _presetOptions;
 
   /// Adds the bundled English term list.
   void useDefaultSeed() => addSeed(kSeedEn);
@@ -44,6 +46,76 @@ class VulgarityFilterBuilder {
       addAllow(word);
     }
   }
+
+  /// Adds a whole policy: its language packs, terms, allowlist and options.
+  ///
+  /// The preset's options apply when you call [build] with no options of your
+  /// own. Adding a second preset replaces the first one's options; the terms of
+  /// both stay.
+  ///
+  /// This package compiles in English only, so a preset that names any other
+  /// language needs [languageResolver]. Pass `languageSeed` from
+  /// `package:vulgarity/languages.dart`, or your own function.
+  void addPreset(
+    Object preset, {
+    String Function(String code)? languageResolver,
+  }) {
+    final VulgarityPreset parsed = preset is VulgarityPreset
+        ? preset
+        : VulgarityPreset.parse(preset as String);
+
+    // Order matters. Load the lists, add on top, then take away.
+    for (final String code in parsed.languages) {
+      if (code == 'en' && languageResolver == null) {
+        useDefaultSeed();
+        continue;
+      }
+      if (languageResolver == null) {
+        throw ArgumentError.value(
+          code,
+          'preset.languages',
+          "This package compiles in English only. To load '$code', pass "
+              'languageResolver: languageSeed from '
+              'package:vulgarity/languages.dart, or import the pack and '
+              'resolve it yourself.',
+        );
+      }
+      addSeed(languageResolver(code));
+    }
+
+    for (final VulgarityTerm term in parsed.entries) {
+      _register(term);
+    }
+    for (final String word in parsed.allow) {
+      addAllow(word);
+    }
+    for (final String term in parsed.remove) {
+      removeTerm(term);
+    }
+
+    _presetOptions = parsed.options;
+  }
+
+  /// Drops one term, if it is present.
+  ///
+  /// A term that is absent is not an error. That keeps a remote policy working
+  /// against an older term list.
+  void removeTerm(String term) {
+    if (term.isEmpty) {
+      return;
+    }
+    final String folded = TextNormalizer.foldToString(term);
+    if (_terms.remove(folded) != null) {
+      _termOrder.remove(folded);
+    }
+  }
+
+  /// Reports whether the builder currently holds a term.
+  bool hasTerm(String term) =>
+      term.isNotEmpty && _terms.containsKey(TextNormalizer.foldToString(term));
+
+  /// How many terms the builder currently holds.
+  int get termCount => _termOrder.length;
 
   /// Adds one term.
   ///
@@ -70,7 +142,9 @@ class VulgarityFilterBuilder {
 
   /// Compiles the trie and returns the filter.
   VulgarityFilter build([VulgarityOptions? options]) {
-    final VulgarityOptions effective = options ?? VulgarityOptions();
+    // Your own options win. Otherwise the last preset's options apply.
+    final VulgarityOptions effective =
+        options ?? _presetOptions ?? VulgarityOptions();
     effective.validate();
 
     if (_termOrder.isEmpty) {

@@ -198,6 +198,159 @@ convenient on a server, wasteful in an app.
 
 ---
 
+## Presets: policy as data
+
+A **seed** document carries terms. A **preset** carries the whole policy —
+options, extra terms, an allowlist, and terms to drop. So a server can change
+how strict a client is with no app release.
+
+```json
+{
+  "schema": 1,
+  "profile": "fold-v1",
+  "name": "brand",
+  "description": "What this policy is for.",
+
+  "languages": ["en", "es"],
+
+  "options": {
+    "minSeverity": 2,
+    "categories": ["hate", "violence"],
+    "maskChar": "-",
+    "maskToken": null,
+    "repeatTolerance": true,
+    "collapseContained": true,
+    "scoreMode": "total"
+  },
+
+  "entries": [
+    { "t": "blorpco", "cat": "profanity", "sev": 4, "w": true }
+  ],
+  "allow": ["blorpcoshire"],
+  "remove": ["damn", "hell", "crap"]
+}
+```
+
+Only `schema` and `profile` are checked. Every other field is optional.
+
+| Field | Effect |
+| --- | --- |
+| `languages` | Which bundled lists to load. `"en"` is the curated English list. |
+| `options` | The policy. A missing field keeps its default. |
+| `entries` | Terms to add, in the seed entry shape. |
+| `allow` | Innocent words the filter must never flag. |
+| `remove` | Terms to drop after the lists load. An absent term is not an error. |
+
+They apply in that order: **load, add, then take away.**
+
+### Fetch one and use it
+
+```csharp
+string json = await http.GetStringAsync("https://example.com/policy.json");
+var filter = VulgarityFilter.FromPreset(json);
+```
+
+```dart
+final response = await http.get(Uri.parse('https://example.com/policy.json'));
+final filter = VulgarityFilter.fromPreset(response.body);
+```
+
+Or build it up yourself:
+
+```csharp
+var filter = new VulgarityFilterBuilder()
+    .AddPreset(json)
+    .AddTerm("extra", "profanity", 3, requireBoundary: true)
+    .RemoveTerm("damn")
+    .Build();                       // the preset's options apply
+```
+
+```dart
+final filter = (VulgarityFilterBuilder()
+      ..addPreset(json)
+      ..addTerm('extra', 'profanity', 3, true)
+      ..removeTerm('damn'))
+    .build();                       // the preset's options apply
+```
+
+Options you pass to `Build` win over the preset's. Pass none and the preset's
+policy applies.
+
+### One difference in Dart
+
+.NET carries every language pack in the assembly, so `FromPreset` resolves
+`languages` on its own. Dart keeps each pack in its own library so an unused one
+stays out of your build, which means a preset naming any language but `en` needs
+a resolver:
+
+```dart
+import 'package:vulgarity/languages.dart';   // pulls in all 14 packs
+
+final filter = VulgarityFilter.fromPreset(json, languageResolver: languageSeed);
+```
+
+To keep an app small, import only the packs you need and resolve them yourself:
+
+```dart
+import 'package:vulgarity/lang/es.dart';
+
+final filter = VulgarityFilter.fromPreset(
+  json,
+  languageResolver: (code) => switch (code) {
+    'en' => kSeedEn,
+    'es' => seedEs,
+    _ => throw ArgumentError('unsupported language: $code'),
+  },
+);
+```
+
+A preset that names only `en` needs no resolver in either language.
+
+### A preset from the network is untrusted
+
+Parsing validates every field and throws with the offending field named. It
+never applies a document in part.
+
+```
+"This build reads preset schema 1. The document states schema 99."
+"This build implements fold profile 'fold-v1'. The preset states 'fold-v9'."
+"'categories' names 'nonsense', which this build does not know. Valid names: ..."
+"'scoreMode' must be 'total' or 'max'. It states 'sideways'."
+"Severity must be 1 to 5. Term 'x' states 77."
+```
+
+Two fields differ on purpose:
+
+- An unknown name in **`options.categories` fails**. Accepting it would silently
+  match nothing, and a filter that quietly stops filtering is worse than one
+  that stops.
+- An unknown **term category is tolerated** and maps to `Other`, keeping its
+  original name. So an older client still works when a server adds a category.
+
+### Round-tripping
+
+`VulgarityPreset` and `VulgarityOptions` both serialise, so a server can build a
+policy with the same library that consumes it.
+
+```csharp
+string json = VulgarityPreset.Parse(source).ToJson();
+VulgarityOptions again = VulgarityOptions.FromJson(options.ToJson());
+```
+
+### Four worked examples
+
+`data/presets/` holds one preset per idea, and both test suites run every one
+against a shared vector file:
+
+| File | What it shows |
+| --- | --- |
+| `default.json` | The plain English list. Equal to `CreateDefault()`. |
+| `strict.json` | A fixed mask token, and scoring by the worst single match. |
+| `hate-only.json` | An escalation policy: severity 4 and up, slurs and threats only. |
+| `brand.json` | Every feature at once — two languages, an added term, an allowlist entry, three terms dropped. |
+
+---
+
 ## How it works
 
 Three layers, written twice, identical in both languages.
@@ -276,7 +429,9 @@ data/                     the contract. Neither language owns it.
   fold-v1.json            the fold table
   seed.json               the curated English list
   seed.<lang>.json        14 optional packs
+  presets/                four worked preset documents
   vectors.json            38 behavioural cases both ports must reproduce
+  preset-vectors.json     44 preset cases both ports must reproduce
   fold-vectors.json       35 normalizer cases
   testdata/               the community corpus, used only by tests
 
@@ -288,9 +443,9 @@ tool/                     generators, all idempotent, all with --check
   foldlib.py              a Python reference fold, used by the tools
 
 dotnet/src/Vulgarity/     the C# library
-dotnet/tests/             200 tests
+dotnet/tests/             268 tests
 dart/lib/                 the Dart library
-dart/test/                210 tests
+dart/test/                279 tests
 ```
 
 `data/` is generated, and it is also the source of truth at run time. Change a
@@ -320,8 +475,8 @@ diff /tmp/a /tmp/b
 
 What the suites check:
 
-- **Parity** — both ports read `data/vectors.json` and must produce identical
-  detect, scan, filter and score results.
+- **Parity** — both ports read `data/vectors.json` and `data/preset-vectors.json`
+  and must produce identical detect, scan, filter and score results.
 - **The normalizer** — both ports read `data/fold-vectors.json` and must produce
   identical characters, offsets, `hard` flags and `gap` flags.
 - **The fold table** — the compiled C# and Dart tables must equal
@@ -334,6 +489,8 @@ What the suites check:
 - **The allowlist** — every entry must be one the matcher genuinely needs.
 - **Language packs** — each pack loads, targets this profile, is marked
   unvetted, and finds every term it carries.
+- **Presets** — every worked example builds, a malformed document is refused
+  with a named field, and both preset and options round-trip through JSON.
 
 ---
 

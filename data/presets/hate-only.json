@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "profile": "fold-v1",
+  "name": "hate-only",
+  "description": "Escalation policy. It ignores ordinary swearing and reports only serious slurs and threats.",
+  "languages": ["en"],
+  "options": {
+    "minSeverity": 4,
+    "categories": ["hate", "violence"],
+    "maskChar": "#"
+  }
+}

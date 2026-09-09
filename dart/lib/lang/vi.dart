@@ -17,7 +17,7 @@
 /// ```
 library;
 
-/// 417 terms for Vietnamese.
+/// 502 terms for Vietnamese.
 const String seedVi = r'''
 {
   "schema": 1,
@@ -76,6 +76,11 @@ const String seedVi = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "ancubucuatoi",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "ancucuatoi",
@@ -332,6 +337,11 @@ const String seedVi = r'''
       "sev": 3
     },
     {
+      "t": "bubuoibomaydi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "bucactoi",
       "cat": "profanity",
       "sev": 3
@@ -352,6 +362,11 @@ const String seedVi = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "bucucuataone",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "budug",
@@ -384,6 +399,26 @@ const String seedVi = r'''
       "w": true
     },
     {
+      "t": "caiconcac",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "caiconcak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "caidauboi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "caidauboy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "cailegithon",
       "cat": "profanity",
       "sev": 3
@@ -393,6 +428,23 @@ const String seedVi = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "cailol",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cailon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cailonme",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "caolol",
@@ -460,6 +512,11 @@ const String seedVi = r'''
       "w": true
     },
     {
+      "t": "chichchoac",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "chitrich",
       "cat": "profanity",
       "sev": 3
@@ -517,6 +574,12 @@ const String seedVi = r'''
       "w": true
     },
     {
+      "t": "cocote",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "cokil",
       "cat": "profanity",
       "sev": 3,
@@ -557,6 +620,11 @@ const String seedVi = r'''
       "w": true
     },
     {
+      "t": "conbich",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "conbit",
       "cat": "profanity",
       "sev": 3,
@@ -587,7 +655,38 @@ const String seedVi = r'''
       "w": true
     },
     {
+      "t": "condicho",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "condiem",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "condimay",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "condime",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "conge",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "congean",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "congek",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -621,10 +720,20 @@ const String seedVi = r'''
       "w": true
     },
     {
+      "t": "conmatlon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "conme",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "conmemay",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "contrai",
@@ -647,6 +756,16 @@ const String seedVi = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "cukimai",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cukimay",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "culol",
@@ -691,6 +810,22 @@ const String seedVi = r'''
       "w": true
     },
     {
+      "t": "dachlol",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dachlon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dancok",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "dangu",
       "cat": "profanity",
       "sev": 3,
@@ -715,6 +850,11 @@ const String seedVi = r'''
       "w": true
     },
     {
+      "t": "daubuoi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "daukhan",
       "cat": "profanity",
       "sev": 3
@@ -733,6 +873,18 @@ const String seedVi = r'''
     },
     {
       "t": "dcmm",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dcmmm",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dcmmmm",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -840,6 +992,11 @@ const String seedVi = r'''
       "sev": 3
     },
     {
+      "t": "dianguc",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "dilol",
       "cat": "profanity",
       "sev": 3,
@@ -921,6 +1078,11 @@ const String seedVi = r'''
       "w": true
     },
     {
+      "t": "ditconme",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ditcu",
       "cat": "profanity",
       "sev": 3,
@@ -943,6 +1105,26 @@ const String seedVi = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "ditmeconcho",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ditmecondi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ditmemay",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ditmethangoccho",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "ditmia",
@@ -986,6 +1168,18 @@ const String seedVi = r'''
       "w": true
     },
     {
+      "t": "dmmmm",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dmmmmm",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "doanvat",
       "cat": "profanity",
       "sev": 3
@@ -1010,6 +1204,12 @@ const String seedVi = r'''
     },
     {
       "t": "doma",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "domama",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -1077,6 +1277,11 @@ const String seedVi = r'''
       "w": true
     },
     {
+      "t": "duconme",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ducquocxa",
       "cat": "profanity",
       "sev": 3
@@ -1096,6 +1301,11 @@ const String seedVi = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "dumemay",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "dumia",
@@ -1136,6 +1346,11 @@ const String seedVi = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "entotan",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "ewean",
@@ -1195,6 +1410,11 @@ const String seedVi = r'''
       "w": true
     },
     {
+      "t": "gioitinh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "giut",
       "cat": "profanity",
       "sev": 3,
@@ -1202,6 +1422,18 @@ const String seedVi = r'''
     },
     {
       "t": "goblo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "goblog",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "goblok",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -1290,10 +1522,27 @@ const String seedVi = r'''
       "w": true
     },
     {
+      "t": "jancok",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jancuk",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "jembut",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "jiancok",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "jilmek",
@@ -1366,6 +1615,12 @@ const String seedVi = r'''
     },
     {
       "t": "kenthu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kentot",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -1488,6 +1743,11 @@ const String seedVi = r'''
       "w": true
     },
     {
+      "t": "liemamdaocuatoi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "liemamhocuatoi",
       "cat": "profanity",
       "sev": 3
@@ -1564,6 +1824,16 @@ const String seedVi = r'''
       "w": true
     },
     {
+      "t": "machamay",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "machanhamay",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "maho",
       "cat": "profanity",
       "sev": 3,
@@ -1582,6 +1852,24 @@ const String seedVi = r'''
     },
     {
       "t": "matlo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "matlol",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "matlon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "matloz",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -1624,6 +1912,12 @@ const String seedVi = r'''
     },
     {
       "t": "meki",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "mekiep",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -1688,10 +1982,21 @@ const String seedVi = r'''
       "w": true
     },
     {
+      "t": "ndasmu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "ngehe",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "ngentot",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "ngewe",
@@ -1749,7 +2054,22 @@ const String seedVi = r'''
       "sev": 3
     },
     {
+      "t": "nguoitanbao",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "nguoitau",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nhucailon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nhuconcac",
       "cat": "profanity",
       "sev": 3
     },
@@ -1811,6 +2131,21 @@ const String seedVi = r'''
       "w": true
     },
     {
+      "t": "nungcak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nunglol",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nunglon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "nuot",
       "cat": "profanity",
       "sev": 3,
@@ -1840,6 +2175,12 @@ const String seedVi = r'''
       "w": true
     },
     {
+      "t": "pantek",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "patek",
       "cat": "profanity",
       "sev": 3,
@@ -1858,10 +2199,26 @@ const String seedVi = r'''
       "w": true
     },
     {
+      "t": "pecundang",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "peju",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "pejuh",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pelacur",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "pelakor",
@@ -1897,10 +2254,36 @@ const String seedVi = r'''
       "sev": 3
     },
     {
+      "t": "phongtinh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "puki",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "pukima",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pukimae",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pukimak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pukimay",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "quai",
@@ -1939,6 +2322,21 @@ const String seedVi = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "sapmatlol",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sapmatlon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sapmatloz",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "sepong",
@@ -2076,6 +2474,11 @@ const String seedVi = r'''
       "sev": 3
     },
     {
+      "t": "thangmatlon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "thangml",
       "cat": "profanity",
       "sev": 3
@@ -2114,6 +2517,11 @@ const String seedVi = r'''
       "w": true
     },
     {
+      "t": "thutinh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "tiembokne",
       "cat": "profanity",
       "sev": 3
@@ -2140,10 +2548,35 @@ const String seedVi = r'''
       "w": true
     },
     {
+      "t": "tinhdich",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tinhduc",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tinhranh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tinhtrung",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "titit",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "toantinh",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "tocha",
@@ -2254,6 +2687,11 @@ const String seedVi = r'''
       "sev": 3
     },
     {
+      "t": "vaiconcac",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "vailin",
       "cat": "profanity",
       "sev": 3,
@@ -2270,6 +2708,11 @@ const String seedVi = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "vailong",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "vanhdai",
@@ -2382,6 +2825,11 @@ const String seedVi = r'''
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "xuattinh",
+      "cat": "profanity",
+      "sev": 3
     }
   ],
   "allow": []

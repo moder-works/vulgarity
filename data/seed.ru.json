@@ -27,6 +27,11 @@
       "w": true
     },
     {
+      "t": "ahaльhый",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ahyc",
       "cat": "profanity",
       "sev": 3,
@@ -38,7 +43,27 @@
       "sev": 3
     },
     {
+      "t": "amбocekcyaл",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "amбucekcyaльhoctь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "amбucekcyaльhый",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "apmячok",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "apxamyдuя",
       "cat": "profanity",
       "sev": 3
     },
@@ -46,6 +71,23 @@
       "t": "apxuпuzдput",
       "cat": "profanity",
       "sev": 3
+    },
+    {
+      "t": "axpehetь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "axyetь",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "axyeл",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
     },
     {
       "t": "axyhexuй",
@@ -69,7 +111,27 @@
       "w": true
     },
     {
+      "t": "aбoptapuu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "aбoptapuй",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "aбoptmaxep",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "aпecдoл",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "aпezдoл",
       "cat": "profanity",
       "sev": 3
     },
@@ -113,6 +175,11 @@
       "w": true
     },
     {
+      "t": "baфлepш",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "baфлuct",
       "cat": "profanity",
       "sev": 3
@@ -138,6 +205,11 @@
       "sev": 3
     },
     {
+      "t": "beбahyй",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "beъeб",
       "cat": "profanity",
       "sev": 3,
@@ -151,6 +223,23 @@
     },
     {
       "t": "blya",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "blyad",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "blyadischa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "blyat",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -191,6 +280,16 @@
       "sev": 3
     },
     {
+      "t": "boпuzдy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bxyяkubahue",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "bxyяpubahue",
       "cat": "profanity",
       "sev": 3
@@ -227,6 +326,11 @@
     },
     {
       "t": "bzдpючubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bzъeбhytь",
       "cat": "profanity",
       "sev": 3
     },
@@ -276,6 +380,12 @@
       "sev": 3
     },
     {
+      "t": "bпuzдa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "bпuzдoшuбatьcя",
       "cat": "profanity",
       "sev": 3
@@ -289,6 +399,12 @@
       "t": "bпuzдpohutь",
       "cat": "profanity",
       "sev": 3
+    },
+    {
+      "t": "bпuzдy",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
     },
     {
       "t": "bпuzдяpubatь",
@@ -342,7 +458,77 @@
       "w": true
     },
     {
+      "t": "bъeбatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bъeбaлcя",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bъeбaшubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bъeбehh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bъeбehubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bъeбehutь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bъeбexatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bъeбexubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bъeбycь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bъeбypubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bъeбyputь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bъeбыbahue",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bъeбыbatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "bъябыbatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bыccatь",
       "cat": "profanity",
       "sev": 3
     },
@@ -372,6 +558,16 @@
       "sev": 3
     },
     {
+      "t": "bыcpatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bыcukatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "bыcukubatь",
       "cat": "profanity",
       "sev": 3
@@ -387,6 +583,73 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "bыeбatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bыeбeh",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bыeбehubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bыeбehutь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bыeбexubahue",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bыeбexubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bыeбhytь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bыeбhyлcя",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bыeбoh",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bыeбohщuk",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bыeбuctый",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bыeбыbahue",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bыeбыbatь",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "bыmabдoшubatьcя",
@@ -454,12 +717,32 @@
       "sev": 3
     },
     {
+      "t": "bыxaputь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bыxyяkubahue",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "bыxyяpubahue",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "bыxyячubahue",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bыблядok",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bыблядыш",
       "cat": "profanity",
       "sev": 3
     },
@@ -656,6 +939,12 @@
       "w": true
     },
     {
+      "t": "ccaka",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "ccatь",
       "cat": "profanity",
       "sev": 3,
@@ -671,6 +960,12 @@
       "t": "ccyчutьcя",
       "cat": "profanity",
       "sev": 3
+    },
+    {
+      "t": "ccыkyh",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
     },
     {
       "t": "ccыkyxa",
@@ -689,6 +984,11 @@
       "sev": 3
     },
     {
+      "t": "cectpoectu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "cectpoeб",
       "cat": "profanity",
       "sev": 3
@@ -700,10 +1000,30 @@
       "w": true
     },
     {
+      "t": "cekcaпuль",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cekcotka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cekcoпuлka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "cekeль",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "cekeльhoemacлo",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "cemяuzbepжehue",
@@ -775,12 +1095,22 @@
       "sev": 3
     },
     {
+      "t": "ckocoeбatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ckotctbo",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "ckoблutьcя",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ckpeбatь",
       "cat": "profanity",
       "sev": 3
     },
@@ -810,7 +1140,17 @@
       "sev": 3
     },
     {
+      "t": "cmahдюkatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "cmeptoxyйctbehhый",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cmexyeчek",
       "cat": "profanity",
       "sev": 3
     },
@@ -827,6 +1167,11 @@
     },
     {
       "t": "cmyдoxubatьcя",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cmyдutь",
       "cat": "profanity",
       "sev": 3
     },
@@ -876,6 +1221,26 @@
       "w": true
     },
     {
+      "t": "coдomupobatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "coдomutьcя",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "coдomuzupobahhыe",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "coдomuя",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "coлoп",
       "cat": "profanity",
       "sev": 3,
@@ -894,7 +1259,25 @@
       "w": true
     },
     {
+      "t": "cpahьe",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "cpak",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cpaka",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cpaky",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -917,10 +1300,21 @@
       "w": true
     },
     {
+      "t": "cpaчok",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "cpyh",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "ctapыйxpeh",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "ctekлopez",
@@ -941,6 +1335,11 @@
     },
     {
       "t": "ctoячok",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ctpyxhя",
       "cat": "profanity",
       "sev": 3
     },
@@ -1050,6 +1449,16 @@
       "sev": 3
     },
     {
+      "t": "cxyebytyчatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cxyebyдyшutь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "cyhьxyйbчaй",
       "cat": "profanity",
       "sev": 3
@@ -1061,10 +1470,31 @@
       "w": true
     },
     {
+      "t": "cykablyat",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cykaдлo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "cyku",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "cykuh",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cykuhcыh",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "cyxoctoйhый",
@@ -1077,6 +1507,16 @@
       "sev": 3
     },
     {
+      "t": "cyxoдpoчka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cyпepcekc",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "cyфлep",
       "cat": "profanity",
       "sev": 3,
@@ -1084,6 +1524,12 @@
     },
     {
       "t": "cyчap",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cyчapa",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -1118,10 +1564,30 @@
       "w": true
     },
     {
+      "t": "cyчuйcыh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cyчuйxboct",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cyчuйпotpoxa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "cyчьe",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "cyчьebыmя",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "cлyчka",
@@ -1135,10 +1601,20 @@
       "sev": 3
     },
     {
+      "t": "cпepeпuzдuhka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "cпepma",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "cпepmatozabp",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "cпpueб",
@@ -1148,6 +1624,11 @@
     },
     {
       "t": "cпpuпuzдue",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cпpuпuzдuhka",
       "cat": "profanity",
       "sev": 3
     },
@@ -1167,7 +1648,17 @@
       "sev": 3
     },
     {
+      "t": "cпuzдut",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "cпuzдuл",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cпuzдюkatь",
       "cat": "profanity",
       "sev": 3
     },
@@ -1269,6 +1760,11 @@
       "w": true
     },
     {
+      "t": "cъeбatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "cъeбaшubatь",
       "cat": "profanity",
       "sev": 3
@@ -1290,6 +1786,16 @@
     },
     {
       "t": "cъeбexubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cъeбypubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cъeбyputь",
       "cat": "profanity",
       "sev": 3
     },
@@ -1353,6 +1859,12 @@
       "w": true
     },
     {
+      "t": "e6aль",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "e6yt",
       "cat": "profanity",
       "sev": 3,
@@ -1363,6 +1875,22 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "ebalnik",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ebalo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ebalomschelkat",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "ebanatyipidaraz",
@@ -1389,6 +1917,12 @@
     },
     {
       "t": "ectu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ectucь",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -1423,6 +1957,11 @@
       "w": true
     },
     {
+      "t": "etueгomatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "etuuxmatь",
       "cat": "profanity",
       "sev": 3
@@ -1438,6 +1977,81 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "eбahamatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "eбahat",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "eбahatuk",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "eбahaшka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "eбahaя",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "eбahhый",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "eбahoe",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "eбahuчeckuй",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "eбahytыe",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "eбahytь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "eбahyю",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "eбahый",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "eбahыйctoc",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "eбahьko",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "eбak",
@@ -1463,10 +2077,57 @@
       "w": true
     },
     {
+      "t": "eбatopuй",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "eбatopuя",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "eбatь",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "eбatьcя",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "eбatьkoпatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "eбaл",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "eбaлo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "eбaльhuk",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "eбaльhыeгoдa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "eбaльhыйctahka",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "eбaчutь",
@@ -1508,6 +2169,11 @@
       "w": true
     },
     {
+      "t": "eбehamatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "eбehtь",
       "cat": "profanity",
       "sev": 3,
@@ -1521,6 +2187,12 @@
     },
     {
       "t": "eбet",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "eбetcя",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -1541,6 +2213,11 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "eбhytьcя",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "eбhя",
@@ -1565,6 +2242,17 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "eбothя",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "eбotuha",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "eбoшutь",
@@ -1642,6 +2330,12 @@
       "w": true
     },
     {
+      "t": "eбyha",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "eбykehtuй",
       "cat": "profanity",
       "sev": 3
@@ -1659,10 +2353,44 @@
       "w": true
     },
     {
+      "t": "eбytbaшy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "eбyч",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "eбyчe",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "eбyчee",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "eбyчum",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "eбyчuй",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "eбyчuйkozeл",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "eбyщ",
@@ -1677,6 +2405,17 @@
       "w": true
     },
     {
+      "t": "eблah",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "eблahtuй",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "eблematuk",
       "cat": "profanity",
       "sev": 3
@@ -1686,6 +2425,11 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "eблomщeлkatь",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "eблubщuha",
@@ -1732,6 +2476,16 @@
       "w": true
     },
     {
+      "t": "eбляcпepuckoп",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "eбляcпляcka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "eбыpь",
       "cat": "profanity",
       "sev": 3,
@@ -1774,6 +2528,16 @@
       "w": true
     },
     {
+      "t": "eдputьkoлotutь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "eдputьkoпatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "eдputяbkopehь",
       "cat": "profanity",
       "sev": 3
@@ -1790,6 +2554,17 @@
       "w": true
     },
     {
+      "t": "eлдak",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "eлдaчutь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "eлдыkatя",
       "cat": "profanity",
       "sev": 3
@@ -1804,6 +2579,11 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "golubayablyad",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "goluboi",
@@ -1827,12 +2607,32 @@
       "sev": 3
     },
     {
+      "t": "haccatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "haccыbatь",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "hacekoлutьcя",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hacpatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hacukatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hacupatь",
       "cat": "profanity",
       "sev": 3
     },
@@ -1852,7 +2652,23 @@
       "sev": 3
     },
     {
+      "t": "haeбatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "haeбehutьcя",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "haeбet",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "haeбhytь",
       "cat": "profanity",
       "sev": 3
     },
@@ -1879,12 +2695,22 @@
       "w": true
     },
     {
+      "t": "hakakatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "hakakubatь",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "hakaчubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hakoйxpeh",
       "cat": "profanity",
       "sev": 3
     },
@@ -1899,7 +2725,17 @@
       "sev": 3
     },
     {
+      "t": "hamahдюkatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "hamyдoxubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hamyдutь",
       "cat": "profanity",
       "sev": 3
     },
@@ -1926,10 +2762,26 @@
       "w": true
     },
     {
+      "t": "haxpeh",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "haxpehпocылatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "haxyй",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "haxyйhuk",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "haxyюbeptetь",
@@ -1941,6 +2793,11 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "haбzдetь",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "haбzдeл",
@@ -1974,6 +2831,11 @@
     },
     {
       "t": "haпuzдuлu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "haпuzдюkatь",
       "cat": "profanity",
       "sev": 3
     },
@@ -2025,6 +2887,11 @@
       "w": true
     },
     {
+      "t": "haцuctы",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "haябыbatь",
       "cat": "profanity",
       "sev": 3
@@ -2040,10 +2907,42 @@
       "sev": 3
     },
     {
+      "t": "hebpoteбyчuй",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hebьeбehhый",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "heccatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "hecpu",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "heectu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "heeбet",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "heeбyщuй",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "hehaeбhый",
@@ -2062,6 +2961,12 @@
       "w": true
     },
     {
+      "t": "hexpeh",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "hexupa",
       "cat": "profanity",
       "sev": 3,
@@ -2072,6 +2977,11 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "hexyйctbehho",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "heгoдяй",
@@ -2085,12 +2995,23 @@
       "w": true
     },
     {
+      "t": "heгpы",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "heцehzypщuha",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "hooyovi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hubпuzдa",
       "cat": "profanity",
       "sev": 3
     },
@@ -2129,12 +3050,22 @@
       "sev": 3
     },
     {
+      "t": "huueбet",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "huuбaцo",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "huuпaццa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "huuпaццo",
       "cat": "profanity",
       "sev": 3
     },
@@ -2151,6 +3082,23 @@
       "w": true
     },
     {
+      "t": "huxepa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "huxpeh",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "huxpehaceб",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "huxyй",
       "cat": "profanity",
       "sev": 3,
@@ -2163,12 +3111,33 @@
       "w": true
     },
     {
+      "t": "huxyяceб",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "huzaxyйcoбaчuй",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "huzaxyйcoбaчy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "huфuгa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "huфuгaceб",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "huщeeбctbo",
       "cat": "profanity",
       "sev": 3
     },
@@ -2225,6 +3194,11 @@
     },
     {
       "t": "kaждыйдpoчutkakohxoчet",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "keбahoйmatepь",
       "cat": "profanity",
       "sev": 3
     },
@@ -2291,6 +3265,11 @@
       "sev": 3
     },
     {
+      "t": "kooshigovnoeeoomree",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "kozeл",
       "cat": "profanity",
       "sev": 3,
@@ -2325,6 +3304,12 @@
       "sev": 3
     },
     {
+      "t": "kpetuh",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "kpobabый",
       "cat": "profanity",
       "sev": 3
@@ -2336,6 +3321,11 @@
     },
     {
       "t": "kpobocmeшehue",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kpuboccaчok",
       "cat": "profanity",
       "sev": 3
     },
@@ -2454,6 +3444,16 @@
       "w": true
     },
     {
+      "t": "kлutophuk",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kлutopmah",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "kлюb",
       "cat": "profanity",
       "sev": 3,
@@ -2494,6 +3494,46 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "mahдabmahдa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mahдaboxa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mahдaboшek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mahдaboшka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mahдaboшku",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mahдahytь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mahдaлuh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mahдaпpotubhый",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "mahдehь",
@@ -2586,6 +3626,21 @@
       "w": true
     },
     {
+      "t": "mahдюkatьcя",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mahдюkatя",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mahдюkubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "mahдюpubatь",
       "cat": "profanity",
       "sev": 3
@@ -2671,6 +3726,11 @@
       "sev": 3
     },
     {
+      "t": "mamkootvoyuyebal",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "manda",
       "cat": "profanity",
       "sev": 3,
@@ -2698,6 +3758,11 @@
       "sev": 3
     },
     {
+      "t": "matьbaшyectu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "matьeeпepematь",
       "cat": "profanity",
       "sev": 3
@@ -2719,10 +3784,25 @@
       "w": true
     },
     {
+      "t": "matюkhytьcя",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "matюг",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "matюгatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "matюгhytьcя",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "maxaлka",
@@ -2778,6 +3858,11 @@
       "w": true
     },
     {
+      "t": "mehжebatьcя",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "mepzabeц",
       "cat": "profanity",
       "sev": 3
@@ -2794,6 +3879,11 @@
     },
     {
       "t": "mokpoжoпый",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mokpoпuzдый",
       "cat": "profanity",
       "sev": 3
     },
@@ -2833,12 +3923,32 @@
       "sev": 3
     },
     {
+      "t": "mozгoectu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mozгoeбateль",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mozгoeбatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "mozгoeбok",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "moчebыдeлuteльhыe",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "moчeucпyckateльhыйkahaл",
       "cat": "profanity",
       "sev": 3
     },
@@ -2881,10 +3991,46 @@
       "sev": 3
     },
     {
+      "t": "mudoblyadsksya",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "muhet",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "muheta",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "muhetka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "muhetutь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "muhetдeлatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "muhetчuk",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "muhetчuцa",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "muhytь",
@@ -2905,16 +4051,61 @@
       "w": true
     },
     {
+      "t": "myдak",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "myдaг",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "myдaшbuлu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "myдe",
       "cat": "profanity",
       "sev": 3,
       "w": true
     },
     {
+      "t": "myдehь",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "myдetь",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "myдeль",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "myдhюpazbectu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "myдhя",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "myдoectu",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "myдoeб",
@@ -2969,6 +4160,46 @@
       "w": true
     },
     {
+      "t": "myдuctый",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "myдuk",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "myдutь",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "myдuл",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "myдuлa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "myдuлo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "myдuльщuk",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "myдяhka",
       "cat": "profanity",
       "sev": 3
@@ -2991,6 +4222,17 @@
       "w": true
     },
     {
+      "t": "nasrat",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "obosrat",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ocekoлutь",
       "cat": "profanity",
       "sev": 3
@@ -3001,7 +4243,23 @@
       "sev": 3
     },
     {
+      "t": "octoeбetя",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "octoxyetь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "ocлы",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "oeбatь",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -3028,6 +4286,21 @@
     },
     {
       "t": "oeбexubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "oeбhytь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "oeбypubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "oeбyputь",
       "cat": "profanity",
       "sev": 3
     },
@@ -3073,6 +4346,16 @@
     },
     {
       "t": "omahдoшubahue",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "omahдюkatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "omahдюkubahue",
       "cat": "profanity",
       "sev": 3
     },
@@ -3139,6 +4422,11 @@
       "w": true
     },
     {
+      "t": "opгazmы",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "opгuu",
       "cat": "profanity",
       "sev": 3,
@@ -3203,13 +4491,33 @@
       "w": true
     },
     {
+      "t": "otcocatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "otcpatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "otctoй",
       "cat": "profanity",
       "sev": 3,
       "w": true
     },
     {
+      "t": "otcukatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "otcukubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "otcupatь",
       "cat": "profanity",
       "sev": 3
     },
@@ -3225,12 +4533,32 @@
       "sev": 3
     },
     {
+      "t": "otmahдюkatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "otmohдutь",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "otmudohat",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "otmyдutь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "otoccatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "otocpatь",
       "cat": "profanity",
       "sev": 3
     },
@@ -3251,6 +4579,12 @@
       "sev": 3
     },
     {
+      "t": "otsosi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "ottpaxubatь",
       "cat": "profanity",
       "sev": 3
@@ -3261,12 +4595,32 @@
       "sev": 3
     },
     {
+      "t": "otxaputь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "otxepaчutь",
       "cat": "profanity",
       "sev": 3
     },
     {
+      "t": "otxyecocutь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "otyebis",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "otzyдutь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "otбapatь",
       "cat": "profanity",
       "sev": 3
     },
@@ -3322,6 +4676,16 @@
     },
     {
       "t": "otпuzдoшubahue",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "otпuzдюkatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "otпuzдюkubahue",
       "cat": "profanity",
       "sev": 3
     },
@@ -3411,7 +4775,22 @@
       "sev": 3
     },
     {
+      "t": "otпялutь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "otфaчutь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "otшamпyputь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "otъeбatь",
       "cat": "profanity",
       "sev": 3
     },
@@ -3451,6 +4830,31 @@
       "sev": 3
     },
     {
+      "t": "otъeбhytь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "otъeбucь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "otъeбypubahue",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "otъeбypubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "otъeбyputь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "otъeбыbahue",
       "cat": "profanity",
       "sev": 3
@@ -3467,6 +4871,16 @@
     },
     {
       "t": "otьeбexatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "oxepakatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "oxepakubatь",
       "cat": "profanity",
       "sev": 3
     },
@@ -3521,6 +4935,31 @@
       "sev": 3
     },
     {
+      "t": "oxpehetь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "oxpehuteльhый",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "oxyebateльckuй",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "oxyebatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "oxyebaющuй",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "oxyectь",
       "cat": "profanity",
       "sev": 3
@@ -3544,6 +4983,18 @@
       "t": "oxyehьчuk",
       "cat": "profanity",
       "sev": 3
+    },
+    {
+      "t": "oxyetь",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "oxyeл",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
     },
     {
       "t": "oxyuteльho",
@@ -3622,12 +5073,27 @@
       "sev": 3
     },
     {
+      "t": "oбcukatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "oбcupatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "oбcпyckahhый",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "oбcпyckatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "oбepблядь",
       "cat": "profanity",
       "sev": 3
     },
@@ -3647,7 +5113,17 @@
       "sev": 3
     },
     {
+      "t": "oбmahдюkatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "oбmahдяtь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "oбmatюгubatь",
       "cat": "profanity",
       "sev": 3
     },
@@ -3662,6 +5138,11 @@
       "sev": 3
     },
     {
+      "t": "oбmyдutь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "oбoccaheц",
       "cat": "profanity",
       "sev": 3
@@ -3672,12 +5153,32 @@
       "sev": 3
     },
     {
+      "t": "oбoccatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "oбoccыbatь",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "oбocpaheц",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "oбocpahый",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "oбocpatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "oбocцatь",
       "cat": "profanity",
       "sev": 3
     },
@@ -3694,6 +5195,16 @@
     },
     {
       "t": "oбuжehka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "oбxezatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "oбxyяkubahue",
       "cat": "profanity",
       "sev": 3
     },
@@ -3725,6 +5236,11 @@
     },
     {
       "t": "oбпuzдobыbatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "oбпuzдюkatь",
       "cat": "profanity",
       "sev": 3
     },
@@ -3769,6 +5285,11 @@
       "sev": 3
     },
     {
+      "t": "oбъeбatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "oбъeбaшubahue",
       "cat": "profanity",
       "sev": 3
@@ -3809,6 +5330,11 @@
       "sev": 3
     },
     {
+      "t": "oбъeбhytь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "oбъeбka",
       "cat": "profanity",
       "sev": 3
@@ -3820,6 +5346,21 @@
     },
     {
       "t": "oбъeбoh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "oбъeбypubahue",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "oбъeбypubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "oбъeбyputь",
       "cat": "profanity",
       "sev": 3
     },
@@ -3844,7 +5385,17 @@
       "sev": 3
     },
     {
+      "t": "oбьeбatьoбьeбoc",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "oгyляtь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "oдhaпuzдa",
       "cat": "profanity",
       "sev": 3
     },
@@ -3865,6 +5416,11 @@
     },
     {
       "t": "oдhoдыpoчhuk",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "oдuheбetcя",
       "cat": "profanity",
       "sev": 3
     },
@@ -3890,6 +5446,11 @@
       "sev": 3
     },
     {
+      "t": "oпezдoл",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "oпopoжhяtьcя",
       "cat": "profanity",
       "sev": 3
@@ -3899,6 +5460,26 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "oпuzдeheлый",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "oпuzдehho",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "oпuzдehhый",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "oпuzдehubaющe",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "oпuzдobыbahue",
@@ -3922,6 +5503,21 @@
     },
     {
       "t": "oпuzдoшubahue",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "oпuzдыbatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "oпuzдюkatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "oпuzдюkubahue",
       "cat": "profanity",
       "sev": 3
     },
@@ -3997,6 +5593,16 @@
       "sev": 3
     },
     {
+      "t": "paccepetьcя",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "paccupatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "paccыbatь",
       "cat": "profanity",
       "sev": 3
@@ -4008,13 +5614,28 @@
       "w": true
     },
     {
+      "t": "pactakatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "pactyд",
       "cat": "profanity",
       "sev": 3,
       "w": true
     },
     {
+      "t": "pactyдыttboюtyдa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "pacпepematь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pacпpoectu",
       "cat": "profanity",
       "sev": 3
     },
@@ -4029,7 +5650,17 @@
       "sev": 3
     },
     {
+      "t": "pacпuzдaй",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "pacпuzдex",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pacпuzдoh",
       "cat": "profanity",
       "sev": 3
     },
@@ -4101,7 +5732,17 @@
       "sev": 3
     },
     {
+      "t": "pazmahдюkatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "pazmyдoxubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pazocpatь",
       "cat": "profanity",
       "sev": 3
     },
@@ -4125,6 +5766,51 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "pazъeбa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pazъeбeha",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pazъeбehubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pazъeбehutь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pazъeбexatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pazъeбexubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pazъeбypubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pazъeбyputь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pazъeбыbatь",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "paпep",
@@ -4199,10 +5885,25 @@
       "w": true
     },
     {
+      "t": "pisdapizda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "pizda",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "pizdato",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pizdatyi",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "pizdec",
@@ -4217,6 +5918,11 @@
       "w": true
     },
     {
+      "t": "pizdetc",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "pizdez",
       "cat": "profanity",
       "sev": 3,
@@ -4227,6 +5933,11 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "pizdoinakrytsja",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "pizdoproebina",
@@ -4250,10 +5961,31 @@
       "w": true
     },
     {
+      "t": "pizduk",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pizdulina",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "pizdy",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "pizdyulina",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "podikuevo",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "poeben",
@@ -4273,10 +6005,30 @@
       "sev": 3
     },
     {
+      "t": "poitiposrat",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pokazhipizdudetka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "pokhuy",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "polnyipizdets",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "poluchitpizdy",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "posholnahui",
@@ -4292,6 +6044,17 @@
       "t": "poshyolty",
       "cat": "profanity",
       "sev": 3
+    },
+    {
+      "t": "pososimoyukonfetku",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "posrat",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
     },
     {
       "t": "poyimatnakonchik",
@@ -4319,7 +6082,17 @@
       "sev": 3
     },
     {
+      "t": "proebat",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "propezdoloch",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "prosrat",
       "cat": "profanity",
       "sev": 3
     },
@@ -4372,6 +6145,11 @@
       "sev": 3
     },
     {
+      "t": "sebatsya",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "sebis",
       "cat": "profanity",
       "sev": 3,
@@ -4394,6 +6172,11 @@
       "w": true
     },
     {
+      "t": "shluhavokzalnaja",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "shlukha",
       "cat": "profanity",
       "sev": 3
@@ -4403,6 +6186,11 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "sookaebnataya",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "sookinsyn",
@@ -4420,6 +6208,26 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "sosiebanatayasuka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sosihooiinepsihooy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sosihui",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sosimoihuisooka",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "spermuglubokovgorlo",
@@ -4454,6 +6262,11 @@
       "sev": 3
     },
     {
+      "t": "svoditposrat",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "svoloch",
       "cat": "profanity",
       "sev": 3
@@ -4468,6 +6281,11 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "tebepizdets",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "teekarova",
@@ -4505,6 +6323,11 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "tpahдюk",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "tpaxae6",
@@ -4552,6 +6375,11 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "tpuxomyдuя",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "tpuппep",
@@ -4621,6 +6449,11 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "tutяctaя",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "tuбetчuk",
@@ -4700,6 +6533,11 @@
       "sev": 3
     },
     {
+      "t": "ucпuzдыbatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "uebitsche",
       "cat": "profanity",
       "sev": 3
@@ -4750,6 +6588,11 @@
       "sev": 3
     },
     {
+      "t": "uzmahдюkatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "uzmateputь",
       "cat": "profanity",
       "sev": 3
@@ -4765,7 +6608,17 @@
       "sev": 3
     },
     {
+      "t": "uzmyдutь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "uzoбpazutьдebyль",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "uzъeбatь",
       "cat": "profanity",
       "sev": 3
     },
@@ -4786,6 +6639,16 @@
     },
     {
       "t": "uzъeбexatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "uzъeбypubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "uzъeбyputь",
       "cat": "profanity",
       "sev": 3
     },
@@ -4818,6 +6681,11 @@
       "w": true
     },
     {
+      "t": "uпatьcя",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "uпaццo",
       "cat": "profanity",
       "sev": 3,
@@ -4833,6 +6701,12 @@
       "t": "vaflilovit",
       "cat": "profanity",
       "sev": 3
+    },
+    {
+      "t": "vpizdu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
     },
     {
       "t": "vyperdysh",
@@ -4890,6 +6764,16 @@
       "w": true
     },
     {
+      "t": "xaputьcя",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "xaйльгutлep",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "xaпatь",
       "cat": "profanity",
       "sev": 3,
@@ -4900,6 +6784,11 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "xepakhytь",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "xepamuoблoжutь",
@@ -4991,6 +6880,11 @@
       "w": true
     },
     {
+      "t": "xotьбыxpeh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "xoxotyhчuk",
       "cat": "profanity",
       "sev": 3
@@ -5006,6 +6900,61 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "xpehaлu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "xpehaчutь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "xpehckemбыbatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "xpeheгozhatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "xpehobhuй",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "xpehobuha",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "xpehobuhka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "xpehobый",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "xpehteб",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "xpehyшko",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "xpehцeha",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "xpeйtuhг",
@@ -5035,10 +6984,74 @@
       "w": true
     },
     {
+      "t": "xyeba",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "xyebato",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "xyebatый",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "xyebehьkuй",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "xyebhuчatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "xyebo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "xyebuha",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "xyebuhk",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "xyebuho",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "xyebый",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "xyebыя",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "xyecoc",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "xyecocka",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "xyehek",
@@ -5076,6 +7089,37 @@
       "w": true
     },
     {
+      "t": "xyemhuk",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "xyemoй",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "xyemyдpue",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "xyemгpyшuokoлaчubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "xyemыcлue",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "xyemыpлo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "xyepuk",
       "cat": "profanity",
       "sev": 3,
@@ -5097,6 +7141,17 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "xyeta",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "xyetehь",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "xyexyй",
@@ -5140,6 +7195,11 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "xyeлюбubatь",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "xyeпpomышлehhuk",
@@ -5203,6 +7263,12 @@
       "w": true
     },
     {
+      "t": "xyuлo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "xyuпu",
       "cat": "profanity",
       "sev": 3,
@@ -5219,6 +7285,11 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "xyдoeбuh",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "xyйheйctpaдatь",
@@ -5326,6 +7397,32 @@
       "w": true
     },
     {
+      "t": "xyяkatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "xyяkc",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "xyяkhytь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "xyяkhyгь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "xyяkubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "xyяpa",
       "cat": "profanity",
       "sev": 3,
@@ -5379,6 +7476,27 @@
       "sev": 3
     },
     {
+      "t": "xлeбatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yativayoumaityeball",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yccatь",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "yccatьcя",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "yccыbatь",
       "cat": "profanity",
       "sev": 3
@@ -5395,7 +7513,38 @@
       "sev": 3
     },
     {
+      "t": "ycpatь",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ycpatьcя",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ycpaчok",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ycupatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yebankomaloletnee",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "yebanutayasuka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yebatsya",
       "cat": "profanity",
       "sev": 3
     },
@@ -5412,6 +7561,12 @@
     },
     {
       "t": "yetь",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "yeбatь",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -5448,6 +7603,12 @@
       "w": true
     },
     {
+      "t": "yeбku",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "yeбok",
       "cat": "profanity",
       "sev": 3,
@@ -5467,6 +7628,16 @@
     },
     {
       "t": "yeбuщhoe",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yeбypubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yeбyputь",
       "cat": "profanity",
       "sev": 3
     },
@@ -5504,6 +7675,11 @@
     },
     {
       "t": "ymahдobыbatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ymahдюkatь",
       "cat": "profanity",
       "sev": 3
     },
@@ -5566,6 +7742,16 @@
     },
     {
       "t": "yпuzдobыbatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yпuzдыbatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yпuzдюkatь",
       "cat": "profanity",
       "sev": 3
     },
@@ -5635,6 +7821,11 @@
       "sev": 3
     },
     {
+      "t": "zaccatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "zaccыbatь",
       "cat": "profanity",
       "sev": 3
@@ -5671,6 +7862,11 @@
       "sev": 3
     },
     {
+      "t": "zacepyh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "zacepя",
       "cat": "profanity",
       "sev": 3,
@@ -5686,6 +7882,11 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "zacocatь",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "zacoплubetь",
@@ -5708,7 +7909,28 @@
       "sev": 3
     },
     {
+      "t": "zacpatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zacpyh",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zacukatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "zacukubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zacupatь",
       "cat": "profanity",
       "sev": 3
     },
@@ -5730,16 +7952,188 @@
       "w": true
     },
     {
+      "t": "zaebal",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zaebali",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zaebat",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zaebis",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zaectu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zaectucь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "zaeб",
       "cat": "profanity",
       "sev": 3,
       "w": true
     },
     {
+      "t": "zaeбa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zaeбactaя",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zaeбactый",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zaeбaheц",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zaeбateльckuй",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zaeбatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zaeбaгpeшhый",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zaeбaл",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zaeбaшubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zaeбehubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zaeбehutь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zaeбehя",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zaeбexatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zaeбexubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zaeбuctoe",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zaeбuctыe",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zaeбuctый",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zaeбucь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zaeбuh",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zaeбutecьbыbpotubжoпa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zaeбuчeckuй",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zaeбypubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zaeбyputь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zaeбyлuh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zaeбыbatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zaeбышatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "zaibat",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "zakakatь",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "zakakubatь",
@@ -5757,6 +8151,11 @@
       "sev": 3
     },
     {
+      "t": "zakoлeбatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "zakoлyпatь",
       "cat": "profanity",
       "sev": 3
@@ -5766,6 +8165,16 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "zalupat",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zamahдaлutьcя",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "zamahдobыbatь",
@@ -5779,6 +8188,11 @@
     },
     {
       "t": "zamyдoxubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zamyдutь",
       "cat": "profanity",
       "sev": 3
     },
@@ -5824,6 +8238,11 @@
       "sev": 3
     },
     {
+      "t": "zavaliyebalo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "zaxaчubatь",
       "cat": "profanity",
       "sev": 3
@@ -5844,12 +8263,32 @@
       "sev": 3
     },
     {
+      "t": "zaxpehaчubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zaxpehobetь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "zaxyutь",
       "cat": "profanity",
       "sev": 3
     },
     {
+      "t": "zayebatelski",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "zaбaбax",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zaбzдetь",
       "cat": "profanity",
       "sev": 3
     },
@@ -5906,6 +8345,37 @@
       "w": true
     },
     {
+      "t": "zaлyпa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zaлyпatьcя",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zaлyпehutь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zaлyпuctый",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zaлyпutь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zaлyпляtьcя",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "zaпazдыbahue",
       "cat": "profanity",
       "sev": 3
@@ -5952,6 +8422,11 @@
     },
     {
       "t": "zaпpuдyx",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zaпuzдaputь",
       "cat": "profanity",
       "sev": 3
     },
@@ -6058,6 +8533,11 @@
       "w": true
     },
     {
+      "t": "zooфuлuя",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "zozyля",
       "cat": "profanity",
       "sev": 3,
@@ -6092,10 +8572,30 @@
       "w": true
     },
     {
+      "t": "zлoeбyчaя",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zлoeбyчee",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zлoeбyчuй",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "бapatь",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "бapatьcя",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "бapдak",
@@ -6109,7 +8609,22 @@
       "sev": 3
     },
     {
+      "t": "бeccekeльhый",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "бecпuzдaя",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "бezmyдый",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "бezжoпaй",
       "cat": "profanity",
       "sev": 3
     },
@@ -6188,6 +8703,17 @@
       "w": true
     },
     {
+      "t": "бyфepa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "бyфepactый",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "бzдehok",
       "cat": "profanity",
       "sev": 3
@@ -6233,6 +8759,11 @@
       "w": true
     },
     {
+      "t": "бzдuteльhoctь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "бzдuцы",
       "cat": "profanity",
       "sev": 3,
@@ -6243,6 +8774,11 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "бzдyhья",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "бzдлo",
@@ -6314,10 +8850,153 @@
       "w": true
     },
     {
+      "t": "блябyдy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "бляд",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "блядbый",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "блядckuй",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "блядctbo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "блядex",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "блядka",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "блядku",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "блядobahue",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "блядobatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "блядobozka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "блядobutый",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "блядoxoд",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "блядoлuz",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "блядu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "блядuctka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "блядuha",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "блядuщe",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "блядyh",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "блядyhы",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "блядyhья",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "блядь",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "блядьmo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "блядюp",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "блядюг",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "блядюгa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "блядюшhuk",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "блядюшka",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "гabho",
@@ -6376,6 +9055,24 @@
       "w": true
     },
     {
+      "t": "гhuдa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "гhuдp",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "гhuды",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "гhuлomyдый",
       "cat": "profanity",
       "sev": 3
@@ -6410,6 +9107,56 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "гobhoboz",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "гobhocepka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "гobhocoбaчьe",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "гobhoectu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "гobhoeд",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "гobhomec",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "гobhomep",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "гobhoдatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "гobhoлuhk",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "гobhoчuct",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "гobhuctый",
@@ -6447,6 +9194,11 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "гobhяkatьcя",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "гobhяtь",
@@ -6487,6 +9239,11 @@
       "sev": 3
     },
     {
+      "t": "гoлoжoпatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "гoлoщeлka",
       "cat": "profanity",
       "sev": 3
@@ -6498,6 +9255,11 @@
       "w": true
     },
     {
+      "t": "гpeбahый",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "гutлep",
       "cat": "profanity",
       "sev": 3,
@@ -6505,6 +9267,11 @@
     },
     {
       "t": "гymozhuk",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "гyzhoectu",
       "cat": "profanity",
       "sev": 3
     },
@@ -6536,7 +9303,22 @@
       "w": true
     },
     {
+      "t": "дatьпuzдa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "дatьпuzды",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "дbychacthый",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "дbyжoпhuk",
       "cat": "profanity",
       "sev": 3
     },
@@ -6552,12 +9334,27 @@
       "w": true
     },
     {
+      "t": "дepьmobый",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "дepьmoeд",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "дeгehepat",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "дocacыbatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "дoccatь",
       "cat": "profanity",
       "sev": 3
     },
@@ -6577,12 +9374,32 @@
       "sev": 3
     },
     {
+      "t": "дocpatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "дocukatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "дocukubatь",
       "cat": "profanity",
       "sev": 3
     },
     {
+      "t": "дocupatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "дoehыйбыk",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "дoeбatь",
       "cat": "profanity",
       "sev": 3
     },
@@ -6619,12 +9436,23 @@
       "sev": 3
     },
     {
+      "t": "дoycepa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "дoбuzдoбoлutь",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "дoдuk",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "дoжoпa",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -6646,6 +9474,11 @@
       "sev": 3
     },
     {
+      "t": "дoлбoectu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "дoлбoeб",
       "cat": "profanity",
       "sev": 3
@@ -6662,6 +9495,11 @@
     },
     {
       "t": "дoлдatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "дoпuzдa",
       "cat": "profanity",
       "sev": 3
     },
@@ -6761,6 +9599,26 @@
       "w": true
     },
     {
+      "t": "дpuctahytь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "дpuctatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "дpuctyh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "дpuctyxa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "дpyгoйдpazhutcя",
       "cat": "profanity",
       "sev": 3
@@ -6812,6 +9670,11 @@
       "w": true
     },
     {
+      "t": "дypoectu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "дyплutьcя",
       "cat": "profanity",
       "sev": 3
@@ -6846,6 +9709,11 @@
       "w": true
     },
     {
+      "t": "жoпactaя",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "жoпctbo",
       "cat": "profanity",
       "sev": 3
@@ -6871,6 +9739,11 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "жoпoectu",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "жoпohoгuй",
@@ -7003,6 +9876,11 @@
       "sev": 3
     },
     {
+      "t": "лuhчebatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "лыcoгobkyлakeгohяtь",
       "cat": "profanity",
       "sev": 3
@@ -7031,6 +9909,11 @@
     },
     {
       "t": "пackyдa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пahcekcyaлы",
       "cat": "profanity",
       "sev": 3
     },
@@ -7085,6 +9968,11 @@
       "sev": 3
     },
     {
+      "t": "пepeccatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "пepeccыbatь",
       "cat": "profanity",
       "sev": 3
@@ -7100,12 +9988,32 @@
       "sev": 3
     },
     {
+      "t": "пepecpatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пepecukatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "пepecukhytь",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "пepecukubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пepecupatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пepeeбatь",
       "cat": "profanity",
       "sev": 3
     },
@@ -7135,7 +10043,22 @@
       "sev": 3
     },
     {
+      "t": "пepeeбhytь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "пepeeбok",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пepeeбypubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пepeeбyputь",
       "cat": "profanity",
       "sev": 3
     },
@@ -7165,7 +10088,17 @@
       "sev": 3
     },
     {
+      "t": "пepemyдutь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "пepetpaxubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пepeбzдetь",
       "cat": "profanity",
       "sev": 3
     },
@@ -7186,6 +10119,11 @@
     },
     {
       "t": "пepeпuzдobыbatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пepeпuzдыbatь",
       "cat": "profanity",
       "sev": 3
     },
@@ -7256,6 +10194,11 @@
       "w": true
     },
     {
+      "t": "пepдeжa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "пepдeшhuk",
       "cat": "profanity",
       "sev": 3
@@ -7275,6 +10218,21 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "пepдyheц",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пepдyhuha",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пepдyhья",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "пepдyxa",
@@ -7299,6 +10257,12 @@
     },
     {
       "t": "пetyx",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "пetyxu",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -7353,6 +10317,11 @@
       "w": true
     },
     {
+      "t": "пeдputь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "пeдpuлa",
       "cat": "profanity",
       "sev": 3
@@ -7379,6 +10348,12 @@
       "w": true
     },
     {
+      "t": "пeдuku",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "пeжutь",
       "cat": "profanity",
       "sev": 3,
@@ -7386,6 +10361,11 @@
     },
     {
       "t": "пocacыbatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пoccatь",
       "cat": "profanity",
       "sev": 3
     },
@@ -7410,6 +10390,16 @@
       "sev": 3
     },
     {
+      "t": "пocpatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пocukatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "пocлatьcя",
       "cat": "profanity",
       "sev": 3
@@ -7421,6 +10411,16 @@
       "w": true
     },
     {
+      "t": "пoeбatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пoeбehь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "пoeбehя",
       "cat": "profanity",
       "sev": 3
@@ -7430,6 +10430,11 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "пoeбohчuk",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "пoeбoчka",
@@ -7448,6 +10453,16 @@
       "w": true
     },
     {
+      "t": "пohochukhytь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пokakatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "пomapatьcя",
       "cat": "profanity",
       "sev": 3
@@ -7463,6 +10478,16 @@
       "sev": 3
     },
     {
+      "t": "пomatюkatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пomatюkubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "пomatюжubatьcя",
       "cat": "profanity",
       "sev": 3
@@ -7472,6 +10497,11 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "пomyдutь",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "пopacпythuчatь",
@@ -7489,6 +10519,11 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "пophoгpaфuя",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "пopoчhый",
@@ -7563,6 +10598,22 @@
       "w": true
     },
     {
+      "t": "пoxepuл",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пoxepy",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "пoxezatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "пoxothuk",
       "cat": "profanity",
       "sev": 3
@@ -7572,6 +10623,17 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "пoxpeh",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "пoxpehy",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "пoxyuct",
@@ -7596,7 +10658,17 @@
       "sev": 3
     },
     {
+      "t": "пoбapatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "пoблyдutь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пoблядyшka",
       "cat": "profanity",
       "sev": 3
     },
@@ -7617,6 +10689,11 @@
     },
     {
       "t": "пoдcepдeчhuk",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пoдcupatь",
       "cat": "profanity",
       "sev": 3
     },
@@ -7666,6 +10743,11 @@
       "sev": 3
     },
     {
+      "t": "пoдpuctыbatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "пoдzaбophuцa",
       "cat": "profanity",
       "sev": 3
@@ -7677,6 +10759,11 @@
     },
     {
       "t": "пoддabatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пoджoпhuk",
       "cat": "profanity",
       "sev": 3
     },
@@ -7697,6 +10784,11 @@
     },
     {
       "t": "пoдпuzдoшuбatьcя",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пoдпuzдюkatь",
       "cat": "profanity",
       "sev": 3
     },
@@ -7741,6 +10833,16 @@
       "sev": 3
     },
     {
+      "t": "пoдъectu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пoдъeбatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "пoдъeбaшubatь",
       "cat": "profanity",
       "sev": 3
@@ -7771,7 +10873,22 @@
       "sev": 3
     },
     {
+      "t": "пoдъeбhytь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "пoдъeбka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пoдъeбypubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пoдъeбyputь",
       "cat": "profanity",
       "sev": 3
     },
@@ -7792,6 +10909,11 @@
     },
     {
       "t": "пoжaputь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пoйtuhaфuг",
       "cat": "profanity",
       "sev": 3
     },
@@ -7836,12 +10958,22 @@
       "sev": 3
     },
     {
+      "t": "пpoccatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "пpoccыbatь",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "пpochaшubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пpocpatь",
       "cat": "profanity",
       "sev": 3
     },
@@ -7856,7 +10988,17 @@
       "sev": 3
     },
     {
+      "t": "пpocukatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "пpocukubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пpocupatь",
       "cat": "profanity",
       "sev": 3
     },
@@ -7865,6 +11007,16 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "пpoeбahka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пpoeбatь",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "пpohukatь",
@@ -7892,12 +11044,32 @@
       "sev": 3
     },
     {
+      "t": "пpomyдetь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пpomyдutь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "пpotpaxubatь",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "пpoбzдeлcя",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пpoблядyшka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пpoблядь",
       "cat": "profanity",
       "sev": 3
     },
@@ -7918,6 +11090,16 @@
     },
     {
       "t": "пpoжoпыbatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пpoпuzдeлcя",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пpoпuzдoh",
       "cat": "profanity",
       "sev": 3
     },
@@ -7957,12 +11139,37 @@
       "sev": 3
     },
     {
+      "t": "пpuccatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "пpuccыbatь",
       "cat": "profanity",
       "sev": 3
     },
     {
       "t": "пpucekoлutьcя",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пpucpatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пpucukatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пpucupatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пpueбatь",
       "cat": "profanity",
       "sev": 3
     },
@@ -7997,6 +11204,16 @@
       "sev": 3
     },
     {
+      "t": "пpueбypubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пpueбyputь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "пpueбыbatь",
       "cat": "profanity",
       "sev": 3
@@ -8027,7 +11244,17 @@
       "sev": 3
     },
     {
+      "t": "пpumahдюkatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "пpumyдoxubatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пpuxyetь",
       "cat": "profanity",
       "sev": 3
     },
@@ -8078,6 +11305,21 @@
     },
     {
       "t": "пpuпuzдpohutь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пpuпuzдыbatь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пpuпuzдыш",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пpuпuzдюkatь",
       "cat": "profanity",
       "sev": 3
     },
@@ -8171,6 +11413,18 @@
       "w": true
     },
     {
+      "t": "пueдe",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "пueдy",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "пuxahue",
       "cat": "profanity",
       "sev": 3
@@ -8180,6 +11434,26 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "пuzдahytь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пuzдapbahьчuk",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пuzдato",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пuzдatый",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "пuzдehetь",
@@ -8216,6 +11490,21 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "пuzдeцbcema",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пuzдeцobый",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пuzдeцпoлhый",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "пuzдobataя",
@@ -8258,10 +11547,20 @@
       "sev": 3
     },
     {
+      "t": "пuzдoeбctbo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "пuzдoh",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "пuzдohytыe",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "пuzдomeлutь",
@@ -8280,6 +11579,11 @@
     },
     {
       "t": "пuzдomyдctbo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пuzдomyдuлыцuk",
       "cat": "profanity",
       "sev": 3
     },
@@ -8359,6 +11663,11 @@
       "sev": 3
     },
     {
+      "t": "пuzдoпpoeбuh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "пuzдoпpotubhый",
       "cat": "profanity",
       "sev": 3
@@ -8405,6 +11714,11 @@
       "w": true
     },
     {
+      "t": "пuzдutь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "пuzдuxaxahьku",
       "cat": "profanity",
       "sev": 3
@@ -8441,16 +11755,84 @@
       "w": true
     },
     {
+      "t": "пuzдycя",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пuzдyh",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "пuzдyhья",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пuzдyhя",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пuzдytь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пuzдyй",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "пuzдyшka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "пuzды",
       "cat": "profanity",
       "sev": 3,
       "w": true
     },
     {
+      "t": "пuzдыbлomutь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пuzдыk",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "пuzдыпoлyчutь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "пuzдюk",
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "пuzдюkatьcя",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пuzдюkatя",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пuzдюkubatь",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "пuzдюpubatь",
@@ -8477,6 +11859,11 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "пuzдюгa",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "пuzдюлeйhabeшatь",
@@ -8540,6 +11927,11 @@
       "w": true
     },
     {
+      "t": "пuzдяtuha",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "пuzдячutь",
       "cat": "profanity",
       "sev": 3
@@ -8556,7 +11948,45 @@
       "w": true
     },
     {
+      "t": "пuдapac",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пuдapы",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "пuдop",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "пuдopa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "пuдopac",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пuдopka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пuдopok",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пuдopы",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -8591,6 +12021,11 @@
     },
     {
       "t": "пuчyжutь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "пyctutьmatюk",
       "cat": "profanity",
       "sev": 3
     },
@@ -8693,6 +12128,11 @@
       "w": true
     },
     {
+      "t": "фaчutьcя",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "фekaлuя",
       "cat": "profanity",
       "sev": 3
@@ -8779,6 +12219,11 @@
       "sev": 3
     },
     {
+      "t": "чepezжoпa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "чephozaдый",
       "cat": "profanity",
       "sev": 3
@@ -8793,6 +12238,17 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "чeptob",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "чeptыxah",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "чmehь",
@@ -8818,6 +12274,11 @@
     },
     {
       "t": "чupышka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "чuпuzдohчuk",
       "cat": "profanity",
       "sev": 3
     },
@@ -8909,6 +12370,11 @@
     },
     {
       "t": "шboputь",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "шectuectu",
       "cat": "profanity",
       "sev": 3
     },
@@ -9015,6 +12481,11 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "эkckpemeht",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "эpekцuя",

@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Text.Json;
 
 namespace Vulgarity
 {
@@ -52,6 +54,162 @@ namespace Vulgarity
                 CollapseContained = CollapseContained,
                 ScoreMode = ScoreMode,
             };
+        }
+
+        /// <summary>Reads options from the JSON shape a preset uses.</summary>
+        /// <remarks>Every field is optional. A missing field keeps its default.</remarks>
+        public static VulgarityOptions FromJson(string json)
+        {
+            using (JsonDocument document = JsonDocument.Parse(json))
+            {
+                return FromElement(document.RootElement);
+            }
+        }
+
+        internal static VulgarityOptions FromElement(JsonElement element)
+        {
+            if (element.ValueKind != JsonValueKind.Object)
+            {
+                throw new FormatException("'options' must be a JSON object.");
+            }
+
+            VulgarityOptions options = new VulgarityOptions();
+            JsonElement value;
+
+            if (element.TryGetProperty("minSeverity", out value) && value.ValueKind != JsonValueKind.Null)
+            {
+                options.MinSeverity = value.GetInt32();
+            }
+
+            if (element.TryGetProperty("maskChar", out value) && value.ValueKind != JsonValueKind.Null)
+            {
+                string mask = value.GetString();
+                if (mask == null || mask.Length != 1)
+                {
+                    throw new FormatException("'maskChar' must be exactly one character.");
+                }
+
+                options.MaskChar = mask[0];
+            }
+
+            if (element.TryGetProperty("maskToken", out value) && value.ValueKind != JsonValueKind.Null)
+            {
+                options.MaskToken = value.GetString();
+            }
+
+            if (element.TryGetProperty("repeatTolerance", out value) && value.ValueKind != JsonValueKind.Null)
+            {
+                options.RepeatTolerance = value.GetBoolean();
+            }
+
+            if (element.TryGetProperty("collapseContained", out value) && value.ValueKind != JsonValueKind.Null)
+            {
+                options.CollapseContained = value.GetBoolean();
+            }
+
+            if (element.TryGetProperty("scoreMode", out value) && value.ValueKind != JsonValueKind.Null)
+            {
+                string mode = value.GetString();
+                if (mode == "total")
+                {
+                    options.ScoreMode = ScoreMode.Total;
+                }
+                else if (mode == "max")
+                {
+                    options.ScoreMode = ScoreMode.Max;
+                }
+                else
+                {
+                    throw new FormatException("'scoreMode' must be 'total' or 'max'. It states '" + mode + "'.");
+                }
+            }
+
+            if (element.TryGetProperty("categories", out value) && value.ValueKind != JsonValueKind.Null)
+            {
+                if (value.ValueKind != JsonValueKind.Array)
+                {
+                    throw new FormatException("'categories' must be an array of names.");
+                }
+
+                HashSet<VulgarityCategory> set = new HashSet<VulgarityCategory>();
+                foreach (JsonElement name in value.EnumerateArray())
+                {
+                    string text = name.GetString();
+
+                    // An unknown name here would silently match nothing, so it
+                    // fails loudly instead. A term with an unknown category is
+                    // different: that one maps to Other.
+                    VulgarityCategory? parsed = CategoryNames.TryParse(text);
+                    if (parsed == null)
+                    {
+                        throw new FormatException(
+                            "'categories' names '" + text + "', which this build does not know. Valid names: "
+                            + string.Join(", ", CategoryNames.All) + ".");
+                    }
+
+                    set.Add(parsed.Value);
+                }
+
+                options.Categories = set.Count == 0 ? null : set;
+            }
+
+            options.Validate();
+            return options;
+        }
+
+        /// <summary>Writes these options in the JSON shape a preset uses.</summary>
+        public string ToJson()
+        {
+            using (MemoryStream stream = new MemoryStream())
+            {
+                using (Utf8JsonWriter writer = new Utf8JsonWriter(
+                    stream, new JsonWriterOptions { Indented = true }))
+                {
+                    writer.WriteStartObject();
+                    WriteTo(writer);
+                    writer.WriteEndObject();
+                }
+
+                return System.Text.Encoding.UTF8.GetString(stream.ToArray());
+            }
+        }
+
+        internal void WriteTo(Utf8JsonWriter writer)
+        {
+            writer.WriteNumber("minSeverity", MinSeverity);
+
+            if (Categories == null)
+            {
+                writer.WriteNull("categories");
+            }
+            else
+            {
+                writer.WriteStartArray("categories");
+                foreach (string name in CategoryNames.All)
+                {
+                    VulgarityCategory? parsed = CategoryNames.TryParse(name);
+                    if (parsed != null && Categories.Contains(parsed.Value))
+                    {
+                        writer.WriteStringValue(name);
+                    }
+                }
+
+                writer.WriteEndArray();
+            }
+
+            writer.WriteString("maskChar", MaskChar.ToString());
+            if (MaskToken == null)
+            {
+                writer.WriteNull("maskToken");
+            }
+            else
+            {
+                writer.WriteString("maskToken", MaskToken);
+            }
+
+            writer.WriteBoolean("repeatTolerance", RepeatTolerance);
+            writer.WriteBoolean("collapseContained", CollapseContained);
+            writer.WriteString("scoreMode", ScoreMode == ScoreMode.Max ? "max" : "total");
         }
 
         internal void Validate()

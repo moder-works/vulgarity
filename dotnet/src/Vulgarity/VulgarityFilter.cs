@@ -86,6 +86,37 @@ namespace Vulgarity
             return new VulgarityFilterBuilder().AddSeed(json).Build(options);
         }
 
+        /// <summary>Builds a filter from a preset document.</summary>
+        /// <remarks>
+        /// A preset carries the policy as well as the terms, so a server can
+        /// change how strict a client is without an app release. Treat a preset
+        /// from the network as untrusted: this throws
+        /// <see cref="FormatException"/> on a malformed document, and it never
+        /// partly applies one.
+        /// </remarks>
+        /// <example>
+        /// <code>
+        /// string json = await http.GetStringAsync("https://example.com/policy.json");
+        /// var filter = VulgarityFilter.FromPreset(json);
+        /// </code>
+        /// </example>
+        public static VulgarityFilter FromPreset(string json)
+        {
+            return FromPreset(VulgarityPreset.Parse(json), null);
+        }
+
+        /// <summary>Builds a filter from a preset document.</summary>
+        public static VulgarityFilter FromPreset(VulgarityPreset preset)
+        {
+            return FromPreset(preset, null);
+        }
+
+        /// <summary>Builds a filter from a preset, resolving its language codes yourself.</summary>
+        public static VulgarityFilter FromPreset(VulgarityPreset preset, Func<string, string> languageResolver)
+        {
+            return new VulgarityFilterBuilder().AddPreset(preset, languageResolver).Build();
+        }
+
         /// <summary>Returns a filter with different options. It reuses the compiled trie.</summary>
         public VulgarityFilter WithOptions(VulgarityOptions options)
         {

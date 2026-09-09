@@ -1,0 +1,515 @@
+{
+  "profile": "fold-v1",
+  "note": "Preset contract. Each case names a file in data/presets/. Both ports must reproduce every case exactly.",
+  "cases": [
+    {
+      "preset": "default",
+      "text": "Have a nice day.",
+      "detect": false,
+      "score": 0,
+      "filtered": "Have a nice day.",
+      "matches": []
+    },
+    {
+      "preset": "default",
+      "text": "oh damn",
+      "detect": true,
+      "score": 1,
+      "filtered": "oh ****",
+      "matches": [
+        {
+          "start": 3,
+          "end": 7,
+          "term": "damn",
+          "cat": "profanity",
+          "sev": 1
+        }
+      ]
+    },
+    {
+      "preset": "default",
+      "text": "what the fuck",
+      "detect": true,
+      "score": 4,
+      "filtered": "what the ****",
+      "matches": [
+        {
+          "start": 9,
+          "end": 13,
+          "term": "fuck",
+          "cat": "profanity",
+          "sev": 4
+        }
+      ]
+    },
+    {
+      "preset": "default",
+      "text": "that faggot should die",
+      "detect": true,
+      "score": 5,
+      "filtered": "that ****** should die",
+      "matches": [
+        {
+          "start": 5,
+          "end": 11,
+          "term": "faggot",
+          "cat": "hate",
+          "sev": 5
+        }
+      ]
+    },
+    {
+      "preset": "default",
+      "text": "I will kill you",
+      "detect": false,
+      "score": 0,
+      "filtered": "I will kill you",
+      "matches": []
+    },
+    {
+      "preset": "default",
+      "text": "the penis",
+      "detect": true,
+      "score": 1,
+      "filtered": "the *****",
+      "matches": [
+        {
+          "start": 4,
+          "end": 9,
+          "term": "penis",
+          "cat": "sexual",
+          "sev": 1
+        }
+      ]
+    },
+    {
+      "preset": "default",
+      "text": "blorpco is rubbish",
+      "detect": false,
+      "score": 0,
+      "filtered": "blorpco is rubbish",
+      "matches": []
+    },
+    {
+      "preset": "default",
+      "text": "I live in Blorpcoshire",
+      "detect": false,
+      "score": 0,
+      "filtered": "I live in Blorpcoshire",
+      "matches": []
+    },
+    {
+      "preset": "default",
+      "text": "eres un cabron",
+      "detect": false,
+      "score": 0,
+      "filtered": "eres un cabron",
+      "matches": []
+    },
+    {
+      "preset": "default",
+      "text": "no seas joder",
+      "detect": false,
+      "score": 0,
+      "filtered": "no seas joder",
+      "matches": []
+    },
+    {
+      "preset": "default",
+      "text": "fuck this shit",
+      "detect": true,
+      "score": 7,
+      "filtered": "**** this ****",
+      "matches": [
+        {
+          "start": 0,
+          "end": 4,
+          "term": "fuck",
+          "cat": "profanity",
+          "sev": 4
+        },
+        {
+          "start": 10,
+          "end": 14,
+          "term": "shit",
+          "cat": "profanity",
+          "sev": 3
+        }
+      ]
+    },
+    {
+      "preset": "strict",
+      "text": "Have a nice day.",
+      "detect": false,
+      "score": 0,
+      "filtered": "Have a nice day.",
+      "matches": []
+    },
+    {
+      "preset": "strict",
+      "text": "oh damn",
+      "detect": true,
+      "score": 1,
+      "filtered": "oh [removed]",
+      "matches": [
+        {
+          "start": 3,
+          "end": 7,
+          "term": "damn",
+          "cat": "profanity",
+          "sev": 1
+        }
+      ]
+    },
+    {
+      "preset": "strict",
+      "text": "what the fuck",
+      "detect": true,
+      "score": 4,
+      "filtered": "what the [removed]",
+      "matches": [
+        {
+          "start": 9,
+          "end": 13,
+          "term": "fuck",
+          "cat": "profanity",
+          "sev": 4
+        }
+      ]
+    },
+    {
+      "preset": "strict",
+      "text": "that faggot should die",
+      "detect": true,
+      "score": 5,
+      "filtered": "that [removed] should die",
+      "matches": [
+        {
+          "start": 5,
+          "end": 11,
+          "term": "faggot",
+          "cat": "hate",
+          "sev": 5
+        }
+      ]
+    },
+    {
+      "preset": "strict",
+      "text": "I will kill you",
+      "detect": false,
+      "score": 0,
+      "filtered": "I will kill you",
+      "matches": []
+    },
+    {
+      "preset": "strict",
+      "text": "the penis",
+      "detect": true,
+      "score": 1,
+      "filtered": "the [removed]",
+      "matches": [
+        {
+          "start": 4,
+          "end": 9,
+          "term": "penis",
+          "cat": "sexual",
+          "sev": 1
+        }
+      ]
+    },
+    {
+      "preset": "strict",
+      "text": "blorpco is rubbish",
+      "detect": false,
+      "score": 0,
+      "filtered": "blorpco is rubbish",
+      "matches": []
+    },
+    {
+      "preset": "strict",
+      "text": "I live in Blorpcoshire",
+      "detect": false,
+      "score": 0,
+      "filtered": "I live in Blorpcoshire",
+      "matches": []
+    },
+    {
+      "preset": "strict",
+      "text": "eres un cabron",
+      "detect": false,
+      "score": 0,
+      "filtered": "eres un cabron",
+      "matches": []
+    },
+    {
+      "preset": "strict",
+      "text": "no seas joder",
+      "detect": false,
+      "score": 0,
+      "filtered": "no seas joder",
+      "matches": []
+    },
+    {
+      "preset": "strict",
+      "text": "fuck this shit",
+      "detect": true,
+      "score": 4,
+      "filtered": "[removed] this [removed]",
+      "matches": [
+        {
+          "start": 0,
+          "end": 4,
+          "term": "fuck",
+          "cat": "profanity",
+          "sev": 4
+        },
+        {
+          "start": 10,
+          "end": 14,
+          "term": "shit",
+          "cat": "profanity",
+          "sev": 3
+        }
+      ]
+    },
+    {
+      "preset": "hate-only",
+      "text": "Have a nice day.",
+      "detect": false,
+      "score": 0,
+      "filtered": "Have a nice day.",
+      "matches": []
+    },
+    {
+      "preset": "hate-only",
+      "text": "oh damn",
+      "detect": false,
+      "score": 0,
+      "filtered": "oh damn",
+      "matches": []
+    },
+    {
+      "preset": "hate-only",
+      "text": "what the fuck",
+      "detect": false,
+      "score": 0,
+      "filtered": "what the fuck",
+      "matches": []
+    },
+    {
+      "preset": "hate-only",
+      "text": "that faggot should die",
+      "detect": true,
+      "score": 5,
+      "filtered": "that ###### should die",
+      "matches": [
+        {
+          "start": 5,
+          "end": 11,
+          "term": "faggot",
+          "cat": "hate",
+          "sev": 5
+        }
+      ]
+    },
+    {
+      "preset": "hate-only",
+      "text": "I will kill you",
+      "detect": false,
+      "score": 0,
+      "filtered": "I will kill you",
+      "matches": []
+    },
+    {
+      "preset": "hate-only",
+      "text": "the penis",
+      "detect": false,
+      "score": 0,
+      "filtered": "the penis",
+      "matches": []
+    },
+    {
+      "preset": "hate-only",
+      "text": "blorpco is rubbish",
+      "detect": false,
+      "score": 0,
+      "filtered": "blorpco is rubbish",
+      "matches": []
+    },
+    {
+      "preset": "hate-only",
+      "text": "I live in Blorpcoshire",
+      "detect": false,
+      "score": 0,
+      "filtered": "I live in Blorpcoshire",
+      "matches": []
+    },
+    {
+      "preset": "hate-only",
+      "text": "eres un cabron",
+      "detect": false,
+      "score": 0,
+      "filtered": "eres un cabron",
+      "matches": []
+    },
+    {
+      "preset": "hate-only",
+      "text": "no seas joder",
+      "detect": false,
+      "score": 0,
+      "filtered": "no seas joder",
+      "matches": []
+    },
+    {
+      "preset": "hate-only",
+      "text": "fuck this shit",
+      "detect": false,
+      "score": 0,
+      "filtered": "fuck this shit",
+      "matches": []
+    },
+    {
+      "preset": "brand",
+      "text": "Have a nice day.",
+      "detect": false,
+      "score": 0,
+      "filtered": "Have a nice day.",
+      "matches": []
+    },
+    {
+      "preset": "brand",
+      "text": "oh damn",
+      "detect": false,
+      "score": 0,
+      "filtered": "oh damn",
+      "matches": []
+    },
+    {
+      "preset": "brand",
+      "text": "what the fuck",
+      "detect": true,
+      "score": 4,
+      "filtered": "what the ----",
+      "matches": [
+        {
+          "start": 9,
+          "end": 13,
+          "term": "fuck",
+          "cat": "profanity",
+          "sev": 4
+        }
+      ]
+    },
+    {
+      "preset": "brand",
+      "text": "that faggot should die",
+      "detect": true,
+      "score": 5,
+      "filtered": "that ------ should die",
+      "matches": [
+        {
+          "start": 5,
+          "end": 11,
+          "term": "faggot",
+          "cat": "hate",
+          "sev": 5
+        }
+      ]
+    },
+    {
+      "preset": "brand",
+      "text": "I will kill you",
+      "detect": false,
+      "score": 0,
+      "filtered": "I will kill you",
+      "matches": []
+    },
+    {
+      "preset": "brand",
+      "text": "the penis",
+      "detect": false,
+      "score": 0,
+      "filtered": "the penis",
+      "matches": []
+    },
+    {
+      "preset": "brand",
+      "text": "blorpco is rubbish",
+      "detect": true,
+      "score": 4,
+      "filtered": "------- is rubbish",
+      "matches": [
+        {
+          "start": 0,
+          "end": 7,
+          "term": "blorpco",
+          "cat": "profanity",
+          "sev": 4
+        }
+      ]
+    },
+    {
+      "preset": "brand",
+      "text": "I live in Blorpcoshire",
+      "detect": false,
+      "score": 0,
+      "filtered": "I live in Blorpcoshire",
+      "matches": []
+    },
+    {
+      "preset": "brand",
+      "text": "eres un cabron",
+      "detect": true,
+      "score": 3,
+      "filtered": "eres un ------",
+      "matches": [
+        {
+          "start": 8,
+          "end": 14,
+          "term": "cabron",
+          "cat": "profanity",
+          "sev": 3
+        }
+      ]
+    },
+    {
+      "preset": "brand",
+      "text": "no seas joder",
+      "detect": true,
+      "score": 3,
+      "filtered": "no seas -----",
+      "matches": [
+        {
+          "start": 8,
+          "end": 13,
+          "term": "joder",
+          "cat": "profanity",
+          "sev": 3
+        }
+      ]
+    },
+    {
+      "preset": "brand",
+      "text": "fuck this shit",
+      "detect": true,
+      "score": 7,
+      "filtered": "---- this ----",
+      "matches": [
+        {
+          "start": 0,
+          "end": 4,
+          "term": "fuck",
+          "cat": "profanity",
+          "sev": 4
+        },
+        {
+          "start": 10,
+          "end": 14,
+          "term": "shit",
+          "cat": "profanity",
+          "sev": 3
+        }
+      ]
+    }
+  ]
+}

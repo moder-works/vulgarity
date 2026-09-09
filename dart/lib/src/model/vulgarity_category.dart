@@ -18,6 +18,26 @@ enum VulgarityCategory {
   /// Illegal drugs and drug use.
   drug;
 
+  /// Every category name a seed or preset can use.
+  static const List<String> allNames = <String>[
+    'profanity',
+    'sexual',
+    'hate',
+    'violence',
+    'drug',
+    'other',
+  ];
+
+  /// Maps a category name, or returns null when the name is unknown.
+  static VulgarityCategory? tryParse(String name) {
+    for (final VulgarityCategory value in VulgarityCategory.values) {
+      if (value.name == name) {
+        return value;
+      }
+    }
+    return null;
+  }
+
   /// Maps a category name from a seed file.
   ///
   /// A name the base list does not define maps to [other].
