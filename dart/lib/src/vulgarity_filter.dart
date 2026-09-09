@@ -72,6 +72,16 @@ class VulgarityFilter {
   /// language needs [languageResolver] — pass `languageSeed` from
   /// `package:vulgarity/languages.dart`.
   ///
+  /// Where a bad language code surfaces differs from the .NET port. There,
+  /// `VulgarityPreset.Parse` resolves each code against the packs the assembly
+  /// carries and throws [FormatException] at parse time. Here the parser checks
+  /// only that a code is 2 to 8 lower-case letters, and a code that nothing can
+  /// serve throws [ArgumentError] from this call instead. That is what lets a
+  /// [languageResolver] serve codes no bundled list covers.
+  ///
+  /// Throws [ArgumentError] when [preset] is neither a JSON string nor a
+  /// [VulgarityPreset].
+  ///
   /// ```dart
   /// final response = await http.get(Uri.parse('https://example.com/policy.json'));
   /// final filter = VulgarityFilter.fromPreset(response.body);
