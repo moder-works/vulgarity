@@ -153,19 +153,22 @@ namespace Vulgarity.Tests
         [InlineData("{\"profile\":\"fold-v9\"}", "fold profile")]
         [InlineData("{\"languages\":[\"xx\"]}", "does not carry")]
         [InlineData("{\"languages\":\"en\"}", "must be an array")]
-        [InlineData("{\"options\":{\"minSeverity\":9}}", "")]
+        // A field out of range is as malformed as a field of the wrong type. It
+        // used to leak an ArgumentOutOfRangeException through the FormatException
+        // contract.
+        [InlineData("{\"options\":{\"minSeverity\":9}}", "minSeverity")]
         [InlineData("{\"options\":{\"scoreMode\":\"sideways\"}}", "scoreMode")]
         [InlineData("{\"options\":{\"categories\":[\"nonsense\"]}}", "does not know")]
         [InlineData("{\"options\":{\"maskChar\":\"toolong\"}}", "exactly one character")]
         [InlineData("{\"entries\":[{\"t\":\"x\",\"sev\":77}]}", "Severity must be 1 to 5")]
-        [InlineData("{\"entries\":[{\"cat\":\"hate\"}]}", "must hold a 't' term")]
+        [InlineData("{\"entries\":[{\"cat\":\"hate\"}]}", "must hold a non-empty 't' term")]
         [InlineData("{\"entries\":\"nope\"}", "must be an array")]
         [InlineData("{\"allow\":[5]}", "must hold strings only")]
         public void AMalformedPresetIsRefused(string json, string expectedMessage)
         {
             Exception error = Record.Exception(() => VulgarityPreset.Parse(json));
             Assert.NotNull(error);
-            Assert.True(error is FormatException || error is ArgumentOutOfRangeException,
+            Assert.True(error is FormatException,
                 "expected a FormatException, got " + error.GetType().Name);
             if (expectedMessage.Length > 0)
             {

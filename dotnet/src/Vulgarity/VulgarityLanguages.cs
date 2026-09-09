@@ -37,27 +37,39 @@ namespace Vulgarity
         }
 
         /// <summary>Reports whether this build carries a pack for the code.</summary>
+        /// <remarks>
+        /// The code is matched without regard to case, so "EN", "En" and "en" all
+        /// resolve. A language tag arrives upper-cased often enough — from a
+        /// culture, a header, a database column — that refusing one would be a trap.
+        /// </remarks>
         public static bool Has(string code)
+        {
+            return Normalize(code) != null;
+        }
+
+        /// <summary>The lower-case code this build carries, or null when it carries none.</summary>
+        private static string Normalize(string code)
         {
             if (string.IsNullOrEmpty(code))
             {
-                return false;
+                return null;
             }
 
-            if (code == Default)
+            string key = code.ToLowerInvariant();
+            if (key == Default)
             {
-                return true;
+                return key;
             }
 
             for (int i = 0; i < Optional.Length; i++)
             {
-                if (Optional[i] == code)
+                if (Optional[i] == key)
                 {
-                    return true;
+                    return key;
                 }
             }
 
-            return false;
+            return null;
         }
 
         /// <summary>Reads one bundled term list.</summary>
@@ -83,14 +95,15 @@ namespace Vulgarity
         /// </remarks>
         internal static byte[] ReadSeedPack(string code)
         {
-            if (!Has(code))
+            string key = Normalize(code);
+            if (key == null)
             {
                 throw new ArgumentException(
                     "This build carries no pack for '" + code + "'. Available: " +
                     string.Join(", ", new List<string>(Available).ToArray()), "code");
             }
 
-            string resource = "Vulgarity.seed-" + code + ".vpk";
+            string resource = "Vulgarity.seed-" + key + ".vpk";
             Assembly assembly = typeof(VulgarityLanguages).GetTypeInfo().Assembly;
 
             using (Stream stream = assembly.GetManifestResourceStream(resource))

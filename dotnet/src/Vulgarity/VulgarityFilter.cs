@@ -32,16 +32,31 @@ namespace Vulgarity
         private readonly AhoCorasick _allowTrie;
         private readonly VulgarityOptions _options;
 
+        /// <summary>Every term again, with its runs collapsed. The repeat pass scans with it.</summary>
+        private readonly AhoCorasick _squeezedTrie;
+
+        /// <summary>Maps a pattern in <see cref="_squeezedTrie"/> to every term that squeezes onto it.</summary>
+        private readonly int[][] _squeezedTerms;
+
+        /// <summary>The run lengths of each term's folded spelling, one list per term.</summary>
+        private readonly int[][] _termRuns;
+
         internal VulgarityFilter(
             VulgarityTerm[] terms,
             AhoCorasick termTrie,
             AhoCorasick allowTrie,
-            VulgarityOptions options)
+            VulgarityOptions options,
+            AhoCorasick squeezedTrie,
+            int[][] squeezedTerms,
+            int[][] termRuns)
         {
             _terms = terms;
             _termTrie = termTrie;
             _allowTrie = allowTrie;
             _options = options;
+            _squeezedTrie = squeezedTrie;
+            _squeezedTerms = squeezedTerms;
+            _termRuns = termRuns;
         }
 
         /// <summary>The fold profile this build implements.</summary>
@@ -126,7 +141,14 @@ namespace Vulgarity
             }
 
             options.Validate();
-            return new VulgarityFilter(_terms, _termTrie, _allowTrie, options.Clone());
+            return new VulgarityFilter(
+                _terms,
+                _termTrie,
+                _allowTrie,
+                options.Clone(),
+                _squeezedTrie,
+                _squeezedTerms,
+                _termRuns);
         }
 
         /// <summary>Reports whether the text holds any term. It stops at the first one.</summary>
@@ -257,24 +279,30 @@ namespace Vulgarity
                 CollectAllow(streamB, allowStart, allowEnd);
             }
 
+            SpanIndex allow = SpanIndex.Of(allowStart, allowEnd);
+
             List<VulgarityMatch> matches = new List<VulgarityMatch>();
-            CollectTerms(streamA, allowStart, allowEnd, matches, stopAtFirst);
-            int fromStreamA = matches.Count;
+            CollectTerms(streamA, _termTrie, null, allow, matches, stopAtFirst);
 
             if (streamB != null && !(stopAtFirst && matches.Count > 0))
             {
                 // The squeeze pass is a fallback, not a second opinion. It widens
                 // a span across the letters it collapsed, so "damn the music
                 // crap" would report "c crap" for the second term. Stream A already
-                // holds the tight span, so drop the loose duplicate.
+                // holds the tight span, so drop every loose candidate that lands
+                // on one.
                 List<VulgarityMatch> squeezed = new List<VulgarityMatch>();
-                CollectTerms(streamB, allowStart, allowEnd, squeezed, stopAtFirst);
+                CollectTerms(streamB, _squeezedTrie, _squeezedTerms, allow, squeezed, stopAtFirst);
 
-                for (int i = 0; i < squeezed.Count; i++)
+                if (squeezed.Count > 0)
                 {
-                    if (!OverlapsSameTerm(matches, fromStreamA, squeezed[i]))
+                    SpanIndex fromStreamA = SpanIndex.OfMatches(matches);
+                    for (int i = 0; i < squeezed.Count; i++)
                     {
-                        matches.Add(squeezed[i]);
+                        if (!fromStreamA.Overlaps(squeezed[i].Start, squeezed[i].End))
+                        {
+                            matches.Add(squeezed[i]);
+                        }
                     }
                 }
             }
@@ -318,116 +346,156 @@ namespace Vulgarity
             }
         }
 
+        /// <summary>Turns raw hits into matches.</summary>
+        /// <remarks>
+        /// <paramref name="trie"/> carries the patterns, and
+        /// <paramref name="patternTerms"/> maps a pattern back to every term that
+        /// produced it. Pass null for the plain pass, where a pattern id is already
+        /// a term index. A non-null map marks the squeezed pass, where a term that
+        /// actually lost a letter has to land on runs at least as long as its own.
+        /// </remarks>
         private void CollectTerms(
             NormalizedText stream,
-            List<int> allowStart,
-            List<int> allowEnd,
+            AhoCorasick trie,
+            int[][] patternTerms,
+            SpanIndex allow,
             List<VulgarityMatch> matches,
             bool stopAtFirst)
         {
             List<RawHit> hits = new List<RawHit>();
-            _termTrie.Scan(stream, hits);
+            trie.Scan(stream, hits);
+            ISet<VulgarityCategory> categories = _options.Categories;
 
             for (int i = 0; i < hits.Count; i++)
             {
-                int termIndex = hits[i].PatternId;
-                VulgarityTerm term = _terms[termIndex];
-
-                if (term.Severity < _options.MinSeverity)
-                {
-                    continue;
-                }
-
-                if (_options.Categories != null && !_options.Categories.Contains(term.Category))
-                {
-                    continue;
-                }
-
+                int patternId = hits[i].PatternId;
+                int patternLength = trie.LengthOf(patternId);
                 int endIndex = hits[i].End;
-                int startIndex = endIndex - _termTrie.LengthOf(termIndex) + 1;
+                int startIndex = endIndex - patternLength + 1;
                 if (startIndex < 0)
                 {
                     continue;
                 }
 
-                if (term.RequireBoundary && !HasWordBoundary(stream, startIndex, endIndex))
-                {
-                    continue;
-                }
+                // This holds for every term the pattern stands for, so pay for it once.
+                bool interiorGap = HasInteriorGap(stream, startIndex, endIndex);
 
-                int start = stream.SrcStart[startIndex];
-                int end = stream.SrcEnd[endIndex];
+                int[] mapped = patternTerms == null ? null : patternTerms[patternId];
+                int termCount = mapped == null ? 1 : mapped.Length;
 
-                if (IsAllowed(allowStart, allowEnd, start, end))
+                for (int n = 0; n < termCount; n++)
                 {
-                    continue;
-                }
+                    int termIndex = mapped == null ? patternId : mapped[n];
+                    VulgarityTerm term = _terms[termIndex];
 
-                matches.Add(new VulgarityMatch(start, end, term, termIndex));
-                if (stopAtFirst)
-                {
-                    return;
+                    if (term.Severity < _options.MinSeverity)
+                    {
+                        continue;
+                    }
+
+                    if (categories != null && !categories.Contains(term.Category))
+                    {
+                        continue;
+                    }
+
+                    // A term that squeezes onto a shorter spelling only matches
+                    // where the stream really did collapse the same runs. Text may
+                    // repeat a letter more often than the term does, never less, so
+                    // a term spelled with a doubled letter cannot stand in for a
+                    // different real word that shares its squeezed spelling.
+                    if (mapped != null
+                        && patternLength != _termTrie.LengthOf(termIndex)
+                        && !RunsCover(stream, startIndex, _termRuns[termIndex]))
+                    {
+                        continue;
+                    }
+
+                    if (term.RequireBoundary)
+                    {
+                        if (!HasLeftBoundary(stream, startIndex) || !HasRightBoundary(stream, endIndex))
+                        {
+                            continue;
+                        }
+                    }
+                    else if (interiorGap && !HasLeftBoundary(stream, startIndex))
+                    {
+                        // The match swallowed a separator, so it spans two words.
+                        // Only a term that starts its own word may do that.
+                        // Otherwise the tail of one ordinary word joined to the head
+                        // of the next spells a term, and a harmless sentence gets
+                        // flagged. The right edge stays free, so a term written with
+                        // a hyphen or a space between every letter still matches.
+                        continue;
+                    }
+
+                    int start = stream.SrcStart[startIndex];
+                    int end = stream.SrcEnd[endIndex];
+
+                    if (allow.Covers(start, end))
+                    {
+                        continue;
+                    }
+
+                    matches.Add(new VulgarityMatch(start, end, term, termIndex));
+                    if (stopAtFirst)
+                    {
+                        return;
+                    }
                 }
             }
         }
 
+        /// <summary>True when a separator was dropped inside the match, not just before it.</summary>
+        private static bool HasInteriorGap(NormalizedText stream, int startIndex, int endIndex)
+        {
+            for (int k = startIndex + 1; k <= endIndex; k++)
+            {
+                if (stream.Gap[k])
+                {
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
+        /// <summary>True when every run the match landed on is as long as the term's own.</summary>
+        private static bool RunsCover(NormalizedText stream, int startIndex, int[] runs)
+        {
+            for (int k = 0; k < runs.Length; k++)
+            {
+                if (stream.RunLengthAt(startIndex + k) < runs[k])
+                {
+                    return false;
+                }
+            }
+
+            return true;
+        }
+
         /// <summary>
-        /// Tests whether a match sits on a word boundary.
+        /// Tests the left edge of a match for a word boundary.
         /// </summary>
         /// <remarks>
-        /// An edge is a boundary when the match reaches the end of the text, when
+        /// An edge is a boundary when the match reaches the edge of the text, when
         /// a separator was dropped there, or when the neighbouring character is
         /// not a real word character. The gap test is what lets "a hell"
         /// match while "shell" does not.
         /// </remarks>
-        private static bool HasWordBoundary(NormalizedText stream, int startIndex, int endIndex)
+        private static bool HasLeftBoundary(NormalizedText stream, int startIndex)
         {
-            bool leftOk = startIndex == 0
+            return startIndex == 0
                 || stream.Gap[startIndex]
                 || !stream.Hard[startIndex - 1];
+        }
 
-            if (!leftOk)
-            {
-                return false;
-            }
-
+        /// <summary>Tests the right edge of a match for a word boundary.</summary>
+        private static bool HasRightBoundary(NormalizedText stream, int endIndex)
+        {
             int after = endIndex + 1;
             return after >= stream.Length
                 || stream.Gap[after]
                 || !stream.Hard[after];
-        }
-
-        /// <summary>Reports whether stream A already found this term across this span.</summary>
-        private static bool OverlapsSameTerm(List<VulgarityMatch> matches, int count, VulgarityMatch candidate)
-        {
-            for (int i = 0; i < count; i++)
-            {
-                VulgarityMatch found = matches[i];
-                if (found.TermIndex != candidate.TermIndex)
-                {
-                    continue;
-                }
-
-                if (found.Start < candidate.End && candidate.Start < found.End)
-                {
-                    return true;
-                }
-            }
-
-            return false;
-        }
-
-        private static bool IsAllowed(List<int> starts, List<int> ends, int start, int end)
-        {
-            for (int i = 0; i < starts.Count; i++)
-            {
-                if (starts[i] <= start && end <= ends[i])
-                {
-                    return true;
-                }
-            }
-
-            return false;
         }
 
         private static void RemoveDuplicates(List<VulgarityMatch> matches)
@@ -473,6 +541,169 @@ namespace Vulgarity
             }
 
             matches.RemoveRange(write, matches.Count - write);
+        }
+
+        /// <summary>A set of spans that answers containment and overlap in O(log n).</summary>
+        /// <remarks>
+        /// A scan of a large text finds a great many spans, and every match is
+        /// judged against all of them. Walking the list makes that quadratic: a
+        /// megabyte of an allowlisted word took seconds. The spans are sorted by
+        /// start, and each entry carries the furthest end seen up to it, so one
+        /// binary search settles a question that used to need a full sweep.
+        /// </remarks>
+        private sealed class SpanIndex
+        {
+            private static readonly SpanIndex EmptyIndex = new SpanIndex(new int[0], new int[0]);
+
+            private readonly int[] _start;
+            private readonly int[] _maxEnd;
+
+            private SpanIndex(int[] start, int[] maxEnd)
+            {
+                _start = start;
+                _maxEnd = maxEnd;
+            }
+
+            /// <summary>Builds an index over parallel start and end lists.</summary>
+            public static SpanIndex Of(List<int> starts, List<int> ends)
+            {
+                int count = starts.Count;
+                if (count == 0)
+                {
+                    return EmptyIndex;
+                }
+
+                int[] order = new int[count];
+                for (int i = 0; i < count; i++)
+                {
+                    order[i] = i;
+                }
+
+                List<int> byStart = starts;
+                List<int> byEnd = ends;
+                Array.Sort(order, delegate(int a, int b)
+                {
+                    int difference = byStart[a] - byStart[b];
+                    return difference != 0 ? difference : byEnd[a] - byEnd[b];
+                });
+
+                int[] start = new int[count];
+                int[] end = new int[count];
+                for (int i = 0; i < count; i++)
+                {
+                    start[i] = starts[order[i]];
+                    end[i] = ends[order[i]];
+                }
+
+                return Build(start, end);
+            }
+
+            /// <summary>Builds an index over the span of every match.</summary>
+            public static SpanIndex OfMatches(List<VulgarityMatch> matches)
+            {
+                int count = matches.Count;
+                if (count == 0)
+                {
+                    return EmptyIndex;
+                }
+
+                VulgarityMatch[] sorted = matches.ToArray();
+                Array.Sort(sorted, delegate(VulgarityMatch a, VulgarityMatch b)
+                {
+                    int difference = a.Start - b.Start;
+                    return difference != 0 ? difference : a.End - b.End;
+                });
+
+                int[] start = new int[count];
+                int[] end = new int[count];
+                for (int i = 0; i < count; i++)
+                {
+                    start[i] = sorted[i].Start;
+                    end[i] = sorted[i].End;
+                }
+
+                return Build(start, end);
+            }
+
+            private static SpanIndex Build(int[] start, int[] end)
+            {
+                int[] maxEnd = new int[start.Length];
+                int running = end[0];
+
+                for (int i = 0; i < start.Length; i++)
+                {
+                    if (end[i] > running)
+                    {
+                        running = end[i];
+                    }
+
+                    maxEnd[i] = running;
+                }
+
+                return new SpanIndex(start, maxEnd);
+            }
+
+            /// <summary>True when one span holds the whole of [start, end).</summary>
+            public bool Covers(int start, int end)
+            {
+                int i = LastStartAtOrBefore(start);
+                return i >= 0 && _maxEnd[i] >= end;
+            }
+
+            /// <summary>True when one span shares a character with [start, end).</summary>
+            public bool Overlaps(int start, int end)
+            {
+                int i = LastStartBefore(end);
+                return i >= 0 && _maxEnd[i] > start;
+            }
+
+            /// <summary>The last entry whose start is at or before the value, or -1.</summary>
+            private int LastStartAtOrBefore(int value)
+            {
+                int low = 0;
+                int high = _start.Length - 1;
+                int found = -1;
+
+                while (low <= high)
+                {
+                    int mid = low + ((high - low) >> 1);
+                    if (_start[mid] <= value)
+                    {
+                        found = mid;
+                        low = mid + 1;
+                    }
+                    else
+                    {
+                        high = mid - 1;
+                    }
+                }
+
+                return found;
+            }
+
+            /// <summary>The last entry whose start is strictly before the value, or -1.</summary>
+            private int LastStartBefore(int value)
+            {
+                int low = 0;
+                int high = _start.Length - 1;
+                int found = -1;
+
+                while (low <= high)
+                {
+                    int mid = low + ((high - low) >> 1);
+                    if (_start[mid] < value)
+                    {
+                        found = mid;
+                        low = mid + 1;
+                    }
+                    else
+                    {
+                        high = mid - 1;
+                    }
+                }
+
+                return found;
+            }
         }
     }
 }

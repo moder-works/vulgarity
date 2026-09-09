@@ -57,10 +57,36 @@ namespace Vulgarity
         }
 
         /// <summary>Reads options from the JSON shape a preset uses.</summary>
-        /// <remarks>Every field is optional. A missing field keeps its default.</remarks>
+        /// <remarks>
+        /// <para>
+        /// Every field is optional. A missing field, or one that is explicitly
+        /// null, keeps its default. A field of the wrong type, or one out of range,
+        /// throws <see cref="FormatException"/> naming the field.
+        /// </para>
+        /// <para>
+        /// The fields are checked in a fixed order — minSeverity, maskChar,
+        /// maskToken, repeatTolerance, collapseContained, scoreMode, categories —
+        /// so a document with two bad fields names the same one in both ports.
+        /// </para>
+        /// </remarks>
         public static VulgarityOptions FromJson(string json)
         {
-            using (JsonDocument document = JsonDocument.Parse(json))
+            if (json == null)
+            {
+                throw new ArgumentNullException("json");
+            }
+
+            JsonDocument document;
+            try
+            {
+                document = JsonDocument.Parse(json);
+            }
+            catch (JsonException error)
+            {
+                throw new FormatException("The options are not valid JSON. " + error.Message, error);
+            }
+
+            using (document)
             {
                 return FromElement(document.RootElement);
             }
@@ -70,94 +96,117 @@ namespace Vulgarity
         {
             if (element.ValueKind != JsonValueKind.Object)
             {
-                throw new FormatException("'options' must be a JSON object.");
+                throw new FormatException(
+                    "'options' must be a JSON object. The document states " + JsonRead.TypeName(element) + ".");
             }
 
             VulgarityOptions options = new VulgarityOptions();
-            JsonElement value;
 
-            if (element.TryGetProperty("minSeverity", out value) && value.ValueKind != JsonValueKind.Null)
+            int minSeverity = JsonRead.ReadOptionalInt(element, "minSeverity") ?? 1;
+            if (minSeverity < 1 || minSeverity > 5)
             {
-                options.MinSeverity = value.GetInt32();
+                throw new FormatException("'minSeverity' must be 1 to 5. It states " + minSeverity + ".");
             }
 
-            if (element.TryGetProperty("maskChar", out value) && value.ValueKind != JsonValueKind.Null)
-            {
-                string mask = value.GetString();
-                if (mask == null || mask.Length != 1)
-                {
-                    throw new FormatException("'maskChar' must be exactly one character.");
-                }
+            options.MinSeverity = minSeverity;
 
-                options.MaskChar = mask[0];
+            string maskChar = JsonRead.ReadOptionalString(element, "maskChar") ?? "*";
+            if (maskChar.Length != 1)
+            {
+                throw new FormatException(
+                    "'maskChar' must be exactly one character. It states '" + maskChar + "'.");
             }
 
-            if (element.TryGetProperty("maskToken", out value) && value.ValueKind != JsonValueKind.Null)
+            options.MaskChar = maskChar[0];
+
+            string maskToken = JsonRead.ReadOptionalString(element, "maskToken");
+            if (maskToken != null && maskToken.Length == 0)
             {
-                options.MaskToken = value.GetString();
+                throw new FormatException(
+                    "'maskToken' must not be empty. Leave it out to mask by character.");
             }
 
-            if (element.TryGetProperty("repeatTolerance", out value) && value.ValueKind != JsonValueKind.Null)
+            options.MaskToken = maskToken;
+            options.RepeatTolerance = JsonRead.ReadOptionalBool(element, "repeatTolerance") ?? true;
+            options.CollapseContained = JsonRead.ReadOptionalBool(element, "collapseContained") ?? true;
+
+            string mode = JsonRead.ReadOptionalString(element, "scoreMode");
+            if (mode != null && mode != "total" && mode != "max")
             {
-                options.RepeatTolerance = value.GetBoolean();
+                throw new FormatException("'scoreMode' must be 'total' or 'max'. It states '" + mode + "'.");
             }
 
-            if (element.TryGetProperty("collapseContained", out value) && value.ValueKind != JsonValueKind.Null)
+            options.ScoreMode = mode == "max" ? ScoreMode.Max : ScoreMode.Total;
+            options.Categories = ReadCategories(element);
+
+            // The checks above cover every rule Validate knows, so this is a net
+            // rather than a second opinion: a rule added to Validate later must
+            // still reach a caller of FromJson as a FormatException, never as an
+            // ArgumentOutOfRangeException.
+            try
             {
-                options.CollapseContained = value.GetBoolean();
+                options.Validate();
+            }
+            catch (ArgumentException error)
+            {
+                // ArgumentOutOfRangeException is an ArgumentException, so this
+                // catches both. The error names the field it rejected.
+                throw new FormatException("These options are not usable. " + error.Message, error);
             }
 
-            if (element.TryGetProperty("scoreMode", out value) && value.ValueKind != JsonValueKind.Null)
-            {
-                string mode = value.GetString();
-                if (mode == "total")
-                {
-                    options.ScoreMode = ScoreMode.Total;
-                }
-                else if (mode == "max")
-                {
-                    options.ScoreMode = ScoreMode.Max;
-                }
-                else
-                {
-                    throw new FormatException("'scoreMode' must be 'total' or 'max'. It states '" + mode + "'.");
-                }
-            }
-
-            if (element.TryGetProperty("categories", out value) && value.ValueKind != JsonValueKind.Null)
-            {
-                if (value.ValueKind != JsonValueKind.Array)
-                {
-                    throw new FormatException("'categories' must be an array of names.");
-                }
-
-                HashSet<VulgarityCategory> set = new HashSet<VulgarityCategory>();
-                foreach (JsonElement name in value.EnumerateArray())
-                {
-                    string text = name.GetString();
-
-                    // An unknown name here would silently match nothing, so it
-                    // fails loudly instead. A term with an unknown category is
-                    // different: that one maps to Other.
-                    VulgarityCategory? parsed = CategoryNames.TryParse(text);
-                    if (parsed == null)
-                    {
-                        throw new FormatException(
-                            "'categories' names '" + text + "', which this build does not know. Valid names: "
-                            + string.Join(", ", CategoryNames.All) + ".");
-                    }
-
-                    set.Add(parsed.Value);
-                }
-
-                options.Categories = set.Count == 0 ? null : set;
-            }
-
-            options.Validate();
             return options;
         }
 
+        /// <summary>Reads the category filter.</summary>
+        /// <remarks>
+        /// An empty array stays an empty set. The two mean different things — an
+        /// empty set matches no category at all, and a missing field matches every
+        /// one — so mapping one onto the other would invert the policy on a round
+        /// trip through JSON.
+        /// </remarks>
+        private static ISet<VulgarityCategory> ReadCategories(JsonElement element)
+        {
+            JsonElement names;
+            if (!element.TryGetProperty("categories", out names) || names.ValueKind == JsonValueKind.Null)
+            {
+                return null;
+            }
+
+            if (names.ValueKind != JsonValueKind.Array)
+            {
+                throw new FormatException(
+                    "'categories' must be an array of names. The document states "
+                    + JsonRead.TypeName(names) + ".");
+            }
+
+            HashSet<VulgarityCategory> parsed = new HashSet<VulgarityCategory>();
+            foreach (JsonElement name in names.EnumerateArray())
+            {
+                // An unknown name here would silently match nothing, so it fails
+                // loudly. A term with an unknown category is different: that one
+                // maps to Other.
+                string text = name.ValueKind == JsonValueKind.String ? name.GetString() : null;
+                VulgarityCategory? category = text == null ? null : CategoryNames.TryParse(text);
+                if (category == null)
+                {
+                    throw new FormatException(
+                        "'categories' names '" + (text ?? name.ToString()) +
+                        "', which this build does not know. Valid names: "
+                        + string.Join(", ", CategoryNames.All) + ".");
+                }
+
+                parsed.Add(category.Value);
+            }
+
+            return parsed;
+        }
+
         /// <summary>Writes these options in the JSON shape a preset uses.</summary>
+        /// <remarks>
+        /// A null <see cref="Categories"/> leaves the key out altogether, because
+        /// writing "categories": null and writing "categories": [] would read back
+        /// as opposite policies.
+        /// </remarks>
         public string ToJson()
         {
             using (MemoryStream stream = new MemoryStream())
@@ -178,11 +227,7 @@ namespace Vulgarity
         {
             writer.WriteNumber("minSeverity", MinSeverity);
 
-            if (Categories == null)
-            {
-                writer.WriteNull("categories");
-            }
-            else
+            if (Categories != null)
             {
                 writer.WriteStartArray("categories");
                 foreach (string name in CategoryNames.All)

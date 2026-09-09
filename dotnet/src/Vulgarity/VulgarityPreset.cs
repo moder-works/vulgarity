@@ -33,6 +33,14 @@ namespace Vulgarity
         /// <summary>The preset schema this build reads.</summary>
         public const int SupportedSchema = 1;
 
+        /// <summary>The severity a preset entry takes when it states none.</summary>
+        /// <remarks>
+        /// A preset entry is added one at a time and by hand, so an entry that says
+        /// nothing sits in the middle of the range. A seed entry defaults to 1
+        /// instead. Both ports use these two numbers.
+        /// </remarks>
+        public const int DefaultSeverity = 3;
+
         internal VulgarityPreset(
             string name,
             string description,
@@ -114,60 +122,31 @@ namespace Vulgarity
 
                 JsonElement value;
 
-                if (root.TryGetProperty("schema", out value) && value.ValueKind != JsonValueKind.Null)
+                int? schema = JsonRead.ReadOptionalInt(root, "schema");
+                if (schema != null && schema.Value != SupportedSchema)
                 {
-                    int schema = value.GetInt32();
-                    if (schema != SupportedSchema)
-                    {
-                        throw new FormatException(
-                            "This build reads preset schema " + SupportedSchema +
-                            ". The document states schema " + schema + ".");
-                    }
+                    throw new FormatException(
+                        "This build reads preset schema " + SupportedSchema +
+                        ". The document states schema " + schema.Value + ".");
                 }
 
                 // The profile pins the fold table. A preset built against an
                 // older table would match differently, so it fails here.
-                if (root.TryGetProperty("profile", out value) && value.ValueKind != JsonValueKind.Null)
+                string profile = JsonRead.ReadOptionalString(root, "profile");
+                if (profile != null && profile != FoldTableData.Profile)
                 {
-                    string profile = value.GetString();
-                    if (profile != FoldTableData.Profile)
-                    {
-                        throw new FormatException(
-                            "This build implements fold profile '" + FoldTableData.Profile +
-                            "'. The preset states '" + profile + "'.");
-                    }
+                    throw new FormatException(
+                        "This build implements fold profile '" + FoldTableData.Profile +
+                        "'. The preset states '" + profile + "'.");
                 }
-
-                string name = root.TryGetProperty("name", out value) && value.ValueKind == JsonValueKind.String
-                    ? value.GetString()
-                    : null;
-                string description =
-                    root.TryGetProperty("description", out value) && value.ValueKind == JsonValueKind.String
-                        ? value.GetString()
-                        : null;
-
-                List<string> languages = ReadStrings(root, "languages");
-                foreach (string code in languages)
-                {
-                    if (!VulgarityLanguages.Has(code))
-                    {
-                        throw new FormatException(
-                            "'languages' names '" + code + "', which this build does not carry. Available: "
-                            + string.Join(", ", new List<string>(VulgarityLanguages.Available).ToArray()) + ".");
-                    }
-                }
-
-                VulgarityOptions options =
-                    root.TryGetProperty("options", out value) && value.ValueKind != JsonValueKind.Null
-                        ? VulgarityOptions.FromElement(value)
-                        : new VulgarityOptions();
 
                 List<VulgarityTerm> entries = new List<VulgarityTerm>();
                 if (root.TryGetProperty("entries", out value) && value.ValueKind != JsonValueKind.Null)
                 {
                     if (value.ValueKind != JsonValueKind.Array)
                     {
-                        throw new FormatException("'entries' must be an array.");
+                        throw new FormatException(
+                            "'entries' must be an array. The document states " + JsonRead.TypeName(value) + ".");
                     }
 
                     foreach (JsonElement entry in value.EnumerateArray())
@@ -176,14 +155,32 @@ namespace Vulgarity
                     }
                 }
 
+                JsonElement rawOptions;
+                bool hasOptions = root.TryGetProperty("options", out rawOptions)
+                    && rawOptions.ValueKind != JsonValueKind.Null;
+                if (hasOptions && rawOptions.ValueKind != JsonValueKind.Object)
+                {
+                    throw new FormatException(
+                        "'options' must be a JSON object. The document states "
+                        + JsonRead.TypeName(rawOptions) + ".");
+                }
+
+                string name = JsonRead.ReadOptionalString(root, "name");
+                string description = JsonRead.ReadOptionalString(root, "description");
+                List<string> languages = ReadLanguages(root);
+
+                VulgarityOptions options = hasOptions
+                    ? VulgarityOptions.FromElement(rawOptions)
+                    : new VulgarityOptions();
+
                 return new VulgarityPreset(
                     name,
                     description,
                     languages,
                     options,
                     entries,
-                    ReadStrings(root, "allow"),
-                    ReadStrings(root, "remove"));
+                    JsonRead.ReadStrings(root, "allow"),
+                    JsonRead.ReadStrings(root, "remove"));
             }
         }
 
@@ -258,35 +255,56 @@ namespace Vulgarity
             writer.WriteEndArray();
         }
 
-        private static List<string> ReadStrings(JsonElement root, string name)
+        /// <summary>Reads and shape-checks the language codes.</summary>
+        /// <remarks>
+        /// The shape check mirrors the Dart port: a code is 2 to 8 lower-case
+        /// letters. This port then goes one step further and asks whether the
+        /// assembly carries the pack, because a .NET caller who wants to serve a
+        /// code no pack covers passes a resolver to
+        /// <see cref="VulgarityFilterBuilder.AddPreset(VulgarityPreset, Func{string, string})"/>
+        /// with a preset object rather than a document. Dart defers that question
+        /// to the builder instead; the divergence is documented on both sides.
+        /// </remarks>
+        private static List<string> ReadLanguages(JsonElement root)
         {
-            List<string> result = new List<string>();
-            JsonElement value;
-            if (!root.TryGetProperty(name, out value) || value.ValueKind == JsonValueKind.Null)
+            List<string> codes = JsonRead.ReadStrings(root, "languages");
+            foreach (string code in codes)
             {
-                return result;
-            }
-
-            if (value.ValueKind != JsonValueKind.Array)
-            {
-                throw new FormatException("'" + name + "' must be an array of strings.");
-            }
-
-            foreach (JsonElement item in value.EnumerateArray())
-            {
-                if (item.ValueKind != JsonValueKind.String)
+                if (!IsLanguageCode(code))
                 {
-                    throw new FormatException("'" + name + "' must hold strings only.");
+                    throw new FormatException(
+                        "'languages' names '" + code + "', which is not a language code. " +
+                        "A code is 2 to 8 lower-case letters.");
                 }
 
-                string text = item.GetString();
-                if (!string.IsNullOrEmpty(text))
+                if (!VulgarityLanguages.Has(code))
                 {
-                    result.Add(text);
+                    throw new FormatException(
+                        "'languages' names '" + code + "', which this build does not carry. Available: "
+                        + string.Join(", ", new List<string>(VulgarityLanguages.Available).ToArray()) + ".");
                 }
             }
 
-            return result;
+            return codes;
+        }
+
+        /// <summary>True when the code is 2 to 8 lower-case ASCII letters.</summary>
+        private static bool IsLanguageCode(string code)
+        {
+            if (code == null || code.Length < 2 || code.Length > 8)
+            {
+                return false;
+            }
+
+            for (int i = 0; i < code.Length; i++)
+            {
+                if (code[i] < 'a' || code[i] > 'z')
+                {
+                    return false;
+                }
+            }
+
+            return true;
         }
 
         private static VulgarityTerm ReadEntry(JsonElement entry)
@@ -299,34 +317,28 @@ namespace Vulgarity
             JsonElement value;
             if (!entry.TryGetProperty("t", out value) || value.ValueKind != JsonValueKind.String)
             {
-                throw new FormatException("Every entry in 'entries' must hold a 't' term.");
+                throw new FormatException("Every entry in 'entries' must hold a non-empty 't' term.");
             }
 
             string term = value.GetString();
             if (string.IsNullOrEmpty(term))
             {
-                throw new FormatException("A term in 'entries' must not be empty.");
+                throw new FormatException("Every entry in 'entries' must hold a non-empty 't' term.");
             }
 
-            // A term category the build does not know maps to Other. That keeps
-            // an older client working when a server adds a category.
-            string category = entry.TryGetProperty("cat", out value) && value.ValueKind == JsonValueKind.String
-                ? value.GetString()
-                : "other";
+            // A term category the build does not know maps to Other. That keeps an
+            // older client working when a server adds a category. A category that is
+            // not a string is a different thing: that is a malformed document.
+            string category = JsonRead.ReadOptionalString(entry, "cat") ?? "other";
 
-            int severity = 3;
-            if (entry.TryGetProperty("sev", out value) && value.ValueKind != JsonValueKind.Null)
+            int severity = JsonRead.ReadOptionalInt(entry, "sev") ?? DefaultSeverity;
+            if (severity < 1 || severity > 5)
             {
-                severity = value.GetInt32();
-                if (severity < 1 || severity > 5)
-                {
-                    throw new FormatException(
-                        "Severity must be 1 to 5. Term '" + term + "' states " + severity + ".");
-                }
+                throw new FormatException(
+                    "Severity must be 1 to 5. Term '" + term + "' states " + severity + ".");
             }
 
-            bool requireBoundary = entry.TryGetProperty("w", out value) && value.ValueKind == JsonValueKind.True;
-            return new VulgarityTerm(term, category, severity, requireBoundary);
+            return new VulgarityTerm(term, category, severity, JsonRead.ReadOptionalBool(entry, "w") ?? false);
         }
 
         public override string ToString()
