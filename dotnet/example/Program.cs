@@ -31,7 +31,13 @@ internal static class Program
             IReadOnlyList<VulgarityMatch> hits = filter.Scan(sample);
             Console.WriteLine();
             Console.WriteLine("  in    : " + sample);
-            Console.WriteLine("  detect: " + filter.Detect(sample) + "   score: " + filter.Score(sample));
+
+            // Lower case on purpose. Bool.ToString() gives "True", Dart's gives
+            // "true", and the CI parity step diffs the two outputs byte for
+            // byte. Fold the case here, not in the pipeline: a `tr` over the
+            // whole stream would also rewrite a T or an F inside a sample.
+            Console.WriteLine("  detect: " + filter.Detect(sample).ToString().ToLowerInvariant()
+                + "   score: " + filter.Score(sample));
             Console.WriteLine("  filter: " + filter.Filter(sample));
             foreach (VulgarityMatch hit in hits)
             {

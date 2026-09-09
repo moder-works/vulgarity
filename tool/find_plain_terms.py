@@ -33,10 +33,16 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # What a reader of the published package can see. data/ holds the authored
 # lists and is meant to be readable. .github/ never ships.
+#
+# pubspec.yaml and LICENSE are in the archive too, and pub.dev renders the
+# description straight onto the package page, so they are as public as the
+# README.
 TARGETS = [
     "README.md",
     "dart/README.md",
     "dart/CHANGELOG.md",
+    "dart/pubspec.yaml",
+    "dart/LICENSE",
     "dart/lib",
     "dart/example",
     "dotnet/src",
@@ -45,6 +51,36 @@ TARGETS = [
 
 SUFFIXES = (".md", ".dart", ".cs")
 
+# The shortest term worth reporting. Three letters is the floor: "ass" and
+# "fag" are terms a reader can see, and stopping at four missed them.
+MIN_LENGTH = 3
+
+# Below this length a term is only ever reported as a whole word, whatever its
+# own boundary flag says. A three-letter run turns up by chance inside a longer
+# word once the fold has dropped the punctuation, and a hit nobody can read on
+# the page is not a leak. The seed already flags almost every short term as
+# whole-word; this makes the rule hold for the rest of them too.
+WHOLE_WORD_LENGTH = 4
+
+# Files that are code. Everywhere else, the whole line is prose.
+SOURCE_SUFFIXES = (".dart", ".cs")
+
+# Terms a published file names on purpose, per file.
+#
+# Dropping the floor to three letters made one real hit visible: README.md
+# names a severity-2 three-letter term six times, in code spans, in the section
+# that documents the word-boundary rule. That rule is only legible with a term
+# that has an innocent host word -- `an ass` flags, `bass` and `assassin` do
+# not -- and no severity-1 term has such a neighbour, so "damn", "hell" and
+# "crap" cannot stand in for it. Every hit is a deliberate citation, none is a
+# leak, and the alternative is a section that cannot say what it means.
+#
+# This is deliberately per file AND per term. The same term in any other
+# published file still fails, and any other term in README.md still fails.
+DOCUMENTED = {
+    "README.md": frozenset(["ass"]),
+}
+
 
 def load_terms(min_severity):
     """Return the English terms at or above a severity, longest first."""
@@ -52,9 +88,11 @@ def load_terms(min_severity):
     allow = set(doc.get("allow", []))
     terms = []
     for entry in doc["entries"]:
-        if entry.get("sev", 1) < min_severity or len(entry["t"]) < 4:
+        term = entry["t"]
+        if entry.get("sev", 1) < min_severity or len(term) < MIN_LENGTH:
             continue
-        terms.append((entry["t"], bool(entry.get("w"))))
+        boundary = bool(entry.get("w")) or len(term) < WHOLE_WORD_LENGTH
+        terms.append((term, boundary))
     terms.sort(key=lambda pair: len(pair[0]), reverse=True)
     return terms, allow
 
@@ -101,15 +139,18 @@ LITERAL = re.compile(r"'([^'\n]*)'|\"([^\"\n]*)\"")
 INTERPOLATION = re.compile(r"\$\{[^}]*\}|\$[A-Za-z_][A-Za-z0-9_]*|\{[0-9]+\}")
 
 
-def prose(line, markdown):
+def prose(line, source):
     """Return the part of a line a human reads as text, not as code.
 
     Folding a whole line of source is too noisy to be useful. The fold drops
     punctuation, so `${hit.start}` becomes `hitstart` and joins into a term that
     nobody can see on the page. Comments and string literals are the only places
     a reader meets prose, so fold only those.
+
+    Everything that is not source is read straight through: Markdown, the
+    pubspec and the licence are prose from the first character to the last.
     """
-    if markdown:
+    if not source:
         return line
     parts = []
     for groups in COMMENT.findall(line):
@@ -122,7 +163,7 @@ def prose(line, markdown):
 def scan(path, terms, allow, folder):
     """Return {line number: set of terms} for one file."""
     found = {}
-    markdown = path.endswith(".md")
+    source = path.endswith(SOURCE_SUFFIXES)
     with open(path, encoding="utf-8", errors="ignore") as fh:
         lines = fh.read().split("\n")
 
@@ -131,7 +172,7 @@ def scan(path, terms, allow, folder):
             continue
 
         raw = line.lower()
-        folded = folder.fold(prose(line, markdown))
+        folded = folder.fold(prose(line, source))
         streams = (folded, squeeze(folded))
 
         hits = set()
@@ -163,19 +204,33 @@ def main():
     folder = Folder()
 
     total = 0
+    waived = 0
     for path in files():
+        rel = os.path.relpath(path, ROOT).replace(os.sep, "/")
         found = scan(path, terms, allow, folder)
+
+        documented = DOCUMENTED.get(rel, frozenset())
+        if documented:
+            for number in list(found):
+                waived += len(found[number] & documented)
+                found[number] -= documented
+                if not found[number]:
+                    del found[number]
+
         if not found:
             continue
         total += len(found)
-        rel = os.path.relpath(path, ROOT)
         print(rel)
         for number in sorted(found):
             masked = ", ".join(sorted(t[0] + "*" * (len(t) - 1) for t in found[number]))
             print("  %s:%d  %s" % (rel, number, masked))
 
+    if waived:
+        print("%d documented mention%s allowed, see DOCUMENTED in this file"
+              % (waived, "" if waived == 1 else "s"))
+
     if total == 0:
-        print("no readable term of severity %d or above in the published files"
+        print("no undocumented term of severity %d or above in the published files"
               % args.min_severity)
         return 0
 

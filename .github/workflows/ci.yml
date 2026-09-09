@@ -7,6 +7,10 @@ name: CI
 #
 # To pin a specific machine, replace `self-hosted` with a label list, for
 # example `[self-hosted, macos, vulgarity]`.
+#
+# A hosted-runner matrix over several SDK versions is a follow-up. It would
+# need actions/setup-dotnet and dart-lang/setup-dart, and those download a
+# toolchain, which is the one thing this workflow deliberately does not do.
 
 on:
   push:
@@ -81,21 +85,57 @@ jobs:
         working-directory: dart
         run: dart test --reporter expanded
 
+      # pana is the analysis pub.dev runs on every publish, so run it here and
+      # not after the fact.
+      #
+      # The threshold is not zero. pana withholds the pubspec points unless it
+      # can reach the repository over the network and find it public, which a
+      # checkout on a self-hosted box cannot promise. That is a whole 10-point
+      # item, and the package scores 150/160 today for exactly that reason.
+      #
+      # 20 points of slack covers it with one item to spare, and nothing more:
+      # a real regression in the documentation, the platform support or the
+      # static analysis costs 10 or 20 points on its own and still fails here.
+      - name: Package score
+        working-directory: dart
+        run: |
+          dart pub global activate pana
+          dart pub global run pana --no-warning --exit-code-threshold 20 .
+
+      # The README promises the package runs on Flutter web. Neither the tests
+      # nor the analyzer prove that: dart:io in a stray import compiles fine on
+      # the VM and only fails when someone builds for the browser. These two
+      # compilers are that proof, for both of the web back ends.
+      - name: The package builds for the web
+        working-directory: dart
+        run: |
+          dart compile js -O2 -o "$RUNNER_TEMP/example.js" example/vulgarity_example.dart
+          dart compile wasm -o "$RUNNER_TEMP/example.wasm" example/vulgarity_example.dart
+
       # .pubignore keeps dart/test out of the published archive. This checks the
       # file list, so a bad ignore rule fails here and not on pub.dev.
       #
-      # The dry-run itself exits non-zero for reasons this step does not judge,
-      # such as the package having no CHANGELOG.md yet. Only the file list is
-      # the subject here, so the exit code is deliberately ignored.
+      # The dry-run's own exit code counts too. It is the same validation
+      # pub.dev applies on upload, so anything it rejects would fail the real
+      # publish. The grep is the extra assertion on top: the dry-run is happy to
+      # publish a package whose archive holds the wrong files.
       - name: The published file list is right
         working-directory: dart
         run: |
-          dart pub publish --dry-run > /tmp/publish.txt 2>&1 || true
-          cat /tmp/publish.txt
-          if grep -qE '(^|── )test(/|$)' /tmp/publish.txt; then
+          status=0
+          dart pub publish --dry-run > "$RUNNER_TEMP/publish.txt" 2>&1 || status=$?
+          cat "$RUNNER_TEMP/publish.txt"
+
+          if grep -qE '(^|── )test(/|$)' "$RUNNER_TEMP/publish.txt"; then
             echo "::error::dart/test would be published. Check dart/.pubignore."
             exit 1
           fi
+
+          if [ "$status" -ne 0 ]; then
+            echo "::error::dart pub publish --dry-run failed. See the output above."
+            exit "$status"
+          fi
+
           echo "dart/test is not in the published archive."
 
   contract:
@@ -148,6 +188,24 @@ jobs:
 
       # The real parity proof. Both ports run the same inputs, and the output
       # must match byte for byte.
+      #
+      # The inputs are the twelve inline samples below, which name the
+      # behaviours worth reading in a diff, PLUS every evasion spelling in
+      # data/testdata/evasions-en.json and every input text in data/vectors.json.
+      # A dozen hand-picked strings agreeing proves very little; a thousand real
+      # evasions agreeing is the contract.
+      #
+      # python3 builds the list, not jq: python3 is already a hard requirement
+      # of this job and jq is not, so a runner without jq would skip the real
+      # data and still pass. The list is NUL separated, so a sample holding a
+      # quote, a backslash, a dollar sign or a space reaches the CLI exactly as
+      # written. xargs feeds it to each port in batches, because a thousand
+      # arguments on one command line is how you meet E2BIG.
+      #
+      # Neither output goes through `tr`. Case folding the stream to reconcile
+      # .NET's "True" with Dart's "true" also rewrote every T and F inside a
+      # sample, which turned SHIT into SHIt and hid real disagreements. The .NET
+      # example prints its booleans in lower case instead.
       - name: Both ports agree
         run: |
           samples=(
@@ -165,16 +223,50 @@ jobs:
             "shiitake mushrooms"
           )
 
-          dotnet build dotnet/example/Example.csproj -c Release --nologo
-          dotnet dotnet/example/bin/Release/net8.0/Example.dll "${samples[@]}" \
-            | tr 'TF' 'tf' > "$RUNNER_TEMP/dotnet.txt"
+          python3 - "$RUNNER_TEMP/args.nul" "$RUNNER_TEMP/count.txt" "${samples[@]}" <<'PY'
+          import json
+          import sys
 
-          ( cd dart && dart pub get >/dev/null \
-            && dart run example/vulgarity_example.dart "${samples[@]}" ) \
-            > "$RUNNER_TEMP/dart.txt"
+          args_path, count_path, inline = sys.argv[1], sys.argv[2], sys.argv[3:]
+
+
+          def load(path):
+              with open(path, encoding="utf-8") as handle:
+                  return json.load(handle)
+
+
+          texts = list(inline)
+          texts += load("data/testdata/evasions-en.json")["terms"]
+          texts += [case["text"] for case in load("data/vectors.json")["cases"]]
+
+          # An empty argument does not survive every xargs. Drop it here so both
+          # ports read the same list whatever the runner ships.
+          texts = [text for text in texts if text != ""]
+
+          with open(args_path, "wb") as handle:
+              for text in texts:
+                  handle.write(text.encode("utf-8") + b"\0")
+
+          with open(count_path, "w", encoding="utf-8") as handle:
+              handle.write(str(len(texts)))
+
+          print("parity inputs: %d" % len(texts))
+          PY
+
+          dotnet build dotnet/example/Example.csproj -c Release --nologo
+          ( cd dart && dart pub get >/dev/null )
+
+          : > "$RUNNER_TEMP/dotnet.txt"
+          : > "$RUNNER_TEMP/dart.txt"
+
+          xargs -0 -n 200 dotnet dotnet/example/bin/Release/net8.0/Example.dll \
+            < "$RUNNER_TEMP/args.nul" >> "$RUNNER_TEMP/dotnet.txt"
+
+          ( cd dart && xargs -0 -n 200 dart run example/vulgarity_example.dart \
+            < "$RUNNER_TEMP/args.nul" ) >> "$RUNNER_TEMP/dart.txt"
 
           if diff -u "$RUNNER_TEMP/dotnet.txt" "$RUNNER_TEMP/dart.txt"; then
-            echo "Both ports produced identical output."
+            echo "Both ports produced identical output over $(cat "$RUNNER_TEMP/count.txt") inputs."
           else
             echo "::error::The two ports disagree. See the diff above."
             exit 1
