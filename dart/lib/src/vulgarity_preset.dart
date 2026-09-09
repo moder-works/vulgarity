@@ -1,11 +1,26 @@
 import 'dart:convert';
 
+import 'json_read.dart';
 import 'model/vulgarity_term.dart';
 import 'normalization/fold_table.g.dart';
 import 'vulgarity_options.dart';
 
 /// The preset schema this build reads.
 const int kSupportedPresetSchema = 1;
+
+/// The severity a preset entry takes when it states none.
+///
+/// A preset entry is added one at a time and by hand, so an entry that says
+/// nothing sits in the middle of the range. A seed entry defaults to 1
+/// instead. Both ports use these two numbers.
+const int kPresetDefaultSeverity = 3;
+
+/// The shape of a language code: 2 to 8 lower-case letters.
+///
+/// A preset only has to be well-formed here. Whether this build can serve the
+/// code is a question for the builder, which may have a resolver that carries
+/// packs this package never heard of.
+final RegExp _languageCode = RegExp(r'^[a-z]{2,8}$');
 
 /// A whole filter policy in one JSON document: the options, the extra terms,
 /// the allowlist, and the terms to drop.
@@ -38,7 +53,11 @@ class VulgarityPreset {
   /// What the policy is for.
   final String? description;
 
-  /// The bundled term lists to load, by language code.
+  /// The term lists to load, by language code.
+  ///
+  /// [VulgarityPreset.parse] checks the shape of each code and nothing more.
+  /// Whether a code can be served is settled later, by
+  /// [VulgarityFilterBuilder.addPreset] and the resolver it was given.
   final List<String> languages;
 
   /// The policy. A missing field in the document keeps its default.
@@ -56,7 +75,9 @@ class VulgarityPreset {
   /// Reads a preset document.
   ///
   /// Throws [FormatException] when the document is malformed, when it targets
-  /// another fold profile, or when a field is out of range.
+  /// another fold profile, or when a field is out of range. Every field is
+  /// type-checked rather than coerced, so `"sev": "3"` and `"name": 5` are
+  /// both errors.
   factory VulgarityPreset.parse(String json) {
     final Object? parsed;
     try {
@@ -69,7 +90,7 @@ class VulgarityPreset {
       throw const FormatException('A preset must be a JSON object.');
     }
 
-    final Object? schema = parsed['schema'];
+    final int? schema = readOptionalInt(parsed, 'schema');
     if (schema != null && schema != kSupportedPresetSchema) {
       throw FormatException(
           'This build reads preset schema $kSupportedPresetSchema. '
@@ -78,7 +99,7 @@ class VulgarityPreset {
 
     // The profile pins the fold table. A preset built against an older table
     // would match differently, so it fails here.
-    final Object? profile = parsed['profile'];
+    final String? profile = readOptionalString(parsed, 'profile');
     if (profile != null && profile != kFoldProfile) {
       throw FormatException(
           "This build implements fold profile '$kFoldProfile'. "
@@ -89,7 +110,8 @@ class VulgarityPreset {
     final Object? rawEntries = parsed['entries'];
     if (rawEntries != null) {
       if (rawEntries is! List) {
-        throw const FormatException("'entries' must be an array.");
+        throw FormatException("'entries' must be an array. "
+            'The document states ${jsonTypeName(rawEntries)}.');
       }
       for (final Object? entry in rawEntries) {
         entries.add(_readEntry(entry));
@@ -98,19 +120,20 @@ class VulgarityPreset {
 
     final Object? rawOptions = parsed['options'];
     if (rawOptions != null && rawOptions is! Map<String, dynamic>) {
-      throw const FormatException("'options' must be a JSON object.");
+      throw FormatException("'options' must be a JSON object. "
+          'The document states ${jsonTypeName(rawOptions)}.');
     }
 
     return VulgarityPreset(
-      name: parsed['name'] as String?,
-      description: parsed['description'] as String?,
-      languages: _readStrings(parsed, 'languages'),
+      name: readOptionalString(parsed, 'name'),
+      description: readOptionalString(parsed, 'description'),
+      languages: _readLanguages(parsed),
       options: rawOptions == null
           ? VulgarityOptions()
           : VulgarityOptions.fromJson(rawOptions as Map<String, dynamic>),
       entries: entries,
-      allow: _readStrings(parsed, 'allow'),
-      remove: _readStrings(parsed, 'remove'),
+      allow: readStrings(parsed, 'allow'),
+      remove: readStrings(parsed, 'remove'),
     );
   }
 
@@ -136,24 +159,20 @@ class VulgarityPreset {
     };
   }
 
-  static List<String> _readStrings(Map<String, dynamic> root, String name) {
-    final Object? value = root[name];
-    if (value == null) {
-      return const <String>[];
-    }
-    if (value is! List) {
-      throw FormatException("'$name' must be an array of strings.");
-    }
-    final List<String> result = <String>[];
-    for (final Object? item in value) {
-      if (item is! String) {
-        throw FormatException("'$name' must hold strings only.");
-      }
-      if (item.isNotEmpty) {
-        result.add(item);
+  /// Reads and shape-checks the language codes.
+  ///
+  /// This checks the SHAPE only. It deliberately does not ask whether this
+  /// build carries the code, because a caller may pass a resolver that serves
+  /// codes no bundled list covers.
+  static List<String> _readLanguages(Map<String, dynamic> root) {
+    final List<String> codes = readStrings(root, 'languages');
+    for (final String code in codes) {
+      if (!_languageCode.hasMatch(code)) {
+        throw FormatException("'languages' names '$code', which is not a "
+            'language code. A code is 2 to 8 lower-case letters.');
       }
     }
-    return result;
+    return codes;
   }
 
   static VulgarityTerm _readEntry(Object? entry) {
@@ -168,21 +187,22 @@ class VulgarityPreset {
           "Every entry in 'entries' must hold a non-empty 't' term.");
     }
 
-    final Object? severity = entry['sev'];
-    final int sev = severity is int ? severity : 3;
+    // A term category the build does not know maps to other. That keeps an
+    // older client working when a server adds a category. A category that is
+    // not a string is a different thing: that is a malformed document.
+    final String category = readOptionalString(entry, 'cat') ?? 'other';
+
+    final int sev = readOptionalInt(entry, 'sev') ?? kPresetDefaultSeverity;
     if (sev < 1 || sev > 5) {
       throw FormatException(
           "Severity must be 1 to 5. Term '$term' states $sev.");
     }
 
-    // A term category the build does not know maps to other. That keeps an
-    // older client working when a server adds a category.
-    final Object? category = entry['cat'];
     return VulgarityTerm(
       term,
-      category is String ? category : 'other',
+      category,
       sev,
-      entry['w'] == true,
+      readOptionalBool(entry, 'w') ?? false,
     );
   }
 

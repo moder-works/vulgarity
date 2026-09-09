@@ -141,9 +141,13 @@ void loadPack(
 
 /// Strips the magic and XORs the rest with the keystream.
 ///
-/// Every value here is one byte, and every step is `+` and `& 0xFF`. That keeps
-/// the result identical on the Dart VM, on dart2js and on dart2wasm, where an
+/// Every value HERE is one byte, and every step is `+` and `& 0xFF`. That keeps
+/// the mask identical on the Dart VM, on dart2js and on dart2wasm, where an
 /// `int` is a JavaScript double and wider arithmetic would not agree.
+///
+/// The claim covers this function alone. The rest of the reader agrees across
+/// the three runtimes only because [_readVarint] caps a number at 31 bits; a
+/// wider one shifts past what dart2js keeps and would read differently there.
 Uint8List _unmask(List<int> pack, int offset) {
   final Uint8List box = Uint8List(256);
   for (int i = 0; i < 256; i++) {
@@ -180,6 +184,16 @@ class _Cursor {
   int pos;
 }
 
+/// Reads an unsigned LEB128 number, capped at 31 bits.
+///
+/// The cap is what keeps every runtime reading the same pack. dart2js compiles
+/// `<<` to JavaScript's shift, which truncates to 32 bits, so a value of 2^32+5
+/// would read as 5 on the web and as 2^32+5 on the VM. Rather than let a
+/// crafted pack load on one and fail on the other, a number wider than 31 bits
+/// is refused everywhere.
+///
+/// In practice that means a fifth byte carries three bits at most, and there is
+/// never a sixth. `tool/packlib.py` refuses to write what this refuses to read.
 int _readVarint(Uint8List data, _Cursor at) {
   int value = 0;
   int shift = 0;
@@ -190,6 +204,13 @@ int _readVarint(Uint8List data, _Cursor at) {
 
     final int b = data[at.pos];
     at.pos++;
+
+    // At the fifth byte only the low three bits are left, and a continuation
+    // bit would ask for a sixth. Either is over the cap.
+    if (shift == 28 && b > 0x07) {
+      throw const FormatException('A pack number runs too long.');
+    }
+
     value |= (b & 0x7F) << shift;
     if (b < 0x80) {
       return value;

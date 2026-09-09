@@ -1,3 +1,4 @@
+import 'json_read.dart';
 import 'model/vulgarity_category.dart';
 
 /// Controls what the filter reports and how it masks text.
@@ -59,66 +60,113 @@ class VulgarityOptions {
 
   /// Reads options from the JSON shape a preset uses.
   ///
-  /// Every field is optional. A missing field keeps its default.
+  /// Every field is optional. A missing field, or one that is explicitly
+  /// `null`, keeps its default. A field of the wrong type, or one out of
+  /// range, throws [FormatException] naming the field.
+  ///
+  /// The fields are checked in a fixed order — minSeverity, maskChar,
+  /// maskToken, repeatTolerance, collapseContained, scoreMode, categories —
+  /// so a document with two bad fields names the same one in both ports.
   factory VulgarityOptions.fromJson(Map<String, dynamic> json) {
-    Set<VulgarityCategory>? categories;
-    final Object? names = json['categories'];
-    if (names != null) {
-      if (names is! List) {
-        throw const FormatException("'categories' must be an array of names.");
-      }
-      final Set<VulgarityCategory> parsed = <VulgarityCategory>{};
-      for (final Object? name in names) {
-        // An unknown name here would silently match nothing, so it fails
-        // loudly. A term with an unknown category is different: that one maps
-        // to VulgarityCategory.other.
-        final VulgarityCategory? category =
-            name is String ? VulgarityCategory.tryParse(name) : null;
-        if (category == null) {
-          throw FormatException(
-              "'categories' names '$name', which this build does not know. "
-              'Valid names: ${VulgarityCategory.allNames.join(', ')}.');
-        }
-        parsed.add(category);
-      }
-      categories = parsed.isEmpty ? null : parsed;
+    final int minSeverity = readOptionalInt(json, 'minSeverity') ?? 1;
+    if (minSeverity < 1 || minSeverity > 5) {
+      throw FormatException(
+          "'minSeverity' must be 1 to 5. It states $minSeverity.");
     }
 
-    final Object? mode = json['scoreMode'];
+    final String maskChar = readOptionalString(json, 'maskChar') ?? '*';
+    if (maskChar.length != 1) {
+      throw FormatException(
+          "'maskChar' must be exactly one character. It states '$maskChar'.");
+    }
+
+    final String? maskToken = readOptionalString(json, 'maskToken');
+    if (maskToken != null && maskToken.isEmpty) {
+      throw const FormatException(
+          "'maskToken' must not be empty. Leave it out to mask by character.");
+    }
+
+    final bool repeatTolerance =
+        readOptionalBool(json, 'repeatTolerance') ?? true;
+    final bool collapseContained =
+        readOptionalBool(json, 'collapseContained') ?? true;
+
+    final String? mode = readOptionalString(json, 'scoreMode');
     if (mode != null && mode != 'total' && mode != 'max') {
       throw FormatException(
           "'scoreMode' must be 'total' or 'max'. It states '$mode'.");
     }
 
-    final Object? mask = json['maskChar'];
-    if (mask != null && (mask is! String || mask.length != 1)) {
-      throw const FormatException("'maskChar' must be exactly one character.");
-    }
-
     final VulgarityOptions options = VulgarityOptions(
-      minSeverity: json['minSeverity'] as int? ?? 1,
-      categories: categories,
-      maskChar: mask as String? ?? '*',
-      maskToken: json['maskToken'] as String?,
-      repeatTolerance: json['repeatTolerance'] as bool? ?? true,
-      collapseContained: json['collapseContained'] as bool? ?? true,
+      minSeverity: minSeverity,
+      categories: _readCategories(json),
+      maskChar: maskChar,
+      maskToken: maskToken,
+      repeatTolerance: repeatTolerance,
+      collapseContained: collapseContained,
       scoreMode: mode == 'max' ? ScoreMode.max : ScoreMode.total,
     );
-    options.validate();
+
+    // The checks above cover every rule validate knows, so this is a net rather
+    // than a second opinion: a rule added to validate later must still reach a
+    // caller of fromJson as a FormatException, never as a RangeError.
+    try {
+      options.validate();
+    } on ArgumentError catch (error) {
+      // RangeError is an ArgumentError, so this catches both. The error names
+      // the field it rejected.
+      throw FormatException('These options are not usable. $error');
+    }
     return options;
   }
 
+  /// Reads the category filter.
+  ///
+  /// An empty array stays an empty set. The two mean different things — an
+  /// empty set matches no category at all, and a missing field matches every
+  /// one — so mapping one onto the other would invert the policy on a round
+  /// trip through JSON.
+  static Set<VulgarityCategory>? _readCategories(Map<String, dynamic> json) {
+    final Object? names = json['categories'];
+    if (names == null) {
+      return null;
+    }
+    if (names is! List) {
+      throw FormatException("'categories' must be an array of names. "
+          'The document states ${jsonTypeName(names)}.');
+    }
+
+    final Set<VulgarityCategory> parsed = <VulgarityCategory>{};
+    for (final Object? name in names) {
+      // An unknown name here would silently match nothing, so it fails
+      // loudly. A term with an unknown category is different: that one maps
+      // to VulgarityCategory.other.
+      final VulgarityCategory? category =
+          name is String ? VulgarityCategory.tryParse(name) : null;
+      if (category == null) {
+        throw FormatException(
+            "'categories' names '$name', which this build does not know. "
+            'Valid names: ${VulgarityCategory.allNames.join(', ')}.');
+      }
+      parsed.add(category);
+    }
+    return parsed;
+  }
+
   /// Writes these options in the JSON shape a preset uses.
+  ///
+  /// A null [categories] leaves the key out altogether, because writing
+  /// `"categories": null` and writing `"categories": []` would read back as
+  /// opposite policies.
   Map<String, dynamic> toJson() {
     final Set<VulgarityCategory>? selected = categories;
     return <String, dynamic>{
       'minSeverity': minSeverity,
-      'categories': selected == null
-          ? null
-          : VulgarityCategory.allNames
-              .where((String n) =>
-                  selected.contains(VulgarityCategory.tryParse(n)))
-              .toList(),
+      if (selected != null)
+        'categories': VulgarityCategory.allNames
+            .where(
+                (String n) => selected.contains(VulgarityCategory.tryParse(n)))
+            .toList(),
       'maskChar': maskChar,
       'maskToken': maskToken,
       'repeatTolerance': repeatTolerance,

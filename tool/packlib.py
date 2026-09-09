@@ -36,6 +36,9 @@ Layout:
                      varint len + UTF-8 term bytes
                      1 byte: category (4 bits) | boundary (1 bit) | severity (3 bits)
             ...    varint count, then per allow word: varint len + UTF-8 bytes
+
+Every varint is capped at 31 bits, in the encoder and in all three readers.
+See MAX_VARINT.
 """
 
 MAGIC = b"VPK1"
@@ -49,6 +52,14 @@ SCHEMA = 1
 MAX_CATEGORIES = 16
 
 FLAG_HAS_ALLOW = 0x01
+
+# The widest number a varint may carry, in either direction.
+#
+# dart2js compiles a shift to JavaScript's shift, which truncates to 32 bits,
+# so a wider value reads one way on the web and another on the Dart VM. Capping
+# at 31 bits means every runtime agrees, and it means an encoder cannot write a
+# pack that only some readers accept.
+MAX_VARINT = (1 << 31) - 1
 
 
 def keystream(length, key=KEY):
@@ -76,9 +87,17 @@ def mask(body, key=KEY):
 
 
 def put_varint(out, value):
-    """Append `value` to `out` as an unsigned LEB128 varint."""
+    """Append `value` to `out` as an unsigned LEB128 varint.
+
+    Values are capped at MAX_VARINT. Writing a wider one would produce a pack
+    that the Dart reader refuses, and that dart2js would read differently from
+    the Dart VM, so it fails here instead of shipping.
+    """
     if value < 0:
         raise ValueError("a varint holds no negative value")
+    if value > MAX_VARINT:
+        raise ValueError(
+            "a varint holds at most %d, and this one is %d" % (MAX_VARINT, value))
     while value >= 0x80:
         out.append((value & 0x7F) | 0x80)
         value >>= 7
@@ -86,7 +105,12 @@ def put_varint(out, value):
 
 
 def get_varint(data, pos):
-    """Read a varint at `pos`. Return (value, next position)."""
+    """Read a varint at `pos`. Return (value, next position).
+
+    This refuses exactly what the Dart and C# readers refuse: anything wider
+    than 31 bits. At the fifth byte only three bits are left, and there is
+    never a sixth.
+    """
     value = 0
     shift = 0
     while True:
@@ -94,11 +118,13 @@ def get_varint(data, pos):
             raise ValueError("the pack ends inside a varint")
         byte = data[pos]
         pos += 1
+        if shift == 28 and byte > 0x07:
+            raise ValueError("a varint runs too long")
         value |= (byte & 0x7F) << shift
         if byte < 0x80:
             return value, pos
         shift += 7
-        if shift > 35:
+        if shift > 28:
             raise ValueError("a varint runs too long")
 
 

@@ -131,6 +131,9 @@ void main() {
       '{"options":{"scoreMode":"sideways"}}': 'scoreMode',
       '{"options":{"categories":["nonsense"]}}': 'does not know',
       '{"options":{"maskChar":"toolong"}}': 'exactly one character',
+      // A field out of range is as malformed as a field of the wrong type. It
+      // used to leak a RangeError through the FormatException contract.
+      '{"options":{"minSeverity":9}}': 'minSeverity',
       '{"entries":[{"t":"x","sev":77}]}': 'Severity must be 1 to 5',
       '{"entries":[{"cat":"hate"}]}': "must hold a non-empty 't' term",
       '{"entries":"nope"}': 'must be an array',
@@ -147,11 +150,6 @@ void main() {
               contains(message))),
         );
       });
-    });
-
-    test('{"options":{"minSeverity":9}}', () {
-      expect(() => VulgarityPreset.parse('{"options":{"minSeverity":9}}'),
-          throwsRangeError);
     });
   });
 
