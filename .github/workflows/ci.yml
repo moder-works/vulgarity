@@ -81,6 +81,23 @@ jobs:
         working-directory: dart
         run: dart test --reporter expanded
 
+      # .pubignore keeps dart/test out of the published archive. This checks the
+      # file list, so a bad ignore rule fails here and not on pub.dev.
+      #
+      # The dry-run itself exits non-zero for reasons this step does not judge,
+      # such as the package having no CHANGELOG.md yet. Only the file list is
+      # the subject here, so the exit code is deliberately ignored.
+      - name: The published file list is right
+        working-directory: dart
+        run: |
+          dart pub publish --dry-run > /tmp/publish.txt 2>&1 || true
+          cat /tmp/publish.txt
+          if grep -qE '(^|── )test(/|$)' /tmp/publish.txt; then
+            echo "::error::dart/test would be published. Check dart/.pubignore."
+            exit 1
+          fi
+          echo "dart/test is not in the published archive."
+
   contract:
     name: Shared contract
     runs-on: self-hosted
@@ -96,11 +113,11 @@ jobs:
 
       # data/ is generated AND read at run time. A stale generated file means
       # the committed contract no longer matches its source.
-      - name: Generated files are current
-        run: |
-          python3 tool/gen_fold_table.py --check
-          python3 tool/gen_dart_seeds.py --check
-
+      #
+      # Order matters. seed.json is the root of the chain, and the packs and the
+      # Dart libraries are built from it. Regenerate it FIRST, or the checks
+      # below pass against a stale committed copy.
+      #
       # The language packs are not rebuilt here. That needs a clone of the
       # upstream corpus, which would make CI depend on an external repository.
       # Rebuild them by hand with tool/gen_lang_packs.py when the source moves.
@@ -109,6 +126,25 @@ jobs:
           python3 tool/gen_seed.py
           git diff --exit-code -- data/seed.json \
             || { echo "::error::data/seed.json is stale. Run python3 tool/gen_seed.py"; exit 1; }
+
+      - name: Generated files are current
+        run: |
+          python3 tool/gen_fold_table.py --check
+          python3 tool/gen_packs.py --check
+          python3 tool/gen_dart_seeds.py --check
+
+      # Stronger than --check, which is hand-written and can drift from the
+      # writer it is meant to mirror. This cannot.
+      - name: Regenerating changes nothing
+        run: |
+          python3 tool/gen_packs.py
+          python3 tool/gen_dart_seeds.py
+          git diff --exit-code -- data/packs dart/lib \
+            || { echo "::error::Regenerated files differ from the committed ones."; exit 1; }
+
+      # The packs exist so that no shipped file names a term. Prove it.
+      - name: No published file names a term
+        run: python3 tool/find_plain_terms.py --check
 
       # The real parity proof. Both ports run the same inputs, and the output
       # must match byte for byte.

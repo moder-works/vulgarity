@@ -21,7 +21,7 @@ namespace Vulgarity
         /// <summary>A fixed replacement string. It overrides <see cref="MaskChar"/>.</summary>
         public string MaskToken { get; set; }
 
-        /// <summary>Scan a second time with repeated letters collapsed, so "fuuuck" matches "fuck".</summary>
+        /// <summary>Scan a second time with repeated letters collapsed, so "daaamn" matches "damn".</summary>
         public bool RepeatTolerance { get; set; }
 
         /// <summary>Drop a match that sits fully inside a longer match.</summary>

@@ -23,14 +23,39 @@ namespace Vulgarity.Tests
             Assert.Equal(15, VulgarityLanguages.Available.Count);
         }
 
+        /// <summary>Reads one bundled pack straight out of the assembly.</summary>
+        private static List<VulgarityTerm> Bundled(string code)
+        {
+            List<VulgarityTerm> terms = new List<VulgarityTerm>();
+            List<string> allow = new List<string>();
+            PackReader.Load(VulgarityLanguages.ReadSeedPack(code), VulgarityFilter.Profile, terms, allow);
+            return terms;
+        }
+
         [Theory]
         [MemberData(nameof(Packs))]
         public void PackLoadsAndTargetsThisProfile(string code)
         {
-            using JsonDocument doc = JsonDocument.Parse(VulgarityLanguages.ReadSeed(code));
-            Assert.Equal(VulgarityFilter.Profile, doc.RootElement.GetProperty("profile").GetString());
-            Assert.Equal(1, doc.RootElement.GetProperty("schema").GetInt32());
-            Assert.True(doc.RootElement.GetProperty("entries").GetArrayLength() > 0);
+            // PackReader refuses a pack built for another profile, so a load that
+            // returns terms is itself the profile check.
+            Assert.NotEmpty(Bundled(code));
+
+            Assert.Throws<System.FormatException>(() =>
+                PackReader.Load(VulgarityLanguages.ReadSeedPack(code), "fold-v0",
+                    new List<VulgarityTerm>(), new List<string>()));
+        }
+
+        [Theory]
+        [MemberData(nameof(Packs))]
+        public void ReadSeedReturnsPackTextTheBuilderAccepts(string code)
+        {
+            // ReadSeed hands out base64 pack text, not JSON. A caller that only
+            // forwards the value keeps working, which is what this proves.
+            string text = VulgarityLanguages.ReadSeed(code);
+            Assert.DoesNotContain("\"entries\"", text);
+
+            VulgarityFilter filter = new VulgarityFilterBuilder().AddSeed(text).Build();
+            Assert.Equal(Bundled(code).Count, filter.TermCount);
         }
 
         [Theory]
@@ -41,15 +66,13 @@ namespace Vulgarity.Tests
                 ? VulgarityFilter.CreateDefault()
                 : new VulgarityFilterBuilder().UseLanguage(code).Build();
 
-            using JsonDocument doc = JsonDocument.Parse(VulgarityLanguages.ReadSeed(code));
             List<string> missed = new List<string>();
 
-            foreach (JsonElement entry in doc.RootElement.GetProperty("entries").EnumerateArray())
+            foreach (VulgarityTerm entry in Bundled(code))
             {
-                string term = entry.GetProperty("t").GetString();
-                if (!filter.Detect(term))
+                if (!filter.Detect(entry.Text))
                 {
-                    missed.Add(term);
+                    missed.Add(entry.Text);
                 }
             }
 
@@ -92,7 +115,10 @@ namespace Vulgarity.Tests
                     continue;
                 }
 
-                using JsonDocument doc = JsonDocument.Parse(VulgarityLanguages.ReadSeed(code));
+                // "vetted" is metadata about the source list, not something the
+                // matcher reads, so a pack does not carry it. Check the authored
+                // JSON, which is where that claim lives.
+                using JsonDocument doc = TestData.ReadJson("seed." + code + ".json");
                 Assert.False(doc.RootElement.GetProperty("vetted").GetBoolean(),
                     "Pack '" + code + "' claims it is vetted. Nobody vetted it.");
             }

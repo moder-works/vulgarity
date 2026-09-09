@@ -15,27 +15,87 @@ score   ->  a severity number the caller can threshold
 
 ---
 
+## Glossary
+
+The words below mean one thing each, everywhere in this project.
+
+### How the pieces fit
+
+```
+  data/seed.json          A SEED: the authored list. Plain JSON, reviewable.
+        |                 Holds TERMS and an ALLOWLIST.
+        |  tool/gen_packs.py
+        v
+  data/packs/seed-en.vpk  A PACK: the same list, compact and masked.
+        |                 This is what ships. It holds no readable word.
+        |  embedded in the assembly, or base64 in Dart source
+        v
+  PackReader              Decodes the pack once, when you build the filter.
+        |
+        v
+  VulgarityFilter         Holds a TRIE of folded terms.
+        ^
+        |  every input is FOLDED first, by the FOLD TABLE
+        |
+  "what the d.a.m.n"  ->  fold  ->  "whatthedamn"  ->  match
+```
+
+A **PRESET** sits above all of it: a policy document naming which packs to load
+and how strict to be.
+
+### The terms
+
+| Term | What it means |
+| --- | --- |
+| **Term** | One entry in a list. Always stored already folded, so `damn`, never `D4MN`. Carries a category, a severity and a boundary flag. |
+| **Seed**, seed document | The authored list, as JSON: `data/seed.json` and `data/seed.<lang>.json`. Human-readable and reviewable. It is the source, not the thing that ships. |
+| **Pack**, `.vpk` | A seed compiled into a compact binary and masked, so no readable word survives. This is what ships inside the compiled app. `data/packs/seed-<code>.vpk`. |
+| **Magic** | The four bytes `VPK1` that open every pack. Never masked, so a reader can recognise the format without the key. |
+| **Mask**, keystream | The XOR pass that makes a pack unreadable. It is **obfuscation, not encryption** — the key ships in the client. |
+| **Fold**, folding | Reducing text to a plain, comparable form before matching: lowercase, strip accents, resolve leetspeak, drop separators. `d.á.M.N` and `DAMN` both fold to `damn`. |
+| **Fold table** | The data that defines exactly how folding works. `data/fold-v1.json`, compiled into both ports. |
+| **Fold profile** | The version of that contract, currently `fold-v1`. **A pack built for one profile cannot be loaded by a client implementing another.** Both ports refuse it rather than match wrongly. |
+| **Stream A / Stream B** | The two passes of a scan. A is the folded text. B is A with repeated letters collapsed, which catches `daaaamn`. A always wins when both hit. |
+| **Word boundary** | A term marked `"w": true` matches only when it stands alone. This is what keeps `shell` clean while `a hell` flags. |
+| **Allowlist** | Innocent words the filter must never flag, such as `Scunthorpe` and `shiitake`. The last resort, for what the boundary rule cannot handle. |
+| **Category** | What kind of term it is: `profanity`, `sexual`, `hate`, `violence`, `drug`, `other`. An unknown name becomes `other`. |
+| **Severity** | How bad, from 1 to 5. Clinical anatomy sits at 1. `minSeverity` filters on it, `score` sums or maxes it. |
+| **Language pack** | One of the 14 optional non-English lists. All are community-sourced and **unvetted**. Only English is reviewed. |
+| **Preset** | A policy as data: which languages to load, the options, terms to add, an allowlist, and terms to drop. A server can change one with no app release. |
+| **Schema** | The container version of a seed, pack or preset. Currently `1` for all three. A mismatch is refused, not adapted. |
+| **Trie**, Aho-Corasick | The automaton that finds every term in one pass over the text, whatever the list size. |
+
+### Two that are easy to confuse
+
+- **Pack** is a *file format*. **Language pack** is one of the 14 optional
+  lists. A language pack ships as a pack, and so does English.
+- **Fold** is the act of normalising text. The **fold table** is the data that
+  says how. The **fold profile** is the version of that data, and it is the one
+  thing that makes a pack and a client incompatible.
+
+---
+
 ## What it defeats
 
 | Evasion | Example | How |
 | --- | --- | --- |
-| Case | `SHIT` | lowercase fold |
-| Leetspeak | `sh1t`, `a$$`, `f@ck` | 11 symbol and digit folds |
-| Separators | `f.u.c.k`, `f u c k` | punctuation and spaces dropped |
-| Repeated letters | `fuuuuck` | a second scan with runs collapsed |
-| Accents | `fúck` | 600 folds down to plain ASCII |
-| Homoglyphs | `сосk` (Cyrillic), `ｆｕｃｋ` (fullwidth) | Cyrillic, Greek and 35 styled alphabets |
-| Zero-width | `f<ZWSP>uck` | invisible characters dropped |
+| Case | `CRAP` | lowercase fold |
+| Leetspeak | `d4mn`, `h3ll`, `cr@p` | 11 symbol and digit folds |
+| Separators | `d.a.m.n`, `d a m n` | punctuation and spaces dropped |
+| Repeated letters | `daaaamn` | a second scan with runs collapsed |
+| Accents | `dámn` | 600 folds down to plain ASCII |
+| Homoglyphs | `сrар` (Cyrillic), `ｄａｍｎ` (fullwidth) | Cyrillic, Greek and 35 styled alphabets |
+| Zero-width | `d<ZWSP>amn` | invisible characters dropped |
 
 And what it must **not** flag:
 
 ```
 Scunthorpe    assassin      the class      analysis     grapefruit
-raccoon       cockpit       sauerkraut     niggardly    Shiite
-therapist     thorny        heroine        trimming     mushrooms
+raccoon       cockpit       sauerkraut     scrappy      Shiite
+shell         thorny        heroine        trimming     mushrooms
 ```
 
-The last row matters. `therapist` stays clean, and **`the rapist` is flagged** —
+The last row matters. `shell` stays clean, and **`a hell` is flagged** —
 the same letters, told apart by the space between the words.
 
 ---
@@ -59,19 +119,22 @@ dependencies:
 
 ## Use it
 
+The examples use mild terms on purpose. The bundled list runs to severity 5, and
+`Score` rises with it.
+
 ```csharp
 using Vulgarity;
 
 // Build once and keep it. Compiling the trie costs far more than a scan.
 var filter = VulgarityFilter.CreateDefault();
 
-bool   dirty = filter.Detect("what the f.u.c.k");   // true
-string clean = filter.Filter("what the f.u.c.k");   // "what the *******"
-int    score = filter.Score("what the f.u.c.k");    // 4
+bool   dirty = filter.Detect("what the d.a.m.n");   // true
+string clean = filter.Filter("what the d.a.m.n");   // "what the *******"
+int    score = filter.Score("what the d.a.m.n");    // 1
 
-foreach (VulgarityMatch m in filter.Scan("what the f.u.c.k"))
+foreach (VulgarityMatch m in filter.Scan("what the d.a.m.n"))
 {
-    // 9..16  "f.u.c.k"  ->  fuck  (profanity, 4)
+    // 9..16  "d.a.m.n"  ->  damn  (profanity, 1)
     Console.WriteLine($"{m.Start}..{m.End} {m.Excerpt(text)} -> {m.Text} {m.Severity}");
 }
 ```
@@ -81,11 +144,11 @@ import 'package:vulgarity/vulgarity.dart';
 
 final filter = VulgarityFilter.createDefault();
 
-final dirty = filter.detect('what the f.u.c.k');   // true
-final clean = filter.filter('what the f.u.c.k');   // what the *******
-final score = filter.score('what the f.u.c.k');    // 4
+final dirty = filter.detect('what the d.a.m.n');   // true
+final clean = filter.filter('what the d.a.m.n');   // what the *******
+final score = filter.score('what the d.a.m.n');    // 1
 
-for (final m in filter.scan('what the f.u.c.k')) {
+for (final m in filter.scan('what the d.a.m.n')) {
   print('${m.start}..${m.end} ${m.excerpt(text)} -> ${m.text} ${m.severity}');
 }
 ```
@@ -99,8 +162,8 @@ instance at the same time.
 highlight the exact span, emoji and accents included.
 
 ```csharp
-var hit = filter.Scan("café 🙂 f.u.c.k end")[0];
-hit.Excerpt("café 🙂 f.u.c.k end");   // "f.u.c.k"
+var hit = filter.Scan("café 🙂 d.a.m.n end")[0];
+hit.Excerpt("café 🙂 d.a.m.n end");   // "d.a.m.n"
 ```
 
 ---
@@ -113,7 +176,7 @@ hit.Excerpt("café 🙂 f.u.c.k end");   // "f.u.c.k"
 | `Categories` | all | Restrict matching to a set of categories. |
 | `MaskChar` | `*` | The character `Filter` repeats. |
 | `MaskToken` | none | A fixed replacement string. It overrides `MaskChar`. |
-| `RepeatTolerance` | `true` | Run the second scan that catches `fuuuck`. |
+| `RepeatTolerance` | `true` | Run the second scan that catches `daaamn`. |
 | `CollapseContained` | `true` | Drop a match that sits inside a longer match. |
 | `ScoreMode` | `Total` | `Total` sums severities. `Max` takes the highest. |
 
@@ -351,6 +414,64 @@ against a shared vector file:
 
 ---
 
+## Packs: the term list without the words
+
+A compiled binary used to carry the term list in plain text. `strings` on the
+assembly printed 418 of the 526 English terms, and the Dart port shipped 1.29 MB
+of readable JSON that pub.dev rendered on the package page. It no longer does.
+
+The bundled lists ship as **packs**: the same terms in a compact record format,
+XOR-masked with a fixed keystream. `strings` now finds nothing, and the payload
+is 6.6 times smaller.
+
+| | before | after |
+| --- | ---: | ---: |
+| Bundled bytes, all 15 lists | 1,281,491 | **194,198** |
+| Dart source under `lib/` | 1,290,239 | **258,952** |
+| English terms readable in the built assembly | **418** | **0** |
+
+**This is obfuscation, not encryption.** The key ships beside the data in both
+ports, and `data/*.json` is in this repository in plain text. Anyone who wants
+the list can still have it. The goal is only that nobody meets it by accident —
+not a reader of your package page, not a colleague running `strings`.
+
+### Nothing changes for a caller
+
+JSON stays the wire format. Every documented remote path works exactly as before:
+
+```csharp
+string json = await http.GetStringAsync("https://example.com/policy.json");
+var filter = VulgarityFilter.FromPreset(json);        // unchanged
+```
+
+`AddSeed` reads the format from the input itself. It accepts three shapes:
+
+| Shape | How it is recognised |
+| --- | --- |
+| A seed or preset document | the first character that is not blank is `{` |
+| A pack, as base64 text | the text decodes and starts with `VPK1` |
+| A pack, as raw bytes | `AddSeed(byte[])`, `addSeedBytes` |
+
+Blank space and the URL-safe alphabet are both accepted, so `base64 < list.vpk`
+and a pack pasted into a URL each work on both ports.
+
+### Hosting your own list
+
+Pack it, then serve the result in place of the JSON:
+
+```bash
+python3 tool/pack.py my-list.json -o my-list.vpk     # raw bytes
+python3 tool/pack.py my-list.json --base64           # text, to stdout
+python3 tool/pack.py my-list.vpk --show              # read one back as JSON
+```
+
+One caution: `VulgarityLanguages.ReadSeed` and Dart's `languageSeed` still
+return a `String`, so every caller that only forwards the value keeps working.
+The value is now pack text, not JSON. Code that ran `jsonDecode` on it must
+call `AddSeed` instead.
+
+---
+
 ## How it works
 
 Three layers, written twice, identical in both languages.
@@ -385,15 +506,15 @@ never match a longer pattern. So the scanner builds two streams:
 - **Stream A** — folded, repeats intact
 - **Stream B** — stream A with every run collapsed to one character
 
-| Text | Stream A | Stream B | `fuck` | `ass` |
+| Text | Stream A | Stream B | `damn` | `ass` |
 | --- | --- | --- | --- | --- |
-| `fuck` | `fuck` | `fuck` | hit in A | — |
-| `fuuuck` | `fuuuck` | `fuck` | hit in B | — |
+| `damn` | `damn` | `damn` | hit in A | — |
+| `daaamn` | `daaamn` | `damn` | hit in B | — |
 | `ass` | `ass` | `as` | — | hit in A |
 | `as` | `as` | `as` | — | **no hit** |
 
 Stream A always wins. Stream B widens a span across the letters it collapsed, so
-in `fuck this shit` it would report `s shit` for the second term. Stream A
+in `damn the music crap` it would report `c crap` for the second term. Stream A
 already holds the tight span, so the loose duplicate is dropped.
 
 Set `RepeatTolerance = false` to skip stream B entirely.
@@ -411,14 +532,16 @@ That one rule does almost all the false-positive work:
 | `an ass` | `ass` | a space was dropped | **flag** |
 | `bass` | `ass` | `b` is a word character | clean |
 | `assassin` | `ass` | right edge is `a` | clean |
-| `the rapist` | `rapist` | a space was dropped | **flag** |
-| `therapist` | `rapist` | `e` is a word character | clean |
-| `f.u.c.k!` | `fuck` | `!` folds soft, not hard | **flag** |
+| `a hell` | `hell` | a space was dropped | **flag** |
+| `shell` | `hell` | `s` is a word character | clean |
+| `d.a.m.n!` | `damn` | `!` folds soft, not hard | **flag** |
 
 The allowlist only handles what this cannot. It holds **16 entries**, and a test
-fails on any entry the matcher does not need. That test exists because
-`therapist` once sat in the allowlist and suppressed the correct match on
-`the rapist`.
+fails on any entry the matcher does not need. That test exists because an
+innocent word that merely contains a term once sat in the allowlist, where it
+also suppressed the correct match on the two-word phrase that folds to it. The
+boundary rule already handled the innocent word, so the entry was doing harm
+and no good.
 
 ---
 
@@ -427,8 +550,9 @@ fails on any entry the matcher does not need. That test exists because
 ```
 data/                     the contract. Neither language owns it.
   fold-v1.json            the fold table
-  seed.json               the curated English list
+  seed.json               the curated English list, authored and reviewable
   seed.<lang>.json        14 optional packs
+  packs/seed-<code>.vpk   what actually ships: the same lists, masked
   presets/                four worked preset documents
   vectors.json            38 behavioural cases both ports must reproduce
   preset-vectors.json     44 preset cases both ports must reproduce
@@ -439,13 +563,17 @@ tool/                     generators, all idempotent, all with --check
   gen_fold_table.py       fold-v1.json + the C# and Dart tables
   gen_seed.py             seed.json
   gen_lang_packs.py       seed.<lang>.json
-  gen_dart_seeds.py       the Dart seed libraries
+  gen_packs.py            data/packs/*.vpk from data/*.json
+  gen_dart_seeds.py       the Dart pack libraries
+  packlib.py              the pack format: the encoder and the mask
+  pack.py                 pack a list of your own, for hosting it yourself
+  find_plain_terms.py     fails when a published file names a term
   foldlib.py              a Python reference fold, used by the tools
 
 dotnet/src/Vulgarity/     the C# library
-dotnet/tests/             268 tests
+dotnet/tests/             311 tests
 dart/lib/                 the Dart library
-dart/test/                279 tests
+dart/test/                321 tests, not published to pub.dev
 ```
 
 `data/` is generated, and it is also the source of truth at run time. Change a
@@ -464,12 +592,16 @@ cd dart && dart test
 
 # The generated files are current
 python3 tool/gen_fold_table.py --check
+python3 tool/gen_packs.py --check
 python3 tool/gen_dart_seeds.py --check
+
+# No published file names a term
+python3 tool/find_plain_terms.py --check
 
 # Both ports agree, byte for byte
 dotnet build dotnet/example/Example.csproj
-dotnet dotnet/example/bin/Debug/net8.0/Example.dll "sh!t happens" > /tmp/a
-cd dart && dart run example/vulgarity_example.dart "sh!t happens" > /tmp/b
+dotnet dotnet/example/bin/Debug/net8.0/Example.dll "h3ll happens" > /tmp/a
+cd dart && dart run example/vulgarity_example.dart "h3ll happens" > /tmp/b
 diff /tmp/a /tmp/b
 ```
 
@@ -485,7 +617,7 @@ What the suites check:
   A word that only the squeeze pass flags fails the build, unless the allowlist
   covers it.
 - **Evasion** — 1,013 real evasion spellings from the community corpus
-  (`$h!t`, `4r5e`, `a$$h0le`, `.f uc k`) must all be detected.
+  (`d4mn`, `h3ll`, `cr@p`, `.d a m n`) must all be detected.
 - **The allowlist** — every entry must be one the matcher genuinely needs.
 - **Language packs** — each pack loads, targets this profile, is marked
   unvetted, and finds every term it carries.
@@ -527,8 +659,10 @@ wrong.
 ## Limits
 
 - **English only, by default.** The other packs are unvetted. See above.
-- **`chink` and `dyke` are ordinary words too.** Both are slurs and both stay in
-  the list. Add them to your own allowlist if your domain needs them.
+- **A few slurs are ordinary words too.** The list holds several entries that
+  are also everyday English in another sense, such as a narrow opening or an
+  embankment. They stay in the list, because the slur is the common reading.
+  Add them to your own allowlist if your domain needs the other one.
 - **Cross-word joins.** Separators are dropped, so `mega ssuck` folds to
   `megassuck`. The word-boundary rule catches most of this, not all of it.
 - **No wildcard folding.** `p*ssy` does not match, because `*` could be any

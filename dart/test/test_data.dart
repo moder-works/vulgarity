@@ -22,6 +22,9 @@ Directory _locate() {
 String readData(String name) =>
     File('${dataDirectory.path}/$name').readAsStringSync();
 
+List<int> readDataBytes(String name) =>
+    File('${dataDirectory.path}/$name').readAsBytesSync();
+
 Map<String, dynamic> readJson(String name) =>
     jsonDecode(readData(name)) as Map<String, dynamic>;
 

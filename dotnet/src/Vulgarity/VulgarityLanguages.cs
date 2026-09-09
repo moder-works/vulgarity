@@ -60,9 +60,28 @@ namespace Vulgarity
             return false;
         }
 
-        /// <summary>Reads one bundled seed document.</summary>
+        /// <summary>Reads one bundled term list.</summary>
         /// <param name="code">A language code, for example "en" or "es".</param>
+        /// <returns>
+        /// The list as base64 pack text. Pass it straight to
+        /// <see cref="VulgarityFilterBuilder.AddSeed(string)"/> or to a preset's
+        /// language resolver, which both read the format from the text itself.
+        /// </returns>
+        /// <remarks>
+        /// This used to return the seed JSON. It now returns a pack, so the
+        /// assembly carries no readable term. The type is unchanged, so every
+        /// caller that only forwards the value keeps working.
+        /// </remarks>
         public static string ReadSeed(string code)
+        {
+            return Convert.ToBase64String(ReadSeedPack(code));
+        }
+
+        /// <summary>Reads one bundled term list as raw pack bytes.</summary>
+        /// <remarks>
+        /// The builder uses this, so the default path does no base64 work.
+        /// </remarks>
+        internal static byte[] ReadSeedPack(string code)
         {
             if (!Has(code))
             {
@@ -71,7 +90,7 @@ namespace Vulgarity
                     string.Join(", ", new List<string>(Available).ToArray()), "code");
             }
 
-            string resource = code == Default ? "Vulgarity.seed.json" : "Vulgarity.seed." + code + ".json";
+            string resource = "Vulgarity.seed-" + code + ".vpk";
             Assembly assembly = typeof(VulgarityLanguages).GetTypeInfo().Assembly;
 
             using (Stream stream = assembly.GetManifestResourceStream(resource))
@@ -81,9 +100,16 @@ namespace Vulgarity
                     throw new InvalidOperationException("Missing embedded resource: " + resource);
                 }
 
-                using (StreamReader reader = new StreamReader(stream))
+                using (MemoryStream buffer = new MemoryStream())
                 {
-                    return reader.ReadToEnd();
+                    byte[] chunk = new byte[8192];
+                    int read;
+                    while ((read = stream.Read(chunk, 0, chunk.Length)) > 0)
+                    {
+                        buffer.Write(chunk, 0, read);
+                    }
+
+                    return buffer.ToArray();
                 }
             }
         }

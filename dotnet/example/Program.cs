@@ -9,19 +9,20 @@ internal static class Program
         VulgarityFilter filter = VulgarityFilter.CreateDefault();
         Console.WriteLine("profile: " + VulgarityFilter.Profile + ", terms: " + filter.TermCount);
 
+        // Mild on purpose, so this file carries no strong term. The samples
+        // still show every evasion the matcher defeats.
         string[] samples = args.Length > 0 ? args : new[]
         {
             "Have a nice day.",
-            "you are a f.u.c.k",
-            "what the fuuuuck",
-            "sh!t happens",
+            "you are a d.a.m.n",
+            "what the daaaamn",
+            "h3ll happens",
+            "cr@p",
             "I live in Scunthorpe",
             "he is an assassin",
-            "an ass",
             "class of 2024",
-            "the rapist was caught",
-            "my therapist is great",
-            "a$$hole",
+            "a hell of a day",
+            "a nice shell company",
             "thorny problem, heroine of the story, trimming the hedge",
         };
 

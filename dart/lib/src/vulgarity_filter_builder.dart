@@ -1,6 +1,8 @@
 import 'model/vulgarity_term.dart';
 import 'normalization/fold_table.g.dart';
 import 'normalization/text_normalizer.dart';
+import 'pack_reader.dart';
+import 'pack_text.dart';
 import 'seed_data.g.dart';
 import 'seed_loader.dart';
 import 'trie/aho_corasick.dart';
@@ -30,21 +32,63 @@ class VulgarityFilterBuilder {
   /// Adds the bundled English term list.
   void useDefaultSeed() => addSeed(kSeedEn);
 
-  /// Adds every term from one seed document.
+  /// Adds every term from one term list.
   ///
-  /// Pass a language pack constant here, for example `seedEs` from
+  /// [document] is a seed document as JSON, or a pack as base64 text. This
+  /// reads the format from the text itself, so a caller never has to say which
+  /// it is. Pass a language pack constant here, for example `seedEs` from
   /// `package:vulgarity/lang/es.dart`.
-  void addSeed(String json) {
+  ///
+  /// Build a pack of your own with: `python3 tool/pack.py my-list.json`
+  void addSeed(String document) {
+    final List<int>? pack = tryReadPackText(document);
+    if (pack != null) {
+      addSeedBytes(pack);
+      return;
+    }
+
+    if (!_looksLikeJson(document)) {
+      throw const FormatException(
+        'This is neither a seed document nor a pack. A seed document starts '
+        "with '{'. A pack is base64 text starting with 'VlBLMQ'.",
+      );
+    }
+
     final List<VulgarityTerm> terms = <VulgarityTerm>[];
     final List<String> allow = <String>[];
-    loadSeed(json, kFoldProfile, terms, allow);
+    loadSeed(document, kFoldProfile, terms, allow);
+    _absorb(terms, allow);
+  }
 
+  /// Adds every term from one pack.
+  ///
+  /// Use this when you host your own list and want no readable term in transit
+  /// or in a cache. Build one with `tool/pack.py`.
+  void addSeedBytes(List<int> pack) {
+    final List<VulgarityTerm> terms = <VulgarityTerm>[];
+    final List<String> allow = <String>[];
+    loadPack(pack, kFoldProfile, terms, allow);
+    _absorb(terms, allow);
+  }
+
+  void _absorb(List<VulgarityTerm> terms, List<String> allow) {
     for (final VulgarityTerm term in terms) {
       _register(term);
     }
     for (final String word in allow) {
       addAllow(word);
     }
+  }
+
+  /// True when the first character that is not blank is an opening brace.
+  static bool _looksLikeJson(String text) {
+    for (int i = 0; i < text.length; i++) {
+      final String c = text[i];
+      if (c.trim().isNotEmpty && c != '\u{FEFF}') {
+        return c == '{';
+      }
+    }
+    return false;
   }
 
   /// Adds a whole policy: its language packs, terms, allowlist and options.

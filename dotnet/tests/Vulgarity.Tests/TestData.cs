@@ -36,6 +36,11 @@ namespace Vulgarity.Tests
             return File.ReadAllText(Path.Combine(Directory, name));
         }
 
+        public static byte[] ReadBytes(string name)
+        {
+            return File.ReadAllBytes(Path.Combine(Directory, name));
+        }
+
         public static JsonDocument ReadJson(string name)
         {
             return JsonDocument.Parse(Read(name));

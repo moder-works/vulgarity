@@ -184,8 +184,8 @@ class VulgarityFilter {
 
     if (streamB != null && !(stopAtFirst && matches.isNotEmpty)) {
       // The squeeze pass is a fallback, not a second opinion. It widens a span
-      // across the letters it collapsed, so "fuck this shit" would report
-      // "s shit" for the second term. Stream A already holds the tight span,
+      // across the letters it collapsed, so "damn the music crap" would report
+      // "c crap" for the second term. Stream A already holds the tight span,
       // so drop the loose duplicate.
       final List<VulgarityMatch> squeezed = <VulgarityMatch>[];
       _collectTerms(streamB, allowStart, allowEnd, squeezed, stopAtFirst);
@@ -279,8 +279,8 @@ class VulgarityFilter {
   ///
   /// An edge is a boundary when the match reaches the end of the text, when a
   /// separator was dropped there, or when the neighbouring character is not a
-  /// real word character. The gap test is what lets "the rapist" match while
-  /// "therapist" does not.
+  /// real word character. The gap test is what lets "a hell" match while
+  /// "shell" does not.
   static bool _hasWordBoundary(
       NormalizedText stream, int startIndex, int endIndex) {
     final bool leftOk = startIndex == 0 ||
