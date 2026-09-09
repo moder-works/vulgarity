@@ -1,0 +1,5 @@
+# The packs are binary. Git usually detects that from the NUL bytes, but a
+# masked pack is near-uniform and a small one can happen to carry none. A
+# Windows checkout with core.autocrlf would then rewrite every CRLF pair inside
+# it and corrupt the file. Say it outright instead.
+data/packs/*.vpk binary

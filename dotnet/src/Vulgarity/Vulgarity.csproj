@@ -30,54 +30,29 @@
     <!--
       data/ is the contract both languages read. Neither one owns it.
 
-      WithCulture=false matters. Every pack code below is also a culture name,
-      so MSBuild reads "seed.de.json" as a German resource for "seed.json" and
-      moves it into a satellite assembly. The main assembly then carries only
-      the English seed. This flag keeps every pack where it belongs.
+      The packs ship, not the JSON. A pack carries the same terms in a masked
+      form, so this assembly holds no readable term. data/*.json stays the
+      authored source. Regenerate with: python3 tool/gen_packs.py
+
+      The file names use a hyphen, not a dot. MSBuild reads a `.<code>.` segment
+      as a culture, so "seed.de.vpk" would move into a German satellite
+      assembly and leave the main one without it. "seed-de.vpk" does not.
     -->
-    <EmbeddedResource Include="../../../data/seed.json" LogicalName="Vulgarity.seed.json" />
-    <EmbeddedResource Include="../../../data/seed.ar.json" LogicalName="Vulgarity.seed.ar.json">
-      <WithCulture>false</WithCulture>
-    </EmbeddedResource>
-    <EmbeddedResource Include="../../../data/seed.de.json" LogicalName="Vulgarity.seed.de.json">
-      <WithCulture>false</WithCulture>
-    </EmbeddedResource>
-    <EmbeddedResource Include="../../../data/seed.es.json" LogicalName="Vulgarity.seed.es.json">
-      <WithCulture>false</WithCulture>
-    </EmbeddedResource>
-    <EmbeddedResource Include="../../../data/seed.fa.json" LogicalName="Vulgarity.seed.fa.json">
-      <WithCulture>false</WithCulture>
-    </EmbeddedResource>
-    <EmbeddedResource Include="../../../data/seed.fr.json" LogicalName="Vulgarity.seed.fr.json">
-      <WithCulture>false</WithCulture>
-    </EmbeddedResource>
-    <EmbeddedResource Include="../../../data/seed.hi.json" LogicalName="Vulgarity.seed.hi.json">
-      <WithCulture>false</WithCulture>
-    </EmbeddedResource>
-    <EmbeddedResource Include="../../../data/seed.it.json" LogicalName="Vulgarity.seed.it.json">
-      <WithCulture>false</WithCulture>
-    </EmbeddedResource>
-    <EmbeddedResource Include="../../../data/seed.ko.json" LogicalName="Vulgarity.seed.ko.json">
-      <WithCulture>false</WithCulture>
-    </EmbeddedResource>
-    <EmbeddedResource Include="../../../data/seed.nl.json" LogicalName="Vulgarity.seed.nl.json">
-      <WithCulture>false</WithCulture>
-    </EmbeddedResource>
-    <EmbeddedResource Include="../../../data/seed.pl.json" LogicalName="Vulgarity.seed.pl.json">
-      <WithCulture>false</WithCulture>
-    </EmbeddedResource>
-    <EmbeddedResource Include="../../../data/seed.ru.json" LogicalName="Vulgarity.seed.ru.json">
-      <WithCulture>false</WithCulture>
-    </EmbeddedResource>
-    <EmbeddedResource Include="../../../data/seed.th.json" LogicalName="Vulgarity.seed.th.json">
-      <WithCulture>false</WithCulture>
-    </EmbeddedResource>
-    <EmbeddedResource Include="../../../data/seed.vi.json" LogicalName="Vulgarity.seed.vi.json">
-      <WithCulture>false</WithCulture>
-    </EmbeddedResource>
-    <EmbeddedResource Include="../../../data/seed.zh.json" LogicalName="Vulgarity.seed.zh.json">
-      <WithCulture>false</WithCulture>
-    </EmbeddedResource>
+    <EmbeddedResource Include="../../../data/packs/seed-en.vpk" LogicalName="Vulgarity.seed-en.vpk" />
+    <EmbeddedResource Include="../../../data/packs/seed-ar.vpk" LogicalName="Vulgarity.seed-ar.vpk" />
+    <EmbeddedResource Include="../../../data/packs/seed-de.vpk" LogicalName="Vulgarity.seed-de.vpk" />
+    <EmbeddedResource Include="../../../data/packs/seed-es.vpk" LogicalName="Vulgarity.seed-es.vpk" />
+    <EmbeddedResource Include="../../../data/packs/seed-fa.vpk" LogicalName="Vulgarity.seed-fa.vpk" />
+    <EmbeddedResource Include="../../../data/packs/seed-fr.vpk" LogicalName="Vulgarity.seed-fr.vpk" />
+    <EmbeddedResource Include="../../../data/packs/seed-hi.vpk" LogicalName="Vulgarity.seed-hi.vpk" />
+    <EmbeddedResource Include="../../../data/packs/seed-it.vpk" LogicalName="Vulgarity.seed-it.vpk" />
+    <EmbeddedResource Include="../../../data/packs/seed-ko.vpk" LogicalName="Vulgarity.seed-ko.vpk" />
+    <EmbeddedResource Include="../../../data/packs/seed-nl.vpk" LogicalName="Vulgarity.seed-nl.vpk" />
+    <EmbeddedResource Include="../../../data/packs/seed-pl.vpk" LogicalName="Vulgarity.seed-pl.vpk" />
+    <EmbeddedResource Include="../../../data/packs/seed-ru.vpk" LogicalName="Vulgarity.seed-ru.vpk" />
+    <EmbeddedResource Include="../../../data/packs/seed-th.vpk" LogicalName="Vulgarity.seed-th.vpk" />
+    <EmbeddedResource Include="../../../data/packs/seed-vi.vpk" LogicalName="Vulgarity.seed-vi.vpk" />
+    <EmbeddedResource Include="../../../data/packs/seed-zh.vpk" LogicalName="Vulgarity.seed-zh.vpk" />
   </ItemGroup>
 
 

@@ -26,8 +26,8 @@ class VulgarityOptions {
   /// A fixed replacement string. It overrides [maskChar].
   final String? maskToken;
 
-  /// Scan a second time with repeated letters collapsed, so "fuuuck" matches
-  /// "fuck".
+  /// Scan a second time with repeated letters collapsed, so "daaamn" matches
+  /// "damn".
   final bool repeatTolerance;
 
   /// Drop a match that sits fully inside a longer match.

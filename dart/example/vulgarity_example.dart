@@ -5,18 +5,21 @@
 
 import 'package:vulgarity/vulgarity.dart';
 
+// Mild on purpose. This file is published, and pub.dev renders it on the
+// package page, so the samples use only severity-1 terms. They still show
+// every evasion the matcher defeats.
 const List<String> samples = <String>[
   'Have a nice day.',
-  'you are a f.u.c.k',
-  'what the fuuuuck',
-  'sh!t happens',
+  'you are a d.a.m.n',
+  'what the daaaamn',
+  'h3ll happens',
+  r'cr@p',
   'I live in Scunthorpe',
   'he is an assassin',
-  'an ass',
-  'the rapist was caught',
-  'my therapist is great',
-  r'a$$hole',
-  'thorny heroine trimming scrappy',
+  'class of 2024',
+  'a hell of a day',
+  'a nice shell company',
+  'thorny problem, heroine of the story, trimming the hedge',
 ];
 
 void main(List<String> args) {

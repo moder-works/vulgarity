@@ -1,8 +1,10 @@
-import 'dart:convert';
-
 import 'package:test/test.dart';
 import 'package:vulgarity/languages.dart';
+import 'package:vulgarity/src/pack_reader.dart';
+import 'package:vulgarity/src/pack_text.dart';
 import 'package:vulgarity/vulgarity.dart';
+
+import 'test_data.dart';
 
 void main() {
   test('English is the default', () {
@@ -13,31 +15,57 @@ void main() {
         reason: 'useDefaultSeed already loads English');
   });
 
-  group('each pack', () {
-    kLanguageSeeds.forEach((String code, String json) {
-      final Map<String, dynamic> doc = jsonDecode(json) as Map<String, dynamic>;
+  /// Reads one bundled pack straight out of the compiled constant.
+  List<VulgarityTerm> bundled(String text) {
+    final List<VulgarityTerm> terms = <VulgarityTerm>[];
+    loadPack(
+        tryReadPackText(text)!, VulgarityFilter.profile, terms, <String>[]);
+    return terms;
+  }
 
+  group('each pack', () {
+    kLanguageSeeds.forEach((String code, String text) {
       test('$code targets this profile', () {
-        expect(doc['profile'], VulgarityFilter.profile);
-        expect(doc['schema'], 1);
-        expect(doc['lang'], code);
-        expect((doc['entries'] as List<dynamic>).isNotEmpty, isTrue);
+        // loadPack refuses a pack built for another profile, so a load that
+        // returns terms is itself the profile check.
+        expect(bundled(text), isNotEmpty);
+
+        expect(
+          () => loadPack(
+              tryReadPackText(text)!, 'fold-v0', <VulgarityTerm>[], <String>[]),
+          throwsFormatException,
+        );
+      });
+
+      test('$code carries no readable term', () {
+        // The whole point of the pack. A term must not survive in the source
+        // this constant compiles from.
+        for (final VulgarityTerm term in bundled(text)) {
+          if (term.text.length >= 4) {
+            expect(text.contains(term.text), isFalse,
+                reason: "the $code pack still holds '${term.text}'");
+          }
+        }
       });
 
       test('$code is marked unvetted', () {
+        // "vetted" is metadata about the source list, not something the matcher
+        // reads, so a pack does not carry it. Check the authored JSON, which is
+        // where that claim lives.
+        final Map<String, dynamic> doc = readJson('seed.$code.json');
+        expect(doc['lang'], code);
         expect(doc['vetted'], isFalse,
             reason: "Pack '$code' claims it is vetted. Nobody vetted it.");
       });
 
       test('$code finds every term it carries', () {
         final VulgarityFilter filter =
-            (VulgarityFilterBuilder()..addSeed(json)).build();
+            (VulgarityFilterBuilder()..addSeed(text)).build();
         final List<String> missed = <String>[];
 
-        for (final dynamic entry in doc['entries'] as List<dynamic>) {
-          final String term = (entry as Map<String, dynamic>)['t'] as String;
-          if (!filter.detect(term)) {
-            missed.add(term);
+        for (final VulgarityTerm term in bundled(text)) {
+          if (!filter.detect(term.text)) {
+            missed.add(term.text);
           }
         }
 

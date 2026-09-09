@@ -29,23 +29,68 @@ namespace Vulgarity
         /// <summary>Adds the bundled English term list.</summary>
         public VulgarityFilterBuilder UseDefaultSeed()
         {
-            return AddSeed(VulgarityLanguages.ReadSeed(VulgarityLanguages.Default));
+            return AddSeed(VulgarityLanguages.ReadSeedPack(VulgarityLanguages.Default));
         }
 
         /// <summary>Adds one bundled language pack.</summary>
         /// <param name="code">A language code, for example "es".</param>
         public VulgarityFilterBuilder UseLanguage(string code)
         {
-            return AddSeed(VulgarityLanguages.ReadSeed(code));
+            return AddSeed(VulgarityLanguages.ReadSeedPack(code));
         }
 
-        /// <summary>Adds every term from one seed document.</summary>
-        public VulgarityFilterBuilder AddSeed(string json)
+        /// <summary>Adds every term from one term list.</summary>
+        /// <param name="document">
+        /// A seed document as JSON, or a pack as base64 text. This reads the
+        /// format from the text itself, so a caller never has to say which it
+        /// is. Build a pack with: python3 tool/pack.py my-list.json
+        /// </param>
+        public VulgarityFilterBuilder AddSeed(string document)
         {
+            if (document == null)
+            {
+                throw new ArgumentNullException("document");
+            }
+
+            byte[] pack = PackText.TryRead(document);
+            if (pack != null)
+            {
+                return AddSeed(pack);
+            }
+
+            if (!LooksLikeJson(document))
+            {
+                throw new FormatException(
+                    "This is neither a seed document nor a pack. A seed document " +
+                    "starts with '{'. A pack is base64 text starting with 'VlBLMQ'.");
+            }
+
             List<VulgarityTerm> terms = new List<VulgarityTerm>();
             List<string> allow = new List<string>();
-            SeedLoader.Load(json, FoldTableData.Profile, terms, allow);
+            SeedLoader.Load(document, FoldTableData.Profile, terms, allow);
+            return Absorb(terms, allow);
+        }
 
+        /// <summary>Adds every term from one pack.</summary>
+        /// <remarks>
+        /// Use this when you host your own list and want no readable term in
+        /// transit or in a cache. Build one with: python3 tool/pack.py
+        /// </remarks>
+        public VulgarityFilterBuilder AddSeed(byte[] pack)
+        {
+            if (pack == null)
+            {
+                throw new ArgumentNullException("pack");
+            }
+
+            List<VulgarityTerm> terms = new List<VulgarityTerm>();
+            List<string> allow = new List<string>();
+            PackReader.Load(pack, FoldTableData.Profile, terms, allow);
+            return Absorb(terms, allow);
+        }
+
+        private VulgarityFilterBuilder Absorb(List<VulgarityTerm> terms, List<string> allow)
+        {
             for (int i = 0; i < terms.Count; i++)
             {
                 Register(terms[i]);
@@ -57,6 +102,20 @@ namespace Vulgarity
             }
 
             return this;
+        }
+
+        /// <summary>True when the first character that is not blank is an opening brace.</summary>
+        private static bool LooksLikeJson(string text)
+        {
+            for (int i = 0; i < text.Length; i++)
+            {
+                if (!char.IsWhiteSpace(text[i]) && text[i] != '\uFEFF')
+                {
+                    return text[i] == '{';
+                }
+            }
+
+            return false;
         }
 
         /// <summary>Adds a whole policy: its language packs, terms, allowlist and options.</summary>

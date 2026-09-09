@@ -1,0 +1,14 @@
+# Not published to pub.dev.
+#
+# pub publishes every file under the package root unless an ignore file here
+# says otherwise. The repository .gitignore sits above this directory, so pub
+# never reads it.
+
+# The tests read ../data/, which is outside this package, so they cannot run
+# from a published archive anyway. They also name terms in plain text, and
+# pub.dev renders published files on the package page. They stay in git; run
+# them from a clone.
+/test/
+
+# A lock file belongs to an application, not to a published package.
+/pubspec.lock
