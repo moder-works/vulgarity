@@ -46,6 +46,21 @@ namespace Vulgarity.Tests
             return JsonDocument.Parse(Read(name));
         }
 
+        /// <summary>The number of terms the English seed holds.</summary>
+        /// <remarks>
+        /// A filter built from seed.json must report exactly this many. Read it
+        /// here rather than writing the number into a test: the seed is
+        /// generated, it grows, and a literal only records what it happened to
+        /// be on the day.
+        /// </remarks>
+        public static int SeedEntryCount()
+        {
+            using (JsonDocument doc = ReadJson("seed.json"))
+            {
+                return doc.RootElement.GetProperty("entries").GetArrayLength();
+            }
+        }
+
         /// <summary>The system word list, or null when this machine has none.</summary>
         public static string[] EnglishWords()
         {

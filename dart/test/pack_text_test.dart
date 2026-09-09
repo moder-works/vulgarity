@@ -69,7 +69,7 @@ void main() {
     // The documented remote path must not change.
     final VulgarityFilter filter =
         (VulgarityFilterBuilder()..addSeed(readData('seed.json'))).build();
-    expect(filter.termCount, 526);
+    expect(filter.termCount, seedEntryCount());
   });
 
   test('something that is neither is refused clearly', () {

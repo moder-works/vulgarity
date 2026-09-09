@@ -13,7 +13,14 @@ Directory _locate() {
     }
     final Directory parent = dir.parent;
     if (parent.path == dir.path) {
-      throw StateError('Cannot find the shared data directory.');
+      throw StateError(
+        'Cannot find the shared data directory. These tests read ../data/ at '
+        'the repository root, which is outside this package, so they only run '
+        'from a full clone of the repository. A published archive holds the '
+        'package alone and cannot run them. Clone '
+        'https://github.com/moder-works/vulgarity and run `dart test` from '
+        'its dart/ directory.',
+      );
     }
     dir = parent;
   }
@@ -27,6 +34,14 @@ List<int> readDataBytes(String name) =>
 
 Map<String, dynamic> readJson(String name) =>
     jsonDecode(readData(name)) as Map<String, dynamic>;
+
+/// The number of terms the English seed holds.
+///
+/// A filter built from seed.json must report exactly this many. Read it here
+/// rather than writing the number into a test: the seed is generated, it grows,
+/// and a literal only records what it happened to be on the day.
+int seedEntryCount() =>
+    (readJson('seed.json')['entries'] as List<dynamic>).length;
 
 Map<String, dynamic> readFixture(String name) =>
     jsonDecode(File('${dataDirectory.path}/testdata/$name').readAsStringSync())

@@ -83,7 +83,7 @@ namespace Vulgarity.Tests
             VulgarityFilter filter = new VulgarityFilterBuilder()
                 .AddSeed(TestData.Read("seed.json"))
                 .Build();
-            Assert.Equal(526, filter.TermCount);
+            Assert.Equal(TestData.SeedEntryCount(), filter.TermCount);
         }
 
         [Fact]
