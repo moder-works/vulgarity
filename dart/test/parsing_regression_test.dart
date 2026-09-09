@@ -144,7 +144,8 @@ void main() {
       final VulgarityFilterBuilder builder = VulgarityFilterBuilder();
 
       expect(
-        () => builder.addPreset('{"languages":["en","pt"]}'),
+        () => builder
+            .addPreset(VulgarityPreset.parse('{"languages":["en","pt"]}')),
         throwsArgumentError,
       );
       expect(builder.termCount, 0,
@@ -156,7 +157,7 @@ void main() {
 
       expect(
         () => builder.addPreset(
-          '{"languages":["en","es"]}',
+          VulgarityPreset.parse('{"languages":["en","es"]}'),
           languageResolver: (String code) {
             if (code == 'es') {
               throw StateError('the network is down');
@@ -174,24 +175,16 @@ void main() {
         ..useDefaultSeed();
       final int before = builder.termCount;
 
-      expect(
-        () => builder.addPreset('{"languages":["en"],"remove":["damn"],'
-            '"entries":[{"t":"​"}]}'),
-        throwsFormatException,
-      );
+      // Parsed up front, so the throw below can only come from addPreset.
+      final VulgarityPreset preset =
+          VulgarityPreset.parse('{"languages":["en"],"remove":["damn"],'
+              '"entries":[{"t":"​"}]}');
+
+      expect(() => builder.addPreset(preset), throwsFormatException);
 
       expect(builder.termCount, before);
       expect(builder.build().detect('oh damn'), isTrue,
           reason: "the preset's remove list must not have run");
-    });
-
-    test('a preset that is neither a string nor a preset is an ArgumentError',
-        () {
-      expect(() => VulgarityFilter.fromPreset(42), throwsArgumentError);
-      expect(() => VulgarityFilter.fromPreset(<String>['en']),
-          throwsArgumentError);
-      expect(
-          () => VulgarityFilterBuilder().addPreset(3.5), throwsArgumentError);
     });
   });
 
@@ -227,13 +220,15 @@ void main() {
     });
 
     test('the builder is the one that refuses it', () {
-      expect(() => VulgarityFilter.fromPreset('{"languages":["pt"]}'),
+      expect(
+          () => VulgarityFilter.fromPreset(
+              VulgarityPreset.parse('{"languages":["pt"]}')),
           throwsArgumentError);
     });
 
     test('a custom resolver can serve a code no pack covers', () {
       final VulgarityFilter filter = VulgarityFilter.fromPreset(
-        '{"languages":["pt"]}',
+        VulgarityPreset.parse('{"languages":["pt"]}'),
         languageResolver: (String code) =>
             '{"profile":"fold-v1","entries":[{"t":"blorp","sev":3}]}',
       );
@@ -259,12 +254,12 @@ void main() {
       final VulgarityFilter filter = builder.build();
       final List<VulgarityMatch> found = filter.scan('shitty');
       expect(found, isNotEmpty, reason: '"shitty" stopped matching');
-      expect(found.single.text, 'shit');
+      expect(found.single.term.text, 'shit');
     });
 
     test('the same holds for a pack named by a preset', () {
       final VulgarityFilter filter = VulgarityFilter.fromPreset(
-          '{"languages":["en","es"]}',
+          VulgarityPreset.parse('{"languages":["en","es"]}'),
           languageResolver: languageSeed);
 
       expect(filter.scan('shitty'), isNotEmpty);
@@ -283,7 +278,8 @@ void main() {
         ..useDefaultSeed();
       expect(builder.build().detect('the class'), isFalse);
 
-      builder.addTerm('ass', 'profanity', 1, false);
+      builder.addTerm('ass',
+          category: VulgarityCategory.profanity, severity: 1);
       expect(builder.build().detect('the class'), isTrue,
           reason: 'a term named in code must be able to widen a bundled one');
     });
@@ -292,10 +288,14 @@ void main() {
   group('a preset entry may not widen a term', () {
     test('a preset cannot drop the boundary off a bundled term', () {
       final VulgarityFilterBuilder builder = VulgarityFilterBuilder()
-        ..addTerm('ass', 'profanity', 3, true);
+        ..addTerm('ass',
+            category: VulgarityCategory.profanity,
+            severity: 3,
+            requireBoundary: true);
 
       // The preset repeats the term without "w". It used to widen the rule.
-      builder.addPreset('{"entries":[{"t":"ass","sev":1}]}');
+      builder.addPreset(
+          VulgarityPreset.parse('{"entries":[{"t":"ass","sev":1}]}'));
       final VulgarityFilter filter = builder.build();
 
       expect(filter.detect('the class assessment'), isFalse);
@@ -304,16 +304,21 @@ void main() {
 
     test('a boundary the second source asks for is kept too', () {
       final VulgarityFilterBuilder builder = VulgarityFilterBuilder()
-        ..addTerm('ass', 'profanity', 3, false);
-      builder.addPreset('{"entries":[{"t":"ass","sev":1,"w":true}]}');
+        ..addTerm('ass', category: VulgarityCategory.profanity, severity: 3);
+      builder.addPreset(
+          VulgarityPreset.parse('{"entries":[{"t":"ass","sev":1,"w":true}]}'));
 
       expect(builder.build().detect('the class'), isFalse);
     });
 
     test('the higher severity still wins, and the category follows it', () {
       final VulgarityFilterBuilder builder = VulgarityFilterBuilder()
-        ..addTerm('blorp', 'profanity', 2, true);
-      builder.addPreset('{"entries":[{"t":"blorp","cat":"hate","sev":5}]}');
+        ..addTerm('blorp',
+            category: VulgarityCategory.profanity,
+            severity: 2,
+            requireBoundary: true);
+      builder.addPreset(VulgarityPreset.parse(
+          '{"entries":[{"t":"blorp","cat":"hate","sev":5}]}'));
 
       final List<VulgarityMatch> found = builder.build().scan('you blorp');
       expect(found.single.severity, 5);
@@ -324,8 +329,9 @@ void main() {
 
     test('a lower severity leaves the rating alone', () {
       final VulgarityFilterBuilder builder = VulgarityFilterBuilder()
-        ..addTerm('blorp', 'hate', 5, false);
-      builder.addPreset('{"entries":[{"t":"blorp","cat":"drug","sev":1}]}');
+        ..addTerm('blorp', category: VulgarityCategory.hate, severity: 5);
+      builder.addPreset(VulgarityPreset.parse(
+          '{"entries":[{"t":"blorp","cat":"drug","sev":1}]}'));
 
       final List<VulgarityMatch> found = builder.build().scan('blorp');
       expect(found.single.severity, 5);
@@ -417,7 +423,9 @@ void main() {
     });
 
     test('is a FormatException from a preset', () {
-      expect(() => VulgarityFilter.fromPreset('{"entries":[{"t":"​"}]}'),
+      expect(
+          () => VulgarityFilter.fromPreset(
+              VulgarityPreset.parse('{"entries":[{"t":"​"}]}')),
           throwsFormatException);
     });
 
@@ -437,7 +445,10 @@ void main() {
       // A caller who names a term in code got the argument wrong. That is not
       // a malformed document.
       expect(
-          () => VulgarityFilterBuilder().addTerm('...', 'profanity', 1, true),
+          () => VulgarityFilterBuilder().addTerm('...',
+              category: VulgarityCategory.profanity,
+              severity: 1,
+              requireBoundary: true),
           throwsArgumentError);
     });
   });

@@ -54,8 +54,8 @@ void main() {
     // "sh０t" and "shot" both fold to "shot". The builder merges them; it used
     // to throw, because the first one folded to "sh0t" and then to "shot".
     final VulgarityFilter filter = VulgarityFilter.fromPreset(
-      '{"languages":["en"],"entries":['
-      '{"t":"sh０t","sev":2},{"t":"shot","sev":2}]}',
+      VulgarityPreset.parse('{"languages":["en"],"entries":['
+          '{"t":"sh０t","sev":2},{"t":"shot","sev":2}]}'),
     );
     expect(filter.detect('what a shot'), isTrue);
     expect(filter.detect('what a ｓｈ０ｔ'), isTrue);

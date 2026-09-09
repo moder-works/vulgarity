@@ -34,9 +34,10 @@ final RegExp _languageCode = RegExp(r'^[a-z]{2,8}$');
 ///
 /// ```dart
 /// final response = await http.get(Uri.parse('https://example.com/policy.json'));
-/// final filter = VulgarityFilter.fromPreset(response.body);
+/// final filter = VulgarityFilter.fromPreset(VulgarityPreset.parse(response.body));
 /// ```
 class VulgarityPreset {
+  /// Creates a preset in code. Read one from a document with [parse].
   const VulgarityPreset({
     this.name,
     this.description,
@@ -129,7 +130,7 @@ class VulgarityPreset {
       description: readOptionalString(parsed, 'description'),
       languages: _readLanguages(parsed),
       options: rawOptions == null
-          ? VulgarityOptions()
+          ? const VulgarityOptions()
           : VulgarityOptions.fromJson(rawOptions as Map<String, dynamic>),
       entries: entries,
       allow: readStrings(parsed, 'allow'),

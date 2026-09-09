@@ -22,7 +22,8 @@
 ///   print(filter.score('what the d.a.m.n'));   // 1
 ///
 ///   for (final match in filter.scan('what the d.a.m.n')) {
-///     print('${match.start}..${match.end} ${match.text} ${match.severity}');
+///     print('${match.start}..${match.end} '
+///         '${match.term.text} ${match.severity}');
 ///   }
 /// }
 /// ```
@@ -31,10 +32,10 @@
 /// `package:vulgarity/lang/<code>.dart`.
 library;
 
+export 'src/language_resolver.dart';
 export 'src/model/vulgarity_category.dart';
 export 'src/model/vulgarity_match.dart';
 export 'src/model/vulgarity_term.dart';
 export 'src/vulgarity_filter.dart';
-export 'src/vulgarity_filter_builder.dart';
 export 'src/vulgarity_options.dart';
 export 'src/vulgarity_preset.dart';

@@ -6,7 +6,7 @@ import 'test_data.dart';
 VulgarityOptions _readOptions(Map<String, dynamic> c) {
   final Object? raw = c['options'];
   if (raw is! Map<String, dynamic>) {
-    return VulgarityOptions();
+    return const VulgarityOptions();
   }
 
   Set<VulgarityCategory>? categories;
@@ -57,7 +57,7 @@ void main() {
           final Map<String, dynamic> m = expected[i] as Map<String, dynamic>;
           expect(actual[i].start, m['start'], reason: 'match $i start');
           expect(actual[i].end, m['end'], reason: 'match $i end');
-          expect(actual[i].text, m['term'], reason: 'match $i term');
+          expect(actual[i].term.text, m['term'], reason: 'match $i term');
           expect(actual[i].categoryName, m['cat'], reason: 'match $i category');
           expect(actual[i].severity, m['sev'], reason: 'match $i severity');
         }

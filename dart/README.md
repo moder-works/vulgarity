@@ -3,9 +3,9 @@
 Trie-based vulgarity detection, filtering and scoring for Dart.
 
 It defeats leetspeak, separator evasion and repeated letters, and it keeps
-ordinary words clean. A matching [.NET package][dotnet] reads the same term
-lists and the same test vectors, so both runtimes reach the same verdict on the
-same text.
+ordinary words clean. [The .NET port in the same repository][dotnet] reads the
+same term lists and the same test vectors, so both runtimes reach the same
+verdict on the same text.
 
 Pure Dart, with no runtime dependencies. It runs on a server, a CLI, Flutter,
 and Flutter web.
@@ -34,14 +34,18 @@ filter.detect('what the d.a.m.n');   // true
 filter.filter('what the d.a.m.n');   // what the *******
 filter.score('what the d.a.m.n');    // 1
 
-for (final match in filter.scan('what the d.a.m.n')) {
-  print('${match.start}..${match.end} ${match.text} ${match.severity}');
-  // 9..16 damn 1
+const text = 'what the d.a.m.n';
+for (final match in filter.scan(text)) {
+  print('${match.start}..${match.end} ${match.excerpt(text)} '
+      '${match.term.text} ${match.severity}');
+  // 9..16 d.a.m.n damn 1
 }
 ```
 
 `start` and `end` index the string you passed in, not the folded form. So you
-can highlight the exact span, emoji and accents included.
+can highlight the exact span, emoji and accents included. `excerpt` gives you
+that span back; `term.text` gives you the list entry it reached, folded to
+`fold-v1`. Show the excerpt to a person, and group your counts by the term.
 
 ## What it defeats
 
@@ -70,7 +74,7 @@ words.
 ## Options
 
 ```dart
-final filter = VulgarityFilter.createDefault(VulgarityOptions(
+final filter = VulgarityFilter.createDefault(const VulgarityOptions(
   minSeverity: 2,
   maskToken: '[removed]',
   scoreMode: ScoreMode.max,
@@ -123,8 +127,11 @@ release.
 
 ```dart
 final response = await http.get(Uri.parse('https://example.com/policy.json'));
-final filter = VulgarityFilter.fromPreset(response.body);
+final filter = VulgarityFilter.fromPreset(VulgarityPreset.parse(response.body));
 ```
+
+`VulgarityPreset.parse` is where a document becomes a policy, so that is where
+a bad one stops. Everything downstream takes the parsed object.
 
 A preset that names a language other than `en` needs a resolver, so that an
 unimported pack stays out of your build:
@@ -132,7 +139,10 @@ unimported pack stays out of your build:
 ```dart
 import 'package:vulgarity/languages.dart';
 
-final filter = VulgarityFilter.fromPreset(json, languageResolver: languageSeed);
+final filter = VulgarityFilter.fromPreset(
+  VulgarityPreset.parse(json),
+  languageResolver: languageSeed,
+);
 ```
 
 Treat a preset from the network as untrusted. A malformed document is refused
@@ -181,4 +191,4 @@ a test fixture.
 
 MIT.
 
-[dotnet]: https://www.nuget.org/packages/Vulgarity
+[dotnet]: https://github.com/moder-works/vulgarity/tree/main/dotnet

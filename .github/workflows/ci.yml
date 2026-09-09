@@ -1,7 +1,7 @@
 name: CI
 
 # The runner supplies the toolchain. This workflow installs nothing, so keep
-# .NET 8 or later, the Dart SDK 3.0 or later, and Python 3.9 or later on the
+# .NET 8 or later, the Dart SDK 3.1 or later, and Python 3.9 or later on the
 # machine. The preflight step reports what it found and fails with a clear
 # message when something is missing.
 #

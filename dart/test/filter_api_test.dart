@@ -21,7 +21,7 @@ void main() {
     expect(hits.length, 1);
     expect(hits.first.excerpt(text), 'f.u.c.k');
     expect(hits.first.length, hits.first.end - hits.first.start);
-    expect(hits.first.text, 'fuck');
+    expect(hits.first.term.text, 'fuck');
   });
 
   test('masking never changes the length with a mask character', () {
@@ -73,7 +73,10 @@ void main() {
 
   test('a builder accepts custom terms and an allowlist', () {
     final VulgarityFilter f = (VulgarityFilterBuilder()
-          ..addTerm('Blorp', 'profanity', 3, true)
+          ..addTerm('Blorp',
+              category: VulgarityCategory.profanity,
+              severity: 3,
+              requireBoundary: true)
           ..addAllow('blorpshire'))
         .build();
 
@@ -88,8 +91,14 @@ void main() {
 
   test('a duplicate term keeps the worse rating', () {
     final VulgarityFilter f = (VulgarityFilterBuilder()
-          ..addTerm('blorp', 'profanity', 2, true)
-          ..addTerm('blorp', 'hate', 5, true))
+          ..addTerm('blorp',
+              category: VulgarityCategory.profanity,
+              severity: 2,
+              requireBoundary: true)
+          ..addTerm('blorp',
+              category: VulgarityCategory.hate,
+              severity: 5,
+              requireBoundary: true))
         .build();
 
     expect(f.termCount, 1);
@@ -132,5 +141,20 @@ void main() {
     watch.stop();
     expect(watch.elapsedMilliseconds, lessThan(2000),
         reason: 'a 100 KB scan took ${watch.elapsedMilliseconds} ms');
+  });
+
+  test('allNames follows the enum order', () {
+    // toJson writes the category filter in this order, and the .NET port reads
+    // it back. A hand-kept list could drift from the enum; this one cannot.
+    expect(VulgarityCategory.allNames,
+        VulgarityCategory.values.map((VulgarityCategory c) => c.name));
+  });
+
+  test('options describe themselves', () {
+    const VulgarityOptions options =
+        VulgarityOptions(minSeverity: 2, scoreMode: ScoreMode.max);
+    expect(options.toString(), contains('minSeverity: 2'));
+    expect(options.toString(), contains('scoreMode: max'));
+    expect(options.toString(), contains('categories: all'));
   });
 }

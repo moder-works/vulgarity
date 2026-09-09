@@ -83,7 +83,7 @@ void main() {
       test(text, () {
         final List<VulgarityMatch> hits = filter.scan(text);
         expect(hits, isNotEmpty, reason: "'$text' was not detected");
-        expect(hits.first.text, term);
+        expect(hits.first.term.text, term);
       });
     });
   });

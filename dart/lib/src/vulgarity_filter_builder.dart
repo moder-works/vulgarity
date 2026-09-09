@@ -1,14 +1,4 @@
-import 'model/vulgarity_term.dart';
-import 'normalization/fold_table.g.dart';
-import 'normalization/text_normalizer.dart';
-import 'pack_reader.dart';
-import 'pack_text.dart';
-import 'seed_data.g.dart';
-import 'seed_loader.dart';
-import 'trie/aho_corasick.dart';
-import 'vulgarity_filter.dart';
-import 'vulgarity_preset.dart';
-import 'vulgarity_options.dart';
+part of 'vulgarity_filter.dart';
 
 /// Collects terms from one or more sources, then compiles a filter.
 ///
@@ -19,11 +9,15 @@ import 'vulgarity_options.dart';
 /// final filter = (VulgarityFilterBuilder()
 ///       ..useDefaultSeed()
 ///       ..addSeed(seedEs)
-///       ..addTerm('brandname', 'profanity', 2, true)
+///       ..addTerm('brandname',
+///           category: VulgarityCategory.profanity, severity: 2)
 ///       ..addAllow('scunthorpe'))
 ///     .build();
 /// ```
 class VulgarityFilterBuilder {
+  /// Creates an empty builder. Add at least one term before you [build].
+  VulgarityFilterBuilder();
+
   final Map<String, VulgarityTerm> _terms = <String, VulgarityTerm>{};
   final List<String> _termOrder = <String>[];
   final Set<String> _allow = <String>{};
@@ -154,19 +148,9 @@ class VulgarityFilterBuilder {
   /// naming, say, `"pt"` therefore throws [FormatException] on .NET and
   /// [ArgumentError] here.
   void addPreset(
-    Object preset, {
-    String Function(String code)? languageResolver,
+    VulgarityPreset preset, {
+    LanguageResolver? languageResolver,
   }) {
-    final VulgarityPreset parsed;
-    if (preset is VulgarityPreset) {
-      parsed = preset;
-    } else if (preset is String) {
-      parsed = VulgarityPreset.parse(preset);
-    } else {
-      throw ArgumentError.value(
-          preset, 'preset', 'Pass a JSON string or a VulgarityPreset.');
-    }
-
     // Stage the whole policy first. Resolving a list, reading it and folding
     // its terms can all fail, and a policy that fails halfway would otherwise
     // leave the builder holding part of it.
@@ -176,7 +160,7 @@ class VulgarityFilterBuilder {
     final List<VulgarityTerm> stagedLists = <VulgarityTerm>[];
     final List<String> stagedAllow = <String>[];
 
-    for (final String code in parsed.languages) {
+    for (final String code in preset.languages) {
       if (code == 'en' && languageResolver == null) {
         _readDocument(kSeedEn, stagedLists, stagedAllow);
         continue;
@@ -194,11 +178,11 @@ class VulgarityFilterBuilder {
       _readDocument(languageResolver(code), stagedLists, stagedAllow);
     }
 
-    stagedAllow.addAll(parsed.allow);
+    stagedAllow.addAll(preset.allow);
 
     // The last steps that can fail. Past here nothing throws.
     final List<VulgarityTerm> lists = _foldAll(stagedLists);
-    final List<VulgarityTerm> entries = _foldAll(parsed.entries);
+    final List<VulgarityTerm> entries = _foldAll(preset.entries);
 
     // Order matters. Load the lists, add on top, then take away. A list is a
     // source the app author chose, so it may widen a term. An entry came with
@@ -212,11 +196,11 @@ class VulgarityFilterBuilder {
     for (final String word in stagedAllow) {
       addAllow(word);
     }
-    for (final String term in parsed.remove) {
+    for (final String term in preset.remove) {
       removeTerm(term);
     }
 
-    _presetOptions = parsed.options;
+    _presetOptions = preset.options;
   }
 
   /// Drops one term, if it is present.
@@ -243,13 +227,23 @@ class VulgarityFilterBuilder {
   /// Adds one term.
   ///
   /// The builder folds [term], so any spelling works. [severity] runs 1 to 5.
-  /// Set [requireBoundary] to demand a word boundary around a match.
+  /// Set [requireBoundary] to demand a word boundary around a match, which is
+  /// what keeps a short term out of a longer, innocent word.
+  ///
+  /// ```dart
+  /// builder.addTerm('brandname',
+  ///     category: VulgarityCategory.profanity, severity: 2);
+  /// ```
   void addTerm(
-      String term, String category, int severity, bool requireBoundary) {
+    String term, {
+    required VulgarityCategory category,
+    required int severity,
+    bool requireBoundary = false,
+  }) {
     if (severity < 1 || severity > 5) {
       throw RangeError.range(severity, 1, 5, 'severity');
     }
-    _register(VulgarityTerm(term, category, severity, requireBoundary));
+    _register(VulgarityTerm(term, category.name, severity, requireBoundary));
   }
 
   /// Adds one innocent word that holds a term, so the filter never flags it.
@@ -267,7 +261,7 @@ class VulgarityFilterBuilder {
   VulgarityFilter build([VulgarityOptions? options]) {
     // Your own options win. Otherwise the last preset's options apply.
     final VulgarityOptions effective =
-        options ?? _presetOptions ?? VulgarityOptions();
+        options ?? _presetOptions ?? const VulgarityOptions();
     effective.validate();
 
     if (_termOrder.isEmpty) {
@@ -317,7 +311,7 @@ class VulgarityFilterBuilder {
     }
     allowTrie.build();
 
-    return VulgarityFilter.internal(
+    return VulgarityFilter._(
       terms,
       termTrie,
       allowTrie,
@@ -388,8 +382,10 @@ class VulgarityFilterBuilder {
   ///  * [canWiden] is false for the `entries` of a preset — the one source that
   ///    can arrive from the network. There the boundary is sticky
   ///    (`existing || incoming`) and the severity may only rise, so a remote
-  ///    policy can make a bundled term stricter but never looser. That is what
-  ///    stops an entry `{"t":"ass","sev":1}` from making "class" match.
+  ///    policy can make a bundled term stricter but never looser. A bundled
+  ///    term that demands a boundary keeps demanding one, so an entry that
+  ///    restates it without `"w"` — `{"t":"hell","sev":1}` — cannot go on to
+  ///    flag "shell".
   void _merge(VulgarityTerm incoming, {required bool canWiden}) {
     final String folded = incoming.text;
     final VulgarityTerm? existing = _terms[folded];
