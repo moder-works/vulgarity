@@ -143,6 +143,24 @@ void main() {
         reason: 'a 100 KB scan took ${watch.elapsedMilliseconds} ms');
   });
 
+  test('hasTerm reports what the builder holds', () {
+    final VulgarityFilterBuilder builder = VulgarityFilterBuilder()
+      ..useDefaultSeed();
+
+    expect(builder.hasTerm('damn'), isTrue);
+    // hasTerm folds its argument, so any spelling of a held term answers true.
+    expect(builder.hasTerm('D.A.M.N'), isTrue);
+    expect(builder.hasTerm('blorpco'), isFalse);
+    expect(builder.hasTerm(''), isFalse);
+
+    builder.addTerm('blorpco',
+        category: VulgarityCategory.profanity, severity: 3);
+    expect(builder.hasTerm('blorpco'), isTrue);
+
+    builder.removeTerm('blorpco');
+    expect(builder.hasTerm('blorpco'), isFalse);
+  });
+
   test('allNames follows the enum order', () {
     // toJson writes the category filter in this order, and the .NET port reads
     // it back. A hand-kept list could drift from the enum; this one cannot.

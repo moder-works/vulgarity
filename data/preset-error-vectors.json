@@ -1,0 +1,141 @@
+{
+  "profile": "fold-v1",
+  "note": "Malformed preset documents. Both ports must refuse every one with a FormatException whose message names the offending field. data/preset-vectors.json carries the documents that parse; this file carries the ones that must not.",
+  "schemaNote": "Each case holds the document under 'preset'. 'field' is the field name the message must mention, matched without regard to case. 'contains' is an extra substring the message must hold; 'absent' is one it must not. 'stage' says how far the document gets: 'parse' fails in VulgarityPreset.parse, 'build' parses and fails when the filter is built.",
+  "excluded": "A 'languages' code this build does not carry is left out on purpose. .NET refuses it at parse time with a FormatException; Dart accepts the shape, because a caller may pass a resolver serving codes no bundled list covers, and the builder then throws ArgumentError. The two ports differ by design, so that case stays in each port's own test.",
+  "cases": [
+    {
+      "name": "minSeverity as a string",
+      "stage": "parse",
+      "field": "minSeverity",
+      "contains": "whole number",
+      "preset": "{\"schema\":1,\"profile\":\"fold-v1\",\"options\":{\"minSeverity\":\"3\"}}"
+    },
+    {
+      "name": "minSeverity as a fractional number",
+      "stage": "parse",
+      "field": "minSeverity",
+      "contains": "whole number",
+      "preset": "{\"schema\":1,\"profile\":\"fold-v1\",\"options\":{\"minSeverity\":1.0}}"
+    },
+    {
+      "name": "minSeverity out of range",
+      "stage": "parse",
+      "field": "minSeverity",
+      "contains": "1 to 5",
+      "preset": "{\"schema\":1,\"profile\":\"fold-v1\",\"options\":{\"minSeverity\":9}}"
+    },
+    {
+      "name": "maskChar of two characters",
+      "stage": "parse",
+      "field": "maskChar",
+      "contains": "exactly one character",
+      "preset": "{\"schema\":1,\"profile\":\"fold-v1\",\"options\":{\"maskChar\":\"##\"}}"
+    },
+    {
+      "name": "maskToken empty",
+      "stage": "parse",
+      "field": "maskToken",
+      "contains": "must not be empty",
+      "preset": "{\"schema\":1,\"profile\":\"fold-v1\",\"options\":{\"maskToken\":\"\"}}"
+    },
+    {
+      "name": "repeatTolerance as a string",
+      "stage": "parse",
+      "field": "repeatTolerance",
+      "contains": "true or false",
+      "preset": "{\"schema\":1,\"profile\":\"fold-v1\",\"options\":{\"repeatTolerance\":\"false\"}}"
+    },
+    {
+      "name": "scoreMode names no known mode",
+      "stage": "parse",
+      "field": "scoreMode",
+      "preset": "{\"schema\":1,\"profile\":\"fold-v1\",\"options\":{\"scoreMode\":\"sideways\"}}"
+    },
+    {
+      "name": "categories names an unknown category",
+      "stage": "parse",
+      "field": "categories",
+      "contains": "does not know",
+      "preset": "{\"schema\":1,\"profile\":\"fold-v1\",\"options\":{\"categories\":[\"nonsense\"]}}"
+    },
+    {
+      "name": "categories is not an array",
+      "stage": "parse",
+      "field": "categories",
+      "contains": "must be an array",
+      "preset": "{\"schema\":1,\"profile\":\"fold-v1\",\"options\":{\"categories\":\"hate\"}}"
+    },
+    {
+      "name": "schema as a string",
+      "stage": "parse",
+      "field": "schema",
+      "contains": "whole number",
+      "preset": "{\"schema\":\"1\",\"profile\":\"fold-v1\"}"
+    },
+    {
+      "name": "schema as a fractional number",
+      "stage": "parse",
+      "field": "schema",
+      "contains": "whole number",
+      "preset": "{\"schema\":1.0,\"profile\":\"fold-v1\"}"
+    },
+    {
+      "name": "name as a number",
+      "stage": "parse",
+      "field": "name",
+      "contains": "must be a string",
+      "preset": "{\"schema\":1,\"profile\":\"fold-v1\",\"name\":5}"
+    },
+    {
+      "name": "entry severity as a string",
+      "stage": "parse",
+      "field": "sev",
+      "contains": "whole number",
+      "preset": "{\"schema\":1,\"profile\":\"fold-v1\",\"entries\":[{\"t\":\"blorp\",\"sev\":\"4\"}]}"
+    },
+    {
+      "name": "entry severity as a fractional number",
+      "stage": "parse",
+      "field": "sev",
+      "contains": "whole number",
+      "preset": "{\"schema\":1,\"profile\":\"fold-v1\",\"entries\":[{\"t\":\"blorp\",\"sev\":4.0}]}"
+    },
+    {
+      "name": "entry severity of zero",
+      "stage": "parse",
+      "field": "sev",
+      "contains": "1 to 5",
+      "preset": "{\"schema\":1,\"profile\":\"fold-v1\",\"entries\":[{\"t\":\"blorp\",\"sev\":0}]}"
+    },
+    {
+      "name": "entry category as a number",
+      "stage": "parse",
+      "field": "cat",
+      "contains": "must be a string",
+      "preset": "{\"schema\":1,\"profile\":\"fold-v1\",\"entries\":[{\"t\":\"blorp\",\"cat\":7}]}"
+    },
+    {
+      "name": "entry boundary flag as a string",
+      "stage": "parse",
+      "field": "w",
+      "contains": "true or false",
+      "preset": "{\"schema\":1,\"profile\":\"fold-v1\",\"entries\":[{\"t\":\"blorp\",\"w\":\"yes\"}]}"
+    },
+    {
+      "name": "entry term folds to nothing",
+      "stage": "build",
+      "field": "t",
+      "contains": "folds to nothing",
+      "preset": "{\"schema\":1,\"profile\":\"fold-v1\",\"languages\":[\"en\"],\"entries\":[{\"t\":\"...\",\"sev\":3}]}"
+    },
+    {
+      "name": "two bad fields report the first in validation order",
+      "stage": "parse",
+      "field": "minSeverity",
+      "contains": "1 to 5",
+      "absent": "categories",
+      "preset": "{\"schema\":1,\"profile\":\"fold-v1\",\"options\":{\"categories\":[\"nonsense\"],\"minSeverity\":9}}"
+    }
+  ]
+}

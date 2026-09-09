@@ -84,6 +84,21 @@ namespace Vulgarity.Tests
         [InlineData("bass guitar")]
         [InlineData("assume the position")]
         [InlineData("Cockburn is a surname")]
+        // Obscure dictionary words the word-boundary rule alone let through.
+        [InlineData("placuntitis")]
+        [InlineData("placuntoma")]
+        [InlineData("tubehead")]
+        [InlineData("washita")]
+        [InlineData("bereshith")]
+        [InlineData("cushitic")]
+        [InlineData("brushite")]
+        [InlineData("marshite")]
+        [InlineData("girgashite")]
+        [InlineData("agapornis")]
+        [InlineData("epornitic")]
+        [InlineData("nymphosis")]
+        [InlineData("nymphoides")]
+        [InlineData("tittymouse")]
         public void OrdinaryEnglishStaysClean(string text)
         {
             VulgarityFilter filter = VulgarityFilter.CreateDefault();

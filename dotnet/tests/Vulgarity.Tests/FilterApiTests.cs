@@ -160,6 +160,24 @@ namespace Vulgarity.Tests
         }
 
         [Fact]
+        public void HasTermReportsWhatTheBuilderHolds()
+        {
+            VulgarityFilterBuilder builder = new VulgarityFilterBuilder().UseDefaultSeed();
+
+            Assert.True(builder.HasTerm("damn"));
+            // HasTerm folds its argument, so any spelling of a held term answers true.
+            Assert.True(builder.HasTerm("D.A.M.N"));
+            Assert.False(builder.HasTerm("blorpco"));
+            Assert.False(builder.HasTerm(""));
+
+            builder.AddTerm("blorpco", "profanity", 3, false);
+            Assert.True(builder.HasTerm("blorpco"));
+
+            builder.RemoveTerm("blorpco");
+            Assert.False(builder.HasTerm("blorpco"));
+        }
+
+        [Fact]
         public void LongTextStaysFast()
         {
             string text = string.Concat(new string('a', 50000), " fuck ", new string('b', 50000));

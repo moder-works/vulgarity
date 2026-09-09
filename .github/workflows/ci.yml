@@ -172,6 +172,13 @@ jobs:
           python3 tool/gen_fold_table.py --check
           python3 tool/gen_packs.py --check
           python3 tool/gen_dart_seeds.py --check
+          python3 tool/gen_hostile_packs.py --check
+
+      # tool/ is the third reader of the pack format, and the writer of every
+      # generated file above. Its own tests run here, so a change to packlib
+      # that the two ports would reject fails before they are even built.
+      - name: The Python tools pass their own tests
+        run: python3 -m unittest discover -s tool -p 'test_*.py'
 
       # Stronger than --check, which is hand-written and can drift from the
       # writer it is meant to mirror. This cannot.
