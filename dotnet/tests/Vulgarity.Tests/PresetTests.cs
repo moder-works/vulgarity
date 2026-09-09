@@ -176,6 +176,60 @@ namespace Vulgarity.Tests
             }
         }
 
+        // ---- The shared malformed-preset contract. ----
+        //
+        // Both ports read data/preset-error-vectors.json, so a document one
+        // port refuses and the other accepts fails here.
+
+        public static IEnumerable<object[]> ErrorCases()
+        {
+            using JsonDocument doc = TestData.ReadJson("preset-error-vectors.json");
+            foreach (JsonElement c in doc.RootElement.GetProperty("cases").EnumerateArray())
+            {
+                yield return new object[] { c.GetProperty("name").GetString(), c.GetRawText() };
+            }
+        }
+
+        [Theory]
+        [MemberData(nameof(ErrorCases))]
+        public void TheSharedMalformedPresetVectorsAreRefused(string name, string raw)
+        {
+            using JsonDocument doc = JsonDocument.Parse(raw);
+            JsonElement c = doc.RootElement;
+
+            string document = c.GetProperty("preset").GetString();
+            string field = c.GetProperty("field").GetString();
+            bool build = c.GetProperty("stage").GetString() == "build";
+
+            Exception error = Record.Exception(() =>
+            {
+                VulgarityPreset preset = VulgarityPreset.Parse(document);
+                if (build)
+                {
+                    VulgarityFilter.FromPreset(preset);
+                }
+            });
+
+            Assert.NotNull(error);
+            Assert.True(error is FormatException,
+                "expected a FormatException, got " + error.GetType().Name + ": " + error.Message);
+
+            Assert.True(
+                error.Message.IndexOf(field, StringComparison.OrdinalIgnoreCase) >= 0,
+                "the message must name '" + field + "': " + error.Message);
+
+            JsonElement value;
+            if (c.TryGetProperty("contains", out value))
+            {
+                Assert.Contains(value.GetString(), error.Message);
+            }
+
+            if (c.TryGetProperty("absent", out value))
+            {
+                Assert.DoesNotContain(value.GetString(), error.Message);
+            }
+        }
+
         [Fact]
         public void AnUnknownTermCategoryIsToleratedAsOther()
         {

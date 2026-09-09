@@ -506,8 +506,9 @@ namespace Vulgarity
         /// <paramref name="canWiden"/> is false for the entries of a preset — the
         /// one source that can arrive from the network. There the boundary is sticky
         /// (existing OR incoming) and the severity may only rise, so a remote policy
-        /// can make a bundled term stricter but never looser. That is what stops an
-        /// entry {"t":"ass","sev":1} from making "class" match.
+        /// can make a bundled term stricter but never looser. A bundled term that
+        /// demands a boundary keeps demanding one, so an entry that restates it
+        /// without "w" — {"t":"hell","sev":1} — cannot go on to flag "shell".
         /// </para>
         /// </remarks>
         private void Merge(VulgarityTerm incoming, bool canWiden)

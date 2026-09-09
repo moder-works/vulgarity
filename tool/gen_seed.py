@@ -609,6 +609,20 @@ ALLOW = [
     #
     # -- matched inside a word --
     "scunthorpe",   # cunt
+    "placuntitis",  # cunt, a placental inflammation
+    "placuntoma",   # cunt, a placental tumour
+    "tubehead",     # behead
+    "washita",      # shit, a whetstone and a river
+    "bereshith",    # shit, the opening word of Genesis
+    "cushitic",     # shit, a branch of Afro-Asiatic
+    "brushite",     # shite, a mineral
+    "marshite",     # shite, a mineral
+    "girgashite",   # shite, a Canaanite people
+    "agapornis",    # porn, the lovebird genus
+    "epornitic",    # porn, an epidemic among birds
+    "nymphosis",    # nympho, insect pupation
+    "nymphoides",   # nympho, the floatingheart genus
+    "tittymouse",   # titty, a titmouse variant
     #
     # -- exposed only after repeated letters collapse (the squeeze pass) --
     # tool/gen_seed.py cannot find these. The test suite sweeps the system

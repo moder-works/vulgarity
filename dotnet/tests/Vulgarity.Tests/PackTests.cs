@@ -105,6 +105,20 @@ namespace Vulgarity.Tests
         }
 
         [Fact]
+        public void AddSeedLoadsAPackStraightFromBytes()
+        {
+            // The base64 and resource paths have their own tests. This one hands
+            // the builder raw pack bytes, which is what an app hosting its own
+            // list does.
+            VulgarityFilterBuilder builder =
+                new VulgarityFilterBuilder().AddSeed(TestData.ReadBytes(PackName("en")));
+
+            Assert.Equal(TestData.SeedEntryCount(), builder.TermCount);
+            Assert.True(builder.HasTerm("damn"));
+            Assert.True(builder.Build().Detect("what the fuck"));
+        }
+
+        [Fact]
         public void APackBuiltForAnotherProfileIsRefused()
         {
             List<VulgarityTerm> terms = new List<VulgarityTerm>();

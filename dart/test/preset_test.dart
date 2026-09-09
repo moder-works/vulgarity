@@ -154,6 +154,46 @@ void main() {
     });
   });
 
+  // The shared malformed-preset contract. Both ports read this file, so a
+  // document one port refuses and the other accepts fails here.
+  group('the shared malformed preset vectors are refused', () {
+    final Map<String, dynamic> errors = readJson('preset-error-vectors.json');
+
+    for (final dynamic entry in errors['cases'] as List<dynamic>) {
+      final Map<String, dynamic> c = entry as Map<String, dynamic>;
+      final String document = c['preset'] as String;
+      final String field = c['field'] as String;
+      final String? mustHold = c['contains'] as String?;
+      final String? mustNotHold = c['absent'] as String?;
+      final bool build = c['stage'] == 'build';
+
+      test(c['name'] as String, () {
+        Object? thrown;
+        try {
+          final VulgarityPreset preset = VulgarityPreset.parse(document);
+          if (build) {
+            VulgarityFilter.fromPreset(preset, languageResolver: languageSeed);
+          }
+        } catch (error) {
+          thrown = error;
+        }
+
+        expect(thrown, isA<FormatException>(),
+            reason: 'expected a FormatException, got $thrown');
+
+        final String message = thrown.toString();
+        expect(message.toLowerCase(), contains(field.toLowerCase()),
+            reason: "the message must name '$field': $message");
+        if (mustHold != null) {
+          expect(message, contains(mustHold), reason: message);
+        }
+        if (mustNotHold != null) {
+          expect(message, isNot(contains(mustNotHold)), reason: message);
+        }
+      });
+    }
+  });
+
   test('an unknown term category is tolerated as other', () {
     // A term category stays lenient, so an older client keeps working when a
     // server adds a category.

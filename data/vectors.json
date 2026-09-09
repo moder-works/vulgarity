@@ -757,6 +757,257 @@
       "score": 0,
       "filtered": "gr\u200Bass",
       "matches": []
+    },
+    {
+      "name": "min severity and category together",
+      "text": "a damn bdsm moron",
+      "options": {
+        "minSeverity": 2,
+        "categories": [
+          "Profanity"
+        ]
+      },
+      "detect": true,
+      "score": 2,
+      "filtered": "a damn bdsm *****",
+      "matches": [
+        {
+          "start": 12,
+          "end": 17,
+          "term": "moron",
+          "cat": "profanity",
+          "sev": 2
+        }
+      ]
+    },
+    {
+      "name": "mask token keeps contained matches",
+      "text": "oh damn it",
+      "options": {
+        "maskToken": "[redacted]",
+        "collapseContained": false
+      },
+      "detect": true,
+      "score": 3,
+      "filtered": "oh [redacted]",
+      "matches": [
+        {
+          "start": 3,
+          "end": 10,
+          "term": "damnit",
+          "cat": "profanity",
+          "sev": 2
+        },
+        {
+          "start": 3,
+          "end": 7,
+          "term": "damn",
+          "cat": "profanity",
+          "sev": 1
+        }
+      ]
+    },
+    {
+      "name": "repeat tolerance off under a severity floor",
+      "text": "daaamn that moron",
+      "options": {
+        "repeatTolerance": false,
+        "minSeverity": 2
+      },
+      "detect": true,
+      "score": 2,
+      "filtered": "daaamn that *****",
+      "matches": [
+        {
+          "start": 12,
+          "end": 17,
+          "term": "moron",
+          "cat": "profanity",
+          "sev": 2
+        }
+      ]
+    },
+    {
+      "name": "score max within one category",
+      "text": "a damn bdsm moron",
+      "options": {
+        "scoreMode": "Max",
+        "categories": [
+          "Profanity"
+        ]
+      },
+      "detect": true,
+      "score": 2,
+      "filtered": "a **** bdsm *****",
+      "matches": [
+        {
+          "start": 2,
+          "end": 6,
+          "term": "damn",
+          "cat": "profanity",
+          "sev": 1
+        },
+        {
+          "start": 12,
+          "end": 17,
+          "term": "moron",
+          "cat": "profanity",
+          "sev": 2
+        }
+      ]
+    },
+    {
+      "name": "mask character with repeat tolerance off",
+      "text": "daaamn that crap",
+      "options": {
+        "maskChar": "#",
+        "repeatTolerance": false
+      },
+      "detect": true,
+      "score": 1,
+      "filtered": "daaamn that ####",
+      "matches": [
+        {
+          "start": 12,
+          "end": 16,
+          "term": "crap",
+          "cat": "profanity",
+          "sev": 1
+        }
+      ]
+    },
+    {
+      "name": "a category filter leaves the contained lower severity match",
+      "text": "he bought a s pee dball",
+      "options": {
+        "categories": [
+          "Profanity"
+        ],
+        "maskChar": "~"
+      },
+      "detect": true,
+      "score": 1,
+      "filtered": "he bought a s ~~~ dball",
+      "matches": [
+        {
+          "start": 14,
+          "end": 17,
+          "term": "pee",
+          "cat": "profanity",
+          "sev": 1
+        }
+      ]
+    },
+    {
+      "name": "contained matches kept and totalled",
+      "text": "you scum bag",
+      "options": {
+        "collapseContained": false,
+        "scoreMode": "Total"
+      },
+      "detect": true,
+      "score": 3,
+      "filtered": "you ********",
+      "matches": [
+        {
+          "start": 4,
+          "end": 12,
+          "term": "scumbag",
+          "cat": "profanity",
+          "sev": 2
+        },
+        {
+          "start": 4,
+          "end": 8,
+          "term": "scum",
+          "cat": "profanity",
+          "sev": 1
+        }
+      ]
+    },
+    {
+      "name": "a severity floor drops the contained match",
+      "text": "her boob ies",
+      "options": {
+        "minSeverity": 2,
+        "collapseContained": false
+      },
+      "detect": true,
+      "score": 2,
+      "filtered": "her ********",
+      "matches": [
+        {
+          "start": 4,
+          "end": 12,
+          "term": "boobies",
+          "cat": "profanity",
+          "sev": 2
+        }
+      ]
+    },
+    {
+      "name": "mask token with a category and a severity floor",
+      "text": "a damn bdsm moron",
+      "options": {
+        "maskToken": "[x]",
+        "categories": [
+          "Sexual"
+        ],
+        "minSeverity": 2
+      },
+      "detect": true,
+      "score": 2,
+      "filtered": "a damn [x] moron",
+      "matches": [
+        {
+          "start": 7,
+          "end": 11,
+          "term": "bdsm",
+          "cat": "sexual",
+          "sev": 2
+        }
+      ]
+    },
+    {
+      "name": "every option at once",
+      "text": "you feck ing moron and a bdsm daaamn idiot",
+      "options": {
+        "minSeverity": 2,
+        "categories": [
+          "Profanity"
+        ],
+        "maskChar": "#",
+        "maskToken": "[x]",
+        "repeatTolerance": false,
+        "collapseContained": false,
+        "scoreMode": "Max"
+      },
+      "detect": true,
+      "score": 2,
+      "filtered": "you [x] [x] and a bdsm daaamn idiot",
+      "matches": [
+        {
+          "start": 4,
+          "end": 12,
+          "term": "fecking",
+          "cat": "profanity",
+          "sev": 2
+        },
+        {
+          "start": 4,
+          "end": 8,
+          "term": "feck",
+          "cat": "profanity",
+          "sev": 2
+        },
+        {
+          "start": 13,
+          "end": 18,
+          "term": "moron",
+          "cat": "profanity",
+          "sev": 2
+        }
+      ]
     }
   ]
 }

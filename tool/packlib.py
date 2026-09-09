@@ -41,6 +41,16 @@ Every varint is capped at 31 bits, in the encoder and in all three readers.
 See MAX_VARINT.
 """
 
+
+class PackError(ValueError):
+    """A pack this reader refuses.
+
+    It subclasses ValueError, so code that already catches ValueError keeps
+    working. The Dart and C# readers raise FormatException for the same set of
+    packs; tool/test_packlib.py checks all three against the same file.
+    """
+
+
 MAGIC = b"VPK1"
 
 # The mask key. Change this and every pack must be regenerated.
@@ -94,9 +104,9 @@ def put_varint(out, value):
     the Dart VM, so it fails here instead of shipping.
     """
     if value < 0:
-        raise ValueError("a varint holds no negative value")
+        raise PackError("a varint holds no negative value")
     if value > MAX_VARINT:
-        raise ValueError(
+        raise PackError(
             "a varint holds at most %d, and this one is %d" % (MAX_VARINT, value))
     while value >= 0x80:
         out.append((value & 0x7F) | 0x80)
@@ -115,17 +125,17 @@ def get_varint(data, pos):
     shift = 0
     while True:
         if pos >= len(data):
-            raise ValueError("the pack ends inside a varint")
+            raise PackError("the pack ends inside a varint")
         byte = data[pos]
         pos += 1
         if shift == 28 and byte > 0x07:
-            raise ValueError("a varint runs too long")
+            raise PackError("a varint runs too long")
         value |= (byte & 0x7F) << shift
         if byte < 0x80:
             return value, pos
         shift += 7
         if shift > 28:
-            raise ValueError("a varint runs too long")
+            raise PackError("a varint runs too long")
 
 
 def _put_text(out, text):
@@ -137,7 +147,7 @@ def _put_text(out, text):
 def _get_text(data, pos):
     length, pos = get_varint(data, pos)
     if pos + length > len(data):
-        raise ValueError("the pack ends inside a string")
+        raise PackError("the pack ends inside a string")
     return data[pos:pos + length].decode("utf-8"), pos + length
 
 
@@ -149,7 +159,7 @@ def encode(doc, key=KEY):
 
     categories = sorted({e.get("cat", "other") for e in entries})
     if len(categories) > MAX_CATEGORIES:
-        raise ValueError(
+        raise PackError(
             "a pack holds at most %d categories, and this one has %d"
             % (MAX_CATEGORIES, len(categories)))
     index = {name: i for i, name in enumerate(categories)}
@@ -167,10 +177,10 @@ def encode(doc, key=KEY):
     for entry in entries:
         term = entry["t"]
         if not term:
-            raise ValueError("every entry needs a term")
+            raise PackError("every entry needs a term")
         severity = entry.get("sev", 1)
         if not 1 <= severity <= 5:
-            raise ValueError(
+            raise PackError(
                 "severity must be 1 to 5, and term '%s' states %s" % (term, severity))
         _put_text(body, term)
         body.append(
@@ -189,28 +199,36 @@ def encode(doc, key=KEY):
     return MAGIC + mask(bytes(body), key)
 
 
-def decode(pack, key=KEY):
+def decode(pack, key=KEY, expected_profile=None):
     """Turn pack bytes back into a seed document.
 
     This mirrors the C# and Dart readers. It gives the tools a way to check a
     pack without a build step, and it acts as a third opinion when the two
     ports are checked against each other.
+
+    Pass `expected_profile` to pin the fold table the way both readers do. They
+    take it as an argument too, so a stale pack fails here rather than matching
+    silently wrong.
     """
     if len(pack) < len(MAGIC) or pack[:len(MAGIC)] != MAGIC:
-        raise ValueError("this is not a pack: the magic does not match")
+        raise PackError("this is not a pack: the magic does not match")
 
     data = mask(pack[len(MAGIC):], key)
     if len(data) < 2:
-        raise ValueError("the pack holds no header")
+        raise PackError("the pack holds no header")
 
     schema = data[0]
     if schema != SCHEMA:
-        raise ValueError("this build reads pack schema %d, and the file states %d"
-                         % (SCHEMA, schema))
+        raise PackError("this build reads pack schema %d, and the file states %d"
+                        % (SCHEMA, schema))
     flags = data[1]
     pos = 2
 
     profile, pos = _get_text(data, pos)
+    if expected_profile is not None and profile != expected_profile:
+        raise PackError(
+            "this build implements fold profile '%s', and the pack states '%s'"
+            % (expected_profile, profile))
 
     count, pos = get_varint(data, pos)
     categories = []
@@ -219,14 +237,33 @@ def decode(pack, key=KEY):
         categories.append(name)
 
     count, pos = get_varint(data, pos)
+
+    # An entry costs at least three bytes: a length, one character, and the
+    # flags. Check that before building a list, so a hostile count cannot make
+    # this allocate.
+    if count > (len(data) - pos) // 3:
+        raise PackError("the pack claims more entries than it holds")
+
     entries = []
     for _ in range(count):
         term, pos = _get_text(data, pos)
+        if not term:
+            raise PackError("a pack term must not be empty")
         if pos >= len(data):
-            raise ValueError("the pack ends inside an entry")
+            raise PackError("the pack ends inside an entry")
         packed = data[pos]
         pos += 1
-        entry = {"t": term, "cat": categories[packed >> 4], "sev": packed & 0x07}
+
+        index = packed >> 4
+        if index >= len(categories):
+            raise PackError("a pack entry names a category the table does not hold")
+
+        severity = packed & 0x07
+        if not 1 <= severity <= 5:
+            raise PackError(
+                "severity must be 1 to 5, and term '%s' states %d" % (term, severity))
+
+        entry = {"t": term, "cat": categories[index], "sev": severity}
         if packed & 0x08:
             entry["w"] = True
         entries.append(entry)
@@ -244,6 +281,6 @@ def decode(pack, key=KEY):
     # Nothing may follow. This catches a truncated pack and a padded one in the
     # same line, and it is what found the missing-allow-block bug.
     if pos != len(data):
-        raise ValueError("the pack holds bytes after its last entry")
+        raise PackError("the pack holds bytes after its last entry")
 
     return doc

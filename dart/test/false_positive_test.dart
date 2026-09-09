@@ -38,6 +38,21 @@ const List<String> ordinaryEnglish = <String>[
   'bass guitar',
   'assume the position',
   'Cockburn is a surname',
+  // Obscure dictionary words the word-boundary rule alone let through.
+  'placuntitis',
+  'placuntoma',
+  'tubehead',
+  'washita',
+  'bereshith',
+  'cushitic',
+  'brushite',
+  'marshite',
+  'girgashite',
+  'agapornis',
+  'epornitic',
+  'nymphosis',
+  'nymphoides',
+  'tittymouse',
 ];
 
 void main() {

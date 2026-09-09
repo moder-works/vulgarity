@@ -17,7 +17,7 @@ The first release.
   separator *inside* the match must still begin its own word, so an ordinary
   pair of words whose tail and head happen to join into a term stays clean.
   The right edge stays free, so a term written with a space or a hyphen
-  between every letter still matches. A 16-word allowlist covers what the
+  between every letter still matches. A 30-word allowlist covers what the
   rules cannot, such as `Scunthorpe` and `shiitake`.
 - A second pass with repeated letters collapsed, so `daaamn` reaches `damn`.
   It scans a second trie holding the squeezed spelling of every term, and a

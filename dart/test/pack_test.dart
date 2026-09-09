@@ -93,4 +93,15 @@ void main() {
     expect(tryReadPackText(base64.encode(utf8.encode('not a pack at all'))),
         isNull);
   });
+
+  test('addSeedBytes loads a pack straight from bytes', () {
+    // The base64 path has its own tests. This one hands the builder raw pack
+    // bytes, which is what an app hosting its own list does.
+    final VulgarityFilterBuilder builder = VulgarityFilterBuilder()
+      ..addSeedBytes(readDataBytes('packs/seed-en.vpk'));
+
+    expect(builder.termCount, seedEntryCount());
+    expect(builder.hasTerm('damn'), isTrue);
+    expect(builder.build().detect('what the fuck'), isTrue);
+  });
 }
