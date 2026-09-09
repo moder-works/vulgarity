@@ -1,0 +1,17 @@
+# .NET
+bin/
+obj/
+*.user
+
+# Dart
+.dart_tool/
+.packages
+pubspec.lock
+build/
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc

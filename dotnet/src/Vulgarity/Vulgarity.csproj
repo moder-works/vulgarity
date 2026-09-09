@@ -1,0 +1,90 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net8.0</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <RootNamespace>Vulgarity</RootNamespace>
+    <AssemblyName>Vulgarity</AssemblyName>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Vulgarity</PackageId>
+    <Version>0.1.0</Version>
+    <Description>
+      Trie-based vulgarity detection, filtering and scoring. It defeats leetspeak,
+      separator and repeated-letter evasion. A matching Dart package shares the
+      same seed data and the same test vectors.
+    </Description>
+    <PackageTags>profanity;moderation;filter;trie;aho-corasick</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/moder-works/vulgarity</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
+    <PackageReference Include="System.Text.Json" Version="8.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!--
+      data/ is the contract both languages read. Neither one owns it.
+
+      WithCulture=false matters. Every pack code below is also a culture name,
+      so MSBuild reads "seed.de.json" as a German resource for "seed.json" and
+      moves it into a satellite assembly. The main assembly then carries only
+      the English seed. This flag keeps every pack where it belongs.
+    -->
+    <EmbeddedResource Include="../../../data/seed.json" LogicalName="Vulgarity.seed.json" />
+    <EmbeddedResource Include="../../../data/seed.ar.json" LogicalName="Vulgarity.seed.ar.json">
+      <WithCulture>false</WithCulture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="../../../data/seed.de.json" LogicalName="Vulgarity.seed.de.json">
+      <WithCulture>false</WithCulture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="../../../data/seed.es.json" LogicalName="Vulgarity.seed.es.json">
+      <WithCulture>false</WithCulture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="../../../data/seed.fa.json" LogicalName="Vulgarity.seed.fa.json">
+      <WithCulture>false</WithCulture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="../../../data/seed.fr.json" LogicalName="Vulgarity.seed.fr.json">
+      <WithCulture>false</WithCulture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="../../../data/seed.hi.json" LogicalName="Vulgarity.seed.hi.json">
+      <WithCulture>false</WithCulture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="../../../data/seed.it.json" LogicalName="Vulgarity.seed.it.json">
+      <WithCulture>false</WithCulture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="../../../data/seed.ko.json" LogicalName="Vulgarity.seed.ko.json">
+      <WithCulture>false</WithCulture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="../../../data/seed.nl.json" LogicalName="Vulgarity.seed.nl.json">
+      <WithCulture>false</WithCulture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="../../../data/seed.pl.json" LogicalName="Vulgarity.seed.pl.json">
+      <WithCulture>false</WithCulture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="../../../data/seed.ru.json" LogicalName="Vulgarity.seed.ru.json">
+      <WithCulture>false</WithCulture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="../../../data/seed.th.json" LogicalName="Vulgarity.seed.th.json">
+      <WithCulture>false</WithCulture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="../../../data/seed.vi.json" LogicalName="Vulgarity.seed.vi.json">
+      <WithCulture>false</WithCulture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="../../../data/seed.zh.json" LogicalName="Vulgarity.seed.zh.json">
+      <WithCulture>false</WithCulture>
+    </EmbeddedResource>
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
+      <_Parameter1>Vulgarity.Tests</_Parameter1>
+    </AssemblyAttribute>
+  </ItemGroup>
+
+</Project>

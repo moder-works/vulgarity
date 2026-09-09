@@ -1,0 +1,14 @@
+include: package:lints/recommended.yaml
+
+analyzer:
+  exclude:
+    - lib/lang/**
+    - lib/languages.dart
+    - lib/src/seed_data.g.dart
+    - lib/src/normalization/fold_table.g.dart
+
+linter:
+  rules:
+    - always_declare_return_types
+    - prefer_final_locals
+    - unnecessary_this

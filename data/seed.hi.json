@@ -1,0 +1,2622 @@
+{
+  "schema": 1,
+  "profile": "fold-v1",
+  "lang": "hi",
+  "name": "Hindi",
+  "vetted": false,
+  "source": "https://github.com/master-wayne7/safe_text",
+  "license": "MIT",
+  "note": "Community-sourced list for Hindi. Nobody vetted these terms one by one, and the source carries no category or severity, so every entry takes category 'profanity' and severity 3. A term of 6 characters or fewer requires a word boundary. Expect false positives. Load this pack only when you handle text in this language.",
+  "entries": [
+    {
+      "t": "aand",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "akepurinawa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "akepurinna",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ambakissa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ammageredda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ammakichut",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ammt",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "araganin",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "attimba",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "baapkelavde",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "backgahanawa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "backsideokay",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "badawenawa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "badu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "badzaat",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "balatkaar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "balatkar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "behenkelaude",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bekgahanawa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bellbula",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "belli",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "besige",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "besike",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "besikge",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bhadva",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bhadve",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bhadwekinasal",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bhandve",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bhenkelode",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bhootnike",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bhosad",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bhosdeekay",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bhosdi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bhundi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "boltibandhkar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "boobe",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bsdk",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bullekebaal",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bursungha",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "camina",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chakke",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chinaal",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chinki",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chipkalikejhatkabaal",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chod",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chooche",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "choochi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "choope",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "choot",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chuche",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chuchi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chudaap",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chudaikhanaa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chudamchudai",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chudanchudai",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chudasi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chudpagal",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chutad",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chutan",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chutia",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chutiya",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chutkachuha",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chutkachuran",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chutkamail",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chutkamaindak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chutkebaal",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chutkechatore",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chutkedhakkan",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chutkemakkhan",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chutmaarli",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chutmarnewala",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "diwadanawa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "eraganin",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "etadeka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gandfattu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gandichutmeinsadtahuagandakida",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gandifuddikigandiauladd",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gandmarnewala",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gandmasti",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gandmeinlouda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gandu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ganuhora",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gashti",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "gasti",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "genuhora",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "getamirikanawa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ghassa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ghasti",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "gonbijja",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gucchi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "gucchu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "gujjar",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "haminenava",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "haminenawa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "harami",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "haramzaadaa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "haramzade",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hawas",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "hijda",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "hijra",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "huka",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "humkanawa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "humtha",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "huptho",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "huththa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "huththige",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "huththik",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hutta",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "huttige",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "huttik",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jackgahanawa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jackgahapan",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jackghpn",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jagandmara",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jhaat",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jhant",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jhatlahergaya",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jhatoo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "junda",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kaalikutti",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kalubadda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kamine",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kanjar",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kannapori",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "karihambayo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kariscene",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kariseen",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "karisepa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "karithambiyo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kariya",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kaspuriya",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kennaporiya",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "keri",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kespuri",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kibijuse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kibikavayya",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kibisiba",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kimba",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kimbijuice",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kimbikawaiya",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kimbisimba",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "koipata",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "konakapala",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "konakapanawa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kukku",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kuthasala",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kuthri",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kuthtaburaanahekandaanahipattaahe",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kutta",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kutte",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kuttiya",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lalipuka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lelipuka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lewakanawa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "loda",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "lodu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "lolla",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "loolla",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "lovanawa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lowanawa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lund",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "luvjuce",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "luvjuice",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "maachuda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "maakichut",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "maal",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "maate",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "maeate",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "maemala",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mamala",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "mayil",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "moohmeinle",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mutth",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "najayaz",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nilmanelhuththi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "paikota",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "paiya",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "paka",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pake",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pako",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "palamkoka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pamkaya",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "paraballi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "patakha",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "payikota",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "payiya",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "payya",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pettiya",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "polimakdanawa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "polimdanawa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "polkavayya",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "polkawaiya",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ponna",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "poropara",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pukapalanawa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pukasududa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pukawate",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pukearinawa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pukehila",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pukemail",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pukmantha",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "randaap",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "randi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "reddaussagena",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "reddaussanawa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "saala",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "saalikutti",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sakkili",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sdom",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "suar",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tahike",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "taike",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tatte",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tatti",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tauk",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "terimaakabobachusu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "terimakikalichut",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "thandeka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tharak",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tharki",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "thogeammata",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "thongale",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tofa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tombahila",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "topa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tuchuda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "umbeamma",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "uranawa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "urapan",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "valaththaya",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "valattaya",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "valla",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "vesa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "vesi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "walaththaya",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "walla",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "wataella",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wateyanawa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wateyyanawa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wela",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "wesa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "wesi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "अंडकोश",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "अंडकोष",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "अंडा",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "अप्सरा",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "अश्लील",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "अहंभाव",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ईन्सेस्त",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "उग्र",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "एक्रोटोमोफिलिया",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "एक्सरेटेड",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ओगाज़्म",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "कमबख्त",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "कामोद्दीपकचित्र",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "कामोन्माद",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "कालीनकाचूरा",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "किन्नर",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "कुतिया",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "कुत्तेकमीने",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "कोना",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "गधाकमीने",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "गर्भपात",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "गर्भाशय",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "गुदा",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "गेंदकाथैला",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "गेंदों",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "घटियाइंसान",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "घुंडी",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "घुसना",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "चंचल",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "चाकलेटकारंग",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "चिंक",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "चुभन",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "चूची",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "चूतड़",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "चूसना",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "चोंच",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "छीनना",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ज़ूफाइल",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ज़ूफिलिया",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "जीमेंआयेकरो",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "झटका",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ठगनापैकर",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "डिल्डो",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "दूरजानेकाअभद्रसंकेतदेना",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "दृश्यरतिक",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "धत्तेरेकी",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "नंगानाच",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "नाजी",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "निकलाहुआकिनारा",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "निगल",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "नितंब",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "निप्पल",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "नियोनाज़ी",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "पाशविकता",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "पिछाड़ी",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "पीड़नकामुक",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "पीड़ासुखभोगी",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "पीडोफाइल",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "पीडोफिलिया",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "पेशाब",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "पॉर्न",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "प्रवेश",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "फटना",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "फूहड़",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "फेलटियो",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "बकवास",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "बलात्कार",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "बहुतमदहोश",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "बांध",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "बिगाड़ना",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "बिल्ली",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "बेलअंत",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "बेवकूफों",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "बोलपड़ना",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "भगनासा",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "भगवानशापित",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "भगशेफ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "मंदता",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "मलाशय",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "माँकमीने",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "मुखमैथुन",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "मुर्गा",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "मूत्र",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "मूर्ख",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "योनि",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "योनी",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "यौनसंबंध",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "रक्तरंजित",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "रोसेट",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "लानतहै",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "लिंग",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "लिंच",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "लुटेरा",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "लेबिया",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "वहशी",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "विकृति",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "वीर्य",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "वृषण",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "वेश्या",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "वैंग",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "वोसाले",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "व्यभिचार",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "शिफ़्टको",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "शिश्नमल",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "शुक्राणु",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "संभोगसुख",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "सेक्स",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "सैडिज्म",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "सैडिस्ट",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "सोडोमाइज़",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "स्खलन",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "स्खलित",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "स्तनों",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "हस्तमैथुन",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "हिटलर",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "हेबेफाइल्स",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "हेबेफिलिक",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "हेबेफिलिया",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "අකේපුරිනවා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "අකේපුරින්නා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "අම්බකිස්ස",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "අම්මගෙරෙද්ද",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "අම්ම්ට",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "අම්මාගේරෙද්ද",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ඇටදෙක",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ඇට්ටිම්බ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ඇන්ටපාර",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ඇරගනින්",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ඇහැළමල්වේසි",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "උත්ති",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "උඹෙඅම්මගෙ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "උඹෙඅම්මට",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "උඹෙඅම්මා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "උඹේඅම්මා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "උරනවා",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "උරපං",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "උරපන්",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "කළුබඩ්ඩ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "කැන්නපොරි",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "කැරි",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "කැස්පුරි",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "කෑස්පුරි",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "කිම්බ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "කිඹිකාවයියා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "කිඹිජූස්",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "කිඹිසිඹා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "කුක්කු",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "කුට්ටංචූටි",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "කොනකපනවා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "කොනකපාල",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "කොයිපටා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ගැටමිරිකනවා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ගැනුහොරා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ගෑණුහොරා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ගොංබිජ්ජා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ජැක්ගහපන්",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ජැක්සන්",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ජුන්ඩා",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ටඉකේ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ටඋකනවා",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ටහිකේ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ටොපා",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ටොම්බහිල",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ටෞකණ්ඩ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ටෞකන්න",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ටෞක්",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "තන්දෙක",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "තොංගලේ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "තොගෙඅම්මට",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "දාරබඩුව",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "දිවදානව",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "පකයා",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "පට්ටවේසි",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "පම්ක",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "පයිකොටා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "පයිචූටි",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "පයිය",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "පරවේසි",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "පාලම්කොකා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "පුකපලනවා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "පුකවටේ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "පුකසුදුද",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "පුක්මන්තා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "පුකේඅරිනවා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "පුකේමයිල්",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "පුකේමයිලා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "පුකේහිල",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "පෙට්ටිය",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "පොන්නපකා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "පොන්නයා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "පොන්නවේසමනමාලි",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "පොරෝපාර",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "පොල්කාවයිය",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "පොල්ල",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "පෝලිමක්දානවා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "පෝලිම්දානවා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "බඩවෙනවා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "බඩුආව",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "බඩුකාරයා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "බැක්ගහනව",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "බැක්සයිඩ්ඕකේ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "බැල්ලි",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "බේසික්ගෙ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "බේසිකෙ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "බේසිගෙ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "මෑඇටේ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "මෑමල",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "රෙද්දඋස්සගෙන",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "රෙද්දඋස්සනවා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ලබ්බ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ලව්ජූස්",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ලෑලිපුක",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ලෙවකනවා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ලොල්ලා",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ලොවනවා",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "වටඇල්ල",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "වටේයනවා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "වලත්තයා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "වල්ල",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "වැලබලනවා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "වේසබල්ලා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "වේසාවා",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "වේසිගෙපුතා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "වේසිගේපුතා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "වේසෞත්තා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "සක්කිලි",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "හැමිනෙනව",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "හුකනවදාලා",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "හුකනවනෙඉතින්",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "හුකනවනේඉතින්",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "හුකනවා",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "හුකන්න",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "හුකපං",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "හුක්",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "හුකා",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "හුත්ත",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "හුප්තා",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "හුම්කන",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "හුම්තා",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    }
+  ],
+  "allow": []
+}

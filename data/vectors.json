@@ -1,0 +1,578 @@
+{
+  "profile": "fold-v1",
+  "seed": "seed.json",
+  "note": "Shared behavioural contract. Both ports must reproduce every case exactly.",
+  "cases": [
+    {
+      "name": "clean sentence",
+      "text": "Have a nice day.",
+      "detect": false,
+      "score": 0,
+      "filtered": "Have a nice day.",
+      "matches": []
+    },
+    {
+      "name": "empty string",
+      "text": "",
+      "detect": false,
+      "score": 0,
+      "filtered": "",
+      "matches": []
+    },
+    {
+      "name": "plain hit",
+      "text": "you fuck",
+      "detect": true,
+      "score": 4,
+      "filtered": "you ****",
+      "matches": [
+        {
+          "start": 4,
+          "end": 8,
+          "term": "fuck",
+          "cat": "profanity",
+          "sev": 4
+        }
+      ]
+    },
+    {
+      "name": "term at index zero",
+      "text": "fuck you",
+      "detect": true,
+      "score": 4,
+      "filtered": "**** you",
+      "matches": [
+        {
+          "start": 0,
+          "end": 4,
+          "term": "fuck",
+          "cat": "profanity",
+          "sev": 4
+        }
+      ]
+    },
+    {
+      "name": "term at end of string",
+      "text": "oh fuck",
+      "detect": true,
+      "score": 4,
+      "filtered": "oh ****",
+      "matches": [
+        {
+          "start": 3,
+          "end": 7,
+          "term": "fuck",
+          "cat": "profanity",
+          "sev": 4
+        }
+      ]
+    },
+    {
+      "name": "leetspeak digits",
+      "text": "sh1t happens",
+      "detect": true,
+      "score": 3,
+      "filtered": "**** happens",
+      "matches": [
+        {
+          "start": 0,
+          "end": 4,
+          "term": "shit",
+          "cat": "profanity",
+          "sev": 3
+        }
+      ]
+    },
+    {
+      "name": "leetspeak symbols",
+      "text": "a$$hole",
+      "detect": true,
+      "score": 4,
+      "filtered": "*******",
+      "matches": [
+        {
+          "start": 0,
+          "end": 7,
+          "term": "asshole",
+          "cat": "profanity",
+          "sev": 4
+        }
+      ]
+    },
+    {
+      "name": "separator evasion",
+      "text": "you are a f.u.c.k",
+      "detect": true,
+      "score": 4,
+      "filtered": "you are a *******",
+      "matches": [
+        {
+          "start": 10,
+          "end": 17,
+          "term": "fuck",
+          "cat": "profanity",
+          "sev": 4
+        }
+      ]
+    },
+    {
+      "name": "separator evasion with spaces",
+      "text": "s h i t",
+      "detect": true,
+      "score": 3,
+      "filtered": "*******",
+      "matches": [
+        {
+          "start": 0,
+          "end": 7,
+          "term": "shit",
+          "cat": "profanity",
+          "sev": 3
+        }
+      ]
+    },
+    {
+      "name": "repeated letters",
+      "text": "what the fuuuuck",
+      "detect": true,
+      "score": 4,
+      "filtered": "what the *******",
+      "matches": [
+        {
+          "start": 9,
+          "end": 16,
+          "term": "fuck",
+          "cat": "profanity",
+          "sev": 4
+        }
+      ]
+    },
+    {
+      "name": "mixed evasion",
+      "text": "f.u.u.u.c.k!",
+      "detect": true,
+      "score": 4,
+      "filtered": "***********!",
+      "matches": [
+        {
+          "start": 0,
+          "end": 11,
+          "term": "fuck",
+          "cat": "profanity",
+          "sev": 4
+        }
+      ]
+    },
+    {
+      "name": "scunthorpe stays clean",
+      "text": "I live in Scunthorpe",
+      "detect": false,
+      "score": 0,
+      "filtered": "I live in Scunthorpe",
+      "matches": []
+    },
+    {
+      "name": "assassin stays clean",
+      "text": "he is an assassin",
+      "detect": false,
+      "score": 0,
+      "filtered": "he is an assassin",
+      "matches": []
+    },
+    {
+      "name": "ass on its own is flagged",
+      "text": "an ass",
+      "detect": true,
+      "score": 2,
+      "filtered": "an ***",
+      "matches": [
+        {
+          "start": 3,
+          "end": 6,
+          "term": "ass",
+          "cat": "profanity",
+          "sev": 2
+        }
+      ]
+    },
+    {
+      "name": "class stays clean",
+      "text": "class of 2024",
+      "detect": false,
+      "score": 0,
+      "filtered": "class of 2024",
+      "matches": []
+    },
+    {
+      "name": "the rapist is flagged",
+      "text": "the rapist was caught",
+      "detect": true,
+      "score": 5,
+      "filtered": "the ****** was caught",
+      "matches": [
+        {
+          "start": 4,
+          "end": 10,
+          "term": "rapist",
+          "cat": "violence",
+          "sev": 5
+        }
+      ]
+    },
+    {
+      "name": "therapist stays clean",
+      "text": "my therapist is great",
+      "detect": false,
+      "score": 0,
+      "filtered": "my therapist is great",
+      "matches": []
+    },
+    {
+      "name": "shiitake stays clean",
+      "text": "shiitake mushrooms are tasty",
+      "detect": false,
+      "score": 0,
+      "filtered": "shiitake mushrooms are tasty",
+      "matches": []
+    },
+    {
+      "name": "squeeze artifacts stay clean",
+      "text": "a looser rapping shiite pollack",
+      "detect": false,
+      "score": 0,
+      "filtered": "a looser rapping shiite pollack",
+      "matches": []
+    },
+    {
+      "name": "boundary words stay clean",
+      "text": "thorny heroine trimming scrappy",
+      "detect": false,
+      "score": 0,
+      "filtered": "thorny heroine trimming scrappy",
+      "matches": []
+    },
+    {
+      "name": "cyrillic homoglyph",
+      "text": "\u0441\u043E\u0441k",
+      "detect": true,
+      "score": 3,
+      "filtered": "****",
+      "matches": [
+        {
+          "start": 0,
+          "end": 4,
+          "term": "cock",
+          "cat": "profanity",
+          "sev": 3
+        }
+      ]
+    },
+    {
+      "name": "fullwidth characters",
+      "text": "\uFF46\uFF55\uFF43\uFF4B",
+      "detect": true,
+      "score": 4,
+      "filtered": "****",
+      "matches": [
+        {
+          "start": 0,
+          "end": 4,
+          "term": "fuck",
+          "cat": "profanity",
+          "sev": 4
+        }
+      ]
+    },
+    {
+      "name": "math alphanumeric",
+      "text": "\uD835\uDC1F\uD835\uDC2E\uD835\uDC1C\uD835\uDC24",
+      "detect": true,
+      "score": 4,
+      "filtered": "********",
+      "matches": [
+        {
+          "start": 0,
+          "end": 8,
+          "term": "fuck",
+          "cat": "profanity",
+          "sev": 4
+        }
+      ]
+    },
+    {
+      "name": "emoji before a term",
+      "text": "\uD83D\uDE00 fuck",
+      "detect": true,
+      "score": 4,
+      "filtered": "\uD83D\uDE00 ****",
+      "matches": [
+        {
+          "start": 3,
+          "end": 7,
+          "term": "fuck",
+          "cat": "profanity",
+          "sev": 4
+        }
+      ]
+    },
+    {
+      "name": "multi byte before a term",
+      "text": "caf\u00E9 fuck",
+      "detect": true,
+      "score": 4,
+      "filtered": "caf\u00E9 ****",
+      "matches": [
+        {
+          "start": 5,
+          "end": 9,
+          "term": "fuck",
+          "cat": "profanity",
+          "sev": 4
+        }
+      ]
+    },
+    {
+      "name": "astral before a term",
+      "text": "\uD83E\uDD84 shit",
+      "detect": true,
+      "score": 3,
+      "filtered": "\uD83E\uDD84 ****",
+      "matches": [
+        {
+          "start": 3,
+          "end": 7,
+          "term": "shit",
+          "cat": "profanity",
+          "sev": 3
+        }
+      ]
+    },
+    {
+      "name": "zero width inside a term",
+      "text": "f\u200Buck",
+      "detect": true,
+      "score": 4,
+      "filtered": "*****",
+      "matches": [
+        {
+          "start": 0,
+          "end": 5,
+          "term": "fuck",
+          "cat": "profanity",
+          "sev": 4
+        }
+      ]
+    },
+    {
+      "name": "two terms",
+      "text": "fuck this shit",
+      "detect": true,
+      "score": 7,
+      "filtered": "**** this ****",
+      "matches": [
+        {
+          "start": 0,
+          "end": 4,
+          "term": "fuck",
+          "cat": "profanity",
+          "sev": 4
+        },
+        {
+          "start": 10,
+          "end": 14,
+          "term": "shit",
+          "cat": "profanity",
+          "sev": 3
+        }
+      ]
+    },
+    {
+      "name": "overlapping compound",
+      "text": "cocksucker",
+      "detect": true,
+      "score": 5,
+      "filtered": "**********",
+      "matches": [
+        {
+          "start": 0,
+          "end": 10,
+          "term": "cocksucker",
+          "cat": "profanity",
+          "sev": 5
+        }
+      ]
+    },
+    {
+      "name": "severity comes from the longer term",
+      "text": "bullshit",
+      "detect": true,
+      "score": 3,
+      "filtered": "********",
+      "matches": [
+        {
+          "start": 0,
+          "end": 8,
+          "term": "bullshit",
+          "cat": "profanity",
+          "sev": 3
+        }
+      ]
+    },
+    {
+      "name": "mask token",
+      "text": "oh fuck",
+      "options": {
+        "maskToken": "[redacted]"
+      },
+      "detect": true,
+      "score": 4,
+      "filtered": "oh [redacted]",
+      "matches": [
+        {
+          "start": 3,
+          "end": 7,
+          "term": "fuck",
+          "cat": "profanity",
+          "sev": 4
+        }
+      ]
+    },
+    {
+      "name": "mask character",
+      "text": "oh fuck",
+      "options": {
+        "maskChar": "#"
+      },
+      "detect": true,
+      "score": 4,
+      "filtered": "oh ####",
+      "matches": [
+        {
+          "start": 3,
+          "end": 7,
+          "term": "fuck",
+          "cat": "profanity",
+          "sev": 4
+        }
+      ]
+    },
+    {
+      "name": "min severity filters clinical terms",
+      "text": "the penis and the vagina",
+      "options": {
+        "minSeverity": 2
+      },
+      "detect": false,
+      "score": 0,
+      "filtered": "the penis and the vagina",
+      "matches": []
+    },
+    {
+      "name": "min severity off keeps them",
+      "text": "the penis and the vagina",
+      "detect": true,
+      "score": 2,
+      "filtered": "the ***** and the ******",
+      "matches": [
+        {
+          "start": 4,
+          "end": 9,
+          "term": "penis",
+          "cat": "sexual",
+          "sev": 1
+        },
+        {
+          "start": 18,
+          "end": 24,
+          "term": "vagina",
+          "cat": "sexual",
+          "sev": 1
+        }
+      ]
+    },
+    {
+      "name": "category filter",
+      "text": "that fucking pedophile",
+      "options": {
+        "categories": [
+          "Sexual"
+        ]
+      },
+      "detect": true,
+      "score": 5,
+      "filtered": "that fucking *********",
+      "matches": [
+        {
+          "start": 13,
+          "end": 22,
+          "term": "pedophile",
+          "cat": "sexual",
+          "sev": 5
+        }
+      ]
+    },
+    {
+      "name": "score max",
+      "text": "fuck this shit",
+      "options": {
+        "scoreMode": "Max"
+      },
+      "detect": true,
+      "score": 4,
+      "filtered": "**** this ****",
+      "matches": [
+        {
+          "start": 0,
+          "end": 4,
+          "term": "fuck",
+          "cat": "profanity",
+          "sev": 4
+        },
+        {
+          "start": 10,
+          "end": 14,
+          "term": "shit",
+          "cat": "profanity",
+          "sev": 3
+        }
+      ]
+    },
+    {
+      "name": "repeat tolerance off",
+      "text": "what the fuuuuck",
+      "options": {
+        "repeatTolerance": false
+      },
+      "detect": false,
+      "score": 0,
+      "filtered": "what the fuuuuck",
+      "matches": []
+    },
+    {
+      "name": "collapse contained off",
+      "text": "cocksucker",
+      "options": {
+        "collapseContained": false
+      },
+      "detect": true,
+      "score": 10,
+      "filtered": "**********",
+      "matches": [
+        {
+          "start": 0,
+          "end": 10,
+          "term": "cocksucker",
+          "cat": "profanity",
+          "sev": 5
+        },
+        {
+          "start": 0,
+          "end": 8,
+          "term": "cocksuck",
+          "cat": "profanity",
+          "sev": 5
+        }
+      ]
+    }
+  ]
+}

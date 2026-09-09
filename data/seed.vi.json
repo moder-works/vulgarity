@@ -1,0 +1,2367 @@
+{
+  "schema": 1,
+  "profile": "fold-v1",
+  "lang": "vi",
+  "name": "Vietnamese",
+  "vetted": false,
+  "source": "https://github.com/master-wayne7/safe_text",
+  "license": "MIT",
+  "note": "Community-sourced list for Vietnamese. Nobody vetted these terms one by one, and the source carries no category or severity, so every entry takes category 'profanity' and severity 3. A term of 6 characters or fewer requires a word boundary. Expect false positives. Load this pack only when you handle text in this language.",
+  "entries": [
+    {
+      "t": "adiu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ainhi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ajig",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "amam",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "amdao",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ammon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "amvat",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ancok",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ancucuatoi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ancuk",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "anjay",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "anjcuc",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "anjing",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "anjir",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "anlol",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "anlon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "anmay",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "anmiengtramieng",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "anying",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "asyu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "audam",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "babangus",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bachamay",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bacol",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bacot",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bagong",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bajingan",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "balegug",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "banci",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bangke",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bangsat",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "banhhang",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "banhlol",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "banhlon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "baodam",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bedebah",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bedegong",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "belegug",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "beloon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bencong",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bihamhiep",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bitchi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bloon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bobu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bodoh",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bolao",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "boloho",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bome",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bomia",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bomie",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bomja",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bomje",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bubicuatoi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bucactoi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bucak",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bucminh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bucu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "budug",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "buduk",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "buoi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "buscu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cacc",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cailegithon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cailo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "caolol",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "caolon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "celeng",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "champhattrien",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cheembantweenyulawordeet",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chetme",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chetmia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chetmie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chetmja",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chetmje",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chettiet",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chich",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chitrich",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chocai",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chodien",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "choma",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chongmong",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cibai",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cibay",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "clgt",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cmnl",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cocot",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cokil",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "colai",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "colay",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "colmek",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cologoto",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "conbanhoa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "conbic",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "conbit",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "concac",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "concak",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "concu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "condi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "conge",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "congor",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "congviecthoi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "conhoang",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "conlol",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "conlon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "conme",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "contrai",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cuccut",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cuckhoai",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cukima",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "culol",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "culon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cuoie",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cuoiia",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cutcho",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cutcut",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dach",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dangu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dauboi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dauboy",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "daubui",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "daukhan",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dauma",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "daume",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dcmm",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "decamo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dech",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "deechaw",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "deetmieemaii",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dellan",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dellbiet",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dellchay",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dellchiu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "delldi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dellduoc",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dellhieu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "delllam",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dellnghe",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dellngui",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dellnoi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "demama",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "demo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dentre",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "deohieukieugi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dilol",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dilon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "diloz",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dimemay",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "diml",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dinhmau",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dismia",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dismie",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dismje",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ditba",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ditbo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ditcha",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ditchimay",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ditcon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ditcu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ditieu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ditma",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ditme",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ditmia",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ditmie",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "diuma",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dkmm",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dmconcho",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dmcs",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dmmm",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "doanvat",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dodien",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dokhi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dokhon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "doma",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "domo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "doncualong",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dongbang",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "donggoifudge",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dongu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "donli",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "doorannyucuitchoor",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "douma",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dovo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "duba",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ducha",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ducquocxa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dumamay",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dumanhieu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dume",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dumia",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dumie",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dumotminh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "duoma",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "duongvat",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dutdit",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "entot",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ewean",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "gahut",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "gaidiem",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gatrong",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gelo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "genjik",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "germo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "giai",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "giaohop",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "giat",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "giut",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "goblo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "hacchung",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hamlol",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "hamlon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "hammuon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "haumon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "hencet",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "henceut",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "heunceut",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hiepdam",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hoahong",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hoanhhanh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hupso",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "itil",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jablay",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jalang",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jembut",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jilmek",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jurig",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kacung",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kampang",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kampret",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kampungan",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kehed",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "keme",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kemia",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kemie",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kemja",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kemje",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kenthu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kentu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "keparat",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "khieudam",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "khodam",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kiem",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kimak",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kintil",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kirik",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "konti",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kontol",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kopet",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "koplok",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kunyuk",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kurap",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "lacur",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "laliem",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "lamyemoye",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "laocho",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "lebok",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "leuleu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "liemamhocuatoi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "liemdittoi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "liemlon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "loanluan",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lodit",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "loilol",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "loilon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "loinoidamduc",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lonbagiamaylamlong",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "longtot",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lonte",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "lonxuong",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lozz",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "macha",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "maho",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "mame",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "matbich",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "matlo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "mauthuan",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "maydeptrai",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "meba",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "mechaanh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mechamay",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mechanhaanh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mechanhamay",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "meki",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "memek",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "moiam",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "momlol",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "momlon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "monyet",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "mucsu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "mulol",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "mulon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "muthatcuatoi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ndas",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ngehe",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ngewe",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nggateli",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ngocok",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nguc",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ngulol",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ngulon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nguoidaden",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nguoihammo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nguoimachnuoc",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nguoimo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nguoitau",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nhulol",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nhulon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nhungquabong",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieudao",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nonlung",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nuglol",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nuglon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nulo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "numvu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nung",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nuot",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nuthan",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nyepong",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "occho",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pante",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "patek",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pathek",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pecun",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "peju",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pelakor",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "peler",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pepek",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "phan",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "phathai",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "phocphoc",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "puki",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "quai",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "quanlot",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ramramram",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ranhlol",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ranhlon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sampah",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sapmat",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sepong",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sialan",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "silit",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sinting",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sontoloyo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "suabay",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "suacan",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "suadi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "suatiep",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sutme",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "taik",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tanbao",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "taolao",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tempek",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tempik",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tetek",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tetlol",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tetlon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "thammuncher",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "thamnhap",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "thamthia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "thangbucac",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "thangcho",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "thangdien",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "thangml",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "thatbai",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "thayme",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "thaymia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "thaymie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "thml",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "thudam",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tiembokne",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tiensubo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tiensunhamay",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tietnieu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tinh",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "titit",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tocha",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "toket",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tolol",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tosu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "trichkhong",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tructrang",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tucaotudai",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tucung",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tuibong",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tunglol",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tunglon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tuoilol",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tuoilon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tuyetvoi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ublag",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "udik",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "vachlol",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vachlon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vaicac",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "vaicalon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vailin",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "vailol",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "vailon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "vanhdai",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vantruot",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vanvit",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "vleu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "vlol",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "vlon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "vloz",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "wingkeng",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "xamlol",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "xamlon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "xaolol",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "xaolon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "xaotron",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "xaydung",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "xdanhgia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "xeohang",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "xephinh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "xhct",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "xitrum",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "xoac",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    }
+  ],
+  "allow": []
+}

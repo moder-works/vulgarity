@@ -1,0 +1,5835 @@
+{
+  "schema": 1,
+  "profile": "fold-v1",
+  "lang": "es",
+  "name": "Spanish",
+  "vetted": false,
+  "source": "https://github.com/master-wayne7/safe_text",
+  "license": "MIT",
+  "note": "Community-sourced list for Spanish. Nobody vetted these terms one by one, and the source carries no category or severity, so every entry takes category 'profanity' and severity 3. A term of 6 characters or fewer requires a word boundary. Expect false positives. Load this pack only when you handle text in this language.",
+  "entries": [
+    {
+      "t": "abanto",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "abortista",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "abortivos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "abrazaderasdetrebol",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "acabada",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "accionmorena",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "accionrubia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "acojonar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "acostarseconrosemaria",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "acrotomofilia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "acuatropatas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "adefesio",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "aduana",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "adufe",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "afilar",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "agallas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "agarraderas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "aguacates",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "aguayon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "aguebado",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "aguevado",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "agujerodetapon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ahua",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "alagranputa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "alcahuete",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "aldaba",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "alfenique",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "alimentos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "almohadassucias",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "alocate",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ambia",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ambisexualidad",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "andaahacerteverelculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "andaquetecojaunburro",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "andorga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "andurriasmo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "aniz",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "apelo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "apenaslegal",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "apestar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "aquechirlo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "arenoso",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "arepera",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "argolla",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "arrebatar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "arrecho",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "artaban",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "asaltante",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "asarozo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "asesinato",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "asno",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "aspirar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "atarre",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "atembado",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "atomarporculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "atomarporsaco",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "atornillar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "aweonao",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ayotes",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "azada",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "baboso",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bajoaculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bajoamierda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "balurde",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bandido",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bangbros",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "banodeoro",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "barrabas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "barriobajero",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "basura",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "basurero",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bebecharcos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bellaco",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "belloto",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bendeholbendeahole",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "benga",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "berzotas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "besameculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "besameelculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "besamiculoputo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "besomiculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bestialidad",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "besugo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bicho",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bigulinho",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "biscate",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bizcocho",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "blog",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bobalicon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bocabuzon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bocadepedo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bocadetonel",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bocadetrapo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bofetada",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "boladegrasa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bolas",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bollito",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bollo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bolsadeculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bolsadepelota",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "boludo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bombin",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "boniato",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "boquimuelle",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "borondanga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "borrachos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "borraja",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "borrico",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bostazo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "botarate",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "boyo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "brida",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "brisca",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "brisco",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "brizna",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "brocha",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bromista",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bucha",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "buenacaca",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "buenachica",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "buenopanada",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bufarron",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bujarra",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bujarron",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bullyke",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "burundanga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "buscadorde",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "buscar",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "butifarra",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cabecipelao",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cabezaalberca",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cabezabuque",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cabezadechorlito",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cabezadepipe",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cabezahueca",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cabezapipe",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cabilla",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cabra",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cabron",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cacalan",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cacha",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cacheteo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cachilo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cachivache",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cachorra",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cachufleta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cacorra",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cacorro",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cadela",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cafetao",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cafre",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cagadas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cagadon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cagalindes",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cagando",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cagar",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cagasteysaltasteenlacaca",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cagon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cagueta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cajadevaca",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cajeta",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "calabazo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "calambuco",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "calamidad",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "calduo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "calientahielos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "caliente",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "callate",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "calzamonas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cansalmas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cantamananas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cantimplora",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "capullo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "caracaballo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "caracagada",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "caracarton",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "caraculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "caradeburro",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "caradechocho",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "caradecucuy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "caradeculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "carademonda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "carademuerto",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "caradepipe",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "caradepupu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "caradeverga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "caraesemilla",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "caraflema",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "carajaula",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "carajo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "caralho",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "carapapa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "carecrika",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "careculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "carepicha",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "careverga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "carino",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "casquete",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cayatelaboca",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cazurro",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cebodelacarcel",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cebollino",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cenizo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cenutrio",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ceporro",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cernicalo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cerota",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chacon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chancay",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chancla",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chango",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chaqueta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "charran",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chicaen",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chiche",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chichis",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chichona",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chichotas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chifar",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chiflado",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chiflar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chilepelon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chimar",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chimba",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chingaamadre",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chingadamadre",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chingalo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chingar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chingasumadre",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chingate",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chingow",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chinguesumadre",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chinkomedinga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chiquilicuatre",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chirimbaina",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chocha",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chochopeludo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cholas",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cholos",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chorizo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chorrosfemeninos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chorrosmasculinos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chucha",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chulo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chupacables",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chupada",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chupador",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chupaguasca",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chupalaquecuelga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chupamedias",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chupameelpico",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chupameelpito",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chupamela",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chupamelos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chupamepito",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chupameputo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chupameupau",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chupamipito",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chupamiropiro",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chupamislluevos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chupamiverga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chupamivierga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chupapau",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chupapico",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chupar",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chupasangre",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chupatrancas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chupaverga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chupelo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chupemelaverga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chuperson",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chupeton",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chupoptero",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ciberfuckers",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cibernetico",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cierrabares",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cipa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cipote",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cita",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "clavar",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "coao",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cocheche",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cochina",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cochino",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cocinando",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cocones",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "codiciando",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "coger",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cogeteunburro",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cogollo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cogote",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "coito",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cojemeduro",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cojer",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cojesdelfinos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cojido",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cojieron",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cojiste",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cojonazos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cojudo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "colgados",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "colgazon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "colipato",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "colison",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "collofe",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "colloma",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "comadreja",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "comadres",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "comebolsas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "comecaca",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "comechapas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "comeculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "comeflores",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "comekuacha",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "comemeelputoculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "comemiculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "comemierda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "comemiverga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "comemoco",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "comerbistec",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "comerunpenis",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "comerunpunta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "comoasesinar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "comomatar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "companero",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cona",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "conchalawea",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "conchetumare",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "conchuda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "conchudo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "conejo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cono",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "consolador",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "conyosucio",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "conyosueseeyo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "copeton",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "coprofagia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "coprofago",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "coprofilia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "coquetear",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "coquimbanos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "corneo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "corneta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "coronta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "corota",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "correrse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "corrida",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "coso",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cotorra",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "coyoles",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "coyones",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "coyos",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cracudo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cremita",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "crica",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cuacha",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cuaresmeno",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cuates",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cuca",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cuchara",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cuchillo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cucon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cueco",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cuero",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cuerpoescombro",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "culamen",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "culata",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "culeado",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "culeao",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "culear",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "culero",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "culia",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "culiolo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "culogay",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "culogorro",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "culomono",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "culopirata",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "culopollo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "culoroto",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "culorroto",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "culos",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cundango",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "curtir",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cuyones",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cuzao",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dalepuneta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "damecabesa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dameculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "deculocontraelviento",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dedodecamello",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "demierda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dendrofilia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "descerebrado",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "desgarracalzas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "desgraciarse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "desmoronamiento",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "desnudo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "devoradordesemen",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "digitacion",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dique",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "direccion",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "doblepolla",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dominacion",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dominatriz",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "domos",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dona",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dondiego",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "donnadie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ducha",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "echacantos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "egotismo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ejarramantas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "elburrosabemasquetu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "elella",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "elputoese",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "elputoquetepario",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "empacadordechocolate",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "empaquetadordedulces",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "empiernarse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "emputado",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "emputecido",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "enanomental",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "enculada",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "energumeno",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "enojado",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ensartar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ereccion",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "erecto",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "eresunaputa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "eresunazorra",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "eresunpendejo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "erienteramaraca",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "erotico",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "erotismo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "esamelacojo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "esbaratabailes",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "esclavitud",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "escolimoso",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "escolta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "escroto",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "estaca",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "estafiate",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "estassibienpendejo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "estiloperrito",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "estulto",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "estupideces",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "estupido",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "estupitoputa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "exprimir",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "extremo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "eyacula",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "facha",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "falo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "fanfosquero",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fantoche",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fariseo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "felacion",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fetiche",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fetichismodepies",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fieltro",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fierro",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "fiestadelimon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fiestadesalchichas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fifar",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "filiberto",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "filimincias",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fleto",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "foda",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "foligoso",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "folla",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "forrar",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "forro",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "frijoles",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "frotandose",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fuckingdumbass",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fulastre",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fundillo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gallo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ganan",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ganapan",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ganapio",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "garchar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gargantaprofunda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "garompa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gaznapiro",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "genitales",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ghiataputo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gilipichis",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gilipuertas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "giraesquinas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gofreazul",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "golondrina",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gomas",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "gonads",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "gonorrea",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gordo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "goregasmo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gorrino",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gorrumino",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "grandeculodepanda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "grandeynegro",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "granmierda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "graznar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "grencho",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "grupa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "guaranga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "guebo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "gueona",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "guineo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "guitarro",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gurriato",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gustarle",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "habahela",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "haciendoelamor",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hamburguesa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hazmellegar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hebefilia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hebefilico",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hediondo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "heroina",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "herrero",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "heterito",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hijadelagrandisimaputa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hijadelagranputa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hijadeputa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hijalacreta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hijaputa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hijoeputa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hijosdeputa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hijueputa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "horre",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "hueco",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "huelegateras",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "huelesamierda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "huevo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "idiota",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ignorante",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "imbecil",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "incesto",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "incestuoso",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "infierno",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "iratientas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jablador",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jamding",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "japon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jiromba",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jode",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jodido",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jorobaseca",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "joto",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jugodebebe",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jugodepolla",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kakadeltaro",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kapullo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kayatelaboka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kuka",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kumbo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kumer",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "labios",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "lacage",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "laconchadelalora",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "laconchadetuhermana",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "laconchaquemerepario",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "laconchatuya",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ladilla",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ladrondetraseros",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lahostia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "laingle",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lamadrequetepario",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lambebolsa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lambeculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lamebolsas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lamebota",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lamecharcos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lameculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lameplatos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lamerelculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "langsusunemamaw",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lanzallamas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "laputaquetepario",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "laputaqueterecontrapario",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "laschicassevolvieronlocas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lavateeseculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lazorraediondaapico",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "leche",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "lechuguino",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lela",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "lerdo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "lesado",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "letrin",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "linchamiento",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "linchar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "llamadadebotin",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "llamemelapolla",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "llanta",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "lloramigas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lolas",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "loscojones",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lospechos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lujuria",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lumbreras",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "maciza",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "macizorra",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "maconha",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "maconheiro",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "maestrob8",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "maestrobate",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "maestromurcielago",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "maganto",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mahmaw",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "majadero",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "malandro",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "malasangre",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "malasombra",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "malcogida",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "maldicion",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "maldita",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "maldito",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "maleton",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "malparida",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "malparido",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mamaculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mamada",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "mamaguaebo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mamaguaevo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mamaguevo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mamameelchile",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mamameelguevo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mamamelaverga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mamamelo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mamar",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "mamasihaya",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mamasihiga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mamaverga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mamayema",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mamey",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "mamon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "mamplora",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mamporrero",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "manchas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mando",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "mandraga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "manegueta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mangarran",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mangurrian",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mapache",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "maraco",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "maradickisackaro",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "marica",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "maricondeplaya",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mariconear",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "maricones",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "maricos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mariposa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mariposon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mariquita",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "martillo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "marujo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "masaparabebes",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mascadordealfombras",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mascaverga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "masoquista",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "masterbacion",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "masterbato",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "masticadordealfombras",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "masticartrasero",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mastuerzo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "masturbacion",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "masturbador",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "masturbando",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "masturbar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "matacandiles",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mayate",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "meapilas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mear",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "mecagoendios",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mecagoenlaputa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mecagoenti",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mecagoenturaza",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mecagoentusmuelas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mecagoentusmuertos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mecagointusmuertos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "meco",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "meencantatuculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "meenraba",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mejoda",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "melapelas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "melatraefloja",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mellevalachingada",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "melochupa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "melones",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "meloponesenlaboca",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "menaje",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "mendrugo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mentecato",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mentira",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mequetrefe",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "merluzo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "metaseeldedo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "meteduradepata",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "metemelo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "metemuertos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "meteteloenelculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "meteteloporelculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "metieneslacretahirviendo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "metijaco",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mevalemadre",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mevaleverga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mevalleverga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "miconiaodeass",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mojaneta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mojar",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "molesto",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "momada",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "montar",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "moras",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "mordazadebola",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mordida",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "moreno",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "morfarse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "morlaco",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "morroestufa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "morrongo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mota",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "muerdesartenes",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "muncheralfombra",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nabo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "naco",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nadietequiere",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nalgas",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nalgona",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ninaenlacima",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ninata",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ninato",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ninfa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ninfo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nojoda",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nomames",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "norro",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nucleoduro",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nudoso",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nuez",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ojalaquemueras",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ojete",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "oleoductodealaska",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ongaloensuboca",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "orgasmo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "orgias",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "orina",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "orto",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ovejo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pagafantas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "paja",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pajeado",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pajeando",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pajearse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pajero",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "palerma",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "palinga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "palo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "palurdo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pamplinas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "panarra",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "panochahedionda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "panoli",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "papafrita",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "papallona",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "papanatas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "papayona",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "papirote",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "paquete",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "parcera",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pardillo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "parguela",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pasmado",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pasmarote",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pasmasuegras",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pataliebre",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "patan",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "paunocu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pavitonto",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "payaso",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pazguato",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pecholata",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pechosgrandes",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pechugas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pedazo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pedejo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pedofilia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pedofilo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pedorro",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "peesonkumarpleas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "peinaovejas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pelagambas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pelagatos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pelatigres",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pelazarzas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pelele",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pelma",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pelotalamiendo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pelotudo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pelusa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pendaho",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pendeja",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pendejos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pene",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pequenopito",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "percanta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "percebe",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "perillas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "perma",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "perro",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "persiguiendo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pervertido",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "peterete",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "petero",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "petimetre",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pezon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "picante",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "picapleitos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "picazon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pichabrava",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "picoconlawea",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pija",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pijo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pillavispas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "piltrafa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pinchauvas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pinchazo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pincheiriotaculobastardochingatu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pinchependejo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pinchepuerco",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pinchepunetas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pinchepunietas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pincheputa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pincheputomamow",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pinga",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pinguero",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pintamonas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pintchedemadre",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "piojoso",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pipian",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pirobo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "piruja",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pisar",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pistola",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pitanoso",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pitofloro",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "platanazo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "playo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "plomo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pocasluces",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pollagigante",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pollas",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pollopera",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "polvazo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "polvo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ponchedeburro",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pongaloensuputa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ponloentuculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "popa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "porlamierda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pornografia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "poronga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "porra",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "poto",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pozo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pringao",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "prostituta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "puchika",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pudrete",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pudropatacon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "punetero",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "punheteiro",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "puntapincha",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "puntog",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pupila",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "puramierda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "putada",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "putadelacam",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "putamadre",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "putamerda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "putaquepariu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "putas",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "putica",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "puton",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "putos",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "putso",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "quebacano",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "quebrachon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "queculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "quehazdichomierda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "quejandose",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "quejas",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "quellamoalospreemos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "quelopario",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "quetecacheunburro",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "queteden",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "quetefollen",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "quetefolleunpez",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "quetefollounpez",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "quetejodan",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "quetejodas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "quierocomertelapanocha",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "quitahipos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rabano",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "rabo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "racista",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rajoy",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "rapatumai",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rastrapajo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ratainmunda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "reata",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "rebanasandias",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "remame",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "renacuajo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "repisas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "retardado",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "retardar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "retazo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "revientabaules",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rizado",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "robaperas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rola",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "roseta",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "rosquilladegelatina",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rubiasobrerubiaaccion",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ruca",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "rulacho",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sabandija",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sacamuelas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sacodepelota",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sacodeweas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sacwesalop",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sadico",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sadismo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sangriento",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sanguijuela",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sapatao",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sata",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "secorre",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "seenberguensa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "selacomedoblada",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "senorgay",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "senos",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "serote",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sexoduro",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sexoengrupo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sexogay",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sexooral",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "shit",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "siguecontuvaina",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "siguecontuviana",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sinentraero",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "singalaputa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "singao",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "singar",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sinmonefcopef",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sinsustancia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sinverguenza",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "skonka",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sobarsela",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sobo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sodoma",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sodomia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sodomizado",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sodomizar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sonajas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sonso",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sopenco",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sopladores",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "soplagaitas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "soplaguindas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "soplatucarga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sopletiamelalaverga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sorete",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sosco",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "suciosanchez",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sugemangile",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tagarote",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tajarse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tamamolapanocha",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tanate",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tarado",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tardogay",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tarugo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tearunomalvado",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "teeploto",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "temamoelculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "temamolavierga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "temato",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tengoganas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "teodio",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tepestaelburro",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tequierocomereltoto",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tereso",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "testiculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "teta",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tetillaslaser",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tetona",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tevoyaromper",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tiabuena",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tienesunpitochiquito",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "timonel",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tiobueno",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tiralevitas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tirandopedos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tirar",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tirateaunposo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tirateuntiro",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tiron",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tizon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tocamicucuy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tocamiverga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tocho",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tolai",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tolete",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tompeates",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tontaco",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tontas",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tonterias",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tontisimo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tontodelculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tontucio",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "topar",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tordo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tortillera",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "totona",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "trabajomanual",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "traga",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "transar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "traseropirata",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "traveco",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "trincar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "trolo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "trompada",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tucreesquenopuedo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tuerca",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tuercebotas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tueresuncucuy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tuhermanaesmasputaquelasgallinas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tumadre",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tunante",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "unamierda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "unpedo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "unpolvito",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "uretra",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "urinario",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "utero",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "vadia",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "vagabunda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vaiproinferno",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vaisefoder",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vaitefuder",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vaitomarnocu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "valespurarriata",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "valespuraverga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "valesverga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "valicayampa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "valiente",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vamosaemborracharestanoche",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vamostrepar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vapordecleveland",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vayalaveseelculo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vayasealdemonio",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vejiga",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "vendejo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "venirse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vergallito",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "verija",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "vete",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "viado",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "vibradebala",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "violacion",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "violada",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "violador",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "violar",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "visajoso",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "volarse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "voltearselarosca",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "voltearselatortilla",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "voutepagarumboquete",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "voyamatarte",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wacha",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "webear",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "welemelo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "xclasificado",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yegua",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "yoquierorapar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yoquierotupeto",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ytumamatambien",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zamacuco",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zambombo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zamugo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zangano",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zarrapastroso",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zarzamora",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zascandil",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zerote",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zoofilia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zoofilo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zopenco",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zopupla",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zoquete",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zote",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zullenco",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zunga",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zurcefrenillos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zurron",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zurullo",
+      "cat": "profanity",
+      "sev": 3
+    }
+  ],
+  "allow": []
+}

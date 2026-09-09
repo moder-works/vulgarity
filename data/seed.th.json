@@ -1,0 +1,4677 @@
+{
+  "schema": 1,
+  "profile": "fold-v1",
+  "lang": "th",
+  "name": "Thai",
+  "vetted": false,
+  "source": "https://github.com/master-wayne7/safe_text",
+  "license": "MIT",
+  "note": "Community-sourced list for Thai. Nobody vetted these terms one by one, and the source carries no category or severity, so every entry takes category 'profanity' and severity 3. A term of 6 characters or fewer requires a word boundary. Expect false positives. Load this pack only when you handle text in this language.",
+  "entries": [
+    {
+      "t": "ainaarquay",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ainasonteen",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "aisonteen",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ayeheeah",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "biksusu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bpailoi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chuckwow",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "douwtoodt",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "duengmoi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "echanglarkyed",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "edawg",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "eheah",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "eisut",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "enasonteen",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "eraan",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "erat",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "esaht",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "etud",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "farangkenok",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gaak",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ginkii",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "heia",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "hiimaemeung",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hiiminmakmak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "huaquay",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "humnoi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "iheah",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "imokquay",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "isaht",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kaiyarn",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "keesaihumgu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "keesaipbarkpom",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "korguleatoodnoi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kuay",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kunstentartete",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kwai",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "madowtoodgun",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "maemeungttai",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mayetgun",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "muncherพรม",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mungpenaid",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "naahee",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nahhee",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nanghee",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nortad",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pormeungttai",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pormueng",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pormungdai",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pormungtai",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "raiwa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "rayam",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sheesaipbarkpom",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "shia",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sueak",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sundan",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "suud",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tewhee",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tuudsuei",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yetbpet",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yetkae",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "yetmaa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "yetmae",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "กระจู",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "กระดอ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "กระตุก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "กระทวย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "กระรี่",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "กระสัน",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "กระหรี่",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "กระหายเลือด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "กระเจี้ยว",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "กระเจี๋ยว",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "กระเทย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "กลืน",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "กะดอ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "กะปิ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "กะสัน",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "กะหรี่",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "กะโปก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "กัดจู๋",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "กัดดอ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "กัดตูด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "กัดหี",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "กาจู๋",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "กาดอ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "การกวดขัน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "การพุ่งออกมา",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "การแข็งตัวของอวัยวะเพศ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "กาหรี่",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "กาเจี้ยว",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ขนจู๋",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ขนตูด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ขนปุย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ขนแตด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ขย่มจู๋",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ขย่มตูด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ขย่มพ่อ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ขย่มรู",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ขย่มหี",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ขย่มเมิง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ขย่มแตด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ขย่มแม่",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ขอรวมเพศหน่อย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ขายตัว",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ขายไอดี",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ข่มขืน",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "คtวtย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "คนเซ่อ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "คนโง่",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ครวย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "คววย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ควววย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "คววววย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ควววววย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "คววววววย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ควววววววย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "คววววววววย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ควววววววววย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "คววววววววววย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ควววววววววววย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ความกล้าหาญ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ความต้องการทางเพศ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ความวิปริตทางเพศ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ควาย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "คอมมิวนิสต์",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "คอวย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "คาจู๋",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "คาหี",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "คิมจ็องอึน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "คุวย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ฆ่าพ่อ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ฆ่าแม่",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จรรไร",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จักรี",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จังไร",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จัญไร",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จันไร",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จิ๋ม",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จีเอ็ม",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จุดสุดยอด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จุลจอมเกล้า",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จุฬาลงกรณ์",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จูบจู๋",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จูบตีน",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จูบตูด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จูบหี",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จูบแคม",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จูบแตด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จู๋กรุ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จู๋กรู",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จู๋กะเทย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จู๋กาก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จู๋กุ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จู๋กู",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จู๋จิ๋ว",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จู๋จ่อหี",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จู๋ช้าง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จู๋ตั้ง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จู๋ตุ๊ด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จู๋บวม",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จู๋ป้อมึง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จู๋ป้อเมิง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จู๋ป๊ะ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จู๋พอง",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จู๋พัง",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จู๋พ่อ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จู๋ฟราย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จู๋ฟาย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จู๋มด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จู๋ยั่ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จู๋ล่อ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จู๋สัด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จู๋สัต",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จู๋สัส",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จู๋สาด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จู๋หด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จู๋หนัก",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จู๋หมา",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จู๋หย่าย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จู๋หี",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จู๋ห่า",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จู๋เกย์",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จู๋เกรียน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จู๋เท่า",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จู๋เบา",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จู๋เยก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จู๋เล็ก",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จู๋เล้ก",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จู๋เหี่ยว",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จู๋เอี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "จู๋แดก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จู๋แม่",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จู๋แหก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "จู๋ใหญ่",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ชะลอ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ชั่วช้า",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ชาติชั่ว",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ชาติหมา",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ชิงหมาเกิด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ชิบหาย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ชิหาย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ช่วยตัวเอง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ซาดิสต์",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ซาดิสม์",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ดอกกุหลาบ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ดอกทอง",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ดอกป้อมึง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ดอกป้อเมิง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ดอกป๊ะ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ดอกพ่อ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ดอกสัด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ดอกสัต",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ดอกสาด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ดอกห่า",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ดอกเอี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ดอกแม่ม",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ดองทอง",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ดูดจู๋",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ดูดตีน",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ดูดตูด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ดูดปาก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ดูดลิ้น",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ดูดหี",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ดูดแคม",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ดูดแตด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ดูดไข่",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ตอแหล",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ตะโพก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ตีฉิ่ง",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ตุ๋ย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ตูดกรุ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ตูดกรู",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ตูดกะเทย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ตูดกุ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ตูดขี้",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ตูดชะนี",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ตูดตุ๊ด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ตูดบวม",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ตูดบาง",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ตูดบาน",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ตูดป้อ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ตูดป๊ะ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ตูดพัง",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ตูดพ่อ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ตูดล่อ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ตูดสัด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ตูดสัต",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ตูดสั่น",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ตูดสาด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ตูดหนา",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ตูดหี",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ตูดห่า",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ตูดเกย์",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ตูดเมิง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ตูดแดก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ตูดแม่",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ตูดแหก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ตูดแหวก",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ถุงอัณฑะ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ถ่อย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ถ้ํามอง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ทวารหนัก",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ทะลุ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ทักษิณชินวัตร",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ทัตตชีโว",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ทิ่ม",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ทุเรศ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ธรรมกาย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ธัมมชโย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ธัมมี่",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "นมทะลัก",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "นมใหญ่จัง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "นางไม้",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "นาซี",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "นายดอก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "นายดอแหลน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "นายนรก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "นายปากหมา",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "นายลูกหมา",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "นายสักหมา",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "นายสัด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "นายสัต",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "นายสันดาน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "นายสาด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "นายหน้าดอ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "นายหน้าด้าน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "นายหน้ามึน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "นายหน้าโง่",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "นายหอก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "นายหอยย่น",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "นายหัวถอก",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "นายห่า",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "นายอ่อน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "นายเด็กเวร",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "นายเลว",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "นายเวร",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "นายเสี่ยว",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "นายโง่",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "นิกเกอร์",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "นีโกร",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "นเรศวร",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "น่าม่อ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "น่าหม้อ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "น้ำกาม",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "น้ำอสุจิ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "น้ำแตก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "น้ําแตก",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "บริการทางเพศ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "บัดซบ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "บิดเบือน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "บ๊วบ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ประณาม",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ประยุทธ์จันทร์โอชา",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ปลายตรีน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ปลายตีน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ปัญญาอ่อน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ปัสสาวะ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ปุ่ม",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ผีจับหัว",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ผู้ทำโทษตนเอง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ผู้นําเกาหลีเหนือ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ผู้หญิง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ผ้าเหลือง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ฝ่าตรีน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ฝ่าตีน",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "พระจอมเกล้า",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "พระตุ๊ด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "พระนั่งเกล้า",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "พระบรม",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "พระพุทธเจ้า",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "พระราชา",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "พระราชินี",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "พระองค์",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "พระเกย์",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "พระเจ้า",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "พระเทพ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "พุทธยอดฟ้า",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "พุทธเทียม",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "พุทธแท้",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "พุทโธเลี่ยน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "พ่อdie",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "พ่อคิงหยั่ง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "พ่อคิงแม่คิง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "พ่อคุณเหรอ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "พ่อตาย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "พ่อมึงตาย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "พ่อสิ้น",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "พ่อหลวง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "พ่อเมิง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "พ่อแม่ไม่สั่งสอน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "พ่อแม่ไม่ได้สั่งสอน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "พ่อแย่จังตาย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "พ่อไม่สั่งสอน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ฟักยู",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ฟ้าชาย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ภูมิพล",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "มงกุฎเกล้า",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "มดลูก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "มรึง",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "มาโซคิสต์",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "มีเขา",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ยอดจู๋",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ยอดตรีน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ยอดตีน",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ยอดตูด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ยอดหี",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ยอดห่า",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ยอดแตด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ยักสุเน็ต",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ยัดแม่",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ระยำ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "รัชกาล",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "รัฐประหาร",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ราชบัลลังก์",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ราชวงศ์",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ริมฝีปาก",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "รุมโทรม",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "รูจู๋",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "รูตีน",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "รูตูด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "รูพ่อ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "รูวาน",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "รูวาร",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "รูหี",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "รูแตด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "รูแม่",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "รูแหก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ร่วมประเวณีระหว่างพี่น้อง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ร่วมเพศ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ร่อง",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ร่าน",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ลงแขก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ลักษณะสัตว์ป่า",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ลัทธิจานบิน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ลาวสัด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ลินช์",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ลึงค์",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ลุงตู่",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ลูกครึ่ง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ลูกชายของaสุนัขตัวเมีย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ลูกนอกสมรส",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ลูกอัณฑะ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ล่อจู๋",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ล่อตรีน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ล่อตีน",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ล่อตูด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ล่อสัดๆ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ล่อหี",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ล่อห่า",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ล่อแตด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ล่อแม่",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ล้มเจ้า",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ล้างตู้เย็น",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ว่าว",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ศรีรัตน์",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สถุน",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "สถุล",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "สนุกสนานกันอย่างเป็นบ้าเป็นหลัง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สปันกี้",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สรัด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "สราด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "สร้าง",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "สวรรคต",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "สวรรคาลัย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สะถุล",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "สะบัดออก",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สังฆราช",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สัดกาก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "สัดดอก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "สัดดออ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "สัดตีน",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "สัดตุ๊ด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สัดป้อมึง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สัดป้อเมิง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สัดป๊ะ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "สัดพ่อ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "สัดหมา",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "สัดหี",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "สัดห่า",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "สัดเชร้ด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สัดเช้ด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สัดเอี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สัดแดก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "สัดแม่",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "สัตกาก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "สัตดอก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "สัตดออ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "สัตตีน",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "สัตตุ๊ด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สัตป้อมึง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สัตป้อเมิง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สัตป๊ะ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "สัตพ่อ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "สัตว์ชนิดหนึ่ง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สัตหมา",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "สัตหี",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "สัตห่า",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "สัตเชร้ด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สัตเช้ด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สัตเอี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สัตแดก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "สัตแม่",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "สันดานหมา",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สันดานไพร่",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สาดด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "สาดหมา",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "สาดเอ้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สาดเอ๊ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สารเลว",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "สิทธิทัตถะ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สิริกิต",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สื่อลามก",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "สเปิร์ม",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ส้นตรีน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ส้นตีน",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หงี่",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หญิงขายบริการ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หนังกระโปก",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หนังหี",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หน้าจู๋",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หน้าตัวเมีย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หน้าปิ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หน้าม่อ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หน้าสัด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หน้าสัต",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หน้าสาด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หน้าหนัง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หน้าหมา",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หน้าหม้อ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หน้าหรี",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หน้าหี",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หน้าห่า",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หน้าอก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หน้าเม็ด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หน้าเหรี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หน้าแตด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หน้าแปลน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมวกแก๊ป",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมอย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หมาคาบไปแดก",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หมาไม่แดก",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หยาบช้า",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หยีเหม็น",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หลวงเจ้",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หลวงเจ๊",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หลั่ง",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หอกหัก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หอยหลอด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หัวดอ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หัวตีน",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หัวนม",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หัวพ่อง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หัวหน่าว",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หัวหี",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หัวห่า",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หัวแตด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หัวแม่ม",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หัวแม่เมิง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หีกรุ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีกรู",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีกะเทย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หีกุ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีกู",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีขึ้นรา",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หีชะนี",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีช้าง",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีตุ๊ด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีบวม",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีบาง",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีบาน",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีบ้าน",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีประถม",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หีปลวก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีป้อมึง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หีป้อเมิง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หีป๊ะ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีพอง",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีพัง",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีพ่อ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีมด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีมหาลัย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หีมึง",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีร้าง",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีลอก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีลุก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีล่อ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีสัด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีสัต",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีสั่น",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีสาด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีสุก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีหนา",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีหยั่ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หีหย่าย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หีห่า",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีอนุบาล",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หีเชร้ด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หีเช้ด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีเน่า",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีเยก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีเล็ก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีเล้ก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีเหม็น",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หีเหี่ยว",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หีเอี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "หีแดก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีแม่",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีแรด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีแหก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีแห้ง",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หีใหญ่",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หึเมิง",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "หื่น",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ห่าดอ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ห่าบ้าน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ห่าป้อ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ห่าพ่อ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ห่าราก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ห่าลาก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ห่าสัด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ห่าสัต",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ห่าสัส",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ห่าสาด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ห่าหอย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ห่าหี",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ห่าเกรียน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ห่าเหว",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ห่าเอี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ห่าเอ้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ห่าแม่",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ห่าแรด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ห้วดอ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "องคชาต",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "อดุลยเดช",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "อนาจาร",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "อมนกเขา",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "อยากมีsex",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "อยากอึบ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "อยากเสียว",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "อยากเอาหญิง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "อวัยวะเพศหญิง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "อัดถั่วดำ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "อัตตาธิปไตย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "อันดับx",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "อัลเลาะ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "อานันทมหิดล",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "อิดอก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "อิสัตว์",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "อีกะหรี",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "อีขายตูด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "อีชั่ว",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "อีชาดชั่ว",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "อีชาดหมา",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "อีชาติชั้ว",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "อีดอก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "อีตัว",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "อีตุ๊ด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "อีตูด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "อีบ้า",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "อีฟราย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "อีฟาย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "อีมะขวิด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "อีวอก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "อีสัด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "อีสัต",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "อีสาด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "อีสำส่อน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "อีหอก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "อีหอย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "อีหัวสำรอก",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "อีห่า",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "อีอับปรี",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "อีเดียด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "อีเบี้ยว",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "อีเป็งสุดา",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "อีเลว",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "อีเวน",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "อีเวร",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "อีแตรด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "อีแพศยา",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "อีแพสยา",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "อีแรด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "อีโง่",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "อีไพร่",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "อึ้บ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "อุทาน",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "อ่อนล้า",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "อ่อนสัด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "อ้ายฟาย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "อ้ายสัด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "อ้ายสาด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "อ้ายห่า",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "อ้ายเวร",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "อ้ายเหรี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ฮิตเลอร์",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เtย็tด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "เกมมาสเตอร์",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เขม่า",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "เขื่อนกั้นน้ำ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เครื่องราง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เงี่ยน",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "เงี้ยน",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "เจดแม่",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "เจสแม่",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "เจาะ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "เจี๊ยว",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "เจือก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "เจ็ทแม่",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เจ้าคณะ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เจ้าอาวาส",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เจ๊ก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "เชรี่ย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "เชรี้ย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "เชี่ย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "เชี้ย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "เช่าวัก",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เซ็ก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "เฒ่าหัวงู",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เด้า",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "เตี่ยม่องหรอ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เปรด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "เปรต",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "เป็นควยอะไร",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เผด็จการ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เพศสัมพันธ์",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เฟอเลชิโอ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เมือกกาม",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เม็ดละมุด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เยซู",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "เย็ด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "เย็ต",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "เย็ท",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "เย้ด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "เย๊ด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "เลวมาก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "เลวสัด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "เลีย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "เวรตะไล",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เสียน้ำ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เสียบจู๋",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เสียบหี",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เสียบเคย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เสียวจัง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เสียวว้อย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เสี่ยโอ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เสือก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "เหยด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "เหยียดหยาม",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เหย็ด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "เหลวไหลเกย์",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เหี้ย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "เห็ดสด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "เอากันปะ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เอาทีดิ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เฮี่ย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "เฮี้ย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "เเคมปลิ้น",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "เเม่ง",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แคมช่องคลอด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "แคมตูด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แคมหี",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แคมแตด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แดกกรุ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แดกกรู",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แดกกุ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แดกจู๋",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แดกชิบ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แดกตรีน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "แดกตีน",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แดกตูด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แดกป้อเมิง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "แดกพ่อ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แดกสัด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แดกสัต",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แดกสาด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แดกหัวตรีน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "แดกหี",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แดกห่า",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แดกเมิง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "แดกแคม",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แดกแตด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แดกแม่",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แดกโคด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แตกนอก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แตกใน",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แทงจู๋",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แทงตูด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แทงหี",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แทงเคย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แท้ง",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แฟกกิง",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แมงดา",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แมร่ง",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แม่ง",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แม่ตาย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แม่มึงตาย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "แม่ย้อย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "แย่เม็ด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "แสรด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แหกจู๋",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แหกตีน",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แหกตูด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แหกรู",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แหกหี",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แหกแคม",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แหกแตด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แหวกจู๋",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "แหวกตีน",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "แหวกตูด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "แหวกหี",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "แหวกแคม",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "แหวกแตด",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "โกรธ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "โคดคุรวย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "โคดดอก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "โคดตีน",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "โคดป้อมึง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "โคดป้อเมิง",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "โคดพ่อ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "โคดสัด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "โคดสัต",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "โคดสาด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "โคดเอี้ย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "โคดแม่",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "โคตร",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "โครตพ่อ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "โครตแม่",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "โจรใต้",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "โซดอม",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "โซโดมี่",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "โมกจู๋",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "โมกดอ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "โมกตูด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "โมกหี",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "โมกแตด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "โมกให้",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "โมคจู๋",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "โมคดอ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "โมคตูด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "โมคหี",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "โมคแตด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "โมคให้",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "โม้ก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "โม้ค",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "โม๊ก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "โม๊ค",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "โยกจู๋",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "โยกดอ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "โยกหี",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "โยกแตด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "โรฮิงญา",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "โสเภณี",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "โหดร้าย",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ใคร่",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ในหลวง",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ใอ้สัด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ใอ้สัต",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ไก่ดูด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ไปดูดนมแม่ไป",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ไปตายซะ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ไปตายสะ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ไปตายห่า",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ไปหามารดาคุณ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ไส้ตรง",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ไอชาดชั่ว",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ไอชาดหมา",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ไอซิส",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ไอฟราย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ไอฟาย",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ไอสัด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ไอสัต",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ไอสาด",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ไอหอก",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ไอห่า",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ไอเวน",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ไอเวร",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ไอ้หัวถอก",
+      "cat": "profanity",
+      "sev": 3
+    }
+  ],
+  "allow": []
+}

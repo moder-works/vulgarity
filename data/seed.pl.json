@@ -1,0 +1,2232 @@
+{
+  "schema": 1,
+  "profile": "fold-v1",
+  "lang": "pl",
+  "name": "Polish",
+  "vetted": false,
+  "source": "https://github.com/master-wayne7/safe_text",
+  "license": "MIT",
+  "note": "Community-sourced list for Polish. Nobody vetted these terms one by one, and the source carries no category or severity, so every entry takes category 'profanity' and severity 3. A term of 6 characters or fewer requires a word boundary. Expect false positives. Load this pack only when you handle text in this language.",
+  "entries": [
+    {
+      "t": "aborcja",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "aborcjonariusze",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "aborcjonista",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "akrotomofilia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "alfons",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ambiseksualizm",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ambiseksualny",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "amboseksualny",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "analny",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bestialski",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bestialstwa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bestialstwo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "burdel",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bzdury",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cewkamoczowa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chichoczac",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chika",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chlapa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cholerny",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chujcinaryj",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chujni",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chwalidup",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ciota",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cipa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cipce",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cipe",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cipie",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cipka",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cipke",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cipki",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cipko",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cipom",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cipsk",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cipy",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "coorvah",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cwel",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cycek",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cycki",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "czarnuch",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "debil",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dmuchac",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dojeb",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dopieprza",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dopierdala",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dopierdol",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dosra",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dran",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dupa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dupc",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dupeczce",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dupeczek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dupeczka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dupeczke",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dupeczki",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dupeczko",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dupek",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dupencja",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dupencje",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dupencji",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dupencjo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dupencyj",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "duperele",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dupie",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dupki",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dupo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dupsk",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dupy",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dziwka",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dziwki",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dzwonek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "egoizm",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ejakulacja",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "erekcja",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fallus",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "fetysz",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "fiut",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "gafa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "galka",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "galki",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "goovnoh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gowniany",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gowno",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "gswno",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "gwalciciel",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gwalt",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "hebefile",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hebefilia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hebefilny",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "huja",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "hujciwdupe",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "huje",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "hujnia",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "hujom",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "hujow",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "huju",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "idiota",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "idzpierdolmatketwojegokumpla",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jadra",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jadro",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jajco",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jajeczko",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jajko",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jajo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "japierdole",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jaskolka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebac",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jebak",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jebal",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jeban",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jebcie",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jebia",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jebie",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jebliwa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebliwe",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebliwi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebliwy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jebmy",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jebna",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jebne",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jebnie",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jebnij",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jebut",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jebze",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kazirodczy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kazirodztwo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kicius",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kidawa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kogut",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kolnierz",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "koorwa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kozojeb",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "krupon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "krwawy",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ksiezna",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kudly",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kulki",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kurde",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kurestwo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kurew",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kurki",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kurw",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kutafon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kutas",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "lafirynda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lajno",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "latawica",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lechtaczka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lincz",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "lizacpale",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "macica",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "masochista",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "masturbacja",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "masturbowac",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "matkojebca",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "matkojebcy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mineta",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "moczowy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "moszna",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "muncherdodywanow",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nachuj",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "najdupniejsi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "najdupniejsza",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "najdupniejsze",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "najdupniejszy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "najeb",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "naodpieprz",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "naodpierdol",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "naopieprza",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "naopierdala",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "napieprz",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "napierdala",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "napierdol",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nasra",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nazistowski",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieobsrywajaca",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieobsrywajace",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieobsrywajacy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieobsrywan",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieocipiala",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieocipiale",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieocipiali",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieocipialy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieodpieprzajaca",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieodpieprzajace",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieodpieprzajacy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieodpieprzan",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieodpieprzen",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieodpieprzona",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieodpierdalajaca",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieodpierdalajace",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieodpierdalajacy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieodpierdalan",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieodpierdolen",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieodpierdolona",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieodpierdolone",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieopieprzajaca",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieopieprzajace",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieopieprzajacy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieopieprzan",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieopieprzen",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieopieprzona",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieopierdalajaca",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieopierdalajace",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieopierdalajacy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieopierdalan",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieopierdolen",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieopierdolona",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nieopierdolone",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niepieprzaca",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niepieprzace",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niepieprzacy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niepieprzen",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niepieprzniec",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niepieprznieta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niepieprzniete",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niepieprzniety",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niepieprzona",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niepierdolen",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niepierdolniec",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niepierdolnieta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niepierdolniete",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niepierdolona",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niepierdolone",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niepierdzaca",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niepierdzace",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niepierdzacy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niepierdzen",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niepizdniec",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niepizdnieta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niepizdniete",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niepizdniety",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niepodpieprzajaca",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niepodpieprzajace",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niepodpieprzajacy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nimfa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nimfomania",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "obciagacloda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "obciaganie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "obrecz",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "odbyt",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "odwaga",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "odwalsie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "odwazny",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "okraglatorba",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "opozniac",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "opoznienie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "orgazm",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "orgie",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "osly",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "palant",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "panseksualny",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "papieros",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "paruwa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pedofil",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "perwersji",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pieklo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pieprzone",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pieprzony",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pieprzy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pierdola",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pierdolec",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pierdolic",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pierdolnac",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pierdolniety",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pierdolony",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pierdolsie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pierdziec",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "piersi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pipka",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pisarz",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "plemnik",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pochowajsiewpokrzywach",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pochwa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "podgladacz",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "podpieprzal",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "podpieprzam",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "podpieprzan",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "podpieprzasz",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "podpieprzcie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "podpieprze",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "podpieprzmy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "podpieprzona",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "podpieprzono",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "podpieprzze",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "podpierdala",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "podpierdol",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pojeb",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "poopieprza",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "popierdala",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "popierdol",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pornofilm",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pornografia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "poronienie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "posra",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pozadanie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "prostytutka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "przejeb",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "przeklety",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "przenikliwosc",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "przeniknac",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "przepieprz",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "przepierdala",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "przepierdol",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "przydup",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "przyjeb",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "przypieprz",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "przypierdala",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "przypierdol",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "przysra",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "robicloda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rozeta",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "rozpieprz",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rozpierdala",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rozpierdol",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rozpierduch",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rozpierdusze",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rucha",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "rufa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "rzepak",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "rzygac",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sadysta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sadyzm",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "scotcha",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "scotche",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "scotchom",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "scotchowi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "scotchu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "seksualniepodniecony",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sierota",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "siki",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "skocz",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "smar",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "smierdziel",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sodoma",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sodomia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sodomizowany",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "spieprz",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "spierdala",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "spierdol",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "srac",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sraj",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "srak",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sral",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sram",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sran",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "srasz",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ssac",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ssijsuko",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "suka",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "suki",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sutek",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "swinia",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "swinstwa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "szambonurek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "szambonurki",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "szarpac",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "szarpniecie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "szmata",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "szop",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "szpara",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "trzesidup",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "twojamatkamawielkiewarysromowe",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "twojastara",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tylek",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "udup",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ujeb",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "uklucia",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "uklucie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "upieprz",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "upierdala",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "upierdol",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "uprawiacmasturbacje",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "urywek",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "usra",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "wargisromowe",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wiagra",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "wibratory",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wjeb",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "wkrecanie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wkurza",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "worekmosznowy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wpieprz",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wpierdala",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wpierdol",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wpizdu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "wsciekly",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wybudowac",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wyjeb",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "wykrzykiwac",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wypieprz",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wypierdal",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wypierdol",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wysra",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "wytrysk",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "xocenione",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zadupi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zadza",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zajeb",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zakatek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zalany",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zapieprz",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zapierdala",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zapierdol",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zapiernicza",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zasra",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zasrywa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zboczeniec",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zdzira",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zesra",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zesrywa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zgwalcony",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zjeb",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zoofil",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    }
+  ],
+  "allow": []
+}

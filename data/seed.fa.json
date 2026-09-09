@@ -1,0 +1,2149 @@
+{
+  "schema": 1,
+  "profile": "fold-v1",
+  "lang": "fa",
+  "name": "Persian",
+  "vetted": false,
+  "source": "https://github.com/master-wayne7/safe_text",
+  "license": "MIT",
+  "note": "Community-sourced list for Persian. Nobody vetted these terms one by one, and the source carries no category or severity, so every entry takes category 'profanity' and severity 3. A term of 6 characters or fewer requires a word boundary. Expect false positives. Load this pack only when you handle text in this language.",
+  "entries": [
+    {
+      "t": "abecoseghourie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ahaiduffyie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "annrusaret",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "arabekassif",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ashghal",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "atabaki",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bachabus",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "berizroosooratam",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "beroohepedaretmiridam",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bezardahanam",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bishour",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bokon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chehgoheikhordie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chiegoftie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chirackhar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cosehlash",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "davarveiseh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dayyoos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dewanesag",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "divooneh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gaeedamet",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ghoromsaagh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gohbokhor",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "haroumzaade",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "iranikosforosh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jakesh",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jende",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "keer",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "khaarkosde",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "khaktoosaret",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kharetgayidam",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kharetogaeedam",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "khayeh",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "khodetobokun",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "khoyamal",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "khwaromadaritagaiam",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kiramdahanet",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kirammizoramtuyehkunetsaget",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kiramtodahanet",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kiramtoodamaghet",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kiramtosibilet",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kiramtukunet",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kiretomikhoram",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kirtocoseawalokharet",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kirtudahan",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "koni",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "konkesh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "koonkesh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "korrekhar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kosamobelis",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kosenanat",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kosetbekaret",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "koskalak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "koskesh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "koskhool",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kostosaret",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kunammahdoore",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kunebabatogaidam",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kunkesh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "madarbekhta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "madaretogayidam",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "madarsag",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "maderzagh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mameetkerakooreenersjajktam",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "manchaghookairdamkiret",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "manzanam",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nanatotatahgaidam",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "neghal",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "olagh",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pedarsag",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "qazvini",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ravani",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "reedambeheykalet",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ridamtosaret",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "seyyed",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "shaholahi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "shompot",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "soolakhkoon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tokhm",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "torkechar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "valadezenaa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "xامتیاز",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "آبکیر",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "آشغال",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ابله",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "احمق",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ارگاسم",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "اسبی",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "استایل",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "استمناء",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "اسموتی",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "اسمگما",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "اسنی",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "اسپرم",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "اسکانک",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "اسکروتوم",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "اسکل",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "اسگل",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "اسگول",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "الاغ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "الاق",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "انزال",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "انگل",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "اوسکل",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "اوسگل",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "اوصکل",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "اوصگل",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "باسن",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "باشگاه",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "باله",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "بخورش",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "بدبخت",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "برهنه",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "بستهبندیفوج",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "بمال",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "بوتا",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "بولاک",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "بپرروش",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "بپرسرش",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "بکارت",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "بکنبکن",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "بکنتوش",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "بکنش",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "بکنمت",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "بیآبرو",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "بیشرف",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "بیشعور",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "بیضه",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "بیعفت",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "بیپدر",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "تجاوز",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "تخمسگ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "تخمم",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "تخمی",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ترسناک",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "تقدیر",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "تناسلی",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "توراد",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "توله",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "توپها",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "جادوگر",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "جانوری",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "جاکش",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "جلقزدن",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "جنده",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "جنسی",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "جهنم",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "جوانان",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "جوون",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "جیندا",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "حرامزاده",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "حروم",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "حشری",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "حیوانات",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "حیوانی",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "خارکس",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "خانم",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "خایمال",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "خایه",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "خرفت",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "خروس",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "خفهخون",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "خفهشو",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "خندهدار",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "خوار",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "خونآشام",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "دادن",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "داری",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "دافناز",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "دایک",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "دختره",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "درازگوش",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "دلقک",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "دمارازروزگارماندرآورد",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "دمدمیمزاجی",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "دهنت",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "دوجنسه",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "دودول",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "دوستدختر",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "دوستپسر",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "دینک",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "دیوث",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "دیوس",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "دیوص",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "رشتی",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "روحت",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "رکتوم",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ریدن",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ریدی",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ریمینگ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "زارت",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "زرنزن",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "زنازاده",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "زنتو",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "زنشو",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "سادیست",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "سادیسمی",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ساکبزن",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ساکزدن",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "سرخور",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "سرویس",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "سرکیر",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "سسکی",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "سقطجنین",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "سوخته",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "سوراخ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "سولاخ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "سوپر",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "سکسچت",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "سکسی",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "سگدهن",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "سگصفت",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "سگها",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "سگپدر",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "سینهها",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "سیهدیر",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "سیکتیر",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "سیکیم",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "شاخدار",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "شلخته",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "شنگول",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "شهوانی",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "شهوت",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "شورتمماسکت",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "شونبول",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "صلواتی",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "صیغه",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ضربوشتم",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "عرقخور",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "عقبمانده",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "عمتو",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "عمهننه",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "عنتر",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "عوضی",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "غرمساق",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "غرمصاق",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "غیرت",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "فاحشه",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "فارس",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "فاصله",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "فانی",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "فلنج",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "فیلم",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "قرتی",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "قرمساق",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "قرمصاق",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "قورباغه",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "قورومساق",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "قیمتها",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "كصننه",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "كصپدر",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "لاشی",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "لامصب",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "لاپا",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "لببهلب",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "لختی",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "لعنت",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "لیسیدن",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "مادر",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "مازوکیست",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "مالوندن",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "مرتیکه",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "مردیکه",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "مروارید",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "مشاعره",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "مشروب",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "مقعد",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ملنگ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ممهخور",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "منگل",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "مهاجم",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "موکنفرش",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "میخوریش",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "نازی",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ناموس",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "نجار",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "نرکده",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "نعشه",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "نکبت",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "نگایدم",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "نگاییدم",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "نیکه",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "هرزه",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "وانگ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "واژن",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ولدزنا",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ویاگرا",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "پدرتو",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "پدرسگ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "پرده",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "پرونده",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "پریود",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "پستان",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "پسون",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "پشمام",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "پفیو",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "پلشت",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "پنیر",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "پورن",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "پوسیدن",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "پوسیر",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "پوفیو",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "پیزوف",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "پیچش",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "پیکر",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "چاغال",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "چاقال",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "چرتزدن",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "چرندیات",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "چسخور",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "چنبره",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "چنده",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "چوچول",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کاسده",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کاسکش",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کثافت",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کثافط",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کثلیس",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کردن",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کسخل",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کسخور",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کسخیس",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کسشعر",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کسلیس",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کسننت",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کسوکیر",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کسکش",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کسکیر",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کصافت",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کصافط",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کصخل",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کصده",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کصلیس",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کصکش",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کلفت",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کلوچه",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کمانتوپ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "کوثلیس",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کوسخل",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کوسخور",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کوسلیس",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کوصلیس",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کونده",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کونشو",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کونن",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کونکش",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کونی",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کوون",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کیردرا",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کیردوس",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کیرر",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کیرم",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کیرنا",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کیروکس",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "کیری",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "گاوی",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "گاگول",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "گایدن",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "گایدی",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "گاییدن",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "گاییده",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "گربه",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "گردن",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "گریه",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "گشاد",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "گنده",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "گورومساخ",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "گوزباقالي",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "گوزو",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "گوسفند",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "گوشت",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "گوشدراز",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "گولزدن",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    }
+  ],
+  "allow": []
+}

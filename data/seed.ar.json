@@ -1,0 +1,4972 @@
+{
+  "schema": 1,
+  "profile": "fold-v1",
+  "lang": "ar",
+  "name": "Arabic",
+  "vetted": false,
+  "source": "https://github.com/master-wayne7/safe_text",
+  "license": "MIT",
+  "note": "Community-sourced list for Arabic. Nobody vetted these terms one by one, and the source carries no category or severity, so every entry takes category 'profanity' and severity 3. A term of 6 characters or fewer requires a word boundary. Expect false positives. Load this pack only when you handle text in this language.",
+  "entries": [
+    {
+      "t": "2adeeb",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "9atba",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "aadaleh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "aairyebgathek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "aakrout",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "aars",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "abnalkahba",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "abnalkalaaab",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "abnballataleora",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "abnelghbeh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "abousksalmemee",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "abuayoura",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "abuleyora",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "adabsez",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "adlmehaleh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "adoosik",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "adrebpipa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "aerefeek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "aers",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ahbal",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ahkesi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "airabwjhak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "airbemmakelmfandaa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "airi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "airybteezk",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "airyfic",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "airyfirasak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "airyqalbak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "akhualmanukeh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "akhuelsharmuta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "akhushlukeh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "akroot",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "alaabi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "alaazibay",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "alhskhuswani",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "allahdialkkayrdeezebbi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "allahinaaldinemok",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "allahiyekhribbeitak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "allahmamhuun",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "althady",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "anagrik",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "anahowarabdialk",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "anechakhtk",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "anechamk",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "anechek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "anikardak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "annhwik",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "antajameel",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "arsa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "asaitie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "asba",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "aseletabok",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "assamalaykom",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "atsheermukhik",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "attai",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "attay",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "awladilkara",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ayaar",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ayereefeewijimaak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ayre",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ayribellitaraak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ba8l",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "baaboos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "baaroor",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "badeen",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "badenaykaklfejle",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "baghl",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bahshirejleefeeteezimak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bakraa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bakri",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "balaaaaleyre",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "balaabalaimak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "balaailaair",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "balahelerr",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "balboul",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ballaaelair",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ballaelair",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bandook",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "banikimmak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "banjote",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "baranaik",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "baranek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "barboog",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "barbook",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "barbooqa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "barranayiek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bashokhalaaimak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bashokhaleek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bassas",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "batrona",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "batroun",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "baydatifik",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bayra",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bazr",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bdeamrojfeeenak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bedadtiyeltmowshik",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bedan",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bedat",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bedifawiteyribitizik",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bedimasmesbazbozek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bedinecktizzak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bedinikak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bedinikbzezemak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bedinikkesik",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bediniktizemaklmamhoneh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "beefstrokie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "beitsharamit",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "berkaka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bertouche",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "besht",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "beskeletta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "betetrakab",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "beyetnak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "beyetrakab",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bezaz",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bidizibbidiaerr",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "binalmukhanifa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "binnthimaar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bizaz",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "blaaelaeer",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bmasesk",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bniikbokshtizzak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "boofta",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bouaswad",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "boustize",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "btetnak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bzazlha",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chalb",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "charmouta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cheb",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chlb",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chublaanichick",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "coosoktallaglesh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cosomak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cosostak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "daara",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "daeara",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "daeera",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dagoombe",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dahrialik",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "daish",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dakcdook",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dakhlahkillah",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dayerkizebbi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dayoos",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dayooth",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dayoth",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dayouth",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "deenabook",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "deenomak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "deiouse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dewangee",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dhasho",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dilla",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dindialkomdialzwaml",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "doomboogilerr",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "doonie",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "doulfodjfoh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "duroot",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dyoos",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "e8tesab",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "eabeet",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "eacha",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "eagala",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "eahera",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "earbagy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ears",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "eass",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "eayba",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ebnalblaaeaa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ebnalgahbe",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ebnelmara",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "eeer",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "eel2",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "eerfeomok",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "eghtesab",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ekilzeg",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "elhaskussi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "elsheitanalaykom",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "emakdlale",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "emshinikommek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "engataleknountek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "eribeketabak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "eribrasak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ethwel",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "eyrebwejjakchoumeref",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "eyrefik",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ezgetek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fakahtk",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fakahtoki",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "faqhaa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "farasa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "farg",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "fars",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "faseel",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "fashkh",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "fashs",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "firshaeh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "frkh",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "fuckmebaby",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gahaba",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "gahba",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "gahbeh",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "gahhba",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "gamoosa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gamosa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "garagealaeir",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "garager",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gawad",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "gawwad",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "gemae",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "gewad",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ghaben",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ghabi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ghatiilfaceoodoosilrace",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ghouzo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "hadbahak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hafyaan",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hajia",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "hakeer",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "haker",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "hamama",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "haqeer",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "hatchounyemak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hawi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "haygan",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "haywan",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "hbeela",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "hbiba",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "hbila",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "heyberboog",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "himar",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "hittoufiteesak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hmar",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "hoimouk",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "homar",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "horia",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "humar",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "hway",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "hwiha",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "hwimuk",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "hwini",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "hynityou",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ibinalsayernaal",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ibinaltarka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ibinalyamani",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ibinhimaar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ibinshlukeh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ibnalaahra",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ibnaleahra",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ibnalghahba",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ibnelahba",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ibnelcaleb",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ibnelsharmouta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ibnelsharmuta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ibnharam",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ibniltinayich",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ibnlkondara",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ibynballaitelere",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ilaanabutaarisohtak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ilaansharafak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ilhasteeze",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "iloveyousoomuchbitch",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "imlowatt",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jaeb",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jamal",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jarrar",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jeefah",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kaboul",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kahbadiomo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kahwad",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kaifahaluka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kakhba",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kalb",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kalet",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kaneeth",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kankerzemmer",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kanmsehlkhrabil9or2anlkarih",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "karakhaneh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "karrak",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "katba",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kawad",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kawed",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kawwad",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kawwazi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kbirtlkhab",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kelbaswag",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kelkhrakomak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kerfa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kesekhtak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kesemmak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kesenneckeighty",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kesomok",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kessemak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kessemmak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kessihktak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kessoumok",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "khajaf",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "khalilairewakloo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "khaneeth",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "khanez",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "khanith",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "khanneeth",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "khanza",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "khanzeer",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "khanzer",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "khara",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "khareg",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "khawal",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "khchisebaakftremtek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "khood",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "khorong",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "khoshfiteezi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "khrnteh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kisardhich",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kisemelinafadak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kisemick",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kisikdarda",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kiskhaltak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kisnaychik",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kissekhtak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kisswayhek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kodrasaerri",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kolaverididi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "koleyre",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kollzakk",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kolzabri",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "koombee",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "koos",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kosabo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kosahlakmanayek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kosamk",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kosmayara",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kosokhtak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kosomak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kosommak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kosostak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kossittak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kossomak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kowwad",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kulsoum",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kusallah",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kuselkurd",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kusemakh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kusohtak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kusokhtish",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kusomak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kusomok",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kussikemaffin",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kussomakqimae",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kusummak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "labawy",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "labwa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "lae9",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "larovize",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lats",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "lhassbaydeteh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lhwadwa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "llahdialkkaymossliyazabbi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "llahdialkngalssoalazabbi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "looti",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "louat",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "louteh",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "lubia",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "maabol",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "maalishlulu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "maaras",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "madhara",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "maerasa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mahbool",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "majdoube",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "makwa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "malhat",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "mallaraseyryalehealek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mamsookh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mamsoos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mamsoukh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "manek",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "manifehemzebmanfizaaket",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "manukey",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "manyak",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "manyok",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "manyook",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "marioah",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "martaltkawid",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "masaho",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "masasa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "massota",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "masszebbi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "masteje",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "matny",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "maybon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "mayboon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mazloula",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mchithawa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mearras",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mehaijeh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "menaswen",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mennuke",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "metnaak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "metnak",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "metrama",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mfal2as",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mfannes",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "miboun",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "miloudweldhabiba",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mishtaheek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mkauda",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "mngala",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "moeak",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "mokkahba",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mosanath",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "moshozywaentasakt",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mossayri",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mosseri",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mosseyri",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mossieri",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mosslikrarzi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mosssereee",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mosszabri",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mostankaaalchaba",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "moszbi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "moszibby",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "motakhalef",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "motasalef",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "motasawel",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mothaa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "mozza",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "mqawdaelik",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mrtooaomltoo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mssota",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "musairy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "musszebby",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mzroob",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "naahachounyemak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "naandirabek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "naanzokomek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "naghal",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nahwik",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nahwiliktitizadialk",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "naiek",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nakech",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "namm",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "naqal",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "naqsh",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "narcoossee",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nayaakghbar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "naychraask",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nayekekhtak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nayekemmak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nayekhareemek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nayikzeb",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nayketbat",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nboullikfiwajhek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "neek",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "neik",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "neka",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "neknianasharyaana",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nelaaboka",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nethell",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nfokho",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nghtasbek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nhabtikchicha",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nikitimmak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nikjedak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nikkabuk",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niklekbzezlek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niklikomik",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nikmok",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "njibofik",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nkhshihfikbladfal",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nocknullah",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nouna",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nourialmaliki",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ntak",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ntokbek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nwaan",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nwassaahalik",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nyakalnanatabeak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ojaguchinnj",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "okhtaltkawid",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "okhtelteneyyich",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "omakmesasa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ommakfasya",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ommekmalhetkbir",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "qahabah",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "qahba",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "qahbi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "qalabwighek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "qaraqir",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "qawad",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "qird",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "qlawi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "qodok",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "qooq",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "qusamak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "qybah",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "raasilzub",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rabdialkkantwihminzkko",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "raeyisbayan",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rasalair",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rasselzebb",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rassoldialkakbarzaml",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rbaybrabbakzwiml",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "roohetnak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rouhnikomek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rouhwasittinerdmaak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "routwanektalek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rozsomack",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "salgot",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sambool",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sanith",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sanza",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sanzeer",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sanzer",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sawal",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sayebzebi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "scaget",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "shaaratmook",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "shadome",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "shahwa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "shaklilnahaan",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "shaksh",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "shalaga",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "shaloteya",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "shanbora",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sharag",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sharameet",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sharmoot",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sharmot",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "shayet",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "shayta",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "shaz",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "shbidirrabek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sheikha",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "shimbaydati",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "shlekke",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "shlokeh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "shlokkeh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "shloomfuss",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "shofhalkisas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "shoowathi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "shrbemneh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "shuftebinta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "shuftecos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "siddbih",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sirlanhwilikrabbak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "siroulaghanhouik",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sirtaawad",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sirthawa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sirthwikahbatmok",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sirtkaoud",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sobisa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "soneeth",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "soneth",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "soowa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sopessa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sorm",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sotak",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sowa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "spontchi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ssossi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "surm",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "surum",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "taaerdaa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "taameaoo",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "taamos",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tabaarekyadaak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tabbonmok",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tabon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "taboon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tabounemok",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tahhan",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "takeer",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "talama",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tamka",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "taqeer",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tarma",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tattan",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "taywan",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "teezak",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "teezha",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "teezhom",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "teezo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "teiz",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "telabberesli",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "telhasbekhshi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "telhasbekhshzobe",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "telhasbokhshi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "telhasmatinaa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "telhasstizi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "telhasteezi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "telhastisee",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "telhaszebbi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tetzaber",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tezak",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tilhahsteezi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tilhastizi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tintrabbok",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tizak",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tkaffat",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tobonimak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tomar",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "umeleyura",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "uskut",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "waaabooy",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "waafaqri",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "waalazeu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "waera",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "walddhroot",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "waldildhuroot",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "waldilhawyaa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "waldili6",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "waldilklaab",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "waldilzinaa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wera",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "wiladelshawarig",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wouldalkahba",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "wskh",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "wydad",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "yaaandeenzakomek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yaabnalshrmota",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yaabosomar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yaair",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "yaaraabi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yabaara",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yabatroneh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yabgal",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "yabintelharam",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yabintelkhinzir",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yabokhesh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yaebnjiranak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yaebnlbalaa",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yaebnlmesealeh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yagizma",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yahayawan",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yaibneljahsh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yaibnelsarma",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yaibnildaareh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yakahba",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yakhrabbaytak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yakus",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "yaleanmaytink",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yallamaalsaham",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yamnashef",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yanoori",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yawaldenkabah",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yawati",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "yazebbala",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yddekfizob",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yefdahardak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yekhribbetak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yelaannaikemak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yelanabookars",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yelanabotaareesak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yelanabotaareesimmak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yelanelkeeshalikhalakak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yelanfatsak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yelantaarisardak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yenaankushaommak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yetzaber",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ylaanharamak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yourassisred",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zaaka",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zabbour",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zabouromek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zabzoub",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zacomak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zaghnaboot",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zakomak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zamel",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zamlbok",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zammel",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zanboor",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zebak",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zebala",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zebifek",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zeby",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zega",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zegg",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zibbe",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zibi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zippak",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zizi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zmal",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zobbibeommok",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zobikbeer",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zobkbeer",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zobr",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zouk",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zrbaabteezk",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zubih",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zubra",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zwamel",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zwimel",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "أحطرجل",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "أطرش",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "أعمى",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "أهبل",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ابعتل",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ابنالاحبة",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ابنالبلاعة",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ابنالفشخة",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ابنالمرا",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ابنالمرة",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ابنالنيك",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ابنالوسخة",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ابنحمار",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ابور",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ابوشخة",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ابوشخه",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ابوفص",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ابوقرعة",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "احترمنفسك",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "احتلام",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "احليكث",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "احمق",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "احيه",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "اختك",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "اخذك",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "اخرس",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "اخوالقحبه",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "اذهبالىالجح",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "اصبععلىصرمك",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "اصمت",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "اطرش",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "اطفح",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "اعمى",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "اغتصاب",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "افسخك",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "اقرع",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "اقلبوجهك",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "الأحمق",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "الحسط",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "الحسمكوت",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "الحمار",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "الخرائ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "الزب",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "الساقط",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "العايب",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "العربان",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "العرص",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "العمى",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "القرف",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "الكحبه",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "الكس",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "الكلبة",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "اللعنة",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "الله",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "امروجفىع",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "انتاكلبى",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "انتشاذ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "انتغبي",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "انذال",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "انذل",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "انعلابو",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "انقلع",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "انكح",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "انيك",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "اهبل",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "اونطي",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ايري",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "بابوك",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "باترون",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "بارانا",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "بالسمالهار",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "بامك",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ببخشط",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "بحشىرجلىفىط",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "بزاز",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "بزرك",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "بستك",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "بسمالهار",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "بشخعل",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "بعبص",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "بعبوص",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "بغاي",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "بلطج",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "بنتالفشخة",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "بنتالمنتاكة",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "بنتالوسخة",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "بنتحمار",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "بنتكلب",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "بندوق",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "بنكلب",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "بهيمة",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "بوسط",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "بيضان",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ةالزفتدة",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "تافه",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "تتناك",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "تجليخ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ترهيط",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "تزغيب",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "تناكفىط",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "تنتاك",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "جماع",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "حرامي",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "حقير",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "حلبتها",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "حلبتو",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "حلمات",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "حلمة",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "حمير",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "حيوان",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "خراء",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "خراي",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "خسيس",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "خنثي",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "خنيث",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "خوازيق",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "داشر",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "داعر",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "دعارة",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ديوث",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ديود",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "زالامك",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "زامك",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "زبار",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "زبالة",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "زباله",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "زراط",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "زكوبركضف",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "زناة",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "زناطير",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ساذج",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "سافل",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "سحاق",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "سربوط",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "سرموتا",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "سفالة",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "سكسي",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "سيكس",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "شرمها",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "شرموط",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "شلقة",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "شلكة",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "شهوة",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "صايع",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "صياعة",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ضاتى",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ضربعشرة",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "طانعل",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "طزفي",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "عاهر",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "عايبة",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "عبيط",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "عديمالشرف",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "عيالالحرام",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "غتصب",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "فاجر",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "فاسق",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "فجور",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "فوتا",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "فىوجهامك",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "قحاب",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "قحبة",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "قضيب",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "قلبك",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "كالعاف",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "كامك",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "كحبة",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "كذاب",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "كسامك",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "كسعرضك",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "كسمك",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "كسها",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "كفىالط",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ككسك",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ككوسك",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "كلام",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "كلخرا",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "كلخرة",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "كولخر",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "لانكتاب",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "لبوة",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "لعنك",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "لعين",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "لواط",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "لوطي",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "مأجور",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "مبادل",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "مبعوص",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "متخوزق",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "متناك",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "مجنون",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "مخانيث",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "مخنث",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "مدلس",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "معوهر",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "مفسوخ",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "مفلقسة",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "مكسكس",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "مكوتها",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ملعون",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ممحون",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "منايك",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "منيك",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "منيوك",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ناكك",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "نعلابوك",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "نكتاخته",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "نكتامه",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "نياكة",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "نياكه",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "واطي",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ولدالقحبه",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ياهبيلة",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "يلعن",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    }
+  ],
+  "allow": []
+}

@@ -1,0 +1,4383 @@
+{
+  "schema": 1,
+  "profile": "fold-v1",
+  "lang": "fr",
+  "name": "French",
+  "vetted": false,
+  "source": "https://github.com/master-wayne7/safe_text",
+  "license": "MIT",
+  "note": "Community-sourced list for French. Nobody vetted these terms one by one, and the source carries no category or severity, so every entry takes category 'profanity' and severity 3. A term of 6 characters or fewer requires a word boundary. Expect false positives. Load this pack only when you handle text in this language.",
+  "entries": [
+    {
+      "t": "abortuaire",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "abrut",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "acregue",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "acrotomophilie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "alacon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "alamordsmoi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "allezvaten",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ambosexuel",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "andouille",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "andoulle",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "angishore",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "argya",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "asphalteuse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "astiquer",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "aunpoildecul",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "avoirdelamoule",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "avoirducul",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "avoirdupoilaucul",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "avoirlaircon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "avoirlatetedanslecul",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "avoirleculbordedemedailles",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "avoirleculbordedenouilles",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "avoirlefeuaucul",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "avoirlepapierquicolleauxbonbons",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "avoirlesnerfs",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "avoirlesrideauxquicollentauxfenetres",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "avoirlesyeuxentroudebite",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "avoirlesyeuxentroudepine",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "avoirpleinlecul",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "avoirunbalaidanslecul",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "avortement",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "avorteur",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "avorton",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bagouse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "baisable",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "baise",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "balancerlasauce",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "balayette",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bandercommeunane",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bandercommeuncerf",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bandercommeuntaureau",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bandercommeunturc",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bapteme",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "barabbas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "batard",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "batte",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bcot",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "beaucave",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "beauf",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "benzer",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "berlingue",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "biatch",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bibite",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bicot",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bietaze",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "biffle",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bifle",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bigornette",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bique",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bise",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bitembois",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bitte",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bivouaquerdanslacrevasse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bloblos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bolosser",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bombeatomique",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bonariens",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bonasse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "boncoup",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bondance",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bonnasse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bonne",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bonsang",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bonyeu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bordelacul",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bosnioule",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "botterlecul",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "boucaque",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bouffable",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "boufferlecul",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bouffon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bougre",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "boukak",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bounioul",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bounoul",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bourdille",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bourdlle",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bourre",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bourriquer",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "bouseux",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "boutcrime",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "boutdebondieu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "boutdecrime",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "boutons",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "boyaucullier",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "branlage",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "branlee",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "branler",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "branlette",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "branleur",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "branleuse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "branlo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "brele",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "briserlesnoix",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "broutage",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "brouter",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "brouteur",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "brouteuse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "btembos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cacou",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cacraint",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cafaitshier",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cafre",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cagasse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cagoince",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cahba",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cailler",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "caldoche",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "caliboire",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "calice",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "calisse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "calvaire",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "calvasse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "camesaoule",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "capue",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "carrerdansloignon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cartedefrance",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "caschlingue",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cassebonbon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "casseburette",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cassecoulle",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "casserlepot",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "casserlesboules",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "casserlesburnes",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cassetoi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "celamesoule",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ceoene",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cervelledemoineau",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cervelledoiseau",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cestlebordelici",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cestnaze",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cestplate",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cestquoicebordel",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cestvraimentdetafaute",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chachar",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chagasse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chagatte",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "charmouta",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chatbite",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chatte",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chaudepisse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chauffard",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chennasse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cher",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chette",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chiant",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chiasse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chiatique",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chibre",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chie",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chinetoc",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chinetoque",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chintok",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chiottes",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chnetoc",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chnetoque",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chnoque",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chntok",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "choper",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "choune",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "chrissequipisse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "christer",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "chteharralchu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ciboire",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cibolle",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cibouare",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cincleme",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "clille",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "clito",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "clochard",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "coche",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cochonneries",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "coliss",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "commepapadansmaman",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "conard",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "conasse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "concommeunbalai",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "concommeunebite",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "concommeungland",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "connard",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "connasse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "conne",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cons",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "convoitise",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "coqs",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "coquillard",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "corne",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "couille",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "couillon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "couillu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "counfle",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "counifle",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "courageux",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "courtaud",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "couterlapeauducul",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cramouille",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "craquersonslip",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "craquersonstring",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "crcr",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cretn",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cretornon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "crevard",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "crevure",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cricri",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "criffe",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "crissdefif",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "crisse",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "crosseur",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "crotte",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "crouillat",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "crouille",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "croullat",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "croulle",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cruchasse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ctuncristiebongateau",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "culasse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "culbuter",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cule",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "culs",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "damne",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "danstoncul",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "debagouler",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "debander",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "deble",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "deboiter",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "debroussaillerlatranchee",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "decaliss",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "decharger",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "deconnade",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "deconnage",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "defoncer",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "defonceur",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "defourailler",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "degage",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "degenere",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "deglinguer",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "deguelasse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "degueulasse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "demesdeux",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "demimolle",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "demonter",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "depucelage",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "depuceler",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "deroulerducable",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "desballes",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "desengorger",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "diarrhee",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "digue",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dinde",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "djoc",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "doeser",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "doigter",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "drague",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "drisser",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "drouille",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "droulle",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "duche",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ducon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dugenoux",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dugland",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "eburne",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "egoisme",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ejaculant",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ejaculations",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "emballeurdefudge",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "emmanche",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "emmerdant",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "empafe",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "empapaoutage",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "empapaoute",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "enavoirdeux",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "enavoirraslesburnes",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "enconnade",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "encuguler",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "enculable",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "enculade",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "enculagailler",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "enculage",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "enculailleur",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "enculatoire",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "enfer",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "enfiler",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "enfler",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "enflure",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "enfore",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "enfourailler",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "entuber",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "envaselineur",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "envaselneur",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "envoyer",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "envulver",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "epais",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "epas",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "eriger",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "espacer",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "espingoin",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "espngon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "esprit",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "esque",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "esti",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "etoile",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "etole",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "etranglerleborgne",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "etrelafete",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "etremoudelabite",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "etron",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "eucharistie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "exploser",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "facedecul",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "facedepet",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "facedetchu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "faciale",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "faire",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "falldownfuckintheass",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fartmonger",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fartmuppet",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fente",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "fesse",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "fetiche",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fichemoilepaix",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fifi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "filmdeboule",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "filmdecul",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "filsdegarce",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "filsdetarace",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fion",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "fiotte",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "foirade",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "foire",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "folle",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "formewoiretageule",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fotte",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "foune",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "fourbir",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fourrer",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fouslecamp",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fouteur",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "foutoir",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "foutre",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "framble",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fripemoilchu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "frippemesballes",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "frtz",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "fuckmeboots",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "fumier",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "garageabite",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gaupe",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "gerber",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "glandeur",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "glandeuse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "glandouillou",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "glandoullou",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "glandu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "glaoui",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "glisser",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gnasse",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "gniouf",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "gnoul",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "godemiche",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "godes",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "godon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "gogol",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "googuzzler",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gorby",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "gosse",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "gougnote",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gouilland",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gouine",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "goulland",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "goune",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "gourdin",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gourgandine",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gourgandne",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gousse",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "graine",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "grogniasse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "groscolon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "groscul",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "grosecoeurant",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "grosscul",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "grossedose",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "grostas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "grouille",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "guenche",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gueniche",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gueule",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "guindoule",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "gundoule",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hebephile",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "hebephilie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "idiote",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "imbitabilite",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "imbitable",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "inceste",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "incestueux",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jaibaisatamare",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jante",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jemegode",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jemenfiche",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jemenfou",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jenaimarre",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jenairallebol",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jenairallecul",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jenairaslebol",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jenairienacirer",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jeriboire",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jesusdeplatre",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jetedeteste",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "joualvert",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jouir",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "journalope",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jvateharrerlaface",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "kikoo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kikou",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kkoo",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "kkou",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "lachemoilagrappe",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lacheux",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "laissemoitranquille",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "laisserpisserlemerinos",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lamemechoseatoi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lavache",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lavette",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lavoirdanslecul",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lechecul",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lechemachat",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lecon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "lesbienne",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "leslevres",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "liberermandela",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lopette",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "luxure",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "lynchage",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "makoume",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "malpt",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "mamelon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mance",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "mangemabite",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mangemoi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mangetesgrandsmorts",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "maquerellage",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "marchandot",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "marde",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "margouilliste",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "margoullste",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "masochiste",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "masturber",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "matos",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "maudit",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "maususse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mautadine",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mautadit",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mauviette",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mazouterlepingouin",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mbecle",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "mchto",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "mercon",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "merdaille",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "merdaillon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "merdalle",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "merdallon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "merdasse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "merde",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "merdicite",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "merdier",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "merdique",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "merdogene",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "merdouillard",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "merdoullard",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "metteux",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mettre",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "meuf",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "michto",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "mijole",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "minou",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "mnable",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "mnus",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "moinaille",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "moinsquerien",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mollard",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "monacaille",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "monacalle",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "monalle",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "moncul",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "mondieu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "monpaien",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "monsqueren",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "monvier",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "morcaud",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "moricaud",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "morue",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "motocultable",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "motoculter",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "moulebite",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "mouron",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "mserable",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nakoue",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nase",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "negre",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "neonazi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "neplussesentirpisser",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niac",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "niaiseuse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niaiseux",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "niakoue",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "nique",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nomdedieu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "noune",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nque",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nulach",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nymphe",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "nymphomanie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "orgasme",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "orgie",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "ostensoir",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "osti",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pachole",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pakos",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "panier",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "panoufle",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pansexuel",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "papiercul",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "parachuterunsenegalais",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "parechoc",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pasfort",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "patarn",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pauvrecon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "paysbas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "peaudezob",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pecque",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pedale",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pede",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pedophile",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pedophilie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pedoque",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "peler",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pelot",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "penetrer",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "penseravecsabite",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "penseravecsaqueue",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pepom",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pequenaud",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pervers",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "petasse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "peterdanslasoie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "peterlacenne",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "peterlecul",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "peteux",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "petitebite",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "petsauce",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pgnouf",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pignouf",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pimbeche",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "piment",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pinocumettable",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "piquer",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "piqures",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pisseaulit",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pisseralaraie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pisserdans",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pisserdelacopie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pissersacotelette",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pisseur",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pisseux",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pissou",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "plancul",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "planterlejavelotdanslamoquette",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pleutre",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "plotte",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "plouc",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pognecul",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pommealhuile",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pommeau",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pomper",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "porcas",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pornographie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "porterlepet",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "poucav",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "poufasse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pouffasse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pouffe",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pouffiasse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "poufiasse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pougner",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pounde",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "poupee",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pourrir",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pourriture",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pourrture",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pousserunegueulante",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "poutrer",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pssou",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "putain",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "putan",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pute",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "putin",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "putn",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "quelbordel",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "quequette",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "questcequetubranles",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "queutard",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "raclure",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "radasse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ramoner",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rapace",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "raslamoule",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "raslebonbon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "raslecul",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ratisserlebunker",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "raton",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "recurerlamarmite",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "reempaffer",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "refucker",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "retourneauxasperges",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "riflard",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "ripopee",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "robesperrot",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "robespierrot",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rosbf",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "rosbif",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "roubignole",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "roulure",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "roupette",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "rpopee",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sacavin",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sacdebilles",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sacre",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sacvin",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sadique",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sadisme",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sagouin",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sagoun",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "saintbenisse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "saintchreme",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "saintchrist",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "saintcreme",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "saintgeriboire",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "saintpkp",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "saintsacrament",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "saintsacrifice",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "saintsacripant",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "saintsicroche",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "salament",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "salaud",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "salledesfetes",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "salop",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "samere",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "saprement",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sarace",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sarce",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "satrouille",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "satroulle",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sauteaupaf",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sauter",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "schbeb",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "schleu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "schnek",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "schnoc",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "scivey",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "secasserlecul",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "secirerlemanche",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "secogner",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sedesenclaverlapeninsule",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "segelerlecroupion",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "seins",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "semagnerlecul",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "senbattre",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "senbeurrerlaraie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sencogner",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sentaper",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sentlapisse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sentlapsse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "serongerleculalavinaigrette",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sesortirlesdoigtsducul",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "setaire",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "setaper",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sexe",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "shampoing",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "simonac",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "simonaque",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sodome",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "sodomie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sodomise",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sottiseux",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sottseux",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "sperme",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "squatch",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "stearique",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "stearque",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "stephenharper",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "stupide",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "suce",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tabarnac",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tabarnak",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tabenpasdamis",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tabernac",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tabouche",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "taboune",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tafiole",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tafole",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "taistoi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "takeoffeh",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tamere",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tanche",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tanne",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tantousere",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tantouserie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tantouze",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tapette",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tapettitude",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tapiole",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tarlouseva",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tarlouze",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tarte",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tartissure",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "taspe",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tassepe",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tata",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tayeul",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tebe",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "techa",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "telephonerauxcongolais",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tenirvotreane",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tepu",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tesdebile",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tesuncrissdecavetoi",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tetedegland",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tetedenoeud",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tetemoiledard",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tetemoilenoeud",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "teteux",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "teub",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "teuch",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "teuf",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tireaucul",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tirelire",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tirersoncoup",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tireruncoup",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tocard",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "toeleptitcalinedemorvaillon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "torrieu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "torvice",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "toton",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "toucheatoncultaurasdesverrues",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "touffe",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tranee",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "trappe",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tremper",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "treuf",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tringler",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "trique",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "troudeballe",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "troudecul",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "troudetchu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "trouduc",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "trouerlecul",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "troufignoler",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "troufignoliser",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "troufignon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "truasse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "truiasse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "truie",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "tuescon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tuetunane",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tufaisdur",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tumangerasletas",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tumefatigues",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tumegonfles",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tumeniaisestu",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "turluchon",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "turlute",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "turlutte",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "tuyau",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "uretre",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "urinaire",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vachesale",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vagin",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "valseuse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "varlope",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vastecrosseravecunepoigneedeclous",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vastecrosseravecunepoigneedepoigneedebraquettes",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vasuledjabe",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vatecrosser",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vatependre",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vatetripoter",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vauren",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "vaurien",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vdecoulles",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vedase",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "verasse",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "verrat",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "viarge",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "viedase",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vieille",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vierdane",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "viole",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "voussentezcommeleboeufetlefromage",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vousvissez",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "vtff",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "wasteyute",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "xeropineur",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "xeropneur",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "xevalue",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yerfuckinaright",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "yeule",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "youhoser",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "youpin",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "youpn",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "yousheepfucker",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "youtre",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zboob",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zboube",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zguegue",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zizi",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "zoophilie",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "zutalors",
+      "cat": "profanity",
+      "sev": 3
+    }
+  ],
+  "allow": []
+}

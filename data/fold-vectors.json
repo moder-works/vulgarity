@@ -1,0 +1,321 @@
+{
+  "profile": "fold-v1",
+  "note": "Normalizer contract. hard and gap are one flag per folded character. squeezed is null when the text holds no repeated character.",
+  "cases": [
+    {
+      "text": "",
+      "chars": "",
+      "hard": "",
+      "gap": "",
+      "srcStart": "",
+      "srcEnd": "",
+      "squeezed": null
+    },
+    {
+      "text": "abc",
+      "chars": "abc",
+      "hard": "111",
+      "gap": "100",
+      "srcStart": "0,1,2",
+      "srcEnd": "1,2,3",
+      "squeezed": null
+    },
+    {
+      "text": "ABC",
+      "chars": "abc",
+      "hard": "111",
+      "gap": "100",
+      "srcStart": "0,1,2",
+      "srcEnd": "1,2,3",
+      "squeezed": null
+    },
+    {
+      "text": "a b",
+      "chars": "ab",
+      "hard": "11",
+      "gap": "11",
+      "srcStart": "0,2",
+      "srcEnd": "1,3",
+      "squeezed": null
+    },
+    {
+      "text": "a.b",
+      "chars": "ab",
+      "hard": "11",
+      "gap": "11",
+      "srcStart": "0,2",
+      "srcEnd": "1,3",
+      "squeezed": null
+    },
+    {
+      "text": "f.u.c.k",
+      "chars": "fuck",
+      "hard": "1111",
+      "gap": "1111",
+      "srcStart": "0,2,4,6",
+      "srcEnd": "1,3,5,7",
+      "squeezed": null
+    },
+    {
+      "text": "sh!t",
+      "chars": "shit",
+      "hard": "1101",
+      "gap": "1000",
+      "srcStart": "0,1,2,3",
+      "srcEnd": "1,2,3,4",
+      "squeezed": null
+    },
+    {
+      "text": "a$$",
+      "chars": "ass",
+      "hard": "100",
+      "gap": "100",
+      "srcStart": "0,1,2",
+      "srcEnd": "1,2,3",
+      "squeezed": "as"
+    },
+    {
+      "text": "l33t",
+      "chars": "leet",
+      "hard": "1001",
+      "gap": "1000",
+      "srcStart": "0,1,2,3",
+      "srcEnd": "1,2,3,4",
+      "squeezed": "let"
+    },
+    {
+      "text": "caf\u00E9",
+      "chars": "cafe",
+      "hard": "1111",
+      "gap": "1000",
+      "srcStart": "0,1,2,3",
+      "srcEnd": "1,2,3,4",
+      "squeezed": null
+    },
+    {
+      "text": "na\u00EFve",
+      "chars": "naive",
+      "hard": "11111",
+      "gap": "10000",
+      "srcStart": "0,1,2,3,4",
+      "srcEnd": "1,2,3,4,5",
+      "squeezed": null
+    },
+    {
+      "text": "\u00DF",
+      "chars": "ss",
+      "hard": "11",
+      "gap": "10",
+      "srcStart": "0,0",
+      "srcEnd": "1,1",
+      "squeezed": "s"
+    },
+    {
+      "text": "\u00C6on",
+      "chars": "aeon",
+      "hard": "1111",
+      "gap": "1000",
+      "srcStart": "0,0,1,2",
+      "srcEnd": "1,1,2,3",
+      "squeezed": null
+    },
+    {
+      "text": "\uFB01re",
+      "chars": "fire",
+      "hard": "1111",
+      "gap": "1000",
+      "srcStart": "0,0,1,2",
+      "srcEnd": "1,1,2,3",
+      "squeezed": null
+    },
+    {
+      "text": "a@b",
+      "chars": "aab",
+      "hard": "101",
+      "gap": "100",
+      "srcStart": "0,1,2",
+      "srcEnd": "1,2,3",
+      "squeezed": "ab"
+    },
+    {
+      "text": "1337",
+      "chars": "ieet",
+      "hard": "0000",
+      "gap": "1000",
+      "srcStart": "0,1,2,3",
+      "srcEnd": "1,2,3,4",
+      "squeezed": "iet"
+    },
+    {
+      "text": "\uD83D\uDE42",
+      "chars": "",
+      "hard": "",
+      "gap": "",
+      "srcStart": "",
+      "srcEnd": "",
+      "squeezed": null
+    },
+    {
+      "text": "a\uD83D\uDE42b",
+      "chars": "ab",
+      "hard": "11",
+      "gap": "11",
+      "srcStart": "0,3",
+      "srcEnd": "1,4",
+      "squeezed": null
+    },
+    {
+      "text": "f\u200Buck",
+      "chars": "fuck",
+      "hard": "1111",
+      "gap": "1100",
+      "srcStart": "0,2,3,4",
+      "srcEnd": "1,3,4,5",
+      "squeezed": null
+    },
+    {
+      "text": "a\u0301",
+      "chars": "a",
+      "hard": "1",
+      "gap": "1",
+      "srcStart": "0",
+      "srcEnd": "1",
+      "squeezed": null
+    },
+    {
+      "text": "\uFF46\uFF55\uFF43\uFF4B",
+      "chars": "fuck",
+      "hard": "1111",
+      "gap": "1000",
+      "srcStart": "0,1,2,3",
+      "srcEnd": "1,2,3,4",
+      "squeezed": null
+    },
+    {
+      "text": "\uFF21\uFF22\uFF11",
+      "chars": "ab1",
+      "hard": "111",
+      "gap": "100",
+      "srcStart": "0,1,2",
+      "srcEnd": "1,2,3",
+      "squeezed": null
+    },
+    {
+      "text": "\u0441\u043E\u0441k",
+      "chars": "cock",
+      "hard": "1111",
+      "gap": "1000",
+      "srcStart": "0,1,2,3",
+      "srcEnd": "1,2,3,4",
+      "squeezed": null
+    },
+    {
+      "text": "\u039F\u03A1\u0391",
+      "chars": "opa",
+      "hard": "111",
+      "gap": "100",
+      "srcStart": "0,1,2",
+      "srcEnd": "1,2,3",
+      "squeezed": null
+    },
+    {
+      "text": "\u65E5\u672C",
+      "chars": "\u65E5\u672C",
+      "hard": "11",
+      "gap": "10",
+      "srcStart": "0,1",
+      "srcEnd": "1,2",
+      "squeezed": null
+    },
+    {
+      "text": "a  b",
+      "chars": "ab",
+      "hard": "11",
+      "gap": "11",
+      "srcStart": "0,3",
+      "srcEnd": "1,4",
+      "squeezed": null
+    },
+    {
+      "text": "  a",
+      "chars": "a",
+      "hard": "1",
+      "gap": "1",
+      "srcStart": "2",
+      "srcEnd": "3",
+      "squeezed": null
+    },
+    {
+      "text": "a  ",
+      "chars": "a",
+      "hard": "1",
+      "gap": "1",
+      "srcStart": "0",
+      "srcEnd": "1",
+      "squeezed": null
+    },
+    {
+      "text": "...",
+      "chars": "",
+      "hard": "",
+      "gap": "",
+      "srcStart": "",
+      "srcEnd": "",
+      "squeezed": null
+    },
+    {
+      "text": "a...b",
+      "chars": "ab",
+      "hard": "11",
+      "gap": "11",
+      "srcStart": "0,4",
+      "srcEnd": "1,5",
+      "squeezed": null
+    },
+    {
+      "text": "\uD835\uDC1F\uD835\uDC2E",
+      "chars": "fu",
+      "hard": "11",
+      "gap": "10",
+      "srcStart": "0,2",
+      "srcEnd": "2,4",
+      "squeezed": null
+    },
+    {
+      "text": "\u24D0\u24D1",
+      "chars": "ab",
+      "hard": "11",
+      "gap": "10",
+      "srcStart": "0,1",
+      "srcEnd": "1,2",
+      "squeezed": null
+    },
+    {
+      "text": "\uD83C\uDDE6\uD83C\uDDE7",
+      "chars": "ab",
+      "hard": "11",
+      "gap": "10",
+      "srcStart": "0,2",
+      "srcEnd": "2,4",
+      "squeezed": null
+    },
+    {
+      "text": "aaa",
+      "chars": "aaa",
+      "hard": "111",
+      "gap": "100",
+      "srcStart": "0,1,2",
+      "srcEnd": "1,2,3",
+      "squeezed": "a"
+    },
+    {
+      "text": "a-b_c",
+      "chars": "abc",
+      "hard": "111",
+      "gap": "111",
+      "srcStart": "0,2,4",
+      "srcEnd": "1,3,5",
+      "squeezed": null
+    }
+  ]
+}
