@@ -32,8 +32,10 @@ void main(List<String> args) {
     print('  detect: ${filter.detect(text)}   score: ${filter.score(text)}');
     print('  filter: ${filter.filter(text)}');
     for (final VulgarityMatch hit in filter.scan(text)) {
+      // excerpt is the text as it was written. term.text is the list entry it
+      // reached, folded to fold-v1.
       print('    [${hit.start}..${hit.end}] '
-          "'${hit.excerpt(text)}' -> ${hit.text} "
+          "'${hit.excerpt(text)}' -> ${hit.term.text} "
           '(${hit.categoryName}, sev ${hit.severity})');
     }
   }

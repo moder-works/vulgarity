@@ -10,7 +10,7 @@ void main() {
   final VulgarityFilter filter = VulgarityFilter.createDefault();
 
   String hits(String text) =>
-      filter.scan(text).map((VulgarityMatch m) => m.text).join(',');
+      filter.scan(text).map((VulgarityMatch m) => m.term.text).join(',');
 
   group('a term must not span two innocent words', () {
     const List<String> clean = <String>[
@@ -112,14 +112,15 @@ void main() {
     test('bullshitter reports one term', () {
       final List<VulgarityMatch> found = filter.scan('bullshitter');
       expect(found.length, 1);
-      expect(found.first.text, 'bullshit');
+      expect(found.first.term.text, 'bullshit');
       expect(filter.score('bullshitter'), 3);
     });
 
     test('a squeezed candidate that overlaps nothing is kept', () {
       final List<VulgarityMatch> found = filter.scan('damn the fuuuck');
       expect(found.length, 2);
-      expect(found.map((VulgarityMatch m) => m.text), <String>['damn', 'fuck']);
+      expect(found.map((VulgarityMatch m) => m.term.text),
+          <String>['damn', 'fuck']);
     });
   });
 

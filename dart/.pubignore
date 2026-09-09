@@ -12,3 +12,7 @@
 
 # A lock file belongs to an application, not to a published package.
 /pubspec.lock
+
+# `dart doc` writes here, and pub.dev builds its own copy from the source. A
+# stale local run would otherwise add half a megabyte to the archive.
+/doc/

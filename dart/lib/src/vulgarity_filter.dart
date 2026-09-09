@@ -1,12 +1,21 @@
+import 'language_resolver.dart';
 import 'model/vulgarity_category.dart';
 import 'model/vulgarity_match.dart';
 import 'model/vulgarity_term.dart';
 import 'normalization/fold_table.g.dart';
 import 'normalization/normalized_text.dart';
 import 'normalization/text_normalizer.dart';
+import 'pack_reader.dart';
+import 'pack_text.dart';
+import 'seed_data.g.dart';
+import 'seed_loader.dart';
 import 'trie/aho_corasick.dart';
-import 'vulgarity_filter_builder.dart';
 import 'vulgarity_options.dart';
+import 'vulgarity_preset.dart';
+
+// The builder is the only thing that may construct a filter, so the two share
+// one library. That keeps the constructor private without a meta annotation.
+part 'vulgarity_filter_builder.dart';
 
 /// Finds vulgar terms in text, masks them, and scores them.
 ///
@@ -19,7 +28,7 @@ import 'vulgarity_options.dart';
 /// final String clean = filter.filter(comment);
 /// ```
 class VulgarityFilter {
-  const VulgarityFilter.internal(
+  const VulgarityFilter._(
     this._terms,
     this._termTrie,
     this._allowTrie,
@@ -61,12 +70,13 @@ class VulgarityFilter {
     return (VulgarityFilterBuilder()..addSeed(json)).build(options);
   }
 
-  /// Builds a filter from a preset document or a [VulgarityPreset].
+  /// Builds a filter from a [VulgarityPreset].
   ///
   /// A preset carries the policy as well as the terms, so a server can change
-  /// how strict a client is without an app release. Treat a preset from the
-  /// network as untrusted: this throws [FormatException] on a malformed
-  /// document, and it never partly applies one.
+  /// how strict a client is without an app release. Read one from JSON with
+  /// [VulgarityPreset.parse], which treats the document as untrusted: it
+  /// throws [FormatException] on a malformed document, and it never partly
+  /// applies one.
   ///
   /// This package compiles in English only. A preset that names any other
   /// language needs [languageResolver] — pass `languageSeed` from
@@ -79,16 +89,13 @@ class VulgarityFilter {
   /// serve throws [ArgumentError] from this call instead. That is what lets a
   /// [languageResolver] serve codes no bundled list covers.
   ///
-  /// Throws [ArgumentError] when [preset] is neither a JSON string nor a
-  /// [VulgarityPreset].
-  ///
   /// ```dart
   /// final response = await http.get(Uri.parse('https://example.com/policy.json'));
-  /// final filter = VulgarityFilter.fromPreset(response.body);
+  /// final filter = VulgarityFilter.fromPreset(VulgarityPreset.parse(response.body));
   /// ```
   factory VulgarityFilter.fromPreset(
-    Object preset, {
-    String Function(String code)? languageResolver,
+    VulgarityPreset preset, {
+    LanguageResolver? languageResolver,
   }) {
     return (VulgarityFilterBuilder()
           ..addPreset(preset, languageResolver: languageResolver))
@@ -98,7 +105,7 @@ class VulgarityFilter {
   /// Returns a filter with different options. It reuses the compiled trie.
   VulgarityFilter withOptions(VulgarityOptions options) {
     options.validate();
-    return VulgarityFilter.internal(
+    return VulgarityFilter._(
       _terms,
       _termTrie,
       _allowTrie,

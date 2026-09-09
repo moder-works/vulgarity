@@ -2,8 +2,13 @@ import 'json_read.dart';
 import 'model/vulgarity_category.dart';
 
 /// Controls what the filter reports and how it masks text.
+///
+/// Options are immutable. Build a set once and share it, or derive one with
+/// [copyWith]. A filter takes them at build time, and `withOptions` swaps them
+/// without recompiling the trie.
 class VulgarityOptions {
-  VulgarityOptions({
+  /// Creates a set of options. Every field has a usable default.
+  const VulgarityOptions({
     this.minSeverity = 1,
     this.categories,
     this.maskChar = '*',
@@ -175,6 +180,10 @@ class VulgarityOptions {
     };
   }
 
+  /// Throws when a field is out of range.
+  ///
+  /// A filter calls this for you at build time, so you rarely need it. Call it
+  /// yourself to check options you assembled from user input.
   void validate() {
     if (minSeverity < 1 || minSeverity > 5) {
       throw RangeError.range(minSeverity, 1, 5, 'minSeverity');
@@ -188,4 +197,26 @@ class VulgarityOptions {
           'maskToken must not be empty. Use null to mask by character.');
     }
   }
+
+  @override
+  String toString() {
+    final Set<VulgarityCategory>? selected = categories;
+    return 'VulgarityOptions(minSeverity: $minSeverity, '
+        'categories: ${selected == null ? 'all' : selected.map(
+              (VulgarityCategory c) => c.name,
+            ).join('|')}, '
+        'maskChar: $maskChar, maskToken: $maskToken, '
+        'repeatTolerance: $repeatTolerance, '
+        'collapseContained: $collapseContained, '
+        'scoreMode: ${scoreMode.name})';
+  }
+}
+
+/// How [VulgarityFilter.score] combines severities.
+enum ScoreMode {
+  /// Add up the severity of every match.
+  total,
+
+  /// Take the highest severity of any match.
+  max,
 }

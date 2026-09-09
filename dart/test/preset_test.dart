@@ -11,7 +11,7 @@ String readPreset(String name) =>
     File('${dataDirectory.path}/presets/$name.json').readAsStringSync();
 
 VulgarityFilter filterFor(String preset) =>
-    VulgarityFilter.fromPreset(readPreset(preset),
+    VulgarityFilter.fromPreset(VulgarityPreset.parse(readPreset(preset)),
         languageResolver: languageSeed);
 
 void main() {
@@ -41,7 +41,7 @@ void main() {
           final Map<String, dynamic> m = expected[i] as Map<String, dynamic>;
           expect(actual[i].start, m['start'], reason: 'match $i start');
           expect(actual[i].end, m['end'], reason: 'match $i end');
-          expect(actual[i].text, m['term'], reason: 'match $i term');
+          expect(actual[i].term.text, m['term'], reason: 'match $i term');
           expect(actual[i].severity, m['sev'], reason: 'match $i severity');
         }
       });
@@ -80,8 +80,9 @@ void main() {
 
   test('your own options beat the preset', () {
     final VulgarityFilter loose = (VulgarityFilterBuilder()
-          ..addPreset(readPreset('hate-only'), languageResolver: languageSeed))
-        .build(VulgarityOptions(minSeverity: 1));
+          ..addPreset(VulgarityPreset.parse(readPreset('hate-only')),
+              languageResolver: languageSeed))
+        .build(const VulgarityOptions(minSeverity: 1));
     expect(loose.detect('oh damn'), isTrue);
   });
 
@@ -165,23 +166,26 @@ void main() {
   });
 
   test('an empty preset still needs terms', () {
-    expect(() => VulgarityFilter.fromPreset('{"schema":1,"profile":"fold-v1"}'),
+    expect(
+        () => VulgarityFilter.fromPreset(
+            VulgarityPreset.parse('{"schema":1,"profile":"fold-v1"}')),
         throwsStateError);
   });
 
   test('a non-English language needs a resolver', () {
-    const String json =
-        '{"schema":1,"profile":"fold-v1","languages":["en","es"]}';
-    expect(() => VulgarityFilter.fromPreset(json), throwsArgumentError);
+    final VulgarityPreset preset = VulgarityPreset.parse(
+        '{"schema":1,"profile":"fold-v1","languages":["en","es"]}');
+    expect(() => VulgarityFilter.fromPreset(preset), throwsArgumentError);
 
     final VulgarityFilter ok =
-        VulgarityFilter.fromPreset(json, languageResolver: languageSeed);
+        VulgarityFilter.fromPreset(preset, languageResolver: languageSeed);
     expect(ok.detect('eres un cabron'), isTrue);
   });
 
   test('English alone needs no resolver', () {
     final VulgarityFilter filter = VulgarityFilter.fromPreset(
-        '{"schema":1,"profile":"fold-v1","languages":["en"]}');
+        VulgarityPreset.parse(
+            '{"schema":1,"profile":"fold-v1","languages":["en"]}'));
     expect(filter.detect('what the fuck'), isTrue);
   });
 }

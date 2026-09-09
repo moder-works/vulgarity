@@ -18,15 +18,9 @@ enum VulgarityCategory {
   /// Illegal drugs and drug use.
   drug;
 
-  /// Every category name a seed or preset can use.
-  static const List<String> allNames = <String>[
-    'profanity',
-    'sexual',
-    'hate',
-    'violence',
-    'drug',
-    'other',
-  ];
+  /// Every category name a seed or preset can use, in [values] order.
+  static final List<String> allNames = List<String>.unmodifiable(
+      values.map((VulgarityCategory value) => value.name));
 
   /// Maps a category name, or returns null when the name is unknown.
   static VulgarityCategory? tryParse(String name) {
@@ -51,13 +45,4 @@ enum VulgarityCategory {
       _ => VulgarityCategory.other,
     };
   }
-}
-
-/// How [VulgarityFilter.score] combines severities.
-enum ScoreMode {
-  /// Add up the severity of every match.
-  total,
-
-  /// Take the highest severity of any match.
-  max,
 }

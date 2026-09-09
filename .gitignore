@@ -8,6 +8,7 @@ obj/
 .packages
 pubspec.lock
 build/
+dart/doc/
 
 # macOS
 .DS_Store

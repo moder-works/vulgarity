@@ -9,7 +9,11 @@ VulgarityFilter buildWithoutAllowlist() {
   for (final dynamic entry in seed['entries'] as List<dynamic>) {
     final Map<String, dynamic> e = entry as Map<String, dynamic>;
     builder.addTerm(
-        e['t'] as String, e['cat'] as String, e['sev'] as int, e['w'] == true);
+      e['t'] as String,
+      category: VulgarityCategory.parse(e['cat'] as String),
+      severity: e['sev'] as int,
+      requireBoundary: e['w'] == true,
+    );
   }
   return builder.build();
 }

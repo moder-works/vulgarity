@@ -2,6 +2,8 @@ import 'vulgarity_category.dart';
 
 /// One term in the list, together with how the matcher must treat it.
 class VulgarityTerm {
+  /// Creates a term. [categoryName] is the name as its source spells it, and
+  /// [category] follows from it.
   VulgarityTerm(
     this.text,
     this.categoryName,

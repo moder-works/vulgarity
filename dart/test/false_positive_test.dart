@@ -49,7 +49,7 @@ void main() {
         final List<VulgarityMatch> hits = filter.scan(text);
         expect(hits, isEmpty,
             reason: "'$text' flagged "
-                '${hits.map((VulgarityMatch h) => h.text).join(', ')}');
+                '${hits.map((VulgarityMatch h) => h.term.text).join(', ')}');
       });
     }
   });
