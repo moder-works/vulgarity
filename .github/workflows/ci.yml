@@ -1,16 +1,14 @@
 name: CI
 
-# The runner supplies the toolchain. This workflow installs nothing, so keep
-# .NET 8 or later, the Dart SDK 3.1 or later, and Python 3.9 or later on the
-# machine. The preflight step reports what it found and fails with a clear
-# message when something is missing.
+# Every job runs on a GitHub-hosted ubuntu-latest runner. Each job installs the
+# toolchain it needs: actions/setup-dotnet for .NET 8, dart-lang/setup-dart for
+# the Dart stable SDK. Python 3 comes with the image, so no job installs it.
 #
-# To pin a specific machine, replace `self-hosted` with a label list, for
-# example `[self-hosted, macos, vulgarity]`.
+# The library targets netstandard2.0 as well as net8.0. The .NET 8 SDK builds
+# both target frameworks, so one SDK version is enough here.
 #
-# A hosted-runner matrix over several SDK versions is a follow-up. It would
-# need actions/setup-dotnet and dart-lang/setup-dart, and those download a
-# toolchain, which is the one thing this workflow deliberately does not do.
+# A matrix over several SDK versions is a follow-up. Add the versions to the
+# `with:` block of the setup actions when you want one.
 
 on:
   push:
@@ -29,15 +27,17 @@ defaults:
 jobs:
   dotnet:
     name: .NET tests
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
 
-      - name: Preflight
-        run: |
-          command -v dotnet >/dev/null || { echo "::error::dotnet is not on PATH."; exit 1; }
-          echo "dotnet $(dotnet --version)"
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Report the toolchain
+        run: echo "dotnet $(dotnet --version)"
 
       - name: Build both target frameworks
         run: dotnet build dotnet/src/Vulgarity/Vulgarity.csproj -c Release --nologo
@@ -59,15 +59,17 @@ jobs:
 
   dart:
     name: Dart tests
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
 
-      - name: Preflight
-        run: |
-          command -v dart >/dev/null || { echo "::error::dart is not on PATH."; exit 1; }
-          dart --version
+      - uses: dart-lang/setup-dart@v1
+        with:
+          sdk: stable
+
+      - name: Report the toolchain
+        run: dart --version
 
       - name: Resolve dependencies
         working-directory: dart
@@ -88,19 +90,22 @@ jobs:
       # pana is the analysis pub.dev runs on every publish, so run it here and
       # not after the fact.
       #
-      # The threshold is not zero. pana withholds the pubspec points unless it
-      # can reach the repository over the network and find it public, which a
-      # checkout on a self-hosted box cannot promise. That is a whole 10-point
-      # item, and the package scores 150/160 today for exactly that reason.
+      # The package scores 160/160 today, so the threshold is 10 and not 20.
       #
-      # 20 points of slack covers it with one item to spare, and nothing more:
-      # a real regression in the documentation, the platform support or the
-      # static analysis costs 10 or 20 points on its own and still fails here.
+      # It is not zero either. pana withholds the pubspec points unless it can
+      # reach the repository over the network and find it public. The
+      # repository IS public, so those points are earned, but a network failure
+      # on the runner takes that one 10-point item away for a reason that is
+      # not a regression. 10 points of slack covers exactly that case.
+      #
+      # It covers nothing else: a real regression in the documentation, the
+      # platform support or the static analysis costs 10 or 20 points of its
+      # own, lands under 150, and still fails here.
       - name: Package score
         working-directory: dart
         run: |
           dart pub global activate pana
-          dart pub global run pana --no-warning --exit-code-threshold 20 .
+          dart pub global run pana --no-warning --exit-code-threshold 10 .
 
       # The README promises the package runs on Flutter web. Neither the tests
       # nor the analyzer prove that: dart:io in a stray import compiles fine on
@@ -140,15 +145,26 @@ jobs:
 
   contract:
     name: Shared contract
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     timeout-minutes: 20
     needs: [dotnet, dart]
     steps:
       - uses: actions/checkout@v4
 
-      - name: Preflight
+      # This job runs the generators in python3 AND the parity check, and the
+      # parity check builds both ports. So it needs all three toolchains.
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - uses: dart-lang/setup-dart@v1
+        with:
+          sdk: stable
+
+      - name: Report the toolchain
         run: |
-          command -v python3 >/dev/null || { echo "::error::python3 is not on PATH."; exit 1; }
+          echo "dotnet $(dotnet --version)"
+          dart --version
           python3 --version
 
       # data/ is generated AND read at run time. A stale generated file means
