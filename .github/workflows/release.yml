@@ -1,0 +1,325 @@
+name: Release
+
+# Tags the Dart package and publishes it to pub.dev.
+#
+# THE VERSION LIVES IN dart/pubspec.yaml. Nothing here takes a version as an
+# input. You bump the pubspec, you commit it, and this workflow reads it. One
+# source, so a tag can never disagree with the archive it points at.
+#
+# WHILE THE PACKAGE IS PRE-RELEASE, the pubspec version MUST carry a `-pre`
+# identifier, such as 0.1.0-pre.1 or 0.1.0-pre.2. The "The version is a
+# pre-release" step below enforces that and fails the run otherwise. pub.dev
+# then serves the version to anyone who asks for it by name, and keeps it out
+# of the plain `dart pub add vulgarity` path. Delete that one step, and only
+# that step, on the day you cut the first stable version.
+#
+# YOU RUN THIS WORKFLOW TWICE. That is deliberate, and it is not a workaround
+# you can shorten:
+#
+#   Run 1. Start it on `main`. It checks the release and pushes the tag
+#          v<version>. It publishes nothing.
+#   Run 2. Start it again, and pick the NEW TAG as the ref in the "Use workflow
+#          from" box. It publishes to pub.dev.
+#
+# Two reasons for the split. First, pub.dev grants the upload from a GitHub
+# OIDC token, and it only trusts that token when the run's ref is a tag that
+# matches the pattern you configured on the package admin page. A run started
+# on `main` carries `refs/heads/main` and pub.dev rejects it. Second, a tag
+# that Actions pushes with the built-in GITHUB_TOKEN starts no further
+# workflow, by GitHub's rule against recursive runs. So run 2 is yours to
+# start, and starting it IS the release approval.
+#
+# BEFORE THE FIRST EVER RUN, a human must publish one version by hand with
+# `dart pub publish` from dart/. A package has to exist on pub.dev before you
+# can configure automated publishing for it. Then, on the package admin page,
+# turn on "Automated publishing", give it the repository moder-works/vulgarity
+# and the tag pattern `v{{version}}`. Every version after that one belongs to
+# this workflow.
+
+on:
+  workflow_dispatch:
+
+# Overridden per job. The publish job needs an id token, the tag job needs to
+# write a ref, and neither one needs what the other has.
+permissions:
+  contents: read
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  # Everything that can say no, in one place, before either half of the release
+  # does anything. Both halves wait on it.
+  check:
+    name: Check the release
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    outputs:
+      version: ${{ steps.version.outputs.version }}
+      tag: ${{ steps.version.outputs.tag }}
+    steps:
+      - uses: actions/checkout@v4
+
+      # Run 1 must start on main. Run 2 must start on a tag. Anything else is
+      # a mistake, and the message says which mistake it is.
+      - name: The ref is right for this half of the release
+        run: |
+          case "$GITHUB_REF_TYPE" in
+            branch)
+              if [ "$GITHUB_REF_NAME" != "main" ]; then
+                echo "::error::Start run 1 on main. This run started on $GITHUB_REF_NAME."
+                exit 1
+              fi
+              echo "Run 1: this run tags the release."
+              ;;
+            tag)
+              echo "Run 2: this run publishes the release."
+              ;;
+            *)
+              echo "::error::Unexpected ref type $GITHUB_REF_TYPE."
+              exit 1
+              ;;
+          esac
+
+      - name: Read the version from the pubspec
+        id: version
+        run: |
+          version=$(sed -n 's/^version:[[:space:]]*//p' dart/pubspec.yaml | head -n1 | tr -d "\"'" | tr -d '[:space:]')
+
+          if [ -z "$version" ]; then
+            echo "::error::dart/pubspec.yaml has no version line."
+            exit 1
+          fi
+
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+          echo "tag=v$version" >> "$GITHUB_OUTPUT"
+          echo "version: $version"
+          echo "tag: v$version"
+
+      # THE PRE-RELEASE GATE. Delete this step, and only this step, to cut the
+      # first stable version. Keep the rest of the workflow as it is.
+      #
+      # The pattern accepts 1.2.3-pre and 1.2.3-pre.4. It rejects a bare
+      # 1.2.3, and it rejects another identifier such as -beta.1, because the
+      # convention here is `pre` and one convention is easier to read than two.
+      - name: The version is a pre-release
+        env:
+          VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          if ! printf '%s' "$VERSION" | grep -qE '^[0-9]+\.[0-9]+\.[0-9]+-pre(\.[0-9]+)?$'; then
+            echo "::error::The version is $VERSION. While the package is pre-release, dart/pubspec.yaml must hold a version of the form X.Y.Z-pre or X.Y.Z-pre.N."
+            exit 1
+          fi
+          echo "$VERSION is a pre-release."
+
+      - name: The changelog names this version
+        env:
+          VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          if ! grep -qxF "## $VERSION" dart/CHANGELOG.md; then
+            echo "::error::dart/CHANGELOG.md has no '## $VERSION' heading. pub.dev shows that section as the release notes."
+            exit 1
+          fi
+          echo "dart/CHANGELOG.md has a section for $VERSION."
+
+      # Run 1: the tag must not exist yet, or the push would fail halfway
+      # through the release. Run 2: the tag you picked must be the tag for the
+      # version in the pubspec at that tag, so a stale checkout cannot publish
+      # a version under the wrong name.
+      - name: The tag agrees with the version
+        env:
+          TAG: ${{ steps.version.outputs.tag }}
+        run: |
+          if [ "$GITHUB_REF_TYPE" = "tag" ]; then
+            if [ "$GITHUB_REF_NAME" != "$TAG" ]; then
+              echo "::error::This run is on tag $GITHUB_REF_NAME, but the pubspec there says the tag is $TAG."
+              exit 1
+            fi
+            echo "Tag $GITHUB_REF_NAME matches the pubspec."
+            exit 0
+          fi
+
+          if git ls-remote --exit-code --tags origin "refs/tags/$TAG" >/dev/null 2>&1; then
+            echo "::error::Tag $TAG already exists. Bump the version in dart/pubspec.yaml."
+            exit 1
+          fi
+          echo "Tag $TAG is free."
+
+      # A published version is permanent. pub.dev lets you retract one, never
+      # replace one. Catch the collision here, where it costs nothing.
+      - name: pub.dev does not hold this version yet
+        env:
+          VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          code=$(curl -sS -o /dev/null -w '%{http_code}' \
+            "https://pub.dev/api/packages/vulgarity/versions/$VERSION" || echo 000)
+
+          case "$code" in
+            404)
+              echo "pub.dev does not hold vulgarity $VERSION."
+              ;;
+            200)
+              echo "::error::pub.dev already holds vulgarity $VERSION. A published version cannot be replaced. Bump the version."
+              exit 1
+              ;;
+            *)
+              echo "::warning::pub.dev answered $code for the version check. The publish itself will still refuse a duplicate."
+              ;;
+          esac
+
+      # The release does not re-run the test suite. CI already ran it on this
+      # exact commit, over both ports and the shared contract, and running it
+      # again here would only prove the same thing more slowly. What this step
+      # proves is that CI ran AND passed on this commit, so a red commit can
+      # never reach pub.dev.
+      #
+      # A run that is still in progress fails here. That is the right answer:
+      # wait for CI, then start the release again.
+      - name: CI passed on this commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SHA: ${{ github.sha }}
+          REPO: ${{ github.repository }}
+        run: |
+          gh api "repos/$REPO/commits/$SHA/check-runs?per_page=100" > "$RUNNER_TEMP/checks.json"
+
+          python3 - "$RUNNER_TEMP/checks.json" <<'PY'
+          import json
+          import sys
+
+          # The three job names in .github/workflows/ci.yml. Rename a job there
+          # and you must rename it here, or this gate silently checks nothing.
+          required = {".NET tests", "Dart tests", "Shared contract"}
+
+          with open(sys.argv[1], encoding="utf-8") as handle:
+              runs = json.load(handle)["check_runs"]
+
+          # A job can run more than once on a commit, such as a re-run after a
+          # flake. The newest run of each name is the one that counts.
+          newest = {}
+          for run in runs:
+              name = run["name"]
+              if name not in required:
+                  continue
+              seen = newest.get(name)
+              if seen is None or run["started_at"] > seen["started_at"]:
+                  newest[name] = run
+
+          failed = False
+          for name in sorted(required):
+              run = newest.get(name)
+              if run is None:
+                  print("::error::CI job %r has not run on this commit." % name)
+                  failed = True
+                  continue
+              status = run["status"]
+              conclusion = run["conclusion"]
+              if status != "completed":
+                  print("::error::CI job %r is %s. Wait for CI, then start the release again." % (name, status))
+                  failed = True
+              elif conclusion != "success":
+                  print("::error::CI job %r concluded %s." % (name, conclusion))
+                  failed = True
+              else:
+                  print("CI job %r passed." % name)
+
+          sys.exit(1 if failed else 0)
+          PY
+
+  # Run 1. Start it on main.
+  tag:
+    name: Tag the release
+    needs: check
+    if: github.ref_type == 'branch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      # An annotated tag, so it carries an author and a date. The push uses the
+      # credentials actions/checkout leaves behind, which is the built-in
+      # GITHUB_TOKEN plus the `contents: write` above.
+      - name: Create and push the tag
+        env:
+          TAG: ${{ needs.check.outputs.tag }}
+          VERSION: ${{ needs.check.outputs.version }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git tag -a "$TAG" -m "vulgarity (Dart) $VERSION"
+          git push origin "$TAG"
+          echo "Pushed $TAG at $GITHUB_SHA."
+
+      # This workflow cannot start its own second run, so it writes the
+      # instruction where you will read it.
+      - name: Say what to do next
+        env:
+          TAG: ${{ needs.check.outputs.tag }}
+          VERSION: ${{ needs.check.outputs.version }}
+        run: |
+          {
+            echo "## Tagged $TAG"
+            echo
+            echo "Nothing is published yet. To publish vulgarity \`$VERSION\` to pub.dev:"
+            echo
+            echo "1. Open the **Release** workflow in the Actions tab."
+            echo "2. Choose **Run workflow**."
+            echo "3. In **Use workflow from**, pick the tag \`$TAG\` — not a branch."
+            echo "4. Start the run."
+          } >> "$GITHUB_STEP_SUMMARY"
+
+  # Run 2. Start it on the tag that run 1 pushed.
+  publish:
+    name: Publish to pub.dev
+    needs: check
+    if: github.ref_type == 'tag'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      # pub.dev reads this token to identify the repository and the tag. It is
+      # what replaces a stored credential, so there is no pub.dev secret in
+      # this repository and nothing to rotate.
+      id-token: write
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: dart-lang/setup-dart@v1
+        with:
+          sdk: stable
+
+      - name: Report the toolchain
+        run: dart --version
+
+      - name: Resolve dependencies
+        working-directory: dart
+        run: dart pub get
+
+      # The same validation the upload runs, one step earlier, so the archive
+      # file list lands in the log next to the version that shipped it.
+      - name: Dry run
+        working-directory: dart
+        run: dart pub publish --dry-run
+
+      # --force skips the interactive prompt. There is no terminal here to
+      # answer it, and every check that the prompt exists for has already run.
+      - name: Publish
+        working-directory: dart
+        run: dart pub publish --force
+
+      - name: Record what shipped
+        env:
+          VERSION: ${{ needs.check.outputs.version }}
+        run: |
+          {
+            echo "## Published vulgarity $VERSION"
+            echo
+            echo "<https://pub.dev/packages/vulgarity/versions/$VERSION>"
+          } >> "$GITHUB_STEP_SUMMARY"

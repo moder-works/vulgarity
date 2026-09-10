@@ -14,8 +14,12 @@ and Flutter web.
 
 ```yaml
 dependencies:
-  vulgarity: ^0.1.0
+  vulgarity: ^0.1.0-pre.1
 ```
+
+The version is a pre-release, and the constraint names `-pre.1` on purpose.
+A plain `^0.1.0` matches no pre-release version, so it would find nothing to
+install.
 
 ## Use it
 

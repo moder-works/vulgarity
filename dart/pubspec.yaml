@@ -3,7 +3,7 @@ description: >-
   Trie-based vulgarity detection, filtering and scoring. It defeats leetspeak,
   separator and repeated-letter evasion, and shares its term list with a .NET
   port.
-version: 0.1.0
+version: 0.1.0-pre.1
 repository: https://github.com/moder-works/vulgarity/tree/main/dart
 issue_tracker: https://github.com/moder-works/vulgarity/issues
 topics: [profanity, moderation, text, filter, nlp]
