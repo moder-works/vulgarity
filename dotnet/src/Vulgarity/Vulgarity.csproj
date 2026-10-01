@@ -11,7 +11,7 @@
 
   <PropertyGroup>
     <PackageId>Vulgarity</PackageId>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <Description>
       Trie-based vulgarity detection, filtering and scoring. It defeats leetspeak,
       separator and repeated-letter evasion. A matching Dart package shares the
