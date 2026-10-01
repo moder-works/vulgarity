@@ -13,7 +13,12 @@ namespace Vulgarity.Tests
     /// and say more about why.
     ///
     /// dart/test/engine_regression_test.dart is the mirror of this file.
+    ///
+    /// The class sits in <see cref="SerialCollection"/>, so it runs alone. The
+    /// linear-time case reads a stopwatch, and a reading is only worth something
+    /// when nothing else runs beside it.
     /// </remarks>
+    [Collection(SerialCollection.Name)]
     public class EngineRegressionTests
     {
         private static readonly VulgarityFilter Filter = VulgarityFilter.CreateDefault();
@@ -163,11 +168,12 @@ namespace Vulgarity.Tests
             // short warm-up would time the tiering and not the algorithm.
             Filter.Scan(text);
 
-            // Then take the best of three. The Dart mirror times one run, because
-            // its test runner gives a test the machine to itself. The xunit host
-            // runs whole test classes in parallel inside one process, so a single
-            // reading here measures whatever else was scheduled beside it. A
-            // quadratic scan is seconds on every run and fails all three.
+            // Then take the best of three. The xunit host runs whole test classes
+            // in parallel inside one process. This class opts out through
+            // SerialCollection, which runs after every parallel collection has
+            // finished. A hosted CI runner still shares its cores with other
+            // tenants, so one reading can land on a slow moment. A quadratic scan
+            // is seconds on every run and fails all three.
             long best = long.MaxValue;
             for (int attempt = 0; attempt < 3; attempt++)
             {
@@ -183,5 +189,20 @@ namespace Vulgarity.Tests
 
             Assert.True(best < 500, best + " ms");
         }
+    }
+
+    /// <summary>A test collection that never runs beside another.</summary>
+    /// <remarks>
+    /// xunit runs a collection with parallelization disabled after all the
+    /// parallel collections have finished, and runs it on its own. Before this,
+    /// the CI run on main for 0.1.0-pre.2 failed the linear-time case at 681 ms,
+    /// with every other class free to run beside it. The same scan takes about
+    /// 125 ms on its own on a laptop.
+    /// </remarks>
+    [CollectionDefinition(Name, DisableParallelization = true)]
+    public class SerialCollection
+    {
+        /// <summary>The collection name that a class passes to its Collection attribute.</summary>
+        public const string Name = "Serial";
     }
 }
