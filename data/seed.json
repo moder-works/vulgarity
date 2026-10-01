@@ -4,6 +4,18 @@
   "note": "Base English term list for the vulgarity matcher. Every term is already folded to profile fold-v1. Set \"w\" to require a word boundary. Severity runs 1 to 5; clinical anatomy sits at 1.",
   "entries": [
     {
+      "t": "2gic",
+      "cat": "sexual",
+      "sev": 4,
+      "w": true
+    },
+    {
+      "t": "a2m",
+      "cat": "sexual",
+      "sev": 4,
+      "w": true
+    },
+    {
       "t": "abbo",
       "cat": "hate",
       "sev": 5,
@@ -13,6 +25,17 @@
       "t": "adderall",
       "cat": "drug",
       "sev": 1
+    },
+    {
+      "t": "ahole",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "alabamahotpocket",
+      "cat": "sexual",
+      "sev": 4
     },
     {
       "t": "anal",
@@ -84,9 +107,30 @@
       "w": true
     },
     {
+      "t": "assbag",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "assbandit",
+      "cat": "hate",
+      "sev": 4
+    },
+    {
+      "t": "assbite",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "assclown",
       "cat": "profanity",
       "sev": 3
+    },
+    {
+      "t": "asses",
+      "cat": "profanity",
+      "sev": 2,
+      "w": true
     },
     {
       "t": "assface",
@@ -99,9 +143,19 @@
       "sev": 3
     },
     {
+      "t": "asshead",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "asshole",
       "cat": "profanity",
       "sev": 4
+    },
+    {
+      "t": "asskiss",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "asskisser",
@@ -109,14 +163,34 @@
       "sev": 3
     },
     {
+      "t": "asslick",
+      "cat": "profanity",
+      "sev": 4
+    },
+    {
       "t": "asslicker",
       "cat": "profanity",
       "sev": 4
     },
     {
+      "t": "assmonkey",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "assmunch",
       "cat": "profanity",
       "sev": 3
+    },
+    {
+      "t": "asswad",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "asswhole",
+      "cat": "profanity",
+      "sev": 4
     },
     {
       "t": "asswipe",
@@ -130,9 +204,35 @@
       "w": true
     },
     {
+      "t": "axwound",
+      "cat": "hate",
+      "sev": 5
+    },
+    {
+      "t": "azz",
+      "cat": "profanity",
+      "sev": 2,
+      "w": true
+    },
+    {
+      "t": "babybatter",
+      "cat": "sexual",
+      "sev": 3
+    },
+    {
       "t": "badass",
       "cat": "profanity",
       "sev": 2
+    },
+    {
+      "t": "ballbag",
+      "cat": "sexual",
+      "sev": 3
+    },
+    {
+      "t": "ballgag",
+      "cat": "sexual",
+      "sev": 3
     },
     {
       "t": "ballsack",
@@ -143,6 +243,11 @@
       "t": "bareback",
       "cat": "sexual",
       "sev": 1
+    },
+    {
+      "t": "barelylegal",
+      "cat": "sexual",
+      "sev": 3
     },
     {
       "t": "bastard",
@@ -182,9 +287,35 @@
       "w": true
     },
     {
+      "t": "beardedclam",
+      "cat": "sexual",
+      "sev": 3
+    },
+    {
       "t": "beastiality",
       "cat": "sexual",
       "sev": 5
+    },
+    {
+      "t": "beatch",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "beatyourmeat",
+      "cat": "sexual",
+      "sev": 3
+    },
+    {
+      "t": "beefcurtain",
+      "cat": "sexual",
+      "sev": 3
+    },
+    {
+      "t": "beeyotch",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "behead",
@@ -193,6 +324,11 @@
     },
     {
       "t": "bellend",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "beotch",
       "cat": "profanity",
       "sev": 3
     },
@@ -213,7 +349,18 @@
       "sev": 3
     },
     {
+      "t": "bigtits",
+      "cat": "sexual",
+      "sev": 3
+    },
+    {
       "t": "bimbo",
+      "cat": "profanity",
+      "sev": 2,
+      "w": true
+    },
+    {
+      "t": "bimbos",
       "cat": "profanity",
       "sev": 2,
       "w": true
@@ -240,9 +387,31 @@
       "sev": 4
     },
     {
+      "t": "blowyourload",
+      "cat": "sexual",
+      "sev": 3
+    },
+    {
+      "t": "blumpkin",
+      "cat": "sexual",
+      "sev": 4
+    },
+    {
       "t": "bogtrotter",
       "cat": "hate",
       "sev": 4
+    },
+    {
+      "t": "bohunk",
+      "cat": "hate",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "bollick",
+      "cat": "profanity",
+      "sev": 2,
+      "w": true
     },
     {
       "t": "bollix",
@@ -262,6 +431,18 @@
       "w": true
     },
     {
+      "t": "bollok",
+      "cat": "profanity",
+      "sev": 2,
+      "w": true
+    },
+    {
+      "t": "bollox",
+      "cat": "profanity",
+      "sev": 2,
+      "w": true
+    },
+    {
       "t": "bombthreat",
       "cat": "violence",
       "sev": 3
@@ -274,6 +455,12 @@
     },
     {
       "t": "boner",
+      "cat": "sexual",
+      "sev": 2,
+      "w": true
+    },
+    {
+      "t": "boners",
       "cat": "sexual",
       "sev": 2,
       "w": true
@@ -313,6 +500,12 @@
       "w": true
     },
     {
+      "t": "boonga",
+      "cat": "hate",
+      "sev": 5,
+      "w": true
+    },
+    {
       "t": "brothel",
       "cat": "sexual",
       "sev": 1,
@@ -320,6 +513,12 @@
     },
     {
       "t": "bugger",
+      "cat": "profanity",
+      "sev": 2,
+      "w": true
+    },
+    {
+      "t": "buggered",
       "cat": "profanity",
       "sev": 2,
       "w": true
@@ -333,6 +532,21 @@
     {
       "t": "bukkake",
       "cat": "sexual",
+      "sev": 4
+    },
+    {
+      "t": "bullcrap",
+      "cat": "profanity",
+      "sev": 1
+    },
+    {
+      "t": "bulldike",
+      "cat": "hate",
+      "sev": 4
+    },
+    {
+      "t": "bulldyke",
+      "cat": "hate",
       "sev": 4
     },
     {
@@ -351,15 +565,50 @@
       "sev": 3
     },
     {
+      "t": "bustaload",
+      "cat": "sexual",
+      "sev": 3
+    },
+    {
+      "t": "butchdike",
+      "cat": "hate",
+      "sev": 4
+    },
+    {
+      "t": "butchdyke",
+      "cat": "hate",
+      "sev": 4
+    },
+    {
       "t": "butt",
       "cat": "profanity",
       "sev": 1,
       "w": true
     },
     {
+      "t": "buttbang",
+      "cat": "sexual",
+      "sev": 4
+    },
+    {
+      "t": "buttcheeks",
+      "cat": "profanity",
+      "sev": 1
+    },
+    {
+      "t": "buttface",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "buttfuck",
       "cat": "sexual",
       "sev": 4
+    },
+    {
+      "t": "butthead",
+      "cat": "profanity",
+      "sev": 2
     },
     {
       "t": "butthole",
@@ -380,6 +629,11 @@
       "t": "cameljockey",
       "cat": "hate",
       "sev": 5
+    },
+    {
+      "t": "cameltoe",
+      "cat": "sexual",
+      "sev": 2
     },
     {
       "t": "camgirl",
@@ -403,6 +657,11 @@
       "w": true
     },
     {
+      "t": "chichiman",
+      "cat": "hate",
+      "sev": 4
+    },
+    {
       "t": "chickenshit",
       "cat": "profanity",
       "sev": 2
@@ -411,6 +670,18 @@
       "t": "chinaman",
       "cat": "hate",
       "sev": 4
+    },
+    {
+      "t": "chinc",
+      "cat": "hate",
+      "sev": 5,
+      "w": true
+    },
+    {
+      "t": "chincs",
+      "cat": "hate",
+      "sev": 5,
+      "w": true
     },
     {
       "t": "chingchong",
@@ -435,10 +706,32 @@
       "w": true
     },
     {
+      "t": "choade",
+      "cat": "profanity",
+      "sev": 2,
+      "w": true
+    },
+    {
       "t": "chode",
       "cat": "profanity",
       "sev": 2,
       "w": true
+    },
+    {
+      "t": "chodes",
+      "cat": "profanity",
+      "sev": 2,
+      "w": true
+    },
+    {
+      "t": "circlejerk",
+      "cat": "sexual",
+      "sev": 2
+    },
+    {
+      "t": "clevelandsteamer",
+      "cat": "sexual",
+      "sev": 4
     },
     {
       "t": "clit",
@@ -447,14 +740,45 @@
       "w": true
     },
     {
+      "t": "clitface",
+      "cat": "profanity",
+      "sev": 4
+    },
+    {
       "t": "clitoris",
       "cat": "sexual",
       "sev": 1
     },
     {
+      "t": "clitorus",
+      "cat": "sexual",
+      "sev": 1
+    },
+    {
+      "t": "clits",
+      "cat": "sexual",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "clitty",
+      "cat": "sexual",
+      "sev": 3
+    },
+    {
+      "t": "clunge",
+      "cat": "sexual",
+      "sev": 3
+    },
+    {
       "t": "clusterfuck",
       "cat": "profanity",
       "sev": 3
+    },
+    {
+      "t": "cocain",
+      "cat": "drug",
+      "sev": 2
     },
     {
       "t": "cocaine",
@@ -468,6 +792,67 @@
       "w": true
     },
     {
+      "t": "cockass",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "cockblock",
+      "cat": "profanity",
+      "sev": 2
+    },
+    {
+      "t": "cockface",
+      "cat": "profanity",
+      "sev": 4
+    },
+    {
+      "t": "cockhead",
+      "cat": "profanity",
+      "sev": 4
+    },
+    {
+      "t": "cockjockey",
+      "cat": "profanity",
+      "sev": 4
+    },
+    {
+      "t": "cockknocker",
+      "cat": "profanity",
+      "sev": 4
+    },
+    {
+      "t": "cocklicker",
+      "cat": "profanity",
+      "sev": 5
+    },
+    {
+      "t": "cockmonkey",
+      "cat": "profanity",
+      "sev": 4
+    },
+    {
+      "t": "cockmunch",
+      "cat": "profanity",
+      "sev": 4
+    },
+    {
+      "t": "cocks",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cocksmoker",
+      "cat": "profanity",
+      "sev": 5
+    },
+    {
+      "t": "cocksucer",
+      "cat": "profanity",
+      "sev": 5
+    },
+    {
       "t": "cocksuck",
       "cat": "profanity",
       "sev": 5
@@ -478,9 +863,24 @@
       "sev": 5
     },
     {
+      "t": "cocksuka",
+      "cat": "profanity",
+      "sev": 5
+    },
+    {
+      "t": "cocksukka",
+      "cat": "profanity",
+      "sev": 5
+    },
+    {
       "t": "cocktease",
       "cat": "sexual",
       "sev": 3
+    },
+    {
+      "t": "cockwaffle",
+      "cat": "profanity",
+      "sev": 4
     },
     {
       "t": "cockwomble",
@@ -493,10 +893,43 @@
       "sev": 1
     },
     {
+      "t": "cokmuncher",
+      "cat": "profanity",
+      "sev": 4
+    },
+    {
+      "t": "coksucka",
+      "cat": "profanity",
+      "sev": 5
+    },
+    {
+      "t": "coochie",
+      "cat": "sexual",
+      "sev": 2,
+      "w": true
+    },
+    {
+      "t": "coochy",
+      "cat": "sexual",
+      "sev": 2,
+      "w": true
+    },
+    {
       "t": "coon",
       "cat": "hate",
       "sev": 4,
       "w": true
+    },
+    {
+      "t": "coons",
+      "cat": "hate",
+      "sev": 4,
+      "w": true
+    },
+    {
+      "t": "corksucker",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "crackhead",
@@ -555,12 +988,33 @@
       "sev": 4
     },
     {
+      "t": "cumdump",
+      "cat": "sexual",
+      "sev": 4
+    },
+    {
       "t": "cumdumpster",
       "cat": "sexual",
       "sev": 4
     },
     {
+      "t": "cumguzzler",
+      "cat": "sexual",
+      "sev": 4
+    },
+    {
+      "t": "cumjockey",
+      "cat": "sexual",
+      "sev": 4
+    },
+    {
       "t": "cumming",
+      "cat": "sexual",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "cums",
       "cat": "sexual",
       "sev": 3,
       "w": true
@@ -574,6 +1028,21 @@
       "t": "cumslut",
       "cat": "sexual",
       "sev": 4
+    },
+    {
+      "t": "cumstain",
+      "cat": "sexual",
+      "sev": 4
+    },
+    {
+      "t": "cunilingus",
+      "cat": "sexual",
+      "sev": 3
+    },
+    {
+      "t": "cunillingus",
+      "cat": "sexual",
+      "sev": 3
     },
     {
       "t": "cunnilingus",
@@ -601,7 +1070,18 @@
       "sev": 5
     },
     {
+      "t": "cybersex",
+      "cat": "sexual",
+      "sev": 2
+    },
+    {
       "t": "dago",
+      "cat": "hate",
+      "sev": 4,
+      "w": true
+    },
+    {
+      "t": "dagos",
       "cat": "hate",
       "sev": 4,
       "w": true
@@ -633,6 +1113,11 @@
       "cat": "hate",
       "sev": 4,
       "w": true
+    },
+    {
+      "t": "daterape",
+      "cat": "violence",
+      "sev": 5
     },
     {
       "t": "decapitate",
@@ -668,6 +1153,11 @@
       "sev": 4
     },
     {
+      "t": "dickbrain",
+      "cat": "profanity",
+      "sev": 4
+    },
+    {
       "t": "dickcheese",
       "cat": "profanity",
       "sev": 4
@@ -683,9 +1173,40 @@
       "sev": 4
     },
     {
+      "t": "dickhole",
+      "cat": "profanity",
+      "sev": 4
+    },
+    {
+      "t": "dickish",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dickjuice",
+      "cat": "sexual",
+      "sev": 4
+    },
+    {
       "t": "dickless",
       "cat": "profanity",
       "sev": 3
+    },
+    {
+      "t": "dicks",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "dickslap",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "dicksuck",
+      "cat": "profanity",
+      "sev": 5
     },
     {
       "t": "dickwad",
@@ -693,7 +1214,17 @@
       "sev": 4
     },
     {
+      "t": "dickweasel",
+      "cat": "profanity",
+      "sev": 4
+    },
+    {
       "t": "dickweed",
+      "cat": "profanity",
+      "sev": 4
+    },
+    {
+      "t": "dickwod",
       "cat": "profanity",
       "sev": 4
     },
@@ -713,9 +1244,19 @@
       "sev": 3
     },
     {
+      "t": "dirtysanchez",
+      "cat": "sexual",
+      "sev": 4
+    },
+    {
       "t": "disembowel",
       "cat": "violence",
       "sev": 3
+    },
+    {
+      "t": "doggiestyle",
+      "cat": "sexual",
+      "sev": 2
     },
     {
       "t": "doggystyle",
@@ -734,9 +1275,30 @@
       "w": true
     },
     {
+      "t": "donkeypunch",
+      "cat": "sexual",
+      "sev": 4
+    },
+    {
+      "t": "doochbag",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "doosh",
+      "cat": "profanity",
+      "sev": 2,
+      "w": true
+    },
+    {
       "t": "dothead",
       "cat": "hate",
       "sev": 5
+    },
+    {
+      "t": "doublepenetration",
+      "cat": "sexual",
+      "sev": 4
     },
     {
       "t": "douche",
@@ -755,6 +1317,17 @@
       "w": true
     },
     {
+      "t": "duche",
+      "cat": "profanity",
+      "sev": 2,
+      "w": true
+    },
+    {
+      "t": "dumass",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "dumb",
       "cat": "profanity",
       "sev": 1,
@@ -766,13 +1339,30 @@
       "sev": 3
     },
     {
+      "t": "dvda",
+      "cat": "sexual",
+      "sev": 4,
+      "w": true
+    },
+    {
       "t": "dyke",
       "cat": "hate",
       "sev": 3,
       "w": true
     },
     {
+      "t": "dykes",
+      "cat": "hate",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "ejaculat",
+      "cat": "sexual",
+      "sev": 2
+    },
+    {
+      "t": "ejakulate",
       "cat": "sexual",
       "sev": 2
     },
@@ -811,6 +1401,11 @@
       "w": true
     },
     {
+      "t": "fagbag",
+      "cat": "hate",
+      "sev": 5
+    },
+    {
       "t": "faggit",
       "cat": "hate",
       "sev": 5
@@ -837,16 +1432,32 @@
       "w": true
     },
     {
+      "t": "fagots",
+      "cat": "hate",
+      "sev": 5,
+      "w": true
+    },
+    {
       "t": "fags",
       "cat": "hate",
       "sev": 5,
       "w": true
     },
     {
+      "t": "fagtard",
+      "cat": "hate",
+      "sev": 5
+    },
+    {
       "t": "fanny",
       "cat": "profanity",
       "sev": 1,
       "w": true
+    },
+    {
+      "t": "fannyflaps",
+      "cat": "sexual",
+      "sev": 3
     },
     {
       "t": "fart",
@@ -867,10 +1478,20 @@
       "w": true
     },
     {
+      "t": "fartknocker",
+      "cat": "profanity",
+      "sev": 2
+    },
+    {
       "t": "farts",
       "cat": "profanity",
       "sev": 1,
       "w": true
+    },
+    {
+      "t": "fatass",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "fck",
@@ -885,10 +1506,25 @@
       "w": true
     },
     {
+      "t": "fcuker",
+      "cat": "profanity",
+      "sev": 4
+    },
+    {
+      "t": "fcuking",
+      "cat": "profanity",
+      "sev": 4
+    },
+    {
       "t": "feck",
       "cat": "profanity",
       "sev": 2,
       "w": true
+    },
+    {
+      "t": "fecker",
+      "cat": "profanity",
+      "sev": 2
     },
     {
       "t": "fecking",
@@ -896,7 +1532,27 @@
       "sev": 2
     },
     {
+      "t": "felch",
+      "cat": "sexual",
+      "sev": 4
+    },
+    {
+      "t": "fellate",
+      "cat": "sexual",
+      "sev": 3
+    },
+    {
       "t": "fellatio",
+      "cat": "sexual",
+      "sev": 3
+    },
+    {
+      "t": "feltch",
+      "cat": "sexual",
+      "sev": 4
+    },
+    {
+      "t": "femdom",
       "cat": "sexual",
       "sev": 3
     },
@@ -933,6 +1589,11 @@
       "sev": 4
     },
     {
+      "t": "fleshflute",
+      "cat": "sexual",
+      "sev": 3
+    },
+    {
       "t": "fleshlight",
       "cat": "sexual",
       "sev": 3
@@ -948,6 +1609,11 @@
       "cat": "profanity",
       "sev": 4,
       "w": true
+    },
+    {
+      "t": "fooker",
+      "cat": "profanity",
+      "sev": 4
     },
     {
       "t": "fooking",
@@ -1036,6 +1702,21 @@
       "w": true
     },
     {
+      "t": "futanari",
+      "cat": "sexual",
+      "sev": 3
+    },
+    {
+      "t": "fvck",
+      "cat": "profanity",
+      "sev": 4
+    },
+    {
+      "t": "fxck",
+      "cat": "profanity",
+      "sev": 4
+    },
+    {
       "t": "gangbang",
       "cat": "sexual",
       "sev": 4
@@ -1058,12 +1739,27 @@
       "w": true
     },
     {
+      "t": "gayass",
+      "cat": "hate",
+      "sev": 4
+    },
+    {
       "t": "gayboy",
       "cat": "hate",
       "sev": 4
     },
     {
       "t": "gaylord",
+      "cat": "hate",
+      "sev": 4
+    },
+    {
+      "t": "gaytard",
+      "cat": "hate",
+      "sev": 5
+    },
+    {
+      "t": "gaywad",
       "cat": "hate",
       "sev": 4
     },
@@ -1085,9 +1781,24 @@
       "w": true
     },
     {
+      "t": "goatse",
+      "cat": "sexual",
+      "sev": 4
+    },
+    {
       "t": "gobshite",
       "cat": "profanity",
       "sev": 3
+    },
+    {
+      "t": "godamn",
+      "cat": "profanity",
+      "sev": 2
+    },
+    {
+      "t": "goddam",
+      "cat": "profanity",
+      "sev": 2
     },
     {
       "t": "goddamn",
@@ -1095,10 +1806,41 @@
       "sev": 2
     },
     {
+      "t": "godsdamn",
+      "cat": "profanity",
+      "sev": 2
+    },
+    {
+      "t": "gokkun",
+      "cat": "sexual",
+      "sev": 4
+    },
+    {
+      "t": "goldenshower",
+      "cat": "sexual",
+      "sev": 3
+    },
+    {
+      "t": "golliwog",
+      "cat": "hate",
+      "sev": 4
+    },
+    {
       "t": "gook",
       "cat": "hate",
       "sev": 5,
       "w": true
+    },
+    {
+      "t": "gooks",
+      "cat": "hate",
+      "sev": 5,
+      "w": true
+    },
+    {
+      "t": "gotohell",
+      "cat": "profanity",
+      "sev": 2
     },
     {
       "t": "gringo",
@@ -1206,6 +1948,11 @@
       "sev": 4
     },
     {
+      "t": "hobag",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "hoe",
       "cat": "profanity",
       "sev": 2,
@@ -1221,6 +1968,12 @@
       "t": "homo",
       "cat": "hate",
       "sev": 4,
+      "w": true
+    },
+    {
+      "t": "honkey",
+      "cat": "hate",
+      "sev": 3,
       "w": true
     },
     {
@@ -1297,6 +2050,11 @@
       "sev": 3
     },
     {
+      "t": "jackhole",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "jackoff",
       "cat": "profanity",
       "sev": 3
@@ -1307,7 +2065,23 @@
       "sev": 2
     },
     {
+      "t": "jagoff",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "jailbait",
+      "cat": "sexual",
+      "sev": 4
+    },
+    {
       "t": "jap",
+      "cat": "hate",
+      "sev": 4,
+      "w": true
+    },
+    {
+      "t": "japs",
       "cat": "hate",
       "sev": 4,
       "w": true
@@ -1319,6 +2093,11 @@
       "w": true
     },
     {
+      "t": "jerkass",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "jerkoff",
       "cat": "profanity",
       "sev": 3
@@ -1327,6 +2106,30 @@
       "t": "jigaboo",
       "cat": "hate",
       "sev": 5
+    },
+    {
+      "t": "jiggerboo",
+      "cat": "hate",
+      "sev": 5,
+      "w": true
+    },
+    {
+      "t": "jism",
+      "cat": "sexual",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jiz",
+      "cat": "sexual",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "jizm",
+      "cat": "sexual",
+      "sev": 3,
+      "w": true
     },
     {
       "t": "jizz",
@@ -1340,6 +2143,12 @@
     },
     {
       "t": "junkie",
+      "cat": "drug",
+      "sev": 2,
+      "w": true
+    },
+    {
+      "t": "junky",
       "cat": "drug",
       "sev": 2,
       "w": true
@@ -1399,6 +2208,11 @@
       "sev": 3
     },
     {
+      "t": "knobjockey",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "koon",
       "cat": "hate",
       "sev": 4,
@@ -1417,6 +2231,16 @@
       "w": true
     },
     {
+      "t": "kumming",
+      "cat": "sexual",
+      "sev": 3
+    },
+    {
+      "t": "kunilingus",
+      "cat": "sexual",
+      "sev": 3
+    },
+    {
       "t": "kunt",
       "cat": "profanity",
       "sev": 5,
@@ -1426,6 +2250,18 @@
       "t": "kush",
       "cat": "drug",
       "sev": 1,
+      "w": true
+    },
+    {
+      "t": "kwif",
+      "cat": "sexual",
+      "sev": 2,
+      "w": true
+    },
+    {
+      "t": "kyke",
+      "cat": "hate",
+      "sev": 5,
       "w": true
     },
     {
@@ -1440,13 +2276,63 @@
       "sev": 4
     },
     {
+      "t": "lameass",
+      "cat": "profanity",
+      "sev": 2
+    },
+    {
+      "t": "lardass",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "lemonparty",
+      "cat": "sexual",
+      "sev": 3
+    },
+    {
       "t": "lesbo",
       "cat": "hate",
       "sev": 4,
       "w": true
     },
     {
+      "t": "lezbian",
+      "cat": "hate",
+      "sev": 4
+    },
+    {
+      "t": "lezbo",
+      "cat": "hate",
+      "sev": 4,
+      "w": true
+    },
+    {
+      "t": "lezbos",
+      "cat": "hate",
+      "sev": 4,
+      "w": true
+    },
+    {
+      "t": "lezza",
+      "cat": "hate",
+      "sev": 4,
+      "w": true
+    },
+    {
       "t": "lezzie",
+      "cat": "hate",
+      "sev": 4,
+      "w": true
+    },
+    {
+      "t": "lezzies",
+      "cat": "hate",
+      "sev": 4,
+      "w": true
+    },
+    {
+      "t": "lezzy",
       "cat": "hate",
       "sev": 4,
       "w": true
@@ -1493,6 +2379,16 @@
     {
       "t": "massacre",
       "cat": "violence",
+      "sev": 2
+    },
+    {
+      "t": "masterb8",
+      "cat": "sexual",
+      "sev": 2
+    },
+    {
+      "t": "masterbat",
+      "cat": "sexual",
       "sev": 2
     },
     {
@@ -1591,6 +2487,12 @@
       "sev": 5
     },
     {
+      "t": "moolie",
+      "cat": "hate",
+      "sev": 5,
+      "w": true
+    },
+    {
       "t": "moron",
       "cat": "profanity",
       "sev": 2,
@@ -1619,6 +2521,11 @@
     },
     {
       "t": "muffdiver",
+      "cat": "hate",
+      "sev": 4
+    },
+    {
+      "t": "muffdiving",
       "cat": "hate",
       "sev": 4
     },
@@ -1693,7 +2600,18 @@
       "w": true
     },
     {
+      "t": "nigaboo",
+      "cat": "hate",
+      "sev": 5
+    },
+    {
       "t": "nigga",
+      "cat": "hate",
+      "sev": 5,
+      "w": true
+    },
+    {
+      "t": "niggah",
       "cat": "hate",
       "sev": 5,
       "w": true
@@ -1726,6 +2644,26 @@
       "t": "nigglet",
       "cat": "hate",
       "sev": 5
+    },
+    {
+      "t": "niglet",
+      "cat": "hate",
+      "sev": 5
+    },
+    {
+      "t": "nignog",
+      "cat": "hate",
+      "sev": 5
+    },
+    {
+      "t": "nimpho",
+      "cat": "sexual",
+      "sev": 3
+    },
+    {
+      "t": "nobhead",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "nude",
@@ -1790,9 +2728,20 @@
       "w": true
     },
     {
+      "t": "orgasim",
+      "cat": "sexual",
+      "sev": 2
+    },
+    {
       "t": "orgasm",
       "cat": "sexual",
       "sev": 2
+    },
+    {
+      "t": "orgies",
+      "cat": "sexual",
+      "sev": 3,
+      "w": true
     },
     {
       "t": "orgy",
@@ -1816,6 +2765,11 @@
       "sev": 5
     },
     {
+      "t": "paedophilia",
+      "cat": "sexual",
+      "sev": 5
+    },
+    {
       "t": "paki",
       "cat": "hate",
       "sev": 5,
@@ -1834,6 +2788,23 @@
       "w": true
     },
     {
+      "t": "pcp",
+      "cat": "drug",
+      "sev": 2,
+      "w": true
+    },
+    {
+      "t": "pecker",
+      "cat": "sexual",
+      "sev": 2,
+      "w": true
+    },
+    {
+      "t": "peckerhead",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "pedo",
       "cat": "sexual",
       "sev": 5,
@@ -1841,6 +2812,11 @@
     },
     {
       "t": "pedophile",
+      "cat": "sexual",
+      "sev": 5
+    },
+    {
+      "t": "pedophilia",
       "cat": "sexual",
       "sev": 5
     },
@@ -1878,9 +2854,52 @@
       "sev": 5
     },
     {
+      "t": "phonesex",
+      "cat": "sexual",
+      "sev": 2
+    },
+    {
       "t": "phuck",
       "cat": "profanity",
       "sev": 4
+    },
+    {
+      "t": "phuk",
+      "cat": "profanity",
+      "sev": 4,
+      "w": true
+    },
+    {
+      "t": "phuked",
+      "cat": "profanity",
+      "sev": 4
+    },
+    {
+      "t": "phuking",
+      "cat": "profanity",
+      "sev": 4
+    },
+    {
+      "t": "phukked",
+      "cat": "profanity",
+      "sev": 4
+    },
+    {
+      "t": "phukking",
+      "cat": "profanity",
+      "sev": 4
+    },
+    {
+      "t": "phuks",
+      "cat": "profanity",
+      "sev": 4,
+      "w": true
+    },
+    {
+      "t": "phuq",
+      "cat": "profanity",
+      "sev": 4,
+      "w": true
     },
     {
       "t": "pikey",
@@ -1893,6 +2912,11 @@
       "cat": "profanity",
       "sev": 2,
       "w": true
+    },
+    {
+      "t": "pillowbiter",
+      "cat": "hate",
+      "sev": 4
     },
     {
       "t": "pimp",
@@ -1919,15 +2943,43 @@
       "w": true
     },
     {
+      "t": "pissers",
+      "cat": "profanity",
+      "sev": 2,
+      "w": true
+    },
+    {
+      "t": "pisses",
+      "cat": "profanity",
+      "sev": 2,
+      "w": true
+    },
+    {
       "t": "pissflaps",
       "cat": "profanity",
       "sev": 3
+    },
+    {
+      "t": "pissin",
+      "cat": "profanity",
+      "sev": 2,
+      "w": true
     },
     {
       "t": "pissing",
       "cat": "profanity",
       "sev": 2,
       "w": true
+    },
+    {
+      "t": "pissoff",
+      "cat": "profanity",
+      "sev": 2
+    },
+    {
+      "t": "pisspig",
+      "cat": "profanity",
+      "sev": 3
     },
     {
       "t": "pisstake",
@@ -1950,6 +3002,11 @@
       "cat": "hate",
       "sev": 4,
       "w": true
+    },
+    {
+      "t": "polesmoker",
+      "cat": "hate",
+      "sev": 4
     },
     {
       "t": "poo",
@@ -1975,6 +3032,16 @@
       "w": true
     },
     {
+      "t": "poonani",
+      "cat": "sexual",
+      "sev": 3
+    },
+    {
+      "t": "poonany",
+      "cat": "sexual",
+      "sev": 3
+    },
+    {
       "t": "poontang",
       "cat": "profanity",
       "sev": 4
@@ -1984,6 +3051,16 @@
       "cat": "profanity",
       "sev": 1,
       "w": true
+    },
+    {
+      "t": "poopchute",
+      "cat": "hate",
+      "sev": 4
+    },
+    {
+      "t": "poopuncher",
+      "cat": "hate",
+      "sev": 4
     },
     {
       "t": "porchmonkey",
@@ -2012,6 +3089,17 @@
       "cat": "profanity",
       "sev": 2,
       "w": true
+    },
+    {
+      "t": "pricks",
+      "cat": "profanity",
+      "sev": 2,
+      "w": true
+    },
+    {
+      "t": "prickteaser",
+      "cat": "sexual",
+      "sev": 3
     },
     {
       "t": "pron",
@@ -2047,6 +3135,12 @@
       "w": true
     },
     {
+      "t": "pthc",
+      "cat": "sexual",
+      "sev": 5,
+      "w": true
+    },
+    {
       "t": "pubes",
       "cat": "sexual",
       "sev": 1,
@@ -2064,7 +3158,39 @@
       "sev": 3
     },
     {
+      "t": "punanny",
+      "cat": "sexual",
+      "sev": 3
+    },
+    {
+      "t": "punany",
+      "cat": "sexual",
+      "sev": 3
+    },
+    {
+      "t": "punkass",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
+      "t": "pussies",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "pussy",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
+      "t": "pussylick",
+      "cat": "sexual",
+      "sev": 4
+    },
+    {
+      "t": "pussys",
       "cat": "profanity",
       "sev": 3,
       "w": true
@@ -2073,6 +3199,12 @@
       "t": "quadroon",
       "cat": "hate",
       "sev": 3,
+      "w": true
+    },
+    {
+      "t": "queaf",
+      "cat": "sexual",
+      "sev": 2,
       "w": true
     },
     {
@@ -2090,6 +3222,18 @@
       "t": "queerbait",
       "cat": "hate",
       "sev": 4
+    },
+    {
+      "t": "queers",
+      "cat": "hate",
+      "sev": 2,
+      "w": true
+    },
+    {
+      "t": "quim",
+      "cat": "sexual",
+      "sev": 3,
+      "w": true
     },
     {
       "t": "raghead",
@@ -2112,6 +3256,12 @@
       "t": "rapes",
       "cat": "violence",
       "sev": 5,
+      "w": true
+    },
+    {
+      "t": "rapey",
+      "cat": "violence",
+      "sev": 4,
       "w": true
     },
     {
@@ -2162,6 +3312,11 @@
       "w": true
     },
     {
+      "t": "rimjaw",
+      "cat": "sexual",
+      "sev": 4
+    },
+    {
       "t": "rimjob",
       "cat": "sexual",
       "sev": 4
@@ -2185,9 +3340,20 @@
       "w": true
     },
     {
+      "t": "rtard",
+      "cat": "hate",
+      "sev": 4,
+      "w": true
+    },
+    {
       "t": "rugmuncher",
       "cat": "hate",
       "sev": 5
+    },
+    {
+      "t": "rustytrombone",
+      "cat": "sexual",
+      "sev": 4
     },
     {
       "t": "sadomasochism",
@@ -2211,8 +3377,20 @@
       "sev": 5
     },
     {
+      "t": "scag",
+      "cat": "drug",
+      "sev": 2,
+      "w": true
+    },
+    {
       "t": "scat",
       "cat": "sexual",
+      "sev": 2,
+      "w": true
+    },
+    {
+      "t": "schizo",
+      "cat": "hate",
       "sev": 2,
       "w": true
     },
@@ -2225,6 +3403,18 @@
       "t": "schoolshooter",
       "cat": "violence",
       "sev": 4
+    },
+    {
+      "t": "scroat",
+      "cat": "profanity",
+      "sev": 2,
+      "w": true
+    },
+    {
+      "t": "scrot",
+      "cat": "profanity",
+      "sev": 2,
+      "w": true
     },
     {
       "t": "scrote",
@@ -2275,6 +3465,11 @@
       "t": "shemale",
       "cat": "hate",
       "sev": 5
+    },
+    {
+      "t": "shirtlifter",
+      "cat": "hate",
+      "sev": 4
     },
     {
       "t": "shit",
@@ -2350,6 +3545,12 @@
       "sev": 3
     },
     {
+      "t": "skag",
+      "cat": "drug",
+      "sev": 2,
+      "w": true
+    },
+    {
       "t": "skank",
       "cat": "profanity",
       "sev": 3
@@ -2371,6 +3572,11 @@
       "cat": "profanity",
       "sev": 3,
       "w": true
+    },
+    {
+      "t": "slanteye",
+      "cat": "hate",
+      "sev": 5
     },
     {
       "t": "slapper",
@@ -2433,6 +3639,12 @@
       "t": "sodomy",
       "cat": "sexual",
       "sev": 3
+    },
+    {
+      "t": "spac",
+      "cat": "hate",
+      "sev": 4,
+      "w": true
     },
     {
       "t": "spacker",
@@ -2504,6 +3716,28 @@
       "sev": 5
     },
     {
+      "t": "spik",
+      "cat": "hate",
+      "sev": 5,
+      "w": true
+    },
+    {
+      "t": "spiks",
+      "cat": "hate",
+      "sev": 5,
+      "w": true
+    },
+    {
+      "t": "splooge",
+      "cat": "sexual",
+      "sev": 3
+    },
+    {
+      "t": "spooge",
+      "cat": "sexual",
+      "sev": 3
+    },
+    {
       "t": "spunk",
       "cat": "sexual",
       "sev": 2,
@@ -2550,6 +3784,11 @@
       "w": true
     },
     {
+      "t": "suckass",
+      "cat": "profanity",
+      "sev": 3
+    },
+    {
       "t": "suicide",
       "cat": "violence",
       "sev": 2
@@ -2580,6 +3819,17 @@
       "t": "tard",
       "cat": "hate",
       "sev": 4,
+      "w": true
+    },
+    {
+      "t": "teabagging",
+      "cat": "sexual",
+      "sev": 3
+    },
+    {
+      "t": "terd",
+      "cat": "profanity",
+      "sev": 2,
       "w": true
     },
     {
@@ -2614,6 +3864,12 @@
       "t": "titfuck",
       "cat": "sexual",
       "sev": 5
+    },
+    {
+      "t": "tities",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
     },
     {
       "t": "titjob",
@@ -2712,6 +3968,28 @@
       "sev": 4
     },
     {
+      "t": "twathead",
+      "cat": "profanity",
+      "sev": 4
+    },
+    {
+      "t": "twatlips",
+      "cat": "profanity",
+      "sev": 4
+    },
+    {
+      "t": "twats",
+      "cat": "profanity",
+      "sev": 4,
+      "w": true
+    },
+    {
+      "t": "twatty",
+      "cat": "profanity",
+      "sev": 4,
+      "w": true
+    },
+    {
       "t": "twatwaffle",
       "cat": "profanity",
       "sev": 4
@@ -2721,6 +3999,21 @@
       "cat": "drug",
       "sev": 2,
       "w": true
+    },
+    {
+      "t": "twogirlsonecup",
+      "cat": "sexual",
+      "sev": 4
+    },
+    {
+      "t": "twunt",
+      "cat": "profanity",
+      "sev": 4
+    },
+    {
+      "t": "twunter",
+      "cat": "profanity",
+      "sev": 4
     },
     {
       "t": "uncletom",
@@ -2745,6 +4038,11 @@
       "w": true
     },
     {
+      "t": "vajayjay",
+      "cat": "sexual",
+      "sev": 1
+    },
+    {
       "t": "vibrator",
       "cat": "sexual",
       "sev": 2,
@@ -2755,6 +4053,11 @@
       "cat": "sexual",
       "sev": 2,
       "w": true
+    },
+    {
+      "t": "vjayjay",
+      "cat": "sexual",
+      "sev": 1
     },
     {
       "t": "voyeur",
@@ -2792,6 +4095,17 @@
       "w": true
     },
     {
+      "t": "wankjob",
+      "cat": "sexual",
+      "sev": 3
+    },
+    {
+      "t": "wanky",
+      "cat": "profanity",
+      "sev": 3,
+      "w": true
+    },
+    {
       "t": "wazzock",
       "cat": "profanity",
       "sev": 1,
@@ -2818,7 +4132,18 @@
       "sev": 3
     },
     {
+      "t": "whitey",
+      "cat": "hate",
+      "sev": 2,
+      "w": true
+    },
+    {
       "t": "whore",
+      "cat": "profanity",
+      "sev": 4
+    },
+    {
+      "t": "whoring",
       "cat": "profanity",
       "sev": 4
     },
@@ -2838,6 +4163,17 @@
       "t": "windowlicker",
       "cat": "hate",
       "sev": 4
+    },
+    {
+      "t": "wiseass",
+      "cat": "profanity",
+      "sev": 2
+    },
+    {
+      "t": "wog",
+      "cat": "hate",
+      "sev": 5,
+      "w": true
     },
     {
       "t": "wop",
@@ -2879,6 +4215,11 @@
       "sev": 5
     },
     {
+      "t": "zoophile",
+      "cat": "sexual",
+      "sev": 5
+    },
+    {
       "t": "zoophilia",
       "cat": "sexual",
       "sev": 5
@@ -2887,6 +4228,7 @@
   "allow": [
     "agapornis",
     "annal",
+    "assess",
     "beehead",
     "bereshith",
     "brushite",

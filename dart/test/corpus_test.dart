@@ -4,7 +4,7 @@ import 'package:vulgarity/vulgarity.dart';
 import 'test_data.dart';
 
 /// The count detected when this fixture was recorded.
-const int detectionBaseline = 2894;
+const int detectionBaseline = 4489;
 
 /// Evasions the cross-word boundary rule gives up on, and why.
 ///

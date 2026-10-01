@@ -228,7 +228,7 @@ trie as the same pattern.
 
 ## Languages
 
-English is hand-curated: **526 terms**, each with a category, a severity, and a
+English is hand-curated: **778 terms**, each with a category, a severity, and a
 word-boundary rule. It loads by default.
 
 Fourteen more packs ship, **off by default**:
@@ -540,7 +540,7 @@ That one rule does almost all the false-positive work:
 | `shell` | `hell` | `s` is a word character | clean |
 | `d.a.m.n!` | `damn` | `!` folds soft, not hard | **flag** |
 
-The allowlist only handles what this cannot. It holds **16 entries**, and a test
+The allowlist only handles what this cannot. It holds **31 entries**, and a test
 fails on any entry the matcher does not need. That test exists because an
 innocent word that merely contains a term once sat in the allowlist, where it
 also suppressed the correct match on the two-word phrase that folds to it. The
@@ -575,9 +575,9 @@ tool/                     generators, all idempotent, all with --check
   foldlib.py              a Python reference fold, used by the tools
 
 dotnet/src/Vulgarity/     the C# library
-dotnet/tests/             311 tests
+dotnet/tests/             528 tests
 dart/lib/                 the Dart library
-dart/test/                321 tests, not published to pub.dev
+dart/test/                526 tests, not published to pub.dev
 ```
 
 `data/` is generated, and it is also the source of truth at run time. Change a
@@ -634,8 +634,12 @@ What the suites check:
 
 1. Edit `tool/gen_seed.py`.
 2. Run `python3 tool/gen_seed.py`.
-3. Run `python3 tool/gen_dart_seeds.py`.
-4. Run both test suites.
+3. Run `python3 tool/gen_packs.py`.
+4. Run `python3 tool/gen_dart_seeds.py`.
+5. Run both test suites.
+
+`gen_dart_seeds.py` compiles `data/packs/*.vpk`, and the .NET build embeds the
+same files, so a pack that is not current leaves both ports stale.
 
 The false-positive sweep will tell you if a new term fires on ordinary English.
 Fix it by marking the term `w` (require a word boundary) or by adding the
