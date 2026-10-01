@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.1.0-pre.2
 
 - The English list grows from 526 to 778 terms. The 252 new terms were checked
   against safe_text `lib/constants/badwords.dart` (branch develop) on
