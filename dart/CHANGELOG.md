@@ -1,5 +1,15 @@
 # Changelog
 
+## Unreleased
+
+- The English list grows from 526 to 778 terms. The 252 new terms were checked
+  against safe_text `lib/constants/badwords.dart` (branch develop) on
+  2026-10-01. Most are inflections and misspellings of terms the list already
+  held, compounds of its word-boundary terms, and named sex acts. A few had no
+  coverage at all before.
+- The allowlist grows from 30 to 31 words. `assess` joins it, because the
+  repeated-letter pass folds it onto one of the new terms.
+
 ## 0.1.0-pre.1
 
 The first release.

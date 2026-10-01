@@ -16,7 +16,7 @@ namespace Vulgarity.Tests
     public class CorpusTests
     {
         /// <summary>The count detected when this fixture was recorded.</summary>
-        private const int DetectionBaseline = 2894;
+        private const int DetectionBaseline = 4489;
 
         /// <summary>Evasions the cross-word boundary rule gives up on, and why.</summary>
         /// <remarks>
